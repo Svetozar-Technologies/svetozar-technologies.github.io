@@ -28,14 +28,40 @@
     "title": "Construido para <span class='gradient-text'>Personas Reales</span>",
     "subtitle": "Desde periodistas protegiendo fuentes hasta empresas ahorrando costos - LocalMind sirve diversas necesidades con una promesa central: tus datos permanecen tuyos."
   },
+  "product": {
+    "label": "El Producto",
+    "title": "LocalMind:<br><span class='gradient-text'>Transcripción IA Que Te Respeta</span>",
+    "subtitle": "Nuestra primera herramienta en la lucha por la libertad de IA. Transcripción y análisis de audio de grado profesional que se ejecuta completamente en tu máquina.",
+    "feature_transcription_title": "Transcripción",
+    "feature_transcription_desc": "Reconocimiento de voz de última generación impulsado por Whisper. Maneja acentos, ruido y múltiples idiomas con notable precisión.",
+    "feature_speaker_title": "Detección de Hablantes",
+    "feature_speaker_desc": "Identifica automáticamente quién está hablando. Perfecto para reuniones, entrevistas, podcasts y cualquier grabación con múltiples personas.",
+    "feature_quality_title": "Análisis de Calidad",
+    "feature_quality_desc": "Perspectivas impulsadas por IA con razonamiento Chain-of-Thought para 20-30% mejor precisión. Analiza calidad de llamadas, servicio al cliente y cumplimiento. Personaliza la puntuación según tus necesidades.",
+    "feature_export_title": "Libertad de Exportación",
+    "feature_export_desc": "Tus datos, tu formato. Exporta a informes PDF, JSON para desarrolladores o texto plano. Sin bloqueo de proveedor.",
+    "feature_multilang_title": "Interfaz Multilingüe",
+    "feature_multilang_desc": "Usa LocalMind en tu idioma nativo. Interfaz disponible en inglés, ruso, español, hindi y más.",
+    "languages_heading": "Idiomas Soportados"
+  },
+  "how_it_works": {
+    "title": "Simple por Diseño",
+    "subtitle": "Sin cuentas. Sin claves API. Sin configuración. Solo descarga, abre y usa.",
+    "step1_title": "Descargar",
+    "step1_desc": "Obtén LocalMind para tu plataforma. Un archivo, sin dependencias.",
+    "step2_title": "Soltar Audio",
+    "step2_desc": "Arrastra cualquier archivo de audio a la aplicación. MP3, WAV, M4A y más.",
+    "step3_title": "Obtener Resultados",
+    "step3_desc": "Transcripción precisa e información. Exporta como quieras."
+  },
   "comparison": {
     "label": "Por Qué LocalMind",
     "title": "LocalMind vs <span class='gradient-text'>Servicios en la Nube</span>",
     "subtitle": "Mira cómo LocalMind se compara con servicios populares de transcripción en la nube como Otter.ai, Rev y Descript.",
-    "roi_title": "💰 Calcula Tus Ahorros Anuales",
-    "roi_cloud": "Servicio promedio en la nube: <strong>$30/mes × 12 meses = $360/año</strong>",
-    "roi_localmind": "LocalMind: <strong>$0/año</strong>",
-    "roi_savings": "Ahorras: <span class='gradient-text'>$360+ cada año</span>"
+    "roi_title": "💰 Calculate Your Annual Savings",
+    "roi_cloud": "Average cloud service: <strong>$30/month × 12 months = $360/year</strong>",
+    "roi_localmind": "LocalMind: <strong>$0/year</strong>",
+    "roi_savings": "You save: <span class=\"gradient-text\">$360+ every year</span>"
   },
   "testimonials": {
     "label": "Usuarios Globales",
@@ -83,5 +109,204 @@
     "legal_title": "Legal",
     "copyright": "&copy; 2025 Svetozar Technologies",
     "footer_tagline": "Construyendo IA que sirve a la humanidad, no a las corporaciones."
+  },
+  "testimonials_list": {
+    "maria": {
+      "name": "Maria González",
+      "role": "Podcaster, México 🇲🇽",
+      "lang_label": "Español",
+      "quote": "La transcripción en español de LocalMind es increíblemente precisa. Proceso más de 10 horas de entrevistas semanalmente sin pagar tarifas de suscripción. La garantía de privacidad significa que puedo discutir temas sensibles con total confianza."
+    },
+    "yuki": {
+      "name": "Dr. Yuki Tanaka",
+      "role": "Investigadora Médica, Japón 🇯🇵",
+      "lang_label": "Japonés",
+      "quote": "El cumplimiento de HIPAA era crítico para las transcripciones de entrevistas con pacientes. LocalMind procesa todo localmente - ningún dato sale de nuestros sistemas seguros. La puntuación de calidad ayuda a garantizar la precisión de los registros médicos."
+    },
+    "ahmed": {
+      "name": "Ahmed Hassan",
+      "role": "Profesional Legal, EAU 🇦🇪",
+      "lang_label": "Árabe",
+      "quote": "El soporte de árabe con texto RTL es raro en herramientas de transcripción. LocalMind lo maneja perfectamente. El privilegio abogado-cliente permanece intacto porque el audio nunca toca la nube. ¡Vale cada centavo - que es cero!"
+    },
+    "priya": {
+      "name": "Priya Sharma",
+      "role": "Gerente de Call Center, India 🇮🇳",
+      "lang_label": "Hindi",
+      "quote": "Auditamos más de 500 llamadas de servicio al cliente mensualmente. LocalMind nos ahorra $400/mes en comparación con servicios en la nube. La puntuación de calidad con razonamiento CoT ayuda a entrenar a nuestros agentes en empatía y habilidades de resolución."
+    },
+    "dmitry": {
+      "name": "Dmitry Volkov",
+      "role": "Periodista, Rusia 🇷🇺",
+      "lang_label": "Ruso",
+      "quote": "Proteger la identidad de las fuentes no es negociable. La transcripción offline de LocalMind significa sin registros de servidor, sin filtraciones de datos, sin solicitudes de acceso gubernamental. Finalmente, transcripción en la que puedo confiar."
+    },
+    "sophie": {
+      "name": "Sophie Martin",
+      "role": "Propietaria de Pequeña Empresa, Francia 🇫🇷",
+      "lang_label": "Francés",
+      "quote": "El cumplimiento de GDPR es automático cuando los datos nunca salen de mi portátil. Transcribo reuniones con clientes, reuniones de equipo y sesiones de estrategia - todo ilimitado, todo gratis, todo privado. LocalMind es un cambio de juego."
+    }
+  },
+  "faq_items": {
+    "q1": {
+      "question": "How can this be completely free?",
+      "answer": "LocalMind runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for, no storage fees. We believe AI should be accessible to everyone, so we've built a truly free solution that doesn't rely on the \"freemium\" model. Our code is open source - if you don't trust us, you can audit and compile it yourself."
+    },
+    "q2": {
+      "question": "Is it really as accurate as cloud services?",
+      "answer": "Yes! LocalMind uses OpenAI's Whisper model - the same technology behind many commercial transcription services. We achieve 95%+ accuracy across 99 languages. Plus, our Chain-of-Thought quality scoring provides 20-30% better analysis accuracy than standard approaches. The only difference is your data stays on your device."
+    },
+    "q3": {
+      "question": "Will this work without an internet connection?",
+      "answer": "Absolutely! After the initial model download (one-time, happens on first run), LocalMind works 100% offline. Process audio files on airplanes, in remote locations, or anywhere without internet. Your workflow is never interrupted by connectivity issues."
+    },
+    "q4": {
+      "question": "Can I use this commercially?",
+      "answer": "Yes! LocalMind is licensed under MIT - one of the most permissive open source licenses. Use it for personal projects, client work, commercial products, or anything else. No attribution required (though always appreciated). The only restriction: you can't hold us liable if something goes wrong."
+    },
+    "q5": {
+      "question": "What about subtitle/SRT export for videos?",
+      "answer": "SRT/subtitle export is coming soon! We're actively developing this feature based on user feedback. Sign up for updates to be notified when we release multi-lingual subtitle export, including timecode synchronization and formatting options."
+    },
+    "q6": {
+      "question": "What are the system requirements?",
+      "answer": "Minimum: 8GB RAM, 10GB free storage, macOS 10.15+ | Recommended: 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing | Coming Soon: Windows 10+ and Linux (Ubuntu 22.04+)"
+    }
+  },
+  "use_cases_cards": {
+    "journalists": {
+      "title": "Journalists & Podcasters",
+      "problem": "<strong>Pain Point:</strong> Cloud services expose sensitive source conversations to corporate servers and potential legal requests.",
+      "solution": "<strong>Solution:</strong> Protect sources with 100% offline transcription. No server logs. No data breaches. Complete confidentiality."
+    },
+    "call_centers": {
+      "title": "Call Centers",
+      "problem": "<strong>Pain Point:</strong> Subscription services cost $400+/month for call quality auditing and agent training.",
+      "solution": "<strong>Solution:</strong> Audit 100% of calls with AI-powered quality scoring. Zero recurring costs. Unlimited usage."
+    },
+    "researchers": {
+      "title": "Researchers",
+      "problem": "<strong>Pain Point:</strong> HIPAA and GDPR compliance prohibits uploading patient/participant interviews to cloud services.",
+      "solution": "<strong>Solution:</strong> Process interviews locally. Data never leaves your secure systems. Automatic compliance."
+    },
+    "legal": {
+      "title": "Legal Professionals",
+      "problem": "<strong>Pain Point:</strong> Attorney-client privilege at risk when transcribing sensitive depositions through third parties.",
+      "solution": "<strong>Solution:</strong> Maintain privilege with on-device processing. No third-party access. Court-ready security."
+    },
+    "smb": {
+      "title": "Small Businesses",
+      "problem": "<strong>Pain Point:</strong> Transcription subscriptions cost $20-50/month ($240-600/year) - prohibitive for bootstrapped teams.",
+      "solution": "<strong>Solution:</strong> Professional AI for $0. Save $360+/year. Invest savings in growth, not software rent."
+    },
+    "privacy": {
+      "title": "Privacy-Conscious Users",
+      "problem": "<strong>Pain Point:</strong> \"Trust us\" isn't good enough. Black-box AI services can't be verified or audited.",
+      "solution": "<strong>Solution:</strong> Audit every line of code yourself. Open-source transparency. No blind trust required."
+    }
+  },
+  "manifesto": {
+    "block1_title": "El Problema Que Vemos",
+    "block1_p1": "La revolución de la IA está ocurriendo, pero en términos ajenos. Cada servicio importante de IA requiere que subas tus datos a servidores corporativos. Tus grabaciones de voz, tus conversaciones, tus momentos más privados - almacenados, analizados y monetizados por empresas cuyos intereses no se alinean con los tuyos.",
+    "block1_p2": "Esto no es solo un problema de privacidad. Es un problema de poder. Cuando la IA solo existe en la nube, controlada por un puñado de corporaciones, ellas deciden quién tiene acceso, cuánto cuesta y qué sucede con tus datos. Ese no es el futuro que queremos.",
+    "block2_title": "Lo Que Creemos",
+    "belief1_title": "La IA es un Derecho, No un Privilegio",
+    "belief1_desc": "Las herramientas poderosas de IA no deberían estar bloqueadas detrás de suscripciones costosas. Un estudiante en Mumbai merece las mismas capacidades de IA que una empresa Fortune 500. Construimos para todos.",
+    "belief2_title": "Tus Datos Te Pertenecen",
+    "belief2_desc": "Tu voz es dato biométrico. Tus conversaciones contienen tus pensamientos, tus relaciones, tus secretos. Ninguna empresa debería tener acceso a eso sin tu consentimiento explícito e informado.",
+    "belief3_title": "La Transparencia es Innegociable",
+    "belief3_desc": "No deberías tener que confiar en nuestra palabra. Cada línea del código de LocalMind es pública. Audítalo. Veríficalo. Constrúyelo tú mismo. Esa es la única forma de confiar verdaderamente en el software.",
+    "belief4_title": "Lo Local Primero es el Futuro",
+    "belief4_desc": "Los dispositivos modernos son lo suficientemente potentes para ejecutar IA sofisticada. La nube fue un compromiso necesario - ya no es necesaria. Estamos construyendo para un mundo donde la IA vive en tu dispositivo, bajo tu control.",
+    "block3_title": "Nuestro Compromiso",
+    "commitment1_title": "Gratis Para Siempre",
+    "commitment1_desc": "LocalMind siempre tendrá una versión gratuita y totalmente funcional. Sin pruebas. Sin muros de características. Sin trucos \"freemium\".",
+    "commitment2_title": "Privado Para Siempre",
+    "commitment2_desc": "Tus transcripciones y archivos de audio nunca salen de tu dispositivo - ni ahora, ni nunca. Si te suscribes a nuestra lista de correo, solo recopilamos tu dirección de email para notificarte de actualizaciones importantes. Sin rastreo. Sin venta de datos. Cancela cuando quieras.",
+    "commitment3_title": "Abierto Para Siempre",
+    "commitment3_desc": "Nuestro código tiene licencia MIT. Bifúrcalo. Modifícalo. Construye sobre él. La misión es más grande que cualquier proyecto individual."
+  },
+  "impact": {
+    "title": "Esto Es Por Lo Que Luchamos",
+    "stat1_number": "100%",
+    "stat1_label": "Procesamiento Local",
+    "stat1_desc": "Cero bytes enviados a servidores externos. Nunca.",
+    "stat2_number": "$0",
+    "stat2_label": "Costo Para Usuarios",
+    "stat2_desc": "IA profesional para todos, sin importar los ingresos.",
+    "stat3_number": "MIT",
+    "stat3_label": "Licencia Abierta",
+    "stat3_desc": "Libertad para usar, modificar y compartir.",
+    "stat4_number": "∞",
+    "stat4_label": "Posibilidades",
+    "stat4_desc": "Sin límites de uso. Sin límites de API. Ilimitado."
+  },
+  "comparison_table": {
+    "header_feature": "Característica",
+    "header_cloud": "Servicios en la Nube",
+    "header_localmind": "LocalMind",
+    "row1_feature": "Costo Mensual",
+    "row1_cloud": "$20-50/mes",
+    "row1_localmind": "$0 Para Siempre",
+    "row2_feature": "Costo Anual",
+    "row2_cloud": "$240-600/año",
+    "row2_localmind": "$0",
+    "row3_feature": "Privacidad",
+    "row3_cloud": "❌ Subir a servidores",
+    "row3_localmind": "✅ 100% Local",
+    "row4_feature": "Límites de Uso",
+    "row4_cloud": "300-1200 min/mes",
+    "row4_localmind": "✅ Ilimitado",
+    "row5_feature": "Internet Requerido",
+    "row5_cloud": "❌ Sí",
+    "row5_localmind": "✅ Funciona Sin Conexión",
+    "row6_feature": "Puntuación de Calidad",
+    "row6_cloud": "❌ No incluido",
+    "row6_localmind": "✅ IA con CoT",
+    "row7_feature": "Propiedad de Datos",
+    "row7_cloud": "❌ Almacenado en servidores",
+    "row7_localmind": "✅ 100% Tuyo",
+    "row8_feature": "Código Abierto",
+    "row8_cloud": "❌ Propietario",
+    "row8_localmind": "✅ Licencia MIT"
+  },
+  "product_extended": {
+    "lang_english": "English",
+    "lang_hindi": "Hindi",
+    "lang_spanish": "Spanish",
+    "lang_arabic": "Arabic",
+    "lang_russian": "Russian",
+    "lang_italian": "Italian",
+    "lang_many_more": "+ Many More"
+  },
+  "join": {
+    "heading": "Únete al Movimiento",
+    "paragraph1": "LocalMind es más que software. Es una declaración de que la IA se puede construir de manera diferente. Que la privacidad y el poder no son mutuamente excluyentes. Que el código abierto puede competir con las grandes tecnológicas.",
+    "paragraph2": "Apenas estamos comenzando. Y te necesitamos.",
+    "star_title": "Dale Estrella al Proyecto",
+    "star_desc": "Muestra tu apoyo en GitHub",
+    "fork_title": "Bifurca y Contribuye",
+    "fork_desc": "Ayuda a construir el futuro de la IA",
+    "discussions_title": "Únete a las Discusiones",
+    "discussions_desc": "Comparte ideas con la comunidad"
+  },
+  "final_cta": {
+    "heading": "El Futuro de la IA es Local.<br>El Futuro de la IA es Abierto.<br><span class='gradient-text'>El Futuro Comienza Ahora.</span>",
+    "download_btn": "Descargar LocalMind",
+    "source_btn": "Ver Código Fuente"
+  },
+  "download_details": {
+    "macos_desc": "macOS 12+ (Intel y Apple Silicon)",
+    "macos_size": "~800 MB",
+    "windows_desc": "Windows 10+ (64 bits)",
+    "linux_desc": "Ubuntu 22.04+ / AppImage",
+    "system_req_heading": "Requisitos del Sistema",
+    "req_ram_label": "RAM",
+    "req_ram_value": "8 GB mínimo, 16 GB recomendado",
+    "req_storage_label": "Almacenamiento",
+    "req_storage_value": "10 GB de espacio libre",
+    "req_gpu_label": "GPU",
+    "req_gpu_value": "Opcional - Apple Silicon o NVIDIA acelera el procesamiento"
   }
 }

@@ -14,7 +14,8 @@ class I18n {
             { code: 'ar', name: 'العربية', flag: '🇦🇪' },
             { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
             { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-            { code: 'fr', name: 'Français', flag: '🇫🇷' }
+            { code: 'fr', name: 'Français', flag: '🇫🇷' },
+            { code: 'zh', name: '中文', flag: '🇨🇳' }
         ];
 
         this.init();

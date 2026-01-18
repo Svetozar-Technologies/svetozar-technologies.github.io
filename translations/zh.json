@@ -1,0 +1,312 @@
+{
+  "lang": "zh",
+  "name": "中文",
+  "nav": {
+    "mission": "我们的使命",
+    "product": "产品",
+    "download": "下载",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "AI应当免费。<br>AI应当私密。<br><span class='gradient-text'>AI应当属于你。</span>",
+    "subtitle": "我们不仅仅在构建软件。我们在为人工智能服务人类而非相反的未来而战。为你的对话保持私密而战。为强大的技术不附带监控代价而战。",
+    "cta_mission": "阅读我们的使命",
+    "cta_download": "下载LocalMind"
+  },
+  "social_proof": {
+    "launch": "刚刚发布！",
+    "free": "永久免费",
+    "languages": "种语言",
+    "opensource": "开源"
+  },
+  "mission": {
+    "label": "我们的使命",
+    "title": "AI民主化。<br>隐私保护。<br><span class='gradient-text'>赋能每个人。</span>"
+  },
+  "use_cases": {
+    "label": "应用场景",
+    "title": "为<span class='gradient-text'>真实用户</span>打造",
+    "subtitle": "从保护信息源的记者到节省成本的企业 - LocalMind以一个核心承诺服务于多样化需求：你的数据始终属于你。"
+  },
+  "product": {
+    "label": "产品",
+    "title": "LocalMind：<br><span class='gradient-text'>尊重你的AI转录</span>",
+    "subtitle": "我们为AI自由而战的第一个工具。完全在你的设备上运行的专业级音频转录和分析。",
+    "feature_transcription_title": "语音转录",
+    "feature_transcription_desc": "由Whisper驱动的最先进语音识别。以卓越的准确度处理口音、噪音和多种语言。",
+    "feature_speaker_title": "说话人识别",
+    "feature_speaker_desc": "自动识别谁在说话。非常适合会议、访谈、播客和任何多人录音。",
+    "feature_quality_title": "质量分析",
+    "feature_quality_desc": "通过思维链推理实现AI驱动的洞察，准确度提高20-30%。分析通话质量、客户服务和合规性。自定义评分以满足你的需求。",
+    "feature_export_title": "导出自由",
+    "feature_export_desc": "你的数据，你的格式。导出为PDF报告、开发者JSON或纯文本。无供应商锁定。",
+    "feature_multilang_title": "多语言界面",
+    "feature_multilang_desc": "使用你的母语操作LocalMind。界面支持英语、俄语、西班牙语、印地语等多种语言。",
+    "languages_heading": "支持的语言"
+  },
+  "how_it_works": {
+    "title": "简洁设计",
+    "subtitle": "无需账户。无需API密钥。无需配置。只需下载、打开并使用。",
+    "step1_title": "下载",
+    "step1_desc": "获取适合你平台的LocalMind。单个文件，无依赖项。",
+    "step2_title": "拖入音频",
+    "step2_desc": "将任何音频文件拖入应用。支持MP3、WAV、M4A等格式。",
+    "step3_title": "获取结果",
+    "step3_desc": "准确的转录和洞察。按你喜欢的方式导出。"
+  },
+  "comparison": {
+    "label": "为什么选择LocalMind",
+    "title": "LocalMind vs <span class='gradient-text'>云服务</span>",
+    "subtitle": "看看LocalMind与Otter.ai、Rev和Descript等流行云转录服务的对比。",
+    "roi_title": "💰 Calculate Your Annual Savings",
+    "roi_cloud": "Average cloud service: <strong>$30/month × 12 months = $360/year</strong>",
+    "roi_localmind": "LocalMind: <strong>$0/year</strong>",
+    "roi_savings": "You save: <span class=\"gradient-text\">$360+ every year</span>"
+  },
+  "testimonials": {
+    "label": "全球用户",
+    "title": "全球信赖，<span class='gradient-text'>支持所有语言</span>",
+    "subtitle": "LocalMind为全球各地的多元化用户提供服务 - 从墨西哥的播客主到日本的研究人员。"
+  },
+  "faq": {
+    "label": "常见问题",
+    "title": "常见<span class='gradient-text'>问题</span>"
+  },
+  "download": {
+    "label": "开始使用",
+    "title": "下载<br><span class='gradient-text'>LocalMind</span>",
+    "subtitle": "现已支持macOS。Windows和Linux即将推出。",
+    "macos": "macOS v1.2.0",
+    "windows": "Windows",
+    "linux": "Linux",
+    "coming_soon": "即将推出"
+  },
+  "modal": {
+    "title": "下载已准备好！",
+    "subtitle": "当我们发布<strong>字幕导出(SRT)</strong>、Windows支持和质量改进等新功能时获得通知。",
+    "email_placeholder": "your@email.com",
+    "name_placeholder": "名字（可选）",
+    "survey_question": "你最常用哪个功能？",
+    "feature_srt": "字幕/SRT导出",
+    "feature_srt_desc": "用于视频字幕",
+    "feature_realtime": "实时转录",
+    "feature_realtime_desc": "实时音频处理",
+    "feature_api": "开发者API",
+    "feature_api_desc": "程序化访问",
+    "privacy_text": "🛡️ 无垃圾邮件。随时取消订阅。",
+    "privacy_link": "隐私政策",
+    "submit_btn": "获取更新并下载",
+    "skip_btn": "跳过，直接下载",
+    "success_title": "✓ 谢谢！",
+    "success_text": "我们将向你通报新功能和改进。",
+    "download_btn": "立即下载LocalMind"
+  },
+  "footer": {
+    "tagline": "免费、私密且属于你的AI。",
+    "company": "<strong>Svetozar Technologies</strong>项目",
+    "mission_title": "使命",
+    "community_title": "社区",
+    "legal_title": "法律",
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "构建服务人类而非企业的AI。"
+  },
+  "testimonials_list": {
+    "maria": {
+      "name": "Maria González",
+      "role": "播客主，墨西哥 🇲🇽",
+      "lang_label": "西班牙语",
+      "quote": "LocalMind的西班牙语转录非常准确。我每周处理10多个小时的访谈，无需支付订阅费。隐私保证意味着我可以完全放心地讨论敏感话题。"
+    },
+    "yuki": {
+      "name": "Dr. Yuki Tanaka",
+      "role": "医学研究员，日本 🇯🇵",
+      "lang_label": "日语",
+      "quote": "HIPAA合规对于我们的患者访谈转录至关重要。LocalMind在本地处理所有内容 - 数据永远不会离开我们的安全系统。质量评分有助于确保医疗记录的准确性。"
+    },
+    "ahmed": {
+      "name": "Ahmed Hassan",
+      "role": "法律专业人士，阿联酋 🇦🇪",
+      "lang_label": "阿拉伯语",
+      "quote": "转录工具中很少支持从右到左的阿拉伯语文本。LocalMind处理得非常完美。因为音频永远不会接触云端，律师-客户特权得以保持完整。物有所值 - 而且是零成本！"
+    },
+    "priya": {
+      "name": "Priya Sharma",
+      "role": "呼叫中心经理，印度 🇮🇳",
+      "lang_label": "印地语",
+      "quote": "我们每月审核500多个客户服务电话。与云服务相比，LocalMind为我们每月节省$400。具有CoT推理的质量评分帮助培训我们的客服人员的同理心和解决问题的技能。"
+    },
+    "dmitry": {
+      "name": "Dmitry Volkov",
+      "role": "记者，俄罗斯 🇷🇺",
+      "lang_label": "俄语",
+      "quote": "保护信息来源身份是不可协商的。LocalMind的离线转录意味着没有服务器日志、没有数据泄露、没有政府访问请求。终于有了我可以信任的转录工具。"
+    },
+    "sophie": {
+      "name": "Sophie Martin",
+      "role": "小企业主，法国 🇫🇷",
+      "lang_label": "法语",
+      "quote": "当数据永远不离开我的笔记本电脑时，GDPR合规是自动的。我转录客户会议、团队站会和战略会议 - 全部无限制、全部免费、全部私密。LocalMind是游戏规则改变者。"
+    }
+  },
+  "faq_items": {
+    "q1": {
+      "question": "How can this be completely free?",
+      "answer": "LocalMind runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for, no storage fees. We believe AI should be accessible to everyone, so we've built a truly free solution that doesn't rely on the \"freemium\" model. Our code is open source - if you don't trust us, you can audit and compile it yourself."
+    },
+    "q2": {
+      "question": "Is it really as accurate as cloud services?",
+      "answer": "Yes! LocalMind uses OpenAI's Whisper model - the same technology behind many commercial transcription services. We achieve 95%+ accuracy across 99 languages. Plus, our Chain-of-Thought quality scoring provides 20-30% better analysis accuracy than standard approaches. The only difference is your data stays on your device."
+    },
+    "q3": {
+      "question": "Will this work without an internet connection?",
+      "answer": "Absolutely! After the initial model download (one-time, happens on first run), LocalMind works 100% offline. Process audio files on airplanes, in remote locations, or anywhere without internet. Your workflow is never interrupted by connectivity issues."
+    },
+    "q4": {
+      "question": "Can I use this commercially?",
+      "answer": "Yes! LocalMind is licensed under MIT - one of the most permissive open source licenses. Use it for personal projects, client work, commercial products, or anything else. No attribution required (though always appreciated). The only restriction: you can't hold us liable if something goes wrong."
+    },
+    "q5": {
+      "question": "What about subtitle/SRT export for videos?",
+      "answer": "SRT/subtitle export is coming soon! We're actively developing this feature based on user feedback. Sign up for updates to be notified when we release multi-lingual subtitle export, including timecode synchronization and formatting options."
+    },
+    "q6": {
+      "question": "What are the system requirements?",
+      "answer": "Minimum: 8GB RAM, 10GB free storage, macOS 10.15+ | Recommended: 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing | Coming Soon: Windows 10+ and Linux (Ubuntu 22.04+)"
+    }
+  },
+  "use_cases_cards": {
+    "journalists": {
+      "title": "Journalists & Podcasters",
+      "problem": "<strong>Pain Point:</strong> Cloud services expose sensitive source conversations to corporate servers and potential legal requests.",
+      "solution": "<strong>Solution:</strong> Protect sources with 100% offline transcription. No server logs. No data breaches. Complete confidentiality."
+    },
+    "call_centers": {
+      "title": "Call Centers",
+      "problem": "<strong>Pain Point:</strong> Subscription services cost $400+/month for call quality auditing and agent training.",
+      "solution": "<strong>Solution:</strong> Audit 100% of calls with AI-powered quality scoring. Zero recurring costs. Unlimited usage."
+    },
+    "researchers": {
+      "title": "Researchers",
+      "problem": "<strong>Pain Point:</strong> HIPAA and GDPR compliance prohibits uploading patient/participant interviews to cloud services.",
+      "solution": "<strong>Solution:</strong> Process interviews locally. Data never leaves your secure systems. Automatic compliance."
+    },
+    "legal": {
+      "title": "Legal Professionals",
+      "problem": "<strong>Pain Point:</strong> Attorney-client privilege at risk when transcribing sensitive depositions through third parties.",
+      "solution": "<strong>Solution:</strong> Maintain privilege with on-device processing. No third-party access. Court-ready security."
+    },
+    "smb": {
+      "title": "Small Businesses",
+      "problem": "<strong>Pain Point:</strong> Transcription subscriptions cost $20-50/month ($240-600/year) - prohibitive for bootstrapped teams.",
+      "solution": "<strong>Solution:</strong> Professional AI for $0. Save $360+/year. Invest savings in growth, not software rent."
+    },
+    "privacy": {
+      "title": "Privacy-Conscious Users",
+      "problem": "<strong>Pain Point:</strong> \"Trust us\" isn't good enough. Black-box AI services can't be verified or audited.",
+      "solution": "<strong>Solution:</strong> Audit every line of code yourself. Open-source transparency. No blind trust required."
+    }
+  },
+  "manifesto": {
+    "block1_title": "我们看到的问题",
+    "block1_p1": "AI革命正在发生，但它是在别人的条件下发生的。每个主要的AI服务都要求你将数据上传到企业服务器。你的语音录音、对话、最私密的时刻 - 被那些利益与你不一致的公司存储、分析和货币化。",
+    "block1_p2": "这不仅仅是隐私问题。这是权力问题。当AI只存在于云端，由少数公司控制时，他们决定谁可以访问、成本是多少以及你的数据会发生什么。这不是我们想要的未来。",
+    "block2_title": "我们的信念",
+    "belief1_title": "AI是权利，而非特权",
+    "belief1_desc": "强大的AI工具不应该被锁在昂贵的订阅服务背后。孟买的学生应该拥有与财富500强公司相同的AI能力。我们为所有人构建。",
+    "belief2_title": "你的数据属于你",
+    "belief2_desc": "你的声音是生物识别数据。你的对话包含你的想法、关系、秘密。任何公司都不应该在未经你明确知情同意的情况下访问这些。",
+    "belief3_title": "透明度不可妥协",
+    "belief3_desc": "你不需要相信我们的话。LocalMind的每一行代码都是公开的。审计它。验证它。自己构建它。这是真正信任软件的唯一方式。",
+    "belief4_title": "本地优先是未来",
+    "belief4_desc": "现代设备足够强大，可以运行复杂的AI。云曾是必要的妥协 - 现在不再需要了。我们正在构建一个AI存在于你的设备上、受你控制的世界。",
+    "block3_title": "我们的承诺",
+    "commitment1_title": "永久免费",
+    "commitment1_desc": "LocalMind将始终提供免费、功能齐全的版本。没有试用。没有功能墙。没有\"免费增值\"把戏。",
+    "commitment2_title": "永久隐私",
+    "commitment2_desc": "你的转录和音频文件永远不会离开你的设备 - 现在不会，以后也不会。如果你选择加入我们的邮件列表，我们只收集你的电子邮件地址以通知你重大更新。没有跟踪。没有数据销售。随时取消订阅。",
+    "commitment3_title": "永久开放",
+    "commitment3_desc": "我们的代码采用MIT许可证。Fork它。修改它。在其上构建。使命大于任何单个项目。"
+  },
+  "impact": {
+    "title": "这就是我们所争取的",
+    "stat1_number": "100%",
+    "stat1_label": "本地处理",
+    "stat1_desc": "零字节发送到外部服务器。永远。",
+    "stat2_number": "$0",
+    "stat2_label": "用户成本",
+    "stat2_desc": "无论收入如何，为每个人提供专业AI。",
+    "stat3_number": "MIT",
+    "stat3_label": "开放许可",
+    "stat3_desc": "使用、修改和共享的自由。",
+    "stat4_number": "∞",
+    "stat4_label": "可能性",
+    "stat4_desc": "无使用限制。无API上限。无限制。"
+  },
+  "comparison_table": {
+    "header_feature": "功能",
+    "header_cloud": "云服务",
+    "header_localmind": "LocalMind",
+    "row1_feature": "月度费用",
+    "row1_cloud": "$20-50/月",
+    "row1_localmind": "永久$0",
+    "row2_feature": "年度费用",
+    "row2_cloud": "$240-600/年",
+    "row2_localmind": "$0",
+    "row3_feature": "隐私",
+    "row3_cloud": "❌ 上传到服务器",
+    "row3_localmind": "✅ 100%本地",
+    "row4_feature": "使用限制",
+    "row4_cloud": "300-1200分钟/月",
+    "row4_localmind": "✅ 无限制",
+    "row5_feature": "需要互联网",
+    "row5_cloud": "❌ 是",
+    "row5_localmind": "✅ 离线工作",
+    "row6_feature": "质量评分",
+    "row6_cloud": "❌ 未包含",
+    "row6_localmind": "✅ AI驱动CoT",
+    "row7_feature": "数据所有权",
+    "row7_cloud": "❌ 存储在服务器",
+    "row7_localmind": "✅ 100%属于你",
+    "row8_feature": "开源",
+    "row8_cloud": "❌ 专有",
+    "row8_localmind": "✅ MIT许可证"
+  },
+  "product_extended": {
+    "lang_english": "English",
+    "lang_hindi": "Hindi",
+    "lang_spanish": "Spanish",
+    "lang_arabic": "Arabic",
+    "lang_russian": "Russian",
+    "lang_italian": "Italian",
+    "lang_many_more": "+ Many More"
+  },
+  "join": {
+    "heading": "加入运动",
+    "paragraph1": "LocalMind不仅仅是软件。它是一个声明，表明AI可以以不同的方式构建。隐私和权力并不相互排斥。开源可以与大型科技公司竞争。",
+    "paragraph2": "我们才刚刚开始。我们需要像你这样的人。",
+    "star_title": "为项目加星",
+    "star_desc": "在GitHub上展示你的支持",
+    "fork_title": "Fork并贡献",
+    "fork_desc": "帮助构建AI的未来",
+    "discussions_title": "加入讨论",
+    "discussions_desc": "与社区分享想法"
+  },
+  "final_cta": {
+    "heading": "AI的未来是本地的。<br>AI的未来是开放的。<br><span class='gradient-text'>未来从现在开始。</span>",
+    "download_btn": "下载LocalMind",
+    "source_btn": "查看源代码"
+  },
+  "download_details": {
+    "macos_desc": "macOS 12及以上 (Intel和Apple Silicon)",
+    "macos_size": "约800 MB",
+    "windows_desc": "Windows 10及以上 (64位)",
+    "linux_desc": "Ubuntu 22.04及以上 / AppImage",
+    "system_req_heading": "系统要求",
+    "req_ram_label": "内存",
+    "req_ram_value": "最低8 GB，推荐16 GB",
+    "req_storage_label": "存储",
+    "req_storage_value": "10 GB可用空间",
+    "req_gpu_label": "GPU",
+    "req_gpu_value": "可选 - Apple Silicon或NVIDIA加速处理"
+  }
+}

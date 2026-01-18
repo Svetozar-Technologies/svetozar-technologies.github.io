@@ -4,6 +4,9 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Note: i18n is initialized automatically by i18n.js
+    // No need to initialize here as i18n.js handles everything
+
     // Mobile menu toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
@@ -126,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // e.g., gtag('event', 'download', { platform: platform });
         });
     });
-});
+
     // ================================================
     // Email Capture Modal Logic
     // ================================================
