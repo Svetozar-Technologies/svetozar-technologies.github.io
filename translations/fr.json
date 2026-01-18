@@ -1,0 +1,87 @@
+{
+  "lang": "fr",
+  "name": "Français",
+  "nav": {
+    "mission": "Notre Mission",
+    "product": "Produit",
+    "download": "Télécharger",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "L'IA Doit Être Gratuite.<br>L'IA Doit Être Privée.<br><span class='gradient-text'>L'IA Doit Être Vôtre.</span>",
+    "subtitle": "Nous ne construisons pas seulement des logiciels. Nous luttons pour un avenir où l'intelligence artificielle sert l'humanité - et non l'inverse. Où vos conversations restent les vôtres. Où la technologie puissante ne s'accompagne pas d'un prix de surveillance.",
+    "cta_mission": "Lire Notre Mission",
+    "cta_download": "Télécharger LocalMind"
+  },
+  "social_proof": {
+    "launch": "Tout Juste Lancé!",
+    "free": "Gratuit Pour Toujours",
+    "languages": "Langues",
+    "opensource": "Open Source"
+  },
+  "mission": {
+    "label": "Notre Mission",
+    "title": "Démocratiser l'IA.<br>Protéger la Vie Privée.<br><span class='gradient-text'>Autonomiser Tout le Monde.</span>"
+  },
+  "use_cases": {
+    "label": "Cas d'Usage",
+    "title": "Conçu pour des <span class='gradient-text'>Personnes Réelles</span>",
+    "subtitle": "Des journalistes protégeant leurs sources aux entreprises réduisant leurs coûts - LocalMind répond à des besoins divers avec une promesse centrale : vos données restent les vôtres."
+  },
+  "comparison": {
+    "label": "Pourquoi LocalMind",
+    "title": "LocalMind vs <span class='gradient-text'>Services Cloud</span>",
+    "subtitle": "Découvrez comment LocalMind se compare aux services populaires de transcription cloud comme Otter.ai, Rev et Descript.",
+    "roi_title": "💰 Calculez Vos Économies Annuelles",
+    "roi_cloud": "Service cloud moyen : <strong>30$/mois × 12 mois = 360$/an</strong>",
+    "roi_localmind": "LocalMind : <strong>0$/an</strong>",
+    "roi_savings": "Vous économisez : <span class='gradient-text'>360$+ chaque année</span>"
+  },
+  "testimonials": {
+    "label": "Utilisateurs Mondiaux",
+    "title": "Fiable Dans Le Monde Entier, <span class='gradient-text'>Dans Toutes Les Langues</span>",
+    "subtitle": "LocalMind sert des utilisateurs diversifiés à travers le monde - des podcasters au Mexique aux chercheurs au Japon."
+  },
+  "faq": {
+    "label": "Questions Fréquentes",
+    "title": "Questions <span class='gradient-text'>Fréquemment Posées</span>"
+  },
+  "download": {
+    "label": "Commencer",
+    "title": "Télécharger<br><span class='gradient-text'>LocalMind</span>",
+    "subtitle": "Disponible maintenant pour macOS. Windows et Linux bientôt disponibles.",
+    "macos": "macOS v1.2.0",
+    "windows": "Windows",
+    "linux": "Linux",
+    "coming_soon": "Bientôt Disponible"
+  },
+  "modal": {
+    "title": "Votre Téléchargement Est Prêt !",
+    "subtitle": "Recevez des notifications lors de la sortie de nouvelles fonctionnalités comme <strong>l'export de sous-titres (SRT)</strong>, le support Windows et les améliorations de qualité.",
+    "email_placeholder": "votre@email.com",
+    "name_placeholder": "Prénom (facultatif)",
+    "survey_question": "Quelle fonctionnalité utiliseriez-vous le plus ?",
+    "feature_srt": "Export de sous-titres/SRT",
+    "feature_srt_desc": "Pour les sous-titres vidéo",
+    "feature_realtime": "Transcription en temps réel",
+    "feature_realtime_desc": "Traitement audio en direct",
+    "feature_api": "API développeur",
+    "feature_api_desc": "Accès programmatique",
+    "privacy_text": "🛡️ Pas de spam. Désabonnement à tout moment.",
+    "privacy_link": "Politique de Confidentialité",
+    "submit_btn": "Recevoir les Mises à Jour et Télécharger",
+    "skip_btn": "Passer, juste télécharger",
+    "success_title": "✓ Merci !",
+    "success_text": "Nous vous tiendrons informé des nouvelles fonctionnalités et améliorations.",
+    "download_btn": "Télécharger LocalMind Maintenant"
+  },
+  "footer": {
+    "tagline": "IA gratuite, privée et vôtre.",
+    "company": "Un Projet <strong>Svetozar Technologies</strong>",
+    "mission_title": "Mission",
+    "community_title": "Communauté",
+    "legal_title": "Légal",
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "Construire une IA qui sert l'humanité, pas les entreprises."
+  }
+}

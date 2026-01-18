@@ -1,0 +1,87 @@
+{
+  "lang": "ja",
+  "name": "日本語",
+  "nav": {
+    "mission": "私たちの使命",
+    "product": "製品",
+    "download": "ダウンロード",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "AIは無料であるべき。<br>AIはプライベートであるべき。<br><span class='gradient-text'>AIはあなたのものであるべき。</span>",
+    "subtitle": "私たちは単にソフトウェアを作っているのではありません。人工知能が人類に奉仕する未来のために戦っています。あなたの会話があなたのものであり続ける未来のために。強力な技術が監視という代償を払わない未来のために。",
+    "cta_mission": "使命を読む",
+    "cta_download": "LocalMindをダウンロード"
+  },
+  "social_proof": {
+    "launch": "リリース！",
+    "free": "永久無料",
+    "languages": "言語",
+    "opensource": "オープンソース"
+  },
+  "mission": {
+    "label": "私たちの使命",
+    "title": "AIの民主化。<br>プライバシーの保護。<br><span class='gradient-text'>すべての人に力を。</span>"
+  },
+  "use_cases": {
+    "label": "使用例",
+    "title": "<span class='gradient-text'>実在する人々</span>のために作られた",
+    "subtitle": "情報源を守るジャーナリストからコストを節約する企業まで - LocalMindは、データがあなたのものであり続けるという核心的な約束で、多様なニーズに応えます。"
+  },
+  "comparison": {
+    "label": "LocalMindを選ぶ理由",
+    "title": "LocalMind vs <span class='gradient-text'>クラウドサービス</span>",
+    "subtitle": "LocalMindがOtter.ai、Rev、Descriptなどの人気クラウド文字起こしサービスとどう比較されるかをご覧ください。",
+    "roi_title": "💰 年間節約額を計算",
+    "roi_cloud": "平均的なクラウドサービス: <strong>$30/月 × 12ヶ月 = $360/年</strong>",
+    "roi_localmind": "LocalMind: <strong>$0/年</strong>",
+    "roi_savings": "節約額: <span class='gradient-text'>毎年$360+</span>"
+  },
+  "testimonials": {
+    "label": "グローバルユーザー",
+    "title": "世界中で信頼され、<span class='gradient-text'>あらゆる言語で</span>",
+    "subtitle": "LocalMindは世界中の多様なユーザーにサービスを提供しています - メキシコのポッドキャスターから日本の研究者まで。"
+  },
+  "faq": {
+    "label": "よくある質問",
+    "title": "よくある<span class='gradient-text'>質問</span>"
+  },
+  "download": {
+    "label": "始める",
+    "title": "ダウンロード<br><span class='gradient-text'>LocalMind</span>",
+    "subtitle": "現在macOSで利用可能。WindowsとLinuxは近日公開。",
+    "macos": "macOS v1.2.0",
+    "windows": "Windows",
+    "linux": "Linux",
+    "coming_soon": "近日公開"
+  },
+  "modal": {
+    "title": "ダウンロードの準備ができました！",
+    "subtitle": "<strong>字幕エクスポート（SRT）</strong>、Windowsサポート、品質改善などの新機能をリリースする際に通知を受け取ります。",
+    "email_placeholder": "your@email.com",
+    "name_placeholder": "名前（任意）",
+    "survey_question": "最も使いたい機能は？",
+    "feature_srt": "字幕/SRTエクスポート",
+    "feature_srt_desc": "動画字幕用",
+    "feature_realtime": "リアルタイム文字起こし",
+    "feature_realtime_desc": "ライブ音声処理",
+    "feature_api": "開発者API",
+    "feature_api_desc": "プログラムアクセス",
+    "privacy_text": "🛡️ スパムなし。いつでも解除可能。",
+    "privacy_link": "プライバシーポリシー",
+    "submit_btn": "更新情報を受け取りダウンロード",
+    "skip_btn": "スキップしてダウンロード",
+    "success_title": "✓ ありがとうございます！",
+    "success_text": "新機能と改善についてお知らせします。",
+    "download_btn": "今すぐLocalMindをダウンロード"
+  },
+  "footer": {
+    "tagline": "無料でプライベート、あなたのAI。",
+    "company": "<strong>Svetozar Technologies</strong>のプロジェクト",
+    "mission_title": "使命",
+    "community_title": "コミュニティ",
+    "legal_title": "法的情報",
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "企業ではなく人類に奉仕するAIを構築。"
+  }
+}

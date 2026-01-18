@@ -1,0 +1,87 @@
+{
+  "lang": "es",
+  "name": "Español",
+  "nav": {
+    "mission": "Nuestra Misión",
+    "product": "Producto",
+    "download": "Descargar",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "La IA Debe Ser Gratuita.<br>La IA Debe Ser Privada.<br><span class='gradient-text'>La IA Debe Ser Tuya.</span>",
+    "subtitle": "No solo estamos construyendo software. Estamos luchando por un futuro donde la inteligencia artificial sirva a la humanidad, no al revés. Donde tus conversaciones sigan siendo tuyas. Donde la tecnología poderosa no venga con un precio de vigilancia.",
+    "cta_mission": "Lee Nuestra Misión",
+    "cta_download": "Descargar LocalMind"
+  },
+  "social_proof": {
+    "launch": "¡Recién Lanzado!",
+    "free": "Gratis Para Siempre",
+    "languages": "Idiomas",
+    "opensource": "Código Abierto"
+  },
+  "mission": {
+    "label": "Nuestra Misión",
+    "title": "Democratizando la IA.<br>Protegiendo la Privacidad.<br><span class='gradient-text'>Empoderando a Todos.</span>"
+  },
+  "use_cases": {
+    "label": "Casos de Uso",
+    "title": "Construido para <span class='gradient-text'>Personas Reales</span>",
+    "subtitle": "Desde periodistas protegiendo fuentes hasta empresas ahorrando costos - LocalMind sirve diversas necesidades con una promesa central: tus datos permanecen tuyos."
+  },
+  "comparison": {
+    "label": "Por Qué LocalMind",
+    "title": "LocalMind vs <span class='gradient-text'>Servicios en la Nube</span>",
+    "subtitle": "Mira cómo LocalMind se compara con servicios populares de transcripción en la nube como Otter.ai, Rev y Descript.",
+    "roi_title": "💰 Calcula Tus Ahorros Anuales",
+    "roi_cloud": "Servicio promedio en la nube: <strong>$30/mes × 12 meses = $360/año</strong>",
+    "roi_localmind": "LocalMind: <strong>$0/año</strong>",
+    "roi_savings": "Ahorras: <span class='gradient-text'>$360+ cada año</span>"
+  },
+  "testimonials": {
+    "label": "Usuarios Globales",
+    "title": "Confiado Mundialmente, <span class='gradient-text'>En Cada Idioma</span>",
+    "subtitle": "LocalMind sirve a usuarios diversos en todo el mundo - desde podcasters en México hasta investigadores en Japón."
+  },
+  "faq": {
+    "label": "Preguntas Comunes",
+    "title": "Preguntas <span class='gradient-text'>Frecuentes</span>"
+  },
+  "download": {
+    "label": "Comenzar",
+    "title": "Descargar<br><span class='gradient-text'>LocalMind</span>",
+    "subtitle": "Disponible ahora para macOS. Windows y Linux próximamente.",
+    "macos": "macOS v1.2.0",
+    "windows": "Windows",
+    "linux": "Linux",
+    "coming_soon": "Próximamente"
+  },
+  "modal": {
+    "title": "¡Tu Descarga Está Lista!",
+    "subtitle": "Recibe notificaciones cuando lancemos nuevas funciones como <strong>exportación de subtítulos (SRT)</strong>, soporte para Windows y mejoras de calidad.",
+    "email_placeholder": "tu@email.com",
+    "name_placeholder": "Nombre (opcional)",
+    "survey_question": "¿Qué función usarías más?",
+    "feature_srt": "Exportación de subtítulos/SRT",
+    "feature_srt_desc": "Para subtítulos de video",
+    "feature_realtime": "Transcripción en tiempo real",
+    "feature_realtime_desc": "Procesamiento de audio en vivo",
+    "feature_api": "API para desarrolladores",
+    "feature_api_desc": "Acceso programático",
+    "privacy_text": "🛡️ Sin spam. Cancela cuando quieras.",
+    "privacy_link": "Política de Privacidad",
+    "submit_btn": "Recibir Actualizaciones y Descargar",
+    "skip_btn": "Omitir, solo descargar",
+    "success_title": "✓ ¡Gracias!",
+    "success_text": "Te mantendremos actualizado sobre nuevas funciones y mejoras.",
+    "download_btn": "Descargar LocalMind Ahora"
+  },
+  "footer": {
+    "tagline": "IA gratuita, privada y tuya.",
+    "company": "Un Proyecto de <strong>Svetozar Technologies</strong>",
+    "mission_title": "Misión",
+    "community_title": "Comunidad",
+    "legal_title": "Legal",
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "Construyendo IA que sirve a la humanidad, no a las corporaciones."
+  }
+}

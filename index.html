@@ -41,10 +41,11 @@
                 <span>LocalMind</span>
             </a>
             <div class="nav-links">
-                <a href="#mission">Our Mission</a>
-                <a href="#product">Product</a>
-                <a href="#download">Download</a>
-                <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-outline">GitHub</a>
+                <a href="#mission" data-i18n="nav.mission">Our Mission</a>
+                <a href="#product" data-i18n="nav.product">Product</a>
+                <a href="#download" data-i18n="nav.download">Download</a>
+                <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
+                <div id="languageSelector"></div>
             </div>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <span></span>
@@ -58,13 +59,13 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
-                <p class="hero-subtitle">We're not just building software. We're fighting for a future where artificial intelligence serves humanity - not the other way around. Where your conversations remain yours. Where powerful technology doesn't come with a surveillance price tag.</p>
+                <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">We're not just building software. We're fighting for a future where artificial intelligence serves humanity - not the other way around. Where your conversations remain yours. Where powerful technology doesn't come with a surveillance price tag.</p>
                 <div class="hero-buttons">
-                    <a href="#mission" class="btn btn-primary btn-lg">
+                    <a href="#mission" class="btn btn-primary btn-lg" data-i18n="hero.cta_mission">
                         Read Our Mission
                     </a>
-                    <a href="#download" class="btn btn-secondary btn-lg" id="heroDownloadBtn">
+                    <a href="#download" class="btn btn-secondary btn-lg" id="heroDownloadBtn" data-i18n="hero.cta_download">
                         Download LocalMind
                     </a>
                 </div>
@@ -779,14 +780,15 @@
                     </svg>
                 </div>
 
-                <h2>Your Download is Ready!</h2>
-                <p class="modal-subtitle">Get notified when we release new features like <strong>subtitle export (SRT)</strong>, Windows support, and quality improvements.</p>
+                <h2 data-i18n="modal.title">Your Download is Ready!</h2>
+                <p class="modal-subtitle" data-i18n="modal.subtitle">Get notified when we release new features like <strong>subtitle export (SRT)</strong>, Windows support, and quality improvements.</p>
 
                 <form id="emailCaptureForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                     <div class="form-group">
                         <input
                             type="email"
                             name="email"
+                            data-i18n="modal.email_placeholder"
                             placeholder="your@email.com"
                             required
                             class="form-input"
@@ -797,45 +799,46 @@
                         <input
                             type="text"
                             name="name"
+                            data-i18n="modal.name_placeholder"
                             placeholder="First name (optional)"
                             class="form-input"
                         />
                     </div>
 
                     <div class="feature-survey">
-                        <p class="survey-question">Which feature would you use most?</p>
+                        <p class="survey-question" data-i18n="modal.survey_question">Which feature would you use most?</p>
                         <label class="checkbox-label">
                             <input type="checkbox" name="feature_srt" value="yes" />
                             <div class="checkbox-content">
-                                <strong>Subtitle/SRT export</strong>
-                                <small>For video captions</small>
+                                <strong data-i18n="modal.feature_srt">Subtitle/SRT export</strong>
+                                <small data-i18n="modal.feature_srt_desc">For video captions</small>
                             </div>
                         </label>
                         <label class="checkbox-label">
                             <input type="checkbox" name="feature_realtime" value="yes" />
                             <div class="checkbox-content">
-                                <strong>Real-time transcription</strong>
-                                <small>Live audio processing</small>
+                                <strong data-i18n="modal.feature_realtime">Real-time transcription</strong>
+                                <small data-i18n="modal.feature_realtime_desc">Live audio processing</small>
                             </div>
                         </label>
                         <label class="checkbox-label">
                             <input type="checkbox" name="feature_api" value="yes" />
                             <div class="checkbox-content">
-                                <strong>Developer API</strong>
-                                <small>Programmatic access</small>
+                                <strong data-i18n="modal.feature_api">Developer API</strong>
+                                <small data-i18n="modal.feature_api_desc">Programmatic access</small>
                             </div>
                         </label>
                     </div>
 
                     <div class="privacy-badge">
-                        🛡️ No spam. Unsubscribe anytime.
-                        <a href="privacy.html" target="_blank">Privacy Policy</a>
+                        <span data-i18n="modal.privacy_text">🛡️ No spam. Unsubscribe anytime.</span>
+                        <a href="privacy.html" target="_blank" data-i18n="modal.privacy_link">Privacy Policy</a>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-block btn-submit">
+                    <button type="submit" class="btn btn-primary btn-block btn-submit" data-i18n="modal.submit_btn">
                         Get Updates & Download
                     </button>
-                    <button type="button" id="skipBtn" class="btn btn-secondary btn-block">
+                    <button type="button" id="skipBtn" class="btn btn-secondary btn-block" data-i18n="modal.skip_btn">
                         Skip, just download
                     </button>
                 </form>
@@ -847,9 +850,9 @@
                             <polyline points="20 6 9 17 4 12"/>
                         </svg>
                     </div>
-                    <h3>✓ Thank You!</h3>
-                    <p>We'll keep you updated on new features and improvements.</p>
-                    <a href="https://github.com/KaivalyaDeepTeam/localmind/releases/download/v1.2.0/LocalMind-1.2.0-macOS.dmg" class="btn btn-primary btn-lg btn-download-final" download>
+                    <h3 data-i18n="modal.success_title">✓ Thank You!</h3>
+                    <p data-i18n="modal.success_text">We'll keep you updated on new features and improvements.</p>
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind/releases/download/v1.2.0/LocalMind-1.2.0-macOS.dmg" class="btn btn-primary btn-lg btn-download-final" download data-i18n="modal.download_btn">
                         Download LocalMind Now
                     </a>
                 </div>
@@ -857,6 +860,7 @@
         </div>
     </div>
 
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

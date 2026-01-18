@@ -2211,3 +2211,172 @@ h4 {
         z-index: 1;
     }
 }
+
+/* ================================================
+   Language Selector Styles
+   ================================================ */
+
+#languageSelector {
+    position: relative;
+}
+
+.lang-selector-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.lang-selector-btn:hover {
+    border-color: var(--color-primary);
+    background: var(--color-bg-card-hover);
+}
+
+.lang-flag {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.lang-code {
+    font-weight: 600;
+}
+
+.lang-arrow {
+    transition: transform var(--transition-fast);
+}
+
+.lang-selector-btn:hover .lang-arrow,
+.lang-dropdown.active + .lang-selector-btn .lang-arrow {
+    transform: rotate(180deg);
+}
+
+.lang-dropdown {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 200px;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 0.5rem;
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all var(--transition-base);
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.lang-dropdown.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.75rem;
+    background: none;
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--color-text);
+    font-size: 0.95rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.lang-option:hover {
+    background: var(--color-bg-secondary);
+}
+
+.lang-option.active {
+    background: rgba(79, 70, 229, 0.1);
+    color: var(--color-primary-light);
+}
+
+.lang-name {
+    flex: 1;
+}
+
+.lang-check {
+    color: var(--color-success);
+    font-weight: bold;
+}
+
+/* ================================================
+   RTL (Right-to-Left) Support for Arabic
+   ================================================ */
+
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+body.rtl .navbar {
+    direction: rtl;
+}
+
+body.rtl .logo {
+    flex-direction: row-reverse;
+}
+
+body.rtl .nav-links {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hero-buttons {
+    flex-direction: row-reverse;
+}
+
+body.rtl .proof-stats,
+body.rtl .use-cases-grid,
+body.rtl .testimonials-grid {
+    direction: rtl;
+}
+
+body.rtl .testimonial-header {
+    flex-direction: row-reverse;
+}
+
+body.rtl .faq-question {
+    flex-direction: row-reverse;
+}
+
+body.rtl .checkbox-label {
+    flex-direction: row-reverse;
+}
+
+body.rtl .modal-close {
+    left: 1rem;
+    right: auto;
+}
+
+body.rtl .footer-grid {
+    direction: rtl;
+}
+
+/* Mobile language selector */
+@media (max-width: 768px) {
+    .lang-dropdown {
+        right: auto;
+        left: 0;
+    }
+
+    body.rtl .lang-dropdown {
+        left: auto;
+        right: 0;
+    }
+}
