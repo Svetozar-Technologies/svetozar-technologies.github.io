@@ -1,146 +1,66 @@
-# LocalMind Website
+# Svetozar Technologies Website
 
-Official website for **LocalMind** - AI transcription that's free, private, and runs entirely on your device.
+Official website for **Svetozar Technologies** - building privacy-first AI tools that run 100% offline.
 
-🌐 **Live Site:** [https://svetozar-technologies.github.io/localmind.github.io/](https://svetozar-technologies.github.io/localmind.github.io/)
+🌐 **Live Site:** [https://svetozar-technologies.github.io](https://svetozar-technologies.github.io)
 
-## Features
+## Our Products
 
-✅ **Multi-Language Support** - 8 languages with 100% translation coverage:
-- 🇬🇧 English
-- 🇪🇸 Spanish (Español)
-- 🇯🇵 Japanese (日本語)
-- 🇦🇪 Arabic (العربية) with RTL support
-- 🇮🇳 Hindi (हिन्दी)
-- 🇷🇺 Russian (Русский)
-- 🇫🇷 French (Français)
-- 🇨🇳 Chinese Simplified (中文)
+### 🎙️ LocalMind - Private Speech Recognition
+AI transcription that's free, private, and runs entirely on your device.
+- **Product Page:** [svetozar-technologies.github.io/localmind](https://svetozar-technologies.github.io/localmind/)
+- **Features:** Real-time transcription, 99+ languages, speaker identification
+- **Platforms:** macOS, Windows, Linux
 
-✅ **Email Capture Modal** - Pre-download email collection for product updates
+### ✍️ LocalWrite - Private Writing Assistant
+AI writing enhancement with local models. No cloud, no tracking.
+- **Product Page:** [svetozar-technologies.github.io/localwrite](https://svetozar-technologies.github.io/localwrite/)
+- **Features:** 5 writing modes, AI chat, PDF enhancement
+- **Platforms:** macOS (Windows coming soon)
 
-✅ **Privacy-Focused Analytics** - Plausible Analytics (GDPR compliant, no cookies)
+## Our Mission
 
-✅ **Responsive Design** - Mobile-first, works on all devices
+> "Svetozar" means "light of the world" in Slavic languages. We believe AI should illuminate possibilities, not shadow your privacy.
 
-✅ **Static Site** - Fast, secure, hosted on GitHub Pages
+### Core Values
+- 🔒 **Privacy First** - All processing happens locally on your device
+- 🌐 **Offline Always** - No internet required after initial setup
+- 🔓 **Open Source** - MIT licensed, fully transparent
+- 💝 **Free Forever** - No subscriptions, no premium tiers
+- 🚀 **No Accounts** - Download and use, no sign-ups required
 
-## Project Structure
+## Website Structure
 
 ```
-website/
-├── index.html              # Main landing page
-├── privacy.html            # Privacy policy page
-├── css/
-│   └── style.css          # All styles
-├── js/
-│   ├── i18n.js            # Internationalization system
-│   └── main.js            # Main JavaScript logic
-├── translations/          # Language files
-│   ├── en.json           # English
-│   ├── es.json           # Spanish
-│   ├── ja.json           # Japanese
-│   ├── ar.json           # Arabic
-│   ├── hi.json           # Hindi
-│   ├── ru.json           # Russian
-│   ├── fr.json           # French
-│   └── zh.json           # Chinese
-└── assets/               # Images, logos, etc.
+/
+├── index.html          # Main Svetozar Technologies homepage
+├── README.md           # This file
+├── localmind/          # LocalMind product site
+│   ├── index.html      # LocalMind landing page
+│   ├── privacy.html    # Privacy policy
+│   ├── css/
+│   ├── js/
+│   ├── assets/
+│   └── translations/   # Multi-language support (8 languages)
+└── localwrite/         # LocalWrite product site
+    ├── index.html      # LocalWrite landing page
+    ├── css/
+    └── js/
 ```
-
-## Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Svetozar-Technologies/localmind.github.io.git
-cd localmind.github.io
-```
-
-### 2. Configure Email Capture (Optional)
-
-The email capture modal uses [Formspree](https://formspree.io) for form handling.
-
-**To enable it:**
-
-1. Create a free Formspree account at https://formspree.io
-2. Create a new form and get your form endpoint
-3. Replace `YOUR_FORM_ID` in `index.html` line 786:
-
-```html
-<!-- Before -->
-<form id="emailCaptureForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-
-<!-- After -->
-<form id="emailCaptureForm" action="https://formspree.io/f/YOUR_ACTUAL_FORM_ID" method="POST">
-```
-
-**If you don't want email capture:**
-- You can skip this step - the modal will still appear but submissions won't work
-- Or remove the entire modal section from the HTML
-
-### 3. Configure Analytics (Optional)
-
-The site uses Plausible Analytics for privacy-friendly tracking.
-
-**To configure:**
-
-1. Sign up at https://plausible.io
-2. Add your domain
-3. Update line 33 in `index.html`:
-
-```html
-<!-- Before -->
-<script defer data-domain="svetozar-technologies.github.io" src="https://plausible.io/js/script.js"></script>
-
-<!-- After -->
-<script defer data-domain="your-actual-domain.com" src="https://plausible.io/js/script.js"></script>
-```
-
-**If you don't want analytics:**
-- Remove line 33 from `index.html`
-
-### 4. Deploy to GitHub Pages
-
-1. Push to your GitHub repository
-2. Go to repository **Settings** → **Pages**
-3. Select **Source:** Deploy from a branch
-4. Select **Branch:** `main` / `(root)`
-5. Click **Save**
-
-Your site will be live at: `https://[username].github.io/[repository-name]/`
-
-## Adding Translations
-
-All translations are in the `translations/` folder as JSON files.
-
-**To add a new language:**
-
-1. Copy `translations/en.json` to `translations/[language-code].json`
-2. Translate all values (keep the keys unchanged)
-3. Add the language to `js/i18n.js` line 10-18:
-
-```javascript
-this.supportedLanguages = [
-    // ... existing languages
-    { code: 'de', name: 'Deutsch', flag: '🇩🇪' }  // Example: German
-];
-```
-
-4. Test by selecting the language from the dropdown
-
-**Translation Coverage:** All 8 languages currently have **100% coverage** (163/163 keys)
 
 ## Local Development
 
-Simply open `index.html` in a browser. No build process required.
-
-For live reloading during development, you can use:
+This is a static website hosted on GitHub Pages. No build process required.
 
 ```bash
-# Using Python
+# Clone the repository
+git clone https://github.com/Svetozar-Technologies/svetozar-technologies.github.io.git
+cd svetozar-technologies.github.io
+
+# Run locally with Python
 python3 -m http.server 8000
 
-# Using Node.js
+# Or with Node.js
 npx serve
 ```
 
@@ -150,46 +70,40 @@ Then open http://localhost:8000
 
 - **HTML5** - Semantic markup
 - **CSS3** - Custom styles, no frameworks
-- **Vanilla JavaScript** - No jQuery or heavy dependencies
-- **Plausible Analytics** - Privacy-friendly analytics
-- **Formspree** - Form backend (free tier)
+- **Vanilla JavaScript** - No heavy dependencies
 - **GitHub Pages** - Static site hosting
 
 ## Privacy & Security
 
-✅ **No tracking cookies** - Uses privacy-friendly Plausible Analytics
+✅ No tracking cookies (optional Plausible Analytics on product pages)
+✅ No personal data stored
+✅ GDPR compliant
+✅ Open source - audit the code yourself
 
-✅ **No personal data stored** - Email addresses only collected with explicit opt-in
+## Related Repositories
 
-✅ **GDPR compliant** - Privacy policy included
-
-✅ **No third-party scripts** - Except Plausible and Google Fonts (optional)
-
-✅ **Open source** - Audit the code yourself
+| Project | Repository |
+|---------|------------|
+| LocalMind App | [github.com/KaivalyaDeepTeam/LocalMind](https://github.com/KaivalyaDeepTeam/LocalMind) |
+| LocalWrite App | [github.com/KaivalyaDeepTeam/LocalWrite](https://github.com/KaivalyaDeepTeam/LocalWrite) |
 
 ## License
 
-This website is part of the LocalMind project.
-
-Website code: MIT License
-Content: © 2025 Svetozar Technologies
+- **Website Code:** MIT License
+- **Content:** © 2025 Svetozar Technologies
 
 ## Contributing
 
 Contributions are welcome! Please:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-translation`)
-3. Commit your changes (`git commit -m 'Add German translation'`)
-4. Push to the branch (`git push origin feature/new-translation`)
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
 5. Open a Pull Request
-
-## Support
-
-- **Bug reports:** [GitHub Issues](https://github.com/Svetozar-Technologies/localmind.github.io/issues)
-- **Feature requests:** [GitHub Discussions](https://github.com/Svetozar-Technologies/localmind.github.io/discussions)
-- **Main project:** [LocalMind Repository](https://github.com/KaivalyaDeepTeam/localmind)
 
 ---
 
-**Built with ❤️ by Svetozar Technologies**
+**Built with privacy in mind. Your data stays yours.**
+
+Svetozar Technologies
