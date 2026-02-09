@@ -223,13 +223,51 @@ h4 {
 }
 
 .logo-img {
-    height: 48px;
+    height: 56px;
     width: auto;
     object-fit: contain;
 }
 
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.logo-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.2;
+}
+
+.logo-tagline {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-primary-light);
+    letter-spacing: 0.05em;
+}
+
+.footer-logo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer-logo .logo-text {
+    align-items: flex-start;
+}
+
+.footer-logo .logo-name {
+    font-size: 1.25rem;
+}
+
+.footer-logo .logo-tagline {
+    font-size: 0.875rem;
+}
+
 .footer-logo-img {
-    height: 80px;
+    height: 100px;
 }
 
 .nav-links {
