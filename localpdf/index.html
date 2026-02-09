@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalPDF - Private PDF Toolkit | Svetozar Technologies</title>
+    <meta name="description" content="Complete PDF processing without cloud uploads. Compress, merge, split, convert - all locally on your device. 100% offline, free forever.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .tool-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .tool-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
+        }
+
+        .tool-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .tool-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .tool-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .coming-soon-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-left: 1rem;
+        }
+
+        .download-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 3rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .download-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .download-section p {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn-coming-soon {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: linear-gradient(135deg, #374151, #1f2937);
+            color: var(--text-secondary);
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: not-allowed;
+            border: 1px solid var(--border);
+        }
+
+        .btn-coming-soon svg {
+            opacity: 0.6;
+        }
+
+        .no-ai-banner {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.1));
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .no-ai-banner h3 {
+            color: #22c55e;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-ai-banner p {
+            color: var(--text-secondary);
+        }
+
+        .feature-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .highlight-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(79, 70, 229, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--primary);
+        }
+
+        .highlight-text h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .highlight-text p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .platforms-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .platform-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .platform-item.available {
+            color: var(--text);
+        }
+
+        .platform-item svg {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="../" class="nav-logo">
+                <span class="logo-icon">S</span>
+                <span>Svetozar</span>
+            </a>
+            <div class="nav-links">
+                <a href="../#mission" data-i18n="nav.mission">Mission</a>
+                <a href="../#products" data-i18n="nav.products">Products</a>
+                <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
+            </div>
+            <div class="nav-actions">
+                <div class="language-selector">
+                    <button class="language-btn" id="languageBtn">
+                        <span id="currentFlag">🇬🇧</span>
+                        <span id="currentLang">EN</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                            <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        </svg>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown"></div>
+                </div>
+                <a href="../#products" class="btn btn-primary btn-sm" data-i18n="nav.get_started">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero product-hero">
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <div class="badge">
+                    <span data-i18n="hero.badge">100% Offline &bull; Open Source &bull; Free Forever</span>
+                    <span class="coming-soon-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        Coming Soon
+                    </span>
+                </div>
+                <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">
+                    <span class="gradient-text">LocalPDF</span>
+                </h1>
+                <p class="hero-tagline" style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 1rem;">
+                    Private PDF Toolkit
+                </p>
+                <p class="hero-subtitle" style="font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+                    Complete PDF processing without cloud uploads. Compress, merge, split, convert - all locally on your device. Your documents never leave your computer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- No AI Banner -->
+    <section class="container">
+        <div class="no-ai-banner">
+            <h3>🛡️ Pure Local Processing - No AI Required</h3>
+            <p>LocalPDF uses efficient local algorithms for PDF processing. No AI models, no internet, no waiting. Just fast, private document handling.</p>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <span class="section-label">6 Powerful Tools</span>
+                <h2 class="section-title">Everything You Need for <span class="gradient-text">PDF Processing</span></h2>
+                <p class="section-subtitle">Professional PDF tools that run entirely on your device. No uploads, no subscriptions, no limits.</p>
+            </div>
+
+            <div class="tools-grid">
+                <!-- Compress PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">📉</div>
+                    <h3>Compress PDF</h3>
+                    <p>Reduce PDF file sizes significantly while maintaining quality. Choose from multiple compression levels based on your needs - perfect for email attachments and web uploads.</p>
+                </div>
+
+                <!-- Batch Compress -->
+                <div class="tool-card">
+                    <div class="tool-icon">📚</div>
+                    <h3>Batch Compress</h3>
+                    <p>Compress multiple PDF files at once. Select a folder of documents and optimize them all with a single click. Ideal for archiving and storage optimization.</p>
+                </div>
+
+                <!-- Merge PDFs -->
+                <div class="tool-card">
+                    <div class="tool-icon">🔗</div>
+                    <h3>Merge PDFs</h3>
+                    <p>Combine multiple PDF documents into a single file. Drag and drop to reorder pages before merging. Perfect for combining reports, contracts, and presentations.</p>
+                </div>
+
+                <!-- Split/Extract -->
+                <div class="tool-card">
+                    <div class="tool-icon">✂️</div>
+                    <h3>Split & Extract</h3>
+                    <p>Extract specific pages or split PDFs into multiple files. Choose individual pages or page ranges to create new documents from existing PDFs.</p>
+                </div>
+
+                <!-- Image to PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">🖼️</div>
+                    <h3>Image to PDF</h3>
+                    <p>Convert images to PDF format. Supports JPG, PNG, and other common formats. Combine multiple images into a single PDF document with customizable layouts.</p>
+                </div>
+
+                <!-- PowerPoint to PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">📊</div>
+                    <h3>PowerPoint to PDF</h3>
+                    <p>Convert PowerPoint presentations to PDF format. Preserve your slide layouts, formatting, and images. Perfect for sharing presentations universally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="section" style="background: var(--surface);">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <span class="section-label">Why LocalPDF</span>
+                <h2 class="section-title">Privacy Without <span class="gradient-text">Compromise</span></h2>
+            </div>
+
+            <div class="feature-highlights">
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>100% Local Processing</h4>
+                        <p>Your documents never leave your device. All processing happens locally.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>Works Offline</h4>
+                        <p>No internet required. Process PDFs anywhere, anytime.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>Unlimited Processing</h4>
+                        <p>No file limits, no page limits, no daily quotas. Process as much as you need.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>No Account Required</h4>
+                        <p>Download and use immediately. No sign-up, no email verification.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>Free Forever</h4>
+                        <p>Open source under MIT license. No subscriptions, no hidden costs.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <div class="highlight-text">
+                        <h4>Lightning Fast</h4>
+                        <p>Optimized algorithms for quick processing. No upload/download wait times.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="section">
+        <div class="container">
+            <div class="download-section">
+                <h2>Download LocalPDF</h2>
+                <p>LocalPDF is currently in development. We're working hard to bring you the best private PDF toolkit. Join our community to be notified when it's ready!</p>
+
+                <button class="btn-coming-soon" disabled>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    Coming Soon
+                </button>
+
+                <div class="platforms-list">
+                    <div class="platform-item available">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        macOS
+                    </div>
+                    <div class="platform-item available">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3,12V6.75L9,5.43V11.91L3,12M20,3V11.75L10,11.9V5.21L20,3M3,13L9,13.09V19.9L3,18.75V13M20,13.25V22L10,20.09V13.1L20,13.25Z"/>
+                        </svg>
+                        Windows
+                    </div>
+                    <div class="platform-item available">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .396.062.584.198.19.135.33.332.438.533.105.259.158.459.166.724 0-.02.006-.04.006-.06v.105a.086.086 0 01-.004-.021l-.004-.024a1.807 1.807 0 01-.15.706.953.953 0 01-.213.335.71.71 0 00-.088-.042c-.104-.045-.198-.064-.284-.133a1.312 1.312 0 00-.22-.066c.05-.06.146-.133.183-.198.053-.128.082-.264.088-.402v-.02a1.21 1.21 0 00-.061-.4c-.045-.134-.101-.2-.183-.333-.084-.066-.167-.132-.267-.132h-.016c-.093 0-.176.03-.262.132a.8.8 0 00-.205.334 1.18 1.18 0 00-.09.4v.019c.002.089.008.179.02.267-.193-.067-.438-.135-.607-.202a1.635 1.635 0 01-.018-.2v-.02a1.772 1.772 0 01.15-.768c.082-.22.232-.406.43-.533a.985.985 0 01.594-.2zm-2.962.059h.036c.142 0 .27.048.399.135.146.129.264.288.344.465.09.199.14.4.153.667l.004.073v.052a1.396 1.396 0 01-.09.552 1.1 1.1 0 01-.234.395.786.786 0 01-.553.223h-.023a.727.727 0 01-.552-.224 1.1 1.1 0 01-.234-.395 1.396 1.396 0 01-.09-.552v-.052l.004-.073c.013-.267.063-.468.153-.667a1.09 1.09 0 01.344-.465c.128-.087.257-.135.398-.135h.037zm9.197 2.723c.088.01.267.065.394.133.144.072.291.199.469.335.183.127.339.267.503.465.2.267.376.614.525.9.174.339.311.673.42 1.01.234.668.349 1.337.409 1.937.038.4.06.732.062 1.009v.267c.002.098 0 .134-.003.166l-.003.013-.016.333a.226.226 0 01-.01.082l.01.008-.01.003c-.192.645-.463 1.153-.735 1.461-.276.312-.518.431-.674.398-.158-.032-.289-.202-.344-.402a1.64 1.64 0 01-.052-.404v-.07a.887.887 0 01.051-.27c.028-.087.047-.133.087-.2l.028-.067.064-.112c.185-.3.302-.617.353-.913.071-.37.066-.736-.049-1.003-.1-.26-.262-.468-.464-.669-.206-.2-.408-.334-.606-.465-.202-.134-.404-.268-.606-.468l-.174-.2c.01-.034.01-.067.004-.1a2.46 2.46 0 00-.075-.268 3.277 3.277 0 00-.134-.4c-.098-.268-.226-.535-.344-.8a8.36 8.36 0 00-.468-.866c-.13-.2-.265-.4-.438-.6-.17-.2-.321-.334-.449-.4-.131-.067-.25-.1-.357-.1l-.06.003a.466.466 0 00-.2.067.727.727 0 00-.2.199.846.846 0 00-.126.334 1.61 1.61 0 00-.016.532l.004.007v.02l.016.135.014.068.015.133c.019.133.043.267.068.399a6.642 6.642 0 00.172.668c.072.199.155.4.252.602l.158.334.098.198c.02.04.052.078.078.118l.055.093.029.048.006.01-.006.018-.006.023a.693.693 0 00-.014.075.42.42 0 00-.013.136v.073l.006.135c.011.2.023.399.023.6l-.006.19a1.025 1.025 0 01-.036.2 1.025 1.025 0 01-.154.4l-.02.026-.075.082-.083.082a2.24 2.24 0 01-.263.199c-.093.063-.202.133-.323.2a4.003 4.003 0 01-.367.2l-.29.132a1.87 1.87 0 00-.184.086c-.06.032-.125.072-.17.134a.34.34 0 00-.07.199c.003.098.04.189.089.267.053.081.118.15.189.207.073.055.148.101.227.14.08.038.157.072.23.1l.063.024.055.02a.63.63 0 01.074.03.503.503 0 01.089.05.369.369 0 01.082.069.272.272 0 01.055.101.218.218 0 01.009.086v.017l-.004.035-.004.027a1.012 1.012 0 01-.1.313c-.042.092-.103.178-.163.258-.12.157-.277.285-.437.384a2.316 2.316 0 01-.48.227c-.156.052-.302.082-.43.093a.844.844 0 01-.252-.008c-.082-.016-.152-.04-.21-.068a.68.68 0 01-.145-.091.56.56 0 01-.1-.107.414.414 0 01-.058-.118.405.405 0 01-.023-.134.392.392 0 01.017-.124.544.544 0 01.06-.117l.026-.04.031-.04a.924.924 0 01.132-.133c.082-.07.176-.13.27-.183a2.97 2.97 0 01.364-.17l.115-.044a3.124 3.124 0 00.152-.06.755.755 0 00.151-.078.448.448 0 00.139-.125.36.36 0 00.06-.2.42.42 0 00-.031-.145.615.615 0 00-.084-.145 1.135 1.135 0 00-.15-.166c-.06-.056-.124-.107-.19-.15a1.904 1.904 0 00-.404-.2 2.584 2.584 0 00-.408-.12c-.141-.03-.273-.05-.388-.057-.117-.007-.216-.003-.29.013a.593.593 0 00-.177.06.362.362 0 00-.112.092.312.312 0 00-.063.127.388.388 0 00-.014.16.51.51 0 00.047.18c.032.063.082.127.145.188.127.122.304.23.48.3.175.07.359.109.524.116h.08a.81.81 0 00.14-.014.594.594 0 00.135-.045.49.49 0 00.118-.075.401.401 0 00.087-.106.294.294 0 00.041-.138v-.018l-.003-.063v-.012l-.003-.013-.007-.027a.444.444 0 00-.025-.081.494.494 0 00-.047-.089.616.616 0 00-.073-.089l-.021-.02-.018-.015a1.046 1.046 0 00-.107-.074c-.119-.07-.266-.126-.419-.154-.154-.029-.3-.038-.434-.018-.133.02-.252.064-.339.127-.087.066-.148.152-.163.249a.411.411 0 00.031.247c.035.078.091.147.159.205a1.08 1.08 0 00.26.155c.054.024.108.044.162.061l.07.02c.038.009.073.017.108.023h.011l.011.003c.188.032.41.067.598.136.09.034.178.077.257.134l.063.05a.8.8 0 01.1.105l.035.048.018.03c.081.136.129.303.126.48a.889.889 0 01-.085.373.94.94 0 01-.199.29c-.08.08-.17.148-.264.204a2.073 2.073 0 01-.592.229c-.224.054-.454.072-.67.054a2.008 2.008 0 01-.583-.133 1.396 1.396 0 01-.446-.286 1.088 1.088 0 01-.27-.434.946.946 0 01-.051-.504c.027-.169.096-.325.2-.459.209-.267.538-.451.87-.543a2.94 2.94 0 01.483-.09l.072-.005c.035-.002.071-.002.106 0l.118.005c.09.007.183.02.277.04.094.018.189.043.28.072a2.16 2.16 0 01.497.222c.152.093.29.205.404.335.113.132.203.282.256.448a1.14 1.14 0 01.023.525.952.952 0 01-.214.435 1.343 1.343 0 01-.425.324 2.02 2.02 0 01-.553.184c-.2.04-.402.057-.594.052a2.195 2.195 0 01-.526-.078 1.552 1.552 0 01-.422-.188.986.986 0 01-.297-.293.808.808 0 01-.133-.391.708.708 0 01.075-.347.853.853 0 01.233-.28c.1-.08.21-.146.328-.197a2.11 2.11 0 01.724-.153h.082c.092.003.181.012.268.027.087.015.17.035.25.062a1.36 1.36 0 01.426.231.995.995 0 01.282.368c.06.14.084.291.07.44a.808.808 0 01-.156.398.926.926 0 01-.31.266 1.297 1.297 0 01-.407.147 1.822 1.822 0 01-.444.028 1.578 1.578 0 01-.408-.093.94.94 0 01-.308-.195.678.678 0 01-.184-.293.616.616 0 01-.02-.332.594.594 0 01.148-.284.753.753 0 01.269-.187c.1-.045.206-.073.31-.088.05-.006.099-.01.147-.01h.068l.07.005c.07.007.138.02.203.04.066.02.128.044.185.075a.67.67 0 01.273.274.572.572 0 01.062.325.494.494 0 01-.117.27.561.561 0 01-.24.163.818.818 0 01-.3.05.656.656 0 01-.247-.05.466.466 0 01-.182-.133.39.39 0 01-.088-.2.378.378 0 01.031-.213.395.395 0 01.134-.161.514.514 0 01.202-.089.618.618 0 01.23-.004c.074.012.141.035.197.07a.397.397 0 01.135.133.344.344 0 01.048.183.31.31 0 01-.047.172.322.322 0 01-.126.115.4.4 0 01-.174.048.402.402 0 01-.18-.028.286.286 0 01-.129-.106.247.247 0 01-.043-.158.225.225 0 01.058-.138.238.238 0 01.126-.076.287.287 0 01.152.01.218.218 0 01.111.085.183.183 0 01.032.127.16.16 0 01-.055.104.158.158 0 01-.108.04.148.148 0 01-.094-.039.124.124 0 01-.04-.086.11.11 0 01.03-.08.1.1 0 01.07-.033.092.092 0 01.062.024.08.08 0 01.026.058.07.07 0 01-.019.048.064.064 0 01-.045.022.058.058 0 01-.04-.015z"/>
+                        </svg>
+                        Linux
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem;">
+                    <a href="https://github.com/KaivalyaDeepTeam/LocalPDF" target="_blank" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        View Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Requirements -->
+    <section class="section" style="background: var(--surface);">
+        <div class="container">
+            <div class="section-header" style="text-align: center;">
+                <span class="section-label">Requirements</span>
+                <h2 class="section-title">System Requirements</h2>
+            </div>
+
+            <div class="specs-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 800px; margin: 0 auto;">
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🖥️</div>
+                    <h4 style="margin-bottom: 0.5rem;">Operating System</h4>
+                    <p style="color: var(--text-secondary);">macOS 11.0+, Windows 10+, or Linux</p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">💾</div>
+                    <h4 style="margin-bottom: 0.5rem;">Storage</h4>
+                    <p style="color: var(--text-secondary);">100 MB free space</p>
+                </div>
+                <div style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔒</div>
+                    <h4 style="margin-bottom: 0.5rem;">Privacy</h4>
+                    <p style="color: var(--text-secondary);">No internet required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="cta.title">Ready for Private PDF Processing?</h2>
+                <p data-i18n="cta.subtitle">Join the waitlist to be notified when LocalPDF launches. Your documents deserve privacy.</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/KaivalyaDeepTeam/LocalPDF" target="_blank" class="btn btn-primary btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        <span data-i18n="cta.github">Star on GitHub</span>
+                    </a>
+                    <a href="../#products" class="btn btn-secondary btn-lg">
+                        <span data-i18n="cta.explore">Explore Products</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../" class="nav-logo">
+                        <span class="logo-icon">S</span>
+                        <span>Svetozar</span>
+                    </a>
+                    <p data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.products">Products</h4>
+                    <a href="../localmind/">LocalMind</a>
+                    <a href="../localwrite/">LocalWrite</a>
+                    <a href="../localpdf/">LocalPDF</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.community">Community</h4>
+                    <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
+                    <a href="https://github.com/orgs/Svetozar-Technologies/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                    <a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies. MIT License.</p>
+                <p data-i18n="footer.built">Built with privacy in mind. No data leaves your device.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/i18n.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+{
+  "lang": "es",
+  "name": "Espanol",
+  "nav": {
+    "mission": "Mision",
+    "products": "Productos",
+    "github": "GitHub",
+    "get_started": "Comenzar"
+  },
+  "hero": {
+    "badge": "100% Sin Conexion &bull; Codigo Abierto &bull; Gratis para Siempre",
+    "title": "La IA Deberia Ser Libre.<br>La IA Deberia Ser Privada.<br><span class='gradient-text'>La IA Deberia Ser Tuya.</span>",
+    "subtitle": "Construimos herramientas de IA que respetan tu privacidad. Sin servidores en la nube, sin recopilacion de datos, sin compromisos. Tus pensamientos siguen siendo tuyos.",
+    "cta_products": "Explorar Productos",
+    "cta_github": "Ver en GitHub"
+  },
+  "stats": {
+    "offline": "Procesamiento Sin Conexion",
+    "data": "Datos Recopilados",
+    "products": "Herramientas de Privacidad",
+    "license": "Licencia Abierta"
+  },
+  "mission": {
+    "label": "Nuestra Mision",
+    "title": "Iluminando la Privacidad de la IA",
+    "subtitle": "\"Svetozar\" significa \"luz del mundo\" en lenguas eslavas. Creemos que la IA deberia iluminar posibilidades, no ensombrecer tu privacidad.",
+    "privacy_title": "Privacidad Primero",
+    "privacy_desc": "Cada producto que construimos funciona 100% localmente en tu dispositivo. Tus datos nunca tocan nuestros servidores porque no tenemos ninguno.",
+    "offline_title": "Siempre Sin Conexion",
+    "offline_desc": "¿Conexion a internet? Opcional. Nuestra IA funciona en cualquier lugar - en un avion, en una cabana, o simplemente cuando quieres paz digital.",
+    "opensource_title": "Codigo Abierto",
+    "opensource_desc": "La transparencia genera confianza. Todo nuestro codigo es abierto, auditable y con licencia MIT. Ve exactamente lo que se ejecuta en tu maquina.",
+    "free_title": "Gratis para Siempre",
+    "free_desc": "Sin suscripciones, sin niveles premium, sin ventas adicionales. La privacidad no deberia ser un lujo. Nuestras herramientas son gratuitas para todos, siempre.",
+    "noaccount_title": "Sin Cuentas",
+    "noaccount_desc": "Descarga y usa. Sin registros, sin verificacion de correo, sin claves API. No queremos tu informacion personal.",
+    "empower_title": "Empoderamiento del Usuario",
+    "empower_desc": "Construimos herramientas que devuelven el poder a los usuarios. Tu controlas tu IA, tus datos y tu vida digital."
+  },
+  "products": {
+    "label": "Nuestros Productos",
+    "title": "Herramientas de IA Privadas",
+    "subtitle": "Potentes capacidades de IA que funcionan completamente en tu dispositivo. Sin necesidad de nube.",
+    "badge_available": "Disponible Ahora",
+    "badge_coming": "Proximamente",
+    "download": "Descargar",
+    "source": "Codigo Fuente",
+    "coming_soon": "Proximamente",
+    "localmind": {
+      "tagline": "Reconocimiento de Voz Privado",
+      "desc": "Transforma el habla en texto con total privacidad. Transcripcion de grado profesional que nunca sale de tu dispositivo.",
+      "f1": "Transcripcion en tiempo real",
+      "f2": "99+ idiomas soportados",
+      "f3": "Identificacion de hablantes",
+      "f4": "Puntuacion de calidad con IA",
+      "f5": "macOS, Windows y Linux"
+    },
+    "localwrite": {
+      "tagline": "Asistente de Escritura IA Privado",
+      "desc": "Mejora tu escritura con potente IA local. Multiples modos, chat de IA y sugerencias inteligentes - todo 100% sin conexion.",
+      "f1": "5 modos de mejora de escritura",
+      "f2": "Asistente de chat IA (sin conexion)",
+      "f3": "Mejora de documentos PDF",
+      "f4": "5 modelos de IA para elegir",
+      "f5": "macOS (Windows proximamente)"
+    },
+    "localpdf": {
+      "tagline": "Kit de Herramientas PDF Privado",
+      "desc": "Procesamiento completo de PDF sin subidas a la nube. Comprimir, fusionar, dividir, convertir - todo localmente en tu dispositivo.",
+      "f1": "Compresion inteligente de PDF",
+      "f2": "Fusionar y dividir documentos",
+      "f3": "Conversion de imagen a PDF",
+      "f4": "PowerPoint a PDF",
+      "f5": "macOS, Windows y Linux"
+    }
+  },
+  "usecases": {
+    "label": "Casos de Uso",
+    "title": "Construido para <span class='gradient-text'>Personas Reales</span>",
+    "subtitle": "Desde periodistas protegiendo fuentes hasta empresas ahorrando costos - nuestras herramientas sirven diversas necesidades con una promesa central: tus datos siguen siendo tuyos.",
+    "journalists": {
+      "title": "Periodistas y Podcasters",
+      "desc": "Protege las identidades de tus fuentes con transcripcion y escritura 100% sin conexion. Sin registros de servidor. Sin filtraciones de datos. Confidencialidad total."
+    },
+    "legal": {
+      "title": "Profesionales Legales",
+      "desc": "Mantiene el privilegio abogado-cliente con procesamiento en el dispositivo. Transcribe deposiciones y mejora documentos sin acceso de terceros."
+    },
+    "researchers": {
+      "title": "Investigadores",
+      "desc": "El cumplimiento de HIPAA y GDPR es automatico cuando los datos nunca salen de tu dispositivo. Procesa entrevistas y documentos localmente."
+    },
+    "business": {
+      "title": "Pequenas Empresas",
+      "desc": "Ahorra $360+/ano solo en herramientas de transcripcion y escritura. IA profesional por $0. Invierte los ahorros en crecimiento, no en alquiler de software."
+    },
+    "students": {
+      "title": "Estudiantes y Academicos",
+      "desc": "Mejora ensayos, transcribe clases y procesa documentos sin suscripciones costosas ni preocupaciones de privacidad."
+    },
+    "privacy": {
+      "title": "Defensores de la Privacidad",
+      "desc": "Audita cada linea de codigo tu mismo. Transparencia de codigo abierto. Sin confianza ciega requerida. Usa IA en tus propios terminos."
+    }
+  },
+  "comparison": {
+    "label": "Por Que Elegirnos",
+    "title": "Svetozar vs <span class='gradient-text'>Servicios en la Nube</span>",
+    "feature": "Caracteristica",
+    "cloud": "Servicios en la Nube",
+    "svetozar": "Herramientas Svetozar",
+    "row1": {
+      "feature": "Costo Mensual",
+      "svetozar": "$0 para Siempre"
+    },
+    "row2": {
+      "feature": "Privacidad",
+      "cloud": "Subir a servidores",
+      "svetozar": "100% Local"
+    },
+    "row3": {
+      "feature": "Internet Requerido",
+      "cloud": "Siempre",
+      "svetozar": "Funciona Sin Conexion"
+    },
+    "row4": {
+      "feature": "Limites de Uso",
+      "cloud": "Minutos/paginas limitados",
+      "svetozar": "Ilimitado"
+    },
+    "row5": {
+      "feature": "Cuenta Requerida",
+      "cloud": "Si + verificacion",
+      "svetozar": "Sin cuentas"
+    },
+    "row6": {
+      "feature": "Propiedad de Datos",
+      "cloud": "Almacenados en servidores",
+      "svetozar": "Tu posees el 100%"
+    },
+    "row7": {
+      "feature": "Codigo Abierto",
+      "cloud": "Propietario",
+      "svetozar": "Licencia MIT"
+    }
+  },
+  "testimonials": {
+    "label": "Usuarios Globales",
+    "title": "Confianza Mundial",
+    "t1": {
+      "quote": "\"La transcripcion en espanol de LocalMind es increiblemente precisa. Proceso mas de 10 horas de entrevistas semanalmente sin pagar tarifas de suscripcion.\"",
+      "name": "Maria Gonzalez",
+      "role": "Podcaster, Mexico"
+    },
+    "t2": {
+      "quote": "\"El cumplimiento de HIPAA era critico para nuestras entrevistas de pacientes. LocalMind procesa todo localmente - ningun dato sale de nuestros sistemas seguros.\"",
+      "name": "Dr. Yuki Tanaka",
+      "role": "Investigador Medico, Japon"
+    },
+    "t3": {
+      "quote": "\"LocalWrite me ayudo a mejorar mi tesis mientras mantenia mi investigacion completamente privada. El chat de IA es como tener un tutor de escritura sin conexion.\"",
+      "name": "Priya Sharma",
+      "role": "Estudiante de Doctorado, India"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para IA Privada?",
+    "subtitle": "Unete a miles que han elegido privacidad sin sacrificar capacidad. Descarga nuestras herramientas y experimenta la diferencia.",
+    "explore": "Explorar Productos",
+    "github": "Destacar en GitHub"
+  },
+  "footer": {
+    "tagline": "IA que es gratuita, privada y tuya.",
+    "products": "Productos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discussions": "Discusiones",
+    "privacy": "Politica de Privacidad",
+    "license": "Licencia MIT",
+    "copyright": "&copy; 2025 Svetozar Technologies. Licencia MIT.",
+    "built": "Construido pensando en la privacidad. Ningun dato sale de tu dispositivo."
+  }
+}

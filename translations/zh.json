@@ -1,0 +1,183 @@
+{
+  "lang": "zh",
+  "name": "中文",
+  "nav": {
+    "mission": "使命",
+    "products": "产品",
+    "github": "GitHub",
+    "get_started": "开始使用"
+  },
+  "hero": {
+    "badge": "100%离线 &bull; 开源 &bull; 永久免费",
+    "title": "AI应该是自由的。<br>AI应该是私密的。<br><span class='gradient-text'>AI应该属于你。</span>",
+    "subtitle": "我们构建尊重您隐私的AI工具。没有云服务器，没有数据收集，没有妥协。您的想法永远属于您。",
+    "cta_products": "探索产品",
+    "cta_github": "在GitHub上查看"
+  },
+  "stats": {
+    "offline": "离线处理",
+    "data": "收集的数据",
+    "products": "隐私工具",
+    "license": "开放许可"
+  },
+  "mission": {
+    "label": "我们的使命",
+    "title": "照亮AI隐私",
+    "subtitle": "\"Svetozar\"在斯拉夫语中意为\"世界之光\"。我们相信AI应该照亮可能性，而不是遮蔽您的隐私。",
+    "privacy_title": "隐私优先",
+    "privacy_desc": "我们构建的每个产品都100%在您的设备上本地运行。您的数据永远不会触及我们的服务器，因为我们没有服务器。",
+    "offline_title": "始终离线",
+    "offline_desc": "需要互联网连接？可选的。我们的AI可以在任何地方工作 - 在飞机上，在小屋里，或者只是当您想要数字和平时。",
+    "opensource_title": "开源",
+    "opensource_desc": "透明建立信任。我们所有的代码都是开源的、可审计的，并采用MIT许可。准确了解您的机器上运行的是什么。",
+    "free_title": "永久免费",
+    "free_desc": "没有订阅，没有高级层级，没有追加销售。隐私不应该是奢侈品。我们的工具对所有人永远免费。",
+    "noaccount_title": "无需账户",
+    "noaccount_desc": "下载即用。无需注册，无需邮箱验证，无需API密钥。我们不需要您的个人信息。",
+    "empower_title": "用户赋能",
+    "empower_desc": "我们构建将权力还给用户的工具。您控制您的AI、您的数据和您的数字生活。"
+  },
+  "products": {
+    "label": "我们的产品",
+    "title": "私密AI工具",
+    "subtitle": "完全在您设备上运行的强大AI功能。无需云端。",
+    "badge_available": "现已推出",
+    "badge_coming": "即将推出",
+    "download": "下载",
+    "source": "源代码",
+    "coming_soon": "即将推出",
+    "localmind": {
+      "tagline": "私密语音识别",
+      "desc": "在完全隐私的情况下将语音转换为文本。专业级转录永远不会离开您的设备。",
+      "f1": "实时转录",
+      "f2": "支持99+种语言",
+      "f3": "说话人识别",
+      "f4": "AI驱动的质量评分",
+      "f5": "macOS、Windows和Linux"
+    },
+    "localwrite": {
+      "tagline": "私密AI写作助手",
+      "desc": "使用强大的本地AI增强您的写作。多种模式、AI聊天和智能建议 - 全部100%离线。",
+      "f1": "5种写作增强模式",
+      "f2": "AI聊天助手（离线）",
+      "f3": "PDF文档增强",
+      "f4": "5个AI模型可选",
+      "f5": "macOS（Windows即将推出）"
+    },
+    "localpdf": {
+      "tagline": "私密PDF工具包",
+      "desc": "无需云端上传的完整PDF处理。压缩、合并、拆分、转换 - 全部在您的设备上本地完成。",
+      "f1": "智能PDF压缩",
+      "f2": "合并和拆分文档",
+      "f3": "图片转PDF",
+      "f4": "PowerPoint转PDF",
+      "f5": "macOS、Windows和Linux"
+    }
+  },
+  "usecases": {
+    "label": "使用场景",
+    "title": "为<span class='gradient-text'>真实用户</span>打造",
+    "subtitle": "从保护消息来源的记者到节省成本的企业 - 我们的工具以一个核心承诺服务于多样化的需求：您的数据始终属于您。",
+    "journalists": {
+      "title": "记者和播客主持人",
+      "desc": "通过100%离线转录和写作保护消息来源的身份。没有服务器日志。没有数据泄露。完全保密。"
+    },
+    "legal": {
+      "title": "法律专业人士",
+      "desc": "通过设备端处理维护律师-客户特权。无需第三方访问即可转录证词和增强文档。"
+    },
+    "researchers": {
+      "title": "研究人员",
+      "desc": "当数据永远不离开您的设备时，HIPAA和GDPR合规是自动的。在本地处理访谈和文档。"
+    },
+    "business": {
+      "title": "小型企业",
+      "desc": "仅在转录和写作工具上每年节省360美元以上。0美元获得专业AI。将节省投资于增长，而不是软件租金。"
+    },
+    "students": {
+      "title": "学生和学者",
+      "desc": "无需昂贵的订阅或隐私担忧，即可增强论文、转录讲座和处理文档。"
+    },
+    "privacy": {
+      "title": "隐私倡导者",
+      "desc": "自己审计每一行代码。开源透明。无需盲目信任。按您的条件使用AI。"
+    }
+  },
+  "comparison": {
+    "label": "为什么选择我们",
+    "title": "Svetozar vs <span class='gradient-text'>云服务</span>",
+    "feature": "功能",
+    "cloud": "云服务",
+    "svetozar": "Svetozar工具",
+    "row1": {
+      "feature": "月费",
+      "svetozar": "永久$0"
+    },
+    "row2": {
+      "feature": "隐私",
+      "cloud": "上传到服务器",
+      "svetozar": "100%本地"
+    },
+    "row3": {
+      "feature": "需要互联网",
+      "cloud": "始终",
+      "svetozar": "离线工作"
+    },
+    "row4": {
+      "feature": "使用限制",
+      "cloud": "有限的分钟/页面",
+      "svetozar": "无限"
+    },
+    "row5": {
+      "feature": "需要账户",
+      "cloud": "是 + 验证",
+      "svetozar": "无需账户"
+    },
+    "row6": {
+      "feature": "数据所有权",
+      "cloud": "存储在服务器",
+      "svetozar": "您100%拥有"
+    },
+    "row7": {
+      "feature": "开源",
+      "cloud": "专有",
+      "svetozar": "MIT许可"
+    }
+  },
+  "testimonials": {
+    "label": "全球用户",
+    "title": "全球信赖",
+    "t1": {
+      "quote": "\"LocalMind的西班牙语转录准确度令人难以置信。我每周处理10多个小时的采访，无需支付订阅费。\"",
+      "name": "玛丽亚·冈萨雷斯",
+      "role": "播客主持人，墨西哥"
+    },
+    "t2": {
+      "quote": "\"HIPAA合规对我们的患者访谈至关重要。LocalMind在本地处理一切 - 没有数据离开我们的安全系统。\"",
+      "name": "田中由纪博士",
+      "role": "医学研究员，日本"
+    },
+    "t3": {
+      "quote": "\"LocalWrite帮助我改进论文，同时保持研究完全私密。AI聊天就像有一个离线写作导师。\"",
+      "name": "普里亚·夏尔马",
+      "role": "博士生，印度"
+    }
+  },
+  "cta": {
+    "title": "准备好使用私密AI了吗？",
+    "subtitle": "加入数千名选择隐私而不牺牲能力的用户。下载我们的工具，体验不同。",
+    "explore": "探索产品",
+    "github": "在GitHub上加星"
+  },
+  "footer": {
+    "tagline": "免费、私密、属于您的AI。",
+    "products": "产品",
+    "community": "社区",
+    "legal": "法律",
+    "discussions": "讨论",
+    "privacy": "隐私政策",
+    "license": "MIT许可",
+    "copyright": "&copy; 2025 Svetozar Technologies. MIT许可。",
+    "built": "以隐私为本构建。没有数据离开您的设备。"
+  }
+}

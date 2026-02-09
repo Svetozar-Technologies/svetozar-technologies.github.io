@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Svetozar Technologies - Private AI for Everyone</title>
     <meta name="description" content="Svetozar Technologies builds privacy-first AI tools that run 100% offline. Your data stays yours. No cloud, no tracking, no compromise.">
-    <meta name="keywords" content="private AI, offline AI, privacy, local AI, speech recognition, writing assistant">
+    <meta name="keywords" content="private AI, offline AI, privacy, local AI, speech recognition, writing assistant, PDF tools">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Svetozar Technologies - Private AI for Everyone">
@@ -18,573 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <style>
-        /* Unified Svetozar Technologies Theme - Matching LocalMind */
-        :root {
-            --primary: #4F46E5;
-            --primary-dark: #3730A3;
-            --primary-light: #818CF8;
-            --secondary: #7C3AED;
-            --accent: #A78BFA;
-            --accent-green: #22c55e;
-            --background: #0a0a0a;
-            --surface: #111111;
-            --surface-light: #171717;
-            --surface-hover: #1f1f1f;
-            --text: #ffffff;
-            --text-secondary: #a1a1aa;
-            --text-muted: #71717a;
-            --border: #27272a;
-            --border-light: #3f3f46;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--background);
-            color: var(--text);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Navigation */
-        .nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            padding: 1rem 2rem;
-            background: rgba(10, 10, 10, 0.8);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: var(--text);
-        }
-
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-        }
-
-        .logo-text {
-            font-size: 1.25rem;
-            font-weight: 700;
-        }
-
-        .logo-text span {
-            color: var(--primary-light);
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: var(--text);
-        }
-
-        .nav-cta {
-            background: var(--primary);
-            color: white !important;
-            padding: 0.5rem 1.25rem;
-            border-radius: 8px;
-            transition: background 0.3s !important;
-        }
-
-        .nav-cta:hover {
-            background: var(--primary-dark) !important;
-        }
-
-        /* Hero Section */
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 8rem 2rem 4rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background:
-                radial-gradient(ellipse at top, rgba(79, 70, 229, 0.15) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .hero-content {
-            max-width: 900px;
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 0.5rem 1rem;
-            border-radius: 50px;
-            font-size: 0.875rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-        }
-
-        .hero-badge-dot {
-            width: 8px;
-            height: 8px;
-            background: var(--accent);
-            border-radius: 50%;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
-
-        .hero h1 {
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 800;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, var(--text) 0%, var(--primary-light) 50%, var(--secondary) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto 2.5rem;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 40px rgba(79, 70, 229, 0.3);
-        }
-
-        .btn-secondary {
-            background: var(--surface-light);
-            color: var(--text);
-            border: 1px solid var(--border);
-        }
-
-        .btn-secondary:hover {
-            background: var(--surface-hover);
-            border-color: var(--border-light);
-        }
-
-        /* Mission Section */
-        .mission {
-            padding: 6rem 2rem;
-            background: var(--surface-light);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section-header {
-            text-align: center;
-            max-width: 700px;
-            margin: 0 auto 4rem;
-        }
-
-        .section-label {
-            color: var(--primary-light);
-            font-weight: 600;
-            font-size: 0.875rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 1rem;
-        }
-
-        .section-title {
-            font-size: clamp(2rem, 4vw, 2.75rem);
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        .section-desc {
-            color: var(--text-secondary);
-            font-size: 1.125rem;
-        }
-
-        .mission-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .mission-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-            transition: all 0.3s;
-        }
-
-        .mission-card:hover {
-            background: var(--surface-hover);
-            border-color: var(--border-light);
-            transform: translateY(-4px);
-        }
-
-        .mission-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .mission-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 0.75rem;
-        }
-
-        .mission-card p {
-            color: var(--text-secondary);
-        }
-
-        /* Products Section */
-        .products {
-            padding: 6rem 2rem;
-        }
-
-        .products-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 2rem;
-        }
-
-        .product-card {
-            background: var(--surface-light);
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 2.5rem;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.3s;
-        }
-
-        .product-card:hover {
-            background: var(--surface-hover);
-            border-color: var(--border-light);
-            transform: translateY(-4px);
-        }
-
-        .product-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary), var(--secondary));
-        }
-
-        .product-icon {
-            width: 72px;
-            height: 72px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .product-badge {
-            display: inline-block;
-            background: var(--accent-green);
-            color: white;
-            font-size: 0.75rem;
-            font-weight: 600;
-            padding: 0.25rem 0.75rem;
-            border-radius: 50px;
-            margin-bottom: 1rem;
-        }
-
-        .product-card h3 {
-            font-size: 1.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .product-tagline {
-            color: var(--primary-light);
-            font-weight: 500;
-            margin-bottom: 1rem;
-        }
-
-        .product-desc {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-
-        .product-features {
-            list-style: none;
-            margin-bottom: 2rem;
-        }
-
-        .product-features li {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 0.5rem 0;
-            color: var(--text-secondary);
-        }
-
-        .product-features li::before {
-            content: '✓';
-            color: var(--accent-green);
-            font-weight: bold;
-        }
-
-        .product-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--primary-light);
-            text-decoration: none;
-            font-weight: 600;
-            transition: gap 0.3s;
-        }
-
-        .product-link:hover {
-            gap: 12px;
-        }
-
-        /* Values Section */
-        .values {
-            padding: 6rem 2rem;
-            background: var(--surface);
-        }
-
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .value-card {
-            background: var(--surface-light);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.5rem;
-            text-align: center;
-            transition: all 0.3s;
-        }
-
-        .value-card:hover {
-            border-color: var(--border-light);
-            transform: translateY(-2px);
-        }
-
-        .value-number {
-            font-size: 2.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--primary-light), var(--accent));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .value-label {
-            color: var(--text-muted);
-            font-size: 0.875rem;
-            margin-top: 0.5rem;
-        }
-
-        /* CTA Section */
-        .cta {
-            padding: 6rem 2rem;
-            text-align: center;
-        }
-
-        .cta-box {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 24px;
-            padding: 4rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .cta-box::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        }
-
-        .cta-content {
-            position: relative;
-            z-index: 1;
-        }
-
-        .cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .cta p {
-            font-size: 1.125rem;
-            opacity: 0.9;
-            margin-bottom: 2rem;
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .cta .btn-secondary {
-            background: white;
-            color: var(--primary);
-            border: none;
-        }
-
-        .cta .btn-secondary:hover {
-            background: var(--text);
-            transform: translateY(-2px);
-        }
-
-        /* Footer */
-        .footer {
-            padding: 3rem 2rem;
-            border-top: 1px solid var(--border);
-            text-align: center;
-        }
-
-        .footer-logo {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        .footer-logo span {
-            color: var(--primary-light);
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 2rem;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover {
-            color: var(--text);
-        }
-
-        .footer-copy {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .products-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .cta-box {
-                padding: 2rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -595,32 +29,70 @@
                 <div class="logo-text">Svetozar <span>Technologies</span></div>
             </a>
             <div class="nav-links">
-                <a href="#mission">Mission</a>
-                <a href="#products">Products</a>
-                <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
-                <a href="#products" class="nav-cta">Get Started</a>
+                <a href="#mission" data-i18n="nav.mission">Mission</a>
+                <a href="#products" data-i18n="nav.products">Products</a>
+                <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
+                <div id="languageSelector" class="language-selector"></div>
+                <a href="#products" class="nav-cta" data-i18n="nav.get_started">Get Started</a>
             </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#mission" data-i18n="nav.mission">Mission</a>
+        <a href="#products" data-i18n="nav.products">Products</a>
+        <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
+        <div id="languageSelectorMobile" class="language-selector mobile"></div>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <div class="hero-badge">
                 <span class="hero-badge-dot"></span>
-                100% Offline &bull; Open Source &bull; Free Forever
+                <span data-i18n="hero.badge">100% Offline &bull; Open Source &bull; Free Forever</span>
             </div>
-            <h1>Private AI for Everyone</h1>
-            <p>We build AI tools that respect your privacy. No cloud servers, no data collection, no compromise. Your thoughts remain yours.</p>
+            <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
+            <p data-i18n="hero.subtitle">We build AI tools that respect your privacy. No cloud servers, no data collection, no compromise. Your thoughts remain yours.</p>
             <div class="hero-buttons">
                 <a href="#products" class="btn btn-primary">
-                    Explore Products
+                    <span data-i18n="hero.cta_products">Explore Products</span>
                     <span>→</span>
                 </a>
                 <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-secondary">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    View on GitHub
+                    <span data-i18n="hero.cta_github">View on GitHub</span>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Stats -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" data-i18n="stats.offline">Offline Processing</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label" data-i18n="stats.data">Data Collected</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label" data-i18n="stats.products">Privacy Tools</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">MIT</div>
+                    <div class="stat-label" data-i18n="stats.license">Open License</div>
+                </div>
             </div>
         </div>
     </section>
@@ -629,41 +101,41 @@
     <section class="mission" id="mission">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">Our Mission</div>
-                <h2 class="section-title">Bringing Light to AI Privacy</h2>
-                <p class="section-desc">"Svetozar" means "light of the world" in Slavic languages. We believe AI should illuminate possibilities, not shadow your privacy.</p>
+                <div class="section-label" data-i18n="mission.label">Our Mission</div>
+                <h2 class="section-title" data-i18n="mission.title">Bringing Light to AI Privacy</h2>
+                <p class="section-desc" data-i18n="mission.subtitle">"Svetozar" means "light of the world" in Slavic languages. We believe AI should illuminate possibilities, not shadow your privacy.</p>
             </div>
 
             <div class="mission-grid">
                 <div class="mission-card">
                     <div class="mission-icon">🔒</div>
-                    <h3>Privacy First</h3>
-                    <p>Every product we build runs 100% locally on your device. Your data never touches our servers because we don't have any.</p>
+                    <h3 data-i18n="mission.privacy_title">Privacy First</h3>
+                    <p data-i18n="mission.privacy_desc">Every product we build runs 100% locally on your device. Your data never touches our servers because we don't have any.</p>
                 </div>
                 <div class="mission-card">
                     <div class="mission-icon">🌐</div>
-                    <h3>Offline Always</h3>
-                    <p>Internet connection? Optional. Our AI works anywhere - on a plane, in a cabin, or simply when you want digital peace.</p>
+                    <h3 data-i18n="mission.offline_title">Offline Always</h3>
+                    <p data-i18n="mission.offline_desc">Internet connection? Optional. Our AI works anywhere - on a plane, in a cabin, or simply when you want digital peace.</p>
                 </div>
                 <div class="mission-card">
                     <div class="mission-icon">🔓</div>
-                    <h3>Open Source</h3>
-                    <p>Transparency builds trust. All our code is open source, auditable, and MIT licensed. See exactly what runs on your machine.</p>
+                    <h3 data-i18n="mission.opensource_title">Open Source</h3>
+                    <p data-i18n="mission.opensource_desc">Transparency builds trust. All our code is open source, auditable, and MIT licensed. See exactly what runs on your machine.</p>
                 </div>
                 <div class="mission-card">
                     <div class="mission-icon">💝</div>
-                    <h3>Free Forever</h3>
-                    <p>No subscriptions, no premium tiers, no upsells. Privacy shouldn't be a luxury. Our tools are free for everyone, always.</p>
+                    <h3 data-i18n="mission.free_title">Free Forever</h3>
+                    <p data-i18n="mission.free_desc">No subscriptions, no premium tiers, no upsells. Privacy shouldn't be a luxury. Our tools are free for everyone, always.</p>
                 </div>
                 <div class="mission-card">
                     <div class="mission-icon">🚀</div>
-                    <h3>No Accounts</h3>
-                    <p>Download and use. No sign-ups, no email verification, no API keys. We don't want your personal information.</p>
+                    <h3 data-i18n="mission.noaccount_title">No Accounts</h3>
+                    <p data-i18n="mission.noaccount_desc">Download and use. No sign-ups, no email verification, no API keys. We don't want your personal information.</p>
                 </div>
                 <div class="mission-card">
                     <div class="mission-icon">🎯</div>
-                    <h3>User Empowerment</h3>
-                    <p>We build tools that give power back to users. You control your AI, your data, and your digital life.</p>
+                    <h3 data-i18n="mission.empower_title">User Empowerment</h3>
+                    <p data-i18n="mission.empower_desc">We build tools that give power back to users. You control your AI, your data, and your digital life.</p>
                 </div>
             </div>
         </div>
@@ -673,83 +145,228 @@
     <section class="products" id="products">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">Our Products</div>
-                <h2 class="section-title">Private AI Tools</h2>
-                <p class="section-desc">Powerful AI capabilities that run entirely on your device. No cloud required.</p>
+                <div class="section-label" data-i18n="products.label">Our Products</div>
+                <h2 class="section-title" data-i18n="products.title">Private AI Tools</h2>
+                <p class="section-desc" data-i18n="products.subtitle">Powerful AI capabilities that run entirely on your device. No cloud required.</p>
             </div>
 
             <div class="products-grid">
                 <!-- LocalMind -->
                 <div class="product-card">
                     <div class="product-icon">🎙️</div>
-                    <span class="product-badge">Speech to Text</span>
+                    <span class="product-badge available" data-i18n="products.badge_available">Available Now</span>
                     <h3>LocalMind</h3>
-                    <p class="product-tagline">Private Speech Recognition</p>
-                    <p class="product-desc">Transform speech to text with complete privacy. Professional-grade transcription that never leaves your device.</p>
+                    <p class="product-tagline" data-i18n="products.localmind.tagline">Private Speech Recognition</p>
+                    <p class="product-desc" data-i18n="products.localmind.desc">Transform speech to text with complete privacy. Professional-grade transcription that never leaves your device.</p>
                     <ul class="product-features">
-                        <li>Real-time transcription</li>
-                        <li>99+ languages supported</li>
-                        <li>Speaker identification</li>
-                        <li>Works completely offline</li>
-                        <li>macOS, Windows, Linux</li>
+                        <li data-i18n="products.localmind.f1">Real-time transcription</li>
+                        <li data-i18n="products.localmind.f2">99+ languages supported</li>
+                        <li data-i18n="products.localmind.f3">Speaker identification</li>
+                        <li data-i18n="products.localmind.f4">AI-powered quality scoring</li>
+                        <li data-i18n="products.localmind.f5">macOS, Windows & Linux</li>
                     </ul>
-                    <a href="./localmind/" class="product-link">
-                        Learn more about LocalMind
-                        <span>→</span>
-                    </a>
+                    <div class="product-actions">
+                        <a href="./localmind/" class="btn btn-primary btn-small">
+                            <span data-i18n="products.download">Download</span>
+                        </a>
+                        <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-secondary btn-small">
+                            <span data-i18n="products.source">Source Code</span>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- LocalWrite -->
                 <div class="product-card">
                     <div class="product-icon">✍️</div>
-                    <span class="product-badge">Writing Assistant</span>
+                    <span class="product-badge available" data-i18n="products.badge_available">Available Now</span>
                     <h3>LocalWrite</h3>
-                    <p class="product-tagline">Private AI Writing Enhancement</p>
-                    <p class="product-desc">Enhance your writing with local AI. Professional modes, creative styles, and intelligent suggestions - all offline.</p>
+                    <p class="product-tagline" data-i18n="products.localwrite.tagline">Private AI Writing Assistant</p>
+                    <p class="product-desc" data-i18n="products.localwrite.desc">Enhance your writing with powerful local AI. Multiple modes, AI chat, and intelligent suggestions - all 100% offline.</p>
                     <ul class="product-features">
-                        <li>5 writing enhancement modes</li>
-                        <li>AI chat assistant (offline)</li>
-                        <li>PDF document enhancement</li>
-                        <li>Smart model selection</li>
-                        <li>macOS (Windows coming soon)</li>
+                        <li data-i18n="products.localwrite.f1">5 writing enhancement modes</li>
+                        <li data-i18n="products.localwrite.f2">AI chat assistant (offline)</li>
+                        <li data-i18n="products.localwrite.f3">PDF document enhancement</li>
+                        <li data-i18n="products.localwrite.f4">5 AI models to choose from</li>
+                        <li data-i18n="products.localwrite.f5">macOS (Windows coming soon)</li>
                     </ul>
-                    <a href="./localwrite/" class="product-link">
-                        Learn more about LocalWrite
-                        <span>→</span>
-                    </a>
+                    <div class="product-actions">
+                        <a href="./localwrite/" class="btn btn-primary btn-small">
+                            <span data-i18n="products.download">Download</span>
+                        </a>
+                        <a href="https://github.com/KaivalyaDeepTeam/LocalWrite" target="_blank" class="btn btn-secondary btn-small">
+                            <span data-i18n="products.source">Source Code</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LocalPDF -->
+                <div class="product-card">
+                    <div class="product-icon">📄</div>
+                    <span class="product-badge coming-soon" data-i18n="products.badge_coming">Coming Soon</span>
+                    <h3>LocalPDF</h3>
+                    <p class="product-tagline" data-i18n="products.localpdf.tagline">Private PDF Toolkit</p>
+                    <p class="product-desc" data-i18n="products.localpdf.desc">Complete PDF processing without cloud uploads. Compress, merge, split, convert - all locally on your device.</p>
+                    <ul class="product-features">
+                        <li data-i18n="products.localpdf.f1">Smart PDF compression</li>
+                        <li data-i18n="products.localpdf.f2">Merge & split documents</li>
+                        <li data-i18n="products.localpdf.f3">Image to PDF conversion</li>
+                        <li data-i18n="products.localpdf.f4">PowerPoint to PDF</li>
+                        <li data-i18n="products.localpdf.f5">macOS, Windows & Linux</li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="./localpdf/" class="btn btn-primary btn-small btn-disabled">
+                            <span data-i18n="products.coming_soon">Coming Soon</span>
+                        </a>
+                        <a href="https://github.com/KaivalyaDeepTeam/LocalPDF" target="_blank" class="btn btn-secondary btn-small">
+                            <span data-i18n="products.source">Source Code</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Values Section -->
-    <section class="values">
+    <!-- Use Cases Section -->
+    <section class="use-cases">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">Our Promise</div>
-                <h2 class="section-title">Privacy in Numbers</h2>
+                <div class="section-label" data-i18n="usecases.label">Use Cases</div>
+                <h2 class="section-title" data-i18n="usecases.title">Built for <span class="gradient-text">Real People</span></h2>
+                <p class="section-desc" data-i18n="usecases.subtitle">From journalists protecting sources to businesses saving costs - our tools serve diverse needs with one core promise: your data stays yours.</p>
             </div>
 
-            <div class="values-grid">
-                <div class="value-card">
-                    <div class="value-number">0</div>
-                    <div class="value-label">Data collected</div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">📰</div>
+                    <h3 data-i18n="usecases.journalists.title">Journalists & Podcasters</h3>
+                    <p data-i18n="usecases.journalists.desc">Protect source identities with 100% offline transcription and writing. No server logs. No data breaches. Complete confidentiality.</p>
                 </div>
-                <div class="value-card">
-                    <div class="value-number">0</div>
-                    <div class="value-label">Cloud servers</div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">⚖️</div>
+                    <h3 data-i18n="usecases.legal.title">Legal Professionals</h3>
+                    <p data-i18n="usecases.legal.desc">Maintain attorney-client privilege with on-device processing. Transcribe depositions and enhance documents without third-party access.</p>
                 </div>
-                <div class="value-card">
-                    <div class="value-number">0</div>
-                    <div class="value-label">Accounts required</div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🔬</div>
+                    <h3 data-i18n="usecases.researchers.title">Researchers</h3>
+                    <p data-i18n="usecases.researchers.desc">HIPAA and GDPR compliance is automatic when data never leaves your device. Process interviews and documents locally.</p>
                 </div>
-                <div class="value-card">
-                    <div class="value-number">100%</div>
-                    <div class="value-label">Open source</div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">💼</div>
+                    <h3 data-i18n="usecases.business.title">Small Businesses</h3>
+                    <p data-i18n="usecases.business.desc">Save $360+/year on transcription and writing tools alone. Professional AI for $0. Invest savings in growth, not software rent.</p>
                 </div>
-                <div class="value-card">
-                    <div class="value-number">∞</div>
-                    <div class="value-label">Free forever</div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎓</div>
+                    <h3 data-i18n="usecases.students.title">Students & Academics</h3>
+                    <p data-i18n="usecases.students.desc">Enhance essays, transcribe lectures, and process documents without expensive subscriptions or privacy concerns.</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🛡️</div>
+                    <h3 data-i18n="usecases.privacy.title">Privacy Advocates</h3>
+                    <p data-i18n="usecases.privacy.desc">Audit every line of code yourself. Open-source transparency. No blind trust required. Use AI on your own terms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="comparison.label">Why Choose Us</div>
+                <h2 class="section-title" data-i18n="comparison.title">Svetozar vs <span class="gradient-text">Cloud Services</span></h2>
+            </div>
+
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="comparison.feature">Feature</th>
+                            <th data-i18n="comparison.cloud">Cloud Services</th>
+                            <th class="highlight" data-i18n="comparison.svetozar">Svetozar Tools</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="comparison.row1.feature">Monthly Cost</td>
+                            <td class="negative">$20-100/month</td>
+                            <td class="positive highlight" data-i18n="comparison.row1.svetozar">$0 Forever</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row2.feature">Privacy</td>
+                            <td class="negative" data-i18n="comparison.row2.cloud">Upload to servers</td>
+                            <td class="positive highlight" data-i18n="comparison.row2.svetozar">100% Local</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row3.feature">Internet Required</td>
+                            <td class="negative" data-i18n="comparison.row3.cloud">Always</td>
+                            <td class="positive highlight" data-i18n="comparison.row3.svetozar">Works Offline</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row4.feature">Usage Limits</td>
+                            <td class="negative" data-i18n="comparison.row4.cloud">Limited minutes/pages</td>
+                            <td class="positive highlight" data-i18n="comparison.row4.svetozar">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row5.feature">Account Required</td>
+                            <td class="negative" data-i18n="comparison.row5.cloud">Yes + verification</td>
+                            <td class="positive highlight" data-i18n="comparison.row5.svetozar">No accounts</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row6.feature">Data Ownership</td>
+                            <td class="negative" data-i18n="comparison.row6.cloud">Stored on servers</td>
+                            <td class="positive highlight" data-i18n="comparison.row6.svetozar">You own 100%</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.row7.feature">Open Source</td>
+                            <td class="negative" data-i18n="comparison.row7.cloud">Proprietary</td>
+                            <td class="positive highlight" data-i18n="comparison.row7.svetozar">MIT License</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-i18n="testimonials.label">Global Users</div>
+                <h2 class="section-title" data-i18n="testimonials.title">Trusted Worldwide</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote" data-i18n="testimonials.t1.quote">"LocalMind's Spanish transcription is incredibly accurate. I process 10+ hours of interviews weekly without paying subscription fees."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MG</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name" data-i18n="testimonials.t1.name">Maria Gonzalez</div>
+                            <div class="testimonial-role" data-i18n="testimonials.t1.role">Podcaster, Mexico</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote" data-i18n="testimonials.t2.quote">"HIPAA compliance was critical for our patient interviews. LocalMind processes everything locally - no data ever leaves our secure systems."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">YT</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name" data-i18n="testimonials.t2.name">Dr. Yuki Tanaka</div>
+                            <div class="testimonial-role" data-i18n="testimonials.t2.role">Medical Researcher, Japan</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote" data-i18n="testimonials.t3.quote">"LocalWrite helped me enhance my thesis while keeping my research completely private. The AI chat is like having a writing tutor offline."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">PS</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name" data-i18n="testimonials.t3.name">Priya Sharma</div>
+                            <div class="testimonial-role" data-i18n="testimonials.t3.role">PhD Student, India</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -760,12 +377,18 @@
         <div class="container">
             <div class="cta-box">
                 <div class="cta-content">
-                    <h2>Ready for Private AI?</h2>
-                    <p>Join thousands who've chosen privacy without sacrificing capability. Download our tools and experience the difference.</p>
-                    <a href="#products" class="btn btn-secondary">
-                        Get Started Free
-                        <span>→</span>
-                    </a>
+                    <h2 data-i18n="cta.title">Ready for Private AI?</h2>
+                    <p data-i18n="cta.subtitle">Join thousands who've chosen privacy without sacrificing capability. Download our tools and experience the difference.</p>
+                    <div class="cta-buttons">
+                        <a href="#products" class="btn btn-white">
+                            <span data-i18n="cta.explore">Explore Products</span>
+                            <span>→</span>
+                        </a>
+                        <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            <span data-i18n="cta.github">Star on GitHub</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -774,41 +397,36 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-logo">Svetozar <span>Technologies</span></div>
-            <div class="footer-links">
-                <a href="./localmind/">LocalMind</a>
-                <a href="./localwrite/">LocalWrite</a>
-                <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
-                <a href="./localmind/privacy.html">Privacy Policy</a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">Svetozar <span>Technologies</span></div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4 data-i18n="footer.products">Products</h4>
+                    <a href="./localmind/">LocalMind</a>
+                    <a href="./localwrite/">LocalWrite</a>
+                    <a href="./localpdf/">LocalPDF</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4 data-i18n="footer.community">Community</h4>
+                    <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4 data-i18n="footer.legal">Legal</h4>
+                    <a href="./localmind/privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+                    <a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a>
+                </div>
             </div>
-            <p class="footer-copy">
-                &copy; 2025 Svetozar Technologies. MIT License.<br>
-                Built with privacy in mind. No data leaves your device.
-            </p>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies. MIT License.</p>
+                <p data-i18n="footer.built">Built with privacy in mind. No data leaves your device.</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
-        });
-
-        // Navbar background on scroll
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 50) {
-                nav.style.background = 'rgba(10, 10, 10, 0.95)';
-            } else {
-                nav.style.background = 'rgba(10, 10, 10, 0.8)';
-            }
-        });
-    </script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

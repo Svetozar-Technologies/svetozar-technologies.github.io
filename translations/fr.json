@@ -1,0 +1,183 @@
+{
+  "lang": "fr",
+  "name": "Francais",
+  "nav": {
+    "mission": "Mission",
+    "products": "Produits",
+    "github": "GitHub",
+    "get_started": "Commencer"
+  },
+  "hero": {
+    "badge": "100% Hors Ligne &bull; Open Source &bull; Gratuit pour Toujours",
+    "title": "L'IA Devrait Etre Libre.<br>L'IA Devrait Etre Privee.<br><span class='gradient-text'>L'IA Devrait Etre Votre.</span>",
+    "subtitle": "Nous construisons des outils d'IA qui respectent votre vie privee. Pas de serveurs cloud, pas de collecte de donnees, pas de compromis. Vos pensees restent les votres.",
+    "cta_products": "Explorer les Produits",
+    "cta_github": "Voir sur GitHub"
+  },
+  "stats": {
+    "offline": "Traitement Hors Ligne",
+    "data": "Donnees Collectees",
+    "products": "Outils de Confidentialite",
+    "license": "Licence Ouverte"
+  },
+  "mission": {
+    "label": "Notre Mission",
+    "title": "Eclairer la Confidentialite de l'IA",
+    "subtitle": "\"Svetozar\" signifie \"lumiere du monde\" dans les langues slaves. Nous croyons que l'IA devrait eclairer les possibilites, pas assombrir votre vie privee.",
+    "privacy_title": "Confidentialite d'Abord",
+    "privacy_desc": "Chaque produit que nous construisons fonctionne 100% localement sur votre appareil. Vos donnees ne touchent jamais nos serveurs car nous n'en avons pas.",
+    "offline_title": "Toujours Hors Ligne",
+    "offline_desc": "Connexion internet? Optionnelle. Notre IA fonctionne partout - dans un avion, dans une cabane, ou simplement quand vous voulez la paix numerique.",
+    "opensource_title": "Open Source",
+    "opensource_desc": "La transparence cree la confiance. Tout notre code est open source, verifiable et sous licence MIT. Voyez exactement ce qui tourne sur votre machine.",
+    "free_title": "Gratuit pour Toujours",
+    "free_desc": "Pas d'abonnements, pas de niveaux premium, pas de ventes incitatives. La vie privee ne devrait pas etre un luxe. Nos outils sont gratuits pour tous, toujours.",
+    "noaccount_title": "Pas de Comptes",
+    "noaccount_desc": "Telechargez et utilisez. Pas d'inscription, pas de verification d'email, pas de cles API. Nous ne voulons pas vos informations personnelles.",
+    "empower_title": "Autonomisation des Utilisateurs",
+    "empower_desc": "Nous construisons des outils qui redonnent le pouvoir aux utilisateurs. Vous controlez votre IA, vos donnees et votre vie numerique."
+  },
+  "products": {
+    "label": "Nos Produits",
+    "title": "Outils d'IA Prives",
+    "subtitle": "Des capacites d'IA puissantes qui fonctionnent entierement sur votre appareil. Pas de cloud necessaire.",
+    "badge_available": "Disponible Maintenant",
+    "badge_coming": "Bientot Disponible",
+    "download": "Telecharger",
+    "source": "Code Source",
+    "coming_soon": "Bientot Disponible",
+    "localmind": {
+      "tagline": "Reconnaissance Vocale Privee",
+      "desc": "Transformez la parole en texte avec une confidentialite totale. Transcription de qualite professionnelle qui ne quitte jamais votre appareil.",
+      "f1": "Transcription en temps reel",
+      "f2": "99+ langues supportees",
+      "f3": "Identification des intervenants",
+      "f4": "Evaluation de qualite par IA",
+      "f5": "macOS, Windows et Linux"
+    },
+    "localwrite": {
+      "tagline": "Assistant d'Ecriture IA Prive",
+      "desc": "Ameliorez votre ecriture avec une IA locale puissante. Plusieurs modes, chat IA et suggestions intelligentes - le tout 100% hors ligne.",
+      "f1": "5 modes d'amelioration de l'ecriture",
+      "f2": "Assistant chat IA (hors ligne)",
+      "f3": "Amelioration de documents PDF",
+      "f4": "5 modeles d'IA au choix",
+      "f5": "macOS (Windows bientot)"
+    },
+    "localpdf": {
+      "tagline": "Boite a Outils PDF Privee",
+      "desc": "Traitement PDF complet sans telechargement cloud. Compresser, fusionner, diviser, convertir - tout localement sur votre appareil.",
+      "f1": "Compression PDF intelligente",
+      "f2": "Fusionner et diviser des documents",
+      "f3": "Conversion image vers PDF",
+      "f4": "PowerPoint vers PDF",
+      "f5": "macOS, Windows et Linux"
+    }
+  },
+  "usecases": {
+    "label": "Cas d'Utilisation",
+    "title": "Construit pour <span class='gradient-text'>de Vraies Personnes</span>",
+    "subtitle": "Des journalistes protegeant leurs sources aux entreprises economisant des couts - nos outils servent des besoins divers avec une promesse centrale: vos donnees restent les votres.",
+    "journalists": {
+      "title": "Journalistes et Podcasters",
+      "desc": "Protegez l'identite de vos sources avec la transcription et l'ecriture 100% hors ligne. Pas de logs serveur. Pas de fuites de donnees. Confidentialite totale."
+    },
+    "legal": {
+      "title": "Professionnels du Droit",
+      "desc": "Maintenez le secret professionnel avec le traitement sur appareil. Transcrivez les depositions et ameliorez les documents sans acces tiers."
+    },
+    "researchers": {
+      "title": "Chercheurs",
+      "desc": "La conformite HIPAA et RGPD est automatique lorsque les donnees ne quittent jamais votre appareil. Traitez les entretiens et documents localement."
+    },
+    "business": {
+      "title": "Petites Entreprises",
+      "desc": "Economisez 360$+/an sur les outils de transcription et d'ecriture seuls. IA professionnelle pour 0$. Investissez les economies dans la croissance, pas la location de logiciels."
+    },
+    "students": {
+      "title": "Etudiants et Academiques",
+      "desc": "Ameliorez vos essais, transcrivez vos cours et traitez vos documents sans abonnements couteux ni soucis de confidentialite."
+    },
+    "privacy": {
+      "title": "Defenseurs de la Vie Privee",
+      "desc": "Auditez chaque ligne de code vous-meme. Transparence open source. Pas de confiance aveugle requise. Utilisez l'IA a vos conditions."
+    }
+  },
+  "comparison": {
+    "label": "Pourquoi Nous Choisir",
+    "title": "Svetozar vs <span class='gradient-text'>Services Cloud</span>",
+    "feature": "Fonctionnalite",
+    "cloud": "Services Cloud",
+    "svetozar": "Outils Svetozar",
+    "row1": {
+      "feature": "Cout Mensuel",
+      "svetozar": "0$ pour Toujours"
+    },
+    "row2": {
+      "feature": "Confidentialite",
+      "cloud": "Telecharger sur serveurs",
+      "svetozar": "100% Local"
+    },
+    "row3": {
+      "feature": "Internet Requis",
+      "cloud": "Toujours",
+      "svetozar": "Fonctionne Hors Ligne"
+    },
+    "row4": {
+      "feature": "Limites d'Utilisation",
+      "cloud": "Minutes/pages limitees",
+      "svetozar": "Illimite"
+    },
+    "row5": {
+      "feature": "Compte Requis",
+      "cloud": "Oui + verification",
+      "svetozar": "Pas de comptes"
+    },
+    "row6": {
+      "feature": "Propriete des Donnees",
+      "cloud": "Stockees sur serveurs",
+      "svetozar": "Vous possedez 100%"
+    },
+    "row7": {
+      "feature": "Open Source",
+      "cloud": "Proprietaire",
+      "svetozar": "Licence MIT"
+    }
+  },
+  "testimonials": {
+    "label": "Utilisateurs Mondiaux",
+    "title": "Fiable dans le Monde Entier",
+    "t1": {
+      "quote": "\"La transcription espagnole de LocalMind est incroyablement precise. Je traite plus de 10 heures d'entretiens par semaine sans payer de frais d'abonnement.\"",
+      "name": "Maria Gonzalez",
+      "role": "Podcaster, Mexique"
+    },
+    "t2": {
+      "quote": "\"La conformite HIPAA etait critique pour nos entretiens de patients. LocalMind traite tout localement - aucune donnee ne quitte jamais nos systemes securises.\"",
+      "name": "Dr. Yuki Tanaka",
+      "role": "Chercheur Medical, Japon"
+    },
+    "t3": {
+      "quote": "\"LocalWrite m'a aide a ameliorer ma these tout en gardant mes recherches completement privees. Le chat IA est comme avoir un tuteur d'ecriture hors ligne.\"",
+      "name": "Priya Sharma",
+      "role": "Etudiante en Doctorat, Inde"
+    }
+  },
+  "cta": {
+    "title": "Pret pour l'IA Privee?",
+    "subtitle": "Rejoignez des milliers de personnes qui ont choisi la confidentialite sans sacrifier les capacites. Telechargez nos outils et decouvrez la difference.",
+    "explore": "Explorer les Produits",
+    "github": "Etoiler sur GitHub"
+  },
+  "footer": {
+    "tagline": "L'IA qui est gratuite, privee et votre.",
+    "products": "Produits",
+    "community": "Communaute",
+    "legal": "Legal",
+    "discussions": "Discussions",
+    "privacy": "Politique de Confidentialite",
+    "license": "Licence MIT",
+    "copyright": "&copy; 2025 Svetozar Technologies. Licence MIT.",
+    "built": "Construit avec la confidentialite a l'esprit. Aucune donnee ne quitte votre appareil."
+  }
+}
