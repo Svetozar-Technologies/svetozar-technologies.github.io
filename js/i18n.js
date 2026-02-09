@@ -113,9 +113,10 @@ class I18n {
         const selectorMobile = document.getElementById('languageSelectorMobile');
 
         const currentLangData = this.supportedLanguages.find(l => l.code === this.currentLang);
+        if (!currentLangData) return;
 
         const selectorHTML = `
-            <button class="lang-selector-btn" aria-label="Select language">
+            <button class="lang-selector-btn" aria-label="Select language" type="button">
                 <span class="lang-flag">${currentLangData.flag}</span>
                 <span class="lang-code">${this.currentLang.toUpperCase()}</span>
                 <svg class="lang-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -125,6 +126,7 @@ class I18n {
             <div class="lang-dropdown">
                 ${this.supportedLanguages.map(lang => `
                     <button
+                        type="button"
                         class="lang-option ${lang.code === this.currentLang ? 'active' : ''}"
                         data-lang="${lang.code}"
                     >
@@ -139,16 +141,24 @@ class I18n {
         if (selector) selector.innerHTML = selectorHTML;
         if (selectorMobile) selectorMobile.innerHTML = selectorHTML;
 
-        // Re-setup event listeners for new elements
+        // Setup event listeners after rendering
         this.setupEventListeners();
     }
 
     setupEventListeners() {
+        // Remove old listeners by cloning elements
+        document.querySelectorAll('.lang-selector-btn').forEach(btn => {
+            const newBtn = btn.cloneNode(true);
+            btn.parentNode.replaceChild(newBtn, btn);
+        });
+
         // Toggle dropdown for all selectors
         document.querySelectorAll('.lang-selector-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
+            btn.onclick = (e) => {
+                e.preventDefault();
                 e.stopPropagation();
                 const dropdown = btn.nextElementSibling;
+                if (!dropdown) return;
 
                 // Close all other dropdowns
                 document.querySelectorAll('.lang-dropdown').forEach(d => {
@@ -156,23 +166,26 @@ class I18n {
                 });
 
                 dropdown.classList.toggle('active');
-            });
+            };
         });
 
         // Close dropdown when clicking outside
-        document.addEventListener('click', () => {
+        document.removeEventListener('click', this.closeDropdowns);
+        this.closeDropdowns = () => {
             document.querySelectorAll('.lang-dropdown').forEach(dropdown => {
                 dropdown.classList.remove('active');
             });
-        });
+        };
+        document.addEventListener('click', this.closeDropdowns);
 
         // Language option clicks
         document.querySelectorAll('.lang-option').forEach(option => {
-            option.addEventListener('click', async (e) => {
+            option.onclick = async (e) => {
+                e.preventDefault();
                 e.stopPropagation();
                 const langCode = option.getAttribute('data-lang');
 
-                if (langCode !== this.currentLang) {
+                if (langCode && langCode !== this.currentLang) {
                     await this.loadLanguage(langCode);
                     this.renderLanguageSelector();
                 }
@@ -180,7 +193,7 @@ class I18n {
                 document.querySelectorAll('.lang-dropdown').forEach(dropdown => {
                     dropdown.classList.remove('active');
                 });
-            });
+            };
         });
     }
 }
