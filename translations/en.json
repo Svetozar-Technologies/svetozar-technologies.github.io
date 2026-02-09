@@ -2,182 +2,105 @@
   "lang": "en",
   "name": "English",
   "nav": {
-    "mission": "Mission",
+    "mission": "Our Mission",
     "products": "Products",
-    "github": "GitHub",
-    "get_started": "Get Started"
+    "github": "GitHub"
   },
   "hero": {
-    "badge": "100% Offline &bull; Open Source &bull; Free Forever",
     "title": "AI Should Be Free.<br>AI Should Be Private.<br><span class='gradient-text'>AI Should Be Yours.</span>",
-    "subtitle": "We build AI tools that respect your privacy. No cloud servers, no data collection, no compromise. Your thoughts remain yours.",
-    "cta_products": "Explore Products",
-    "cta_github": "View on GitHub"
+    "subtitle": "We're not just building software. We're fighting for a future where artificial intelligence serves humanity - not the other way around. Where your data remains yours. Where powerful technology doesn't come with a surveillance price tag.",
+    "cta_products": "Explore Our Products",
+    "cta_mission": "Read Our Mission"
   },
-  "stats": {
-    "offline": "Offline Processing",
-    "data": "Data Collected",
-    "products": "Privacy Tools",
-    "license": "Open License"
+  "social_proof": {
+    "local": "Local Processing",
+    "free": "Free Forever",
+    "opensource": "Open Source",
+    "products": "AI Products"
   },
   "mission": {
     "label": "Our Mission",
-    "title": "Bringing Light to AI Privacy",
-    "subtitle": "\"Svetozar\" means \"light of the world\" in Slavic languages. We believe AI should illuminate possibilities, not shadow your privacy.",
-    "privacy_title": "Privacy First",
-    "privacy_desc": "Every product we build runs 100% locally on your device. Your data never touches our servers because we don't have any.",
-    "offline_title": "Offline Always",
-    "offline_desc": "Internet connection? Optional. Our AI works anywhere - on a plane, in a cabin, or simply when you want digital peace.",
-    "opensource_title": "Open Source",
-    "opensource_desc": "Transparency builds trust. All our code is open source, auditable, and MIT licensed. See exactly what runs on your machine.",
-    "free_title": "Free Forever",
-    "free_desc": "No subscriptions, no premium tiers, no upsells. Privacy shouldn't be a luxury. Our tools are free for everyone, always.",
-    "noaccount_title": "No Accounts",
-    "noaccount_desc": "Download and use. No sign-ups, no email verification, no API keys. We don't want your personal information.",
-    "empower_title": "User Empowerment",
-    "empower_desc": "We build tools that give power back to users. You control your AI, your data, and your digital life."
+    "title": "Democratizing AI.<br>Protecting Privacy.<br><span class='gradient-text'>Empowering Everyone.</span>"
+  },
+  "manifesto": {
+    "block1_title": "The Problem We See",
+    "block1_text": "The AI revolution is happening, but it's happening on someone else's terms. Every major AI service requires you to upload your data to corporate servers. Your voice recordings, your documents, your most private content - stored, analyzed, and monetized by companies whose interests don't align with yours.",
+    "block2_title": "Our Solution",
+    "block2_text": "We build AI tools that run entirely on your device. No cloud. No accounts. No data collection. Just powerful, open-source software that respects your privacy and works offline. When you use our products, your data stays exactly where it belongs - with you.",
+    "block3_title": "Our Commitment",
+    "commitment1_title": "Forever Free",
+    "commitment1_desc": "All our products will always have fully-functional free versions. No trials. No feature walls. No subscription traps.",
+    "commitment2_title": "Forever Private",
+    "commitment2_desc": "Your data never leaves your device. No telemetry. No analytics. No exceptions.",
+    "commitment3_title": "Forever Open",
+    "commitment3_desc": "Our code is MIT licensed. Audit it. Fork it. Build on it. The mission is bigger than any single project."
   },
   "products": {
     "label": "Our Products",
-    "title": "Private AI Tools",
-    "subtitle": "Powerful AI capabilities that run entirely on your device. No cloud required.",
+    "title": "AI Tools That <span class='gradient-text'>Respect You</span>",
+    "subtitle": "Professional-grade AI that runs entirely on your device. No cloud. No compromise.",
     "badge_available": "Available Now",
     "badge_coming": "Coming Soon",
-    "download": "Download",
-    "source": "Source Code",
-    "coming_soon": "Coming Soon",
-    "localmind": {
-      "tagline": "Private Speech Recognition",
-      "desc": "Transform speech to text with complete privacy. Professional-grade transcription that never leaves your device.",
-      "f1": "Real-time transcription",
-      "f2": "99+ languages supported",
-      "f3": "Speaker identification",
-      "f4": "AI-powered quality scoring",
-      "f5": "macOS, Windows & Linux"
-    },
-    "localwrite": {
-      "tagline": "Private AI Writing Assistant",
-      "desc": "Enhance your writing with powerful local AI. Multiple modes, AI chat, and intelligent suggestions - all 100% offline.",
-      "f1": "5 writing enhancement modes",
-      "f2": "AI chat assistant (offline)",
-      "f3": "PDF document enhancement",
-      "f4": "5 AI models to choose from",
-      "f5": "macOS (Windows coming soon)"
-    },
-    "localpdf": {
-      "tagline": "Private PDF Toolkit",
-      "desc": "Complete PDF processing without cloud uploads. Compress, merge, split, convert - all locally on your device.",
-      "f1": "Smart PDF compression",
-      "f2": "Merge & split documents",
-      "f3": "Image to PDF conversion",
-      "f4": "PowerPoint to PDF",
-      "f5": "macOS, Windows & Linux"
-    }
+    "learn_more": "Learn More",
+    "localmind_tagline": "AI Transcription & Analysis",
+    "localmind_desc": "Professional-grade audio transcription, speaker detection, and quality analysis. Powered by Whisper AI running 100% locally on your machine.",
+    "localmind_feature1": "99+ Languages Supported",
+    "localmind_feature2": "Speaker Detection",
+    "localmind_feature3": "Quality Scoring with AI",
+    "localmind_feature4": "Export to PDF, JSON, TXT",
+    "localwrite_tagline": "AI Writing Enhancement",
+    "localwrite_desc": "Enhance your writing with powerful local AI. 11 writing modes, real-time statistics, and PDF document processing. Your words never leave your device.",
+    "localwrite_feature1": "11 Writing Modes",
+    "localwrite_feature2": "Creativity Control Slider",
+    "localwrite_feature3": "PDF Document Enhancement",
+    "localwrite_feature4": "Real-time Statistics",
+    "localpdf_tagline": "AI-Powered PDF Tools",
+    "localpdf_desc": "Chat with your documents, extract insights, and process PDFs with local AI. Your sensitive documents stay completely private.",
+    "localpdf_feature1": "Chat with PDFs",
+    "localpdf_feature2": "Extract Key Information",
+    "localpdf_feature3": "Summarize Documents",
+    "localpdf_feature4": "100% Local Processing"
   },
-  "usecases": {
-    "label": "Use Cases",
-    "title": "Built for <span class='gradient-text'>Real People</span>",
-    "subtitle": "From journalists protecting sources to businesses saving costs - our tools serve diverse needs with one core promise: your data stays yours.",
-    "journalists": {
-      "title": "Journalists & Podcasters",
-      "desc": "Protect source identities with 100% offline transcription and writing. No server logs. No data breaches. Complete confidentiality."
-    },
-    "legal": {
-      "title": "Legal Professionals",
-      "desc": "Maintain attorney-client privilege with on-device processing. Transcribe depositions and enhance documents without third-party access."
-    },
-    "researchers": {
-      "title": "Researchers",
-      "desc": "HIPAA and GDPR compliance is automatic when data never leaves your device. Process interviews and documents locally."
-    },
-    "business": {
-      "title": "Small Businesses",
-      "desc": "Save $360+/year on transcription and writing tools alone. Professional AI for $0. Invest savings in growth, not software rent."
-    },
-    "students": {
-      "title": "Students & Academics",
-      "desc": "Enhance essays, transcribe lectures, and process documents without expensive subscriptions or privacy concerns."
-    },
-    "privacy": {
-      "title": "Privacy Advocates",
-      "desc": "Audit every line of code yourself. Open-source transparency. No blind trust required. Use AI on your own terms."
-    }
+  "why": {
+    "label": "Why Local AI?",
+    "title": "Cloud vs <span class='gradient-text'>Local AI</span>",
+    "cloud_title": "Cloud AI Services",
+    "cloud1": "Data uploaded to servers",
+    "cloud2": "$20-50/month subscriptions",
+    "cloud3": "Internet required",
+    "cloud4": "Usage limits",
+    "cloud5": "Account required",
+    "cloud6": "Proprietary, closed source",
+    "local_title": "Svetozar Technologies",
+    "local1": "100% on-device processing",
+    "local2": "Free forever",
+    "local3": "Works offline",
+    "local4": "Unlimited usage",
+    "local5": "No account needed",
+    "local6": "Open source (MIT)"
   },
-  "comparison": {
-    "label": "Why Choose Us",
-    "title": "Svetozar vs <span class='gradient-text'>Cloud Services</span>",
-    "feature": "Feature",
-    "cloud": "Cloud Services",
-    "svetozar": "Svetozar Tools",
-    "row1": {
-      "feature": "Monthly Cost",
-      "svetozar": "$0 Forever"
-    },
-    "row2": {
-      "feature": "Privacy",
-      "cloud": "Upload to servers",
-      "svetozar": "100% Local"
-    },
-    "row3": {
-      "feature": "Internet Required",
-      "cloud": "Always",
-      "svetozar": "Works Offline"
-    },
-    "row4": {
-      "feature": "Usage Limits",
-      "cloud": "Limited minutes/pages",
-      "svetozar": "Unlimited"
-    },
-    "row5": {
-      "feature": "Account Required",
-      "cloud": "Yes + verification",
-      "svetozar": "No accounts"
-    },
-    "row6": {
-      "feature": "Data Ownership",
-      "cloud": "Stored on servers",
-      "svetozar": "You own 100%"
-    },
-    "row7": {
-      "feature": "Open Source",
-      "cloud": "Proprietary",
-      "svetozar": "MIT License"
-    }
+  "join": {
+    "heading": "Join the Movement",
+    "paragraph": "We're building AI differently. AI that respects you. AI that's yours. Join us in creating a future where powerful technology is accessible to everyone, without compromising on privacy.",
+    "github_title": "View on GitHub",
+    "github_desc": "Star, fork, and contribute",
+    "discussions_title": "Join Discussions",
+    "discussions_desc": "Connect with the community"
   },
-  "testimonials": {
-    "label": "Global Users",
-    "title": "Trusted Worldwide",
-    "t1": {
-      "quote": "\"LocalMind's Spanish transcription is incredibly accurate. I process 10+ hours of interviews weekly without paying subscription fees.\"",
-      "name": "Maria Gonzalez",
-      "role": "Podcaster, Mexico"
-    },
-    "t2": {
-      "quote": "\"HIPAA compliance was critical for our patient interviews. LocalMind processes everything locally - no data ever leaves our secure systems.\"",
-      "name": "Dr. Yuki Tanaka",
-      "role": "Medical Researcher, Japan"
-    },
-    "t3": {
-      "quote": "\"LocalWrite helped me enhance my thesis while keeping my research completely private. The AI chat is like having a writing tutor offline.\"",
-      "name": "Priya Sharma",
-      "role": "PhD Student, India"
-    }
-  },
-  "cta": {
-    "title": "Ready for Private AI?",
-    "subtitle": "Join thousands who've chosen privacy without sacrificing capability. Download our tools and experience the difference.",
-    "explore": "Explore Products",
-    "github": "Star on GitHub"
+  "final_cta": {
+    "heading": "The Future of AI is Local.<br>The Future of AI is Open.<br><span class='gradient-text'>The Future Starts Now.</span>",
+    "explore_btn": "Explore Products",
+    "source_btn": "View Source Code"
   },
   "footer": {
     "tagline": "AI that's free, private, and yours.",
-    "products": "Products",
-    "community": "Community",
-    "legal": "Legal",
+    "products_title": "Products",
+    "community_title": "Community",
+    "legal_title": "Legal",
     "discussions": "Discussions",
     "privacy": "Privacy Policy",
     "license": "MIT License",
-    "copyright": "&copy; 2025 Svetozar Technologies. MIT License.",
-    "built": "Built with privacy in mind. No data leaves your device."
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "Building AI that serves humanity, not corporations."
   }
 }

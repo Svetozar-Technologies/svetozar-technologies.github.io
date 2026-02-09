@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Svetozar Technologies - Private AI for Everyone</title>
-    <meta name="description" content="Svetozar Technologies builds privacy-first AI tools that run 100% offline. Your data stays yours. No cloud, no tracking, no compromise.">
-    <meta name="keywords" content="private AI, offline AI, privacy, local AI, speech recognition, writing assistant, PDF tools">
+    <title>Svetozar Technologies - AI That's Free, Private, and Yours</title>
+    <meta name="description" content="We're building a future where AI works for people, not corporations. Free, offline, open-source AI tools that respect your privacy.">
+    <meta name="keywords" content="local AI, privacy, open source AI, free AI tools, offline AI, AI freedom, data sovereignty">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Svetozar Technologies - Private AI for Everyone">
-    <meta property="og:description" content="Building the future of private AI. 100% offline, open source, free forever.">
+    <meta property="og:title" content="Svetozar Technologies - AI Freedom Starts Here">
+    <meta property="og:description" content="Free, offline, open-source AI tools that respect your privacy. AI should be free. AI should be private. AI should be yours.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://svetozar-technologies.github.io">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Svetozar Technologies - AI Freedom Starts Here">
+    <meta name="twitter:description" content="Free, offline, open-source AI tools that respect your privacy.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
+    <nav class="navbar">
+        <div class="container">
             <a href="/" class="logo">
-                <div class="logo-icon">S</div>
-                <div class="logo-text">Svetozar <span>Technologies</span></div>
+                <span class="logo-icon">S</span>
+                <span>Svetozar</span>
             </a>
             <div class="nav-links">
-                <a href="#mission" data-i18n="nav.mission">Mission</a>
+                <a href="#mission" data-i18n="nav.mission">Our Mission</a>
                 <a href="#products" data-i18n="nav.products">Products</a>
-                <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
-                <div id="languageSelector" class="language-selector"></div>
-                <a href="#products" class="nav-cta" data-i18n="nav.get_started">Get Started</a>
+                <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
+                <div id="languageSelector"></div>
             </div>
             <button class="mobile-menu-btn" aria-label="Menu">
                 <span></span>
@@ -43,352 +47,277 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu">
-        <a href="#mission" data-i18n="nav.mission">Mission</a>
-        <a href="#products" data-i18n="nav.products">Products</a>
-        <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
-        <div id="languageSelectorMobile" class="language-selector mobile"></div>
-    </div>
-
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">
-                <span class="hero-badge-dot"></span>
-                <span data-i18n="hero.badge">100% Offline &bull; Open Source &bull; Free Forever</span>
-            </div>
-            <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
-            <p data-i18n="hero.subtitle">We build AI tools that respect your privacy. No cloud servers, no data collection, no compromise. Your thoughts remain yours.</p>
-            <div class="hero-buttons">
-                <a href="#products" class="btn btn-primary">
-                    <span data-i18n="hero.cta_products">Explore Products</span>
-                    <span>→</span>
-                </a>
-                <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-secondary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    <span data-i18n="hero.cta_github">View on GitHub</span>
-                </a>
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">We're not just building software. We're fighting for a future where artificial intelligence serves humanity - not the other way around. Where your data remains yours. Where powerful technology doesn't come with a surveillance price tag.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg" data-i18n="hero.cta_products">
+                        Explore Our Products
+                    </a>
+                    <a href="#mission" class="btn btn-secondary btn-lg" data-i18n="hero.cta_mission">
+                        Read Our Mission
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof Stats -->
-    <section class="social-proof">
+    <!-- Social Proof Bar -->
+    <section class="social-proof-bar">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label" data-i18n="stats.offline">Offline Processing</div>
+            <div class="proof-stats">
+                <div class="proof-stat">
+                    <span class="proof-icon">🔒</span>
+                    <span class="proof-number">100%</span>
+                    <span class="proof-label" data-i18n="social_proof.local">Local Processing</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">0</div>
-                    <div class="stat-label" data-i18n="stats.data">Data Collected</div>
+                <div class="proof-stat">
+                    <span class="proof-icon">💯</span>
+                    <span class="proof-number">$0</span>
+                    <span class="proof-label" data-i18n="social_proof.free">Free Forever</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label" data-i18n="stats.products">Privacy Tools</div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🔓</span>
+                    <span class="proof-number">MIT</span>
+                    <span class="proof-label" data-i18n="social_proof.opensource">Open Source</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">MIT</div>
-                    <div class="stat-label" data-i18n="stats.license">Open License</div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🌍</span>
+                    <span class="proof-number">3</span>
+                    <span class="proof-label" data-i18n="social_proof.products">AI Products</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Mission Section -->
-    <section class="mission" id="mission">
+    <section class="mission-section" id="mission">
         <div class="container">
-            <div class="section-header">
-                <div class="section-label" data-i18n="mission.label">Our Mission</div>
-                <h2 class="section-title" data-i18n="mission.title">Bringing Light to AI Privacy</h2>
-                <p class="section-desc" data-i18n="mission.subtitle">"Svetozar" means "light of the world" in Slavic languages. We believe AI should illuminate possibilities, not shadow your privacy.</p>
+            <div class="mission-header">
+                <span class="section-label" data-i18n="mission.label">Our Mission</span>
+                <h2 data-i18n="mission.title">Democratizing AI.<br>Protecting Privacy.<br><span class="gradient-text">Empowering Everyone.</span></h2>
             </div>
 
-            <div class="mission-grid">
-                <div class="mission-card">
-                    <div class="mission-icon">🔒</div>
-                    <h3 data-i18n="mission.privacy_title">Privacy First</h3>
-                    <p data-i18n="mission.privacy_desc">Every product we build runs 100% locally on your device. Your data never touches our servers because we don't have any.</p>
+            <div class="manifesto">
+                <div class="manifesto-block">
+                    <span class="manifesto-number">01</span>
+                    <h3 data-i18n="manifesto.block1_title">The Problem We See</h3>
+                    <p data-i18n="manifesto.block1_text">The AI revolution is happening, but it's happening on someone else's terms. Every major AI service requires you to upload your data to corporate servers. Your voice recordings, your documents, your most private content - stored, analyzed, and monetized by companies whose interests don't align with yours.</p>
                 </div>
-                <div class="mission-card">
-                    <div class="mission-icon">🌐</div>
-                    <h3 data-i18n="mission.offline_title">Offline Always</h3>
-                    <p data-i18n="mission.offline_desc">Internet connection? Optional. Our AI works anywhere - on a plane, in a cabin, or simply when you want digital peace.</p>
+
+                <div class="manifesto-block">
+                    <span class="manifesto-number">02</span>
+                    <h3 data-i18n="manifesto.block2_title">Our Solution</h3>
+                    <p data-i18n="manifesto.block2_text">We build AI tools that run entirely on your device. No cloud. No accounts. No data collection. Just powerful, open-source software that respects your privacy and works offline. When you use our products, your data stays exactly where it belongs - with you.</p>
                 </div>
-                <div class="mission-card">
-                    <div class="mission-icon">🔓</div>
-                    <h3 data-i18n="mission.opensource_title">Open Source</h3>
-                    <p data-i18n="mission.opensource_desc">Transparency builds trust. All our code is open source, auditable, and MIT licensed. See exactly what runs on your machine.</p>
-                </div>
-                <div class="mission-card">
-                    <div class="mission-icon">💝</div>
-                    <h3 data-i18n="mission.free_title">Free Forever</h3>
-                    <p data-i18n="mission.free_desc">No subscriptions, no premium tiers, no upsells. Privacy shouldn't be a luxury. Our tools are free for everyone, always.</p>
-                </div>
-                <div class="mission-card">
-                    <div class="mission-icon">🚀</div>
-                    <h3 data-i18n="mission.noaccount_title">No Accounts</h3>
-                    <p data-i18n="mission.noaccount_desc">Download and use. No sign-ups, no email verification, no API keys. We don't want your personal information.</p>
-                </div>
-                <div class="mission-card">
-                    <div class="mission-icon">🎯</div>
-                    <h3 data-i18n="mission.empower_title">User Empowerment</h3>
-                    <p data-i18n="mission.empower_desc">We build tools that give power back to users. You control your AI, your data, and your digital life.</p>
+
+                <div class="manifesto-block">
+                    <span class="manifesto-number">03</span>
+                    <h3 data-i18n="manifesto.block3_title">Our Commitment</h3>
+                    <div class="commitments">
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment1_title">Forever Free</strong>
+                                <p data-i18n="manifesto.commitment1_desc">All our products will always have fully-functional free versions. No trials. No feature walls. No subscription traps.</p>
+                            </div>
+                        </div>
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment2_title">Forever Private</strong>
+                                <p data-i18n="manifesto.commitment2_desc">Your data never leaves your device. No telemetry. No analytics. No exceptions.</p>
+                            </div>
+                        </div>
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment3_title">Forever Open</strong>
+                                <p data-i18n="manifesto.commitment3_desc">Our code is MIT licensed. Audit it. Fork it. Build on it. The mission is bigger than any single project.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Products Section -->
-    <section class="products" id="products">
+    <section class="products-section" id="products">
         <div class="container">
             <div class="section-header">
-                <div class="section-label" data-i18n="products.label">Our Products</div>
-                <h2 class="section-title" data-i18n="products.title">Private AI Tools</h2>
-                <p class="section-desc" data-i18n="products.subtitle">Powerful AI capabilities that run entirely on your device. No cloud required.</p>
+                <span class="section-label" data-i18n="products.label">Our Products</span>
+                <h2 data-i18n="products.title">AI Tools That <span class="gradient-text">Respect You</span></h2>
+                <p data-i18n="products.subtitle">Professional-grade AI that runs entirely on your device. No cloud. No compromise.</p>
             </div>
 
             <div class="products-grid">
                 <!-- LocalMind -->
                 <div class="product-card">
-                    <div class="product-icon">🎙️</div>
-                    <span class="product-badge available" data-i18n="products.badge_available">Available Now</span>
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </div>
+                    <div class="product-badge available" data-i18n="products.badge_available">Available Now</div>
                     <h3>LocalMind</h3>
-                    <p class="product-tagline" data-i18n="products.localmind.tagline">Private Speech Recognition</p>
-                    <p class="product-desc" data-i18n="products.localmind.desc">Transform speech to text with complete privacy. Professional-grade transcription that never leaves your device.</p>
+                    <p class="product-tagline" data-i18n="products.localmind_tagline">AI Transcription & Analysis</p>
+                    <p class="product-desc" data-i18n="products.localmind_desc">Professional-grade audio transcription, speaker detection, and quality analysis. Powered by Whisper AI running 100% locally on your machine.</p>
                     <ul class="product-features">
-                        <li data-i18n="products.localmind.f1">Real-time transcription</li>
-                        <li data-i18n="products.localmind.f2">99+ languages supported</li>
-                        <li data-i18n="products.localmind.f3">Speaker identification</li>
-                        <li data-i18n="products.localmind.f4">AI-powered quality scoring</li>
-                        <li data-i18n="products.localmind.f5">macOS, Windows & Linux</li>
+                        <li data-i18n="products.localmind_feature1">99+ Languages Supported</li>
+                        <li data-i18n="products.localmind_feature2">Speaker Detection</li>
+                        <li data-i18n="products.localmind_feature3">Quality Scoring with AI</li>
+                        <li data-i18n="products.localmind_feature4">Export to PDF, JSON, TXT</li>
                     </ul>
                     <div class="product-actions">
-                        <a href="./localmind/" class="btn btn-primary btn-small">
-                            <span data-i18n="products.download">Download</span>
-                        </a>
-                        <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-secondary btn-small">
-                            <span data-i18n="products.source">Source Code</span>
-                        </a>
+                        <a href="./localmind/" class="btn btn-primary" data-i18n="products.learn_more">Learn More</a>
                     </div>
                 </div>
 
                 <!-- LocalWrite -->
                 <div class="product-card">
-                    <div class="product-icon">✍️</div>
-                    <span class="product-badge available" data-i18n="products.badge_available">Available Now</span>
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                            <path d="M2 2l7.586 7.586"/>
+                            <circle cx="11" cy="11" r="2"/>
+                        </svg>
+                    </div>
+                    <div class="product-badge available" data-i18n="products.badge_available">Available Now</div>
                     <h3>LocalWrite</h3>
-                    <p class="product-tagline" data-i18n="products.localwrite.tagline">Private AI Writing Assistant</p>
-                    <p class="product-desc" data-i18n="products.localwrite.desc">Enhance your writing with powerful local AI. Multiple modes, AI chat, and intelligent suggestions - all 100% offline.</p>
+                    <p class="product-tagline" data-i18n="products.localwrite_tagline">AI Writing Enhancement</p>
+                    <p class="product-desc" data-i18n="products.localwrite_desc">Enhance your writing with powerful local AI. 11 writing modes, real-time statistics, and PDF document processing. Your words never leave your device.</p>
                     <ul class="product-features">
-                        <li data-i18n="products.localwrite.f1">5 writing enhancement modes</li>
-                        <li data-i18n="products.localwrite.f2">AI chat assistant (offline)</li>
-                        <li data-i18n="products.localwrite.f3">PDF document enhancement</li>
-                        <li data-i18n="products.localwrite.f4">5 AI models to choose from</li>
-                        <li data-i18n="products.localwrite.f5">macOS (Windows coming soon)</li>
+                        <li data-i18n="products.localwrite_feature1">11 Writing Modes</li>
+                        <li data-i18n="products.localwrite_feature2">Creativity Control Slider</li>
+                        <li data-i18n="products.localwrite_feature3">PDF Document Enhancement</li>
+                        <li data-i18n="products.localwrite_feature4">Real-time Statistics</li>
                     </ul>
                     <div class="product-actions">
-                        <a href="./localwrite/" class="btn btn-primary btn-small">
-                            <span data-i18n="products.download">Download</span>
-                        </a>
-                        <a href="https://github.com/KaivalyaDeepTeam/LocalWrite" target="_blank" class="btn btn-secondary btn-small">
-                            <span data-i18n="products.source">Source Code</span>
-                        </a>
+                        <a href="./localwrite/" class="btn btn-primary" data-i18n="products.learn_more">Learn More</a>
                     </div>
                 </div>
 
                 <!-- LocalPDF -->
                 <div class="product-card">
-                    <div class="product-icon">📄</div>
-                    <span class="product-badge coming-soon" data-i18n="products.badge_coming">Coming Soon</span>
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <div class="product-badge coming-soon" data-i18n="products.badge_coming">Coming Soon</div>
                     <h3>LocalPDF</h3>
-                    <p class="product-tagline" data-i18n="products.localpdf.tagline">Private PDF Toolkit</p>
-                    <p class="product-desc" data-i18n="products.localpdf.desc">Complete PDF processing without cloud uploads. Compress, merge, split, convert - all locally on your device.</p>
+                    <p class="product-tagline" data-i18n="products.localpdf_tagline">AI-Powered PDF Tools</p>
+                    <p class="product-desc" data-i18n="products.localpdf_desc">Chat with your documents, extract insights, and process PDFs with local AI. Your sensitive documents stay completely private.</p>
                     <ul class="product-features">
-                        <li data-i18n="products.localpdf.f1">Smart PDF compression</li>
-                        <li data-i18n="products.localpdf.f2">Merge & split documents</li>
-                        <li data-i18n="products.localpdf.f3">Image to PDF conversion</li>
-                        <li data-i18n="products.localpdf.f4">PowerPoint to PDF</li>
-                        <li data-i18n="products.localpdf.f5">macOS, Windows & Linux</li>
+                        <li data-i18n="products.localpdf_feature1">Chat with PDFs</li>
+                        <li data-i18n="products.localpdf_feature2">Extract Key Information</li>
+                        <li data-i18n="products.localpdf_feature3">Summarize Documents</li>
+                        <li data-i18n="products.localpdf_feature4">100% Local Processing</li>
                     </ul>
                     <div class="product-actions">
-                        <a href="./localpdf/" class="btn btn-primary btn-small btn-disabled">
-                            <span data-i18n="products.coming_soon">Coming Soon</span>
-                        </a>
-                        <a href="https://github.com/KaivalyaDeepTeam/LocalPDF" target="_blank" class="btn btn-secondary btn-small">
-                            <span data-i18n="products.source">Source Code</span>
-                        </a>
+                        <a href="./localpdf/" class="btn btn-secondary" data-i18n="products.learn_more">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Use Cases Section -->
-    <section class="use-cases">
+    <!-- Why Local Section -->
+    <section class="why-section">
         <div class="container">
             <div class="section-header">
-                <div class="section-label" data-i18n="usecases.label">Use Cases</div>
-                <h2 class="section-title" data-i18n="usecases.title">Built for <span class="gradient-text">Real People</span></h2>
-                <p class="section-desc" data-i18n="usecases.subtitle">From journalists protecting sources to businesses saving costs - our tools serve diverse needs with one core promise: your data stays yours.</p>
+                <span class="section-label" data-i18n="why.label">Why Local AI?</span>
+                <h2 data-i18n="why.title">Cloud vs <span class="gradient-text">Local AI</span></h2>
             </div>
-
-            <div class="use-cases-grid">
-                <div class="use-case-card">
-                    <div class="use-case-icon">📰</div>
-                    <h3 data-i18n="usecases.journalists.title">Journalists & Podcasters</h3>
-                    <p data-i18n="usecases.journalists.desc">Protect source identities with 100% offline transcription and writing. No server logs. No data breaches. Complete confidentiality.</p>
+            <div class="comparison-box">
+                <div class="comparison-side bad">
+                    <h4 data-i18n="why.cloud_title">Cloud AI Services</h4>
+                    <ul>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud1">Data uploaded to servers</span></li>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud2">$20-50/month subscriptions</span></li>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud3">Internet required</span></li>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud4">Usage limits</span></li>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud5">Account required</span></li>
+                        <li><span class="x">X</span> <span data-i18n="why.cloud6">Proprietary, closed source</span></li>
+                    </ul>
                 </div>
-                <div class="use-case-card">
-                    <div class="use-case-icon">⚖️</div>
-                    <h3 data-i18n="usecases.legal.title">Legal Professionals</h3>
-                    <p data-i18n="usecases.legal.desc">Maintain attorney-client privilege with on-device processing. Transcribe depositions and enhance documents without third-party access.</p>
-                </div>
-                <div class="use-case-card">
-                    <div class="use-case-icon">🔬</div>
-                    <h3 data-i18n="usecases.researchers.title">Researchers</h3>
-                    <p data-i18n="usecases.researchers.desc">HIPAA and GDPR compliance is automatic when data never leaves your device. Process interviews and documents locally.</p>
-                </div>
-                <div class="use-case-card">
-                    <div class="use-case-icon">💼</div>
-                    <h3 data-i18n="usecases.business.title">Small Businesses</h3>
-                    <p data-i18n="usecases.business.desc">Save $360+/year on transcription and writing tools alone. Professional AI for $0. Invest savings in growth, not software rent.</p>
-                </div>
-                <div class="use-case-card">
-                    <div class="use-case-icon">🎓</div>
-                    <h3 data-i18n="usecases.students.title">Students & Academics</h3>
-                    <p data-i18n="usecases.students.desc">Enhance essays, transcribe lectures, and process documents without expensive subscriptions or privacy concerns.</p>
-                </div>
-                <div class="use-case-card">
-                    <div class="use-case-icon">🛡️</div>
-                    <h3 data-i18n="usecases.privacy.title">Privacy Advocates</h3>
-                    <p data-i18n="usecases.privacy.desc">Audit every line of code yourself. Open-source transparency. No blind trust required. Use AI on your own terms.</p>
+                <div class="comparison-side good">
+                    <h4 data-i18n="why.local_title">Svetozar Technologies</h4>
+                    <ul>
+                        <li><span class="check">✓</span> <span data-i18n="why.local1">100% on-device processing</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="why.local2">Free forever</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="why.local3">Works offline</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="why.local4">Unlimited usage</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="why.local5">No account needed</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="why.local6">Open source (MIT)</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Comparison Section -->
-    <section class="comparison">
+    <!-- Join Section -->
+    <section class="join-section">
         <div class="container">
-            <div class="section-header">
-                <div class="section-label" data-i18n="comparison.label">Why Choose Us</div>
-                <h2 class="section-title" data-i18n="comparison.title">Svetozar vs <span class="gradient-text">Cloud Services</span></h2>
-            </div>
-
-            <div class="comparison-table-wrapper">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th data-i18n="comparison.feature">Feature</th>
-                            <th data-i18n="comparison.cloud">Cloud Services</th>
-                            <th class="highlight" data-i18n="comparison.svetozar">Svetozar Tools</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td data-i18n="comparison.row1.feature">Monthly Cost</td>
-                            <td class="negative">$20-100/month</td>
-                            <td class="positive highlight" data-i18n="comparison.row1.svetozar">$0 Forever</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row2.feature">Privacy</td>
-                            <td class="negative" data-i18n="comparison.row2.cloud">Upload to servers</td>
-                            <td class="positive highlight" data-i18n="comparison.row2.svetozar">100% Local</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row3.feature">Internet Required</td>
-                            <td class="negative" data-i18n="comparison.row3.cloud">Always</td>
-                            <td class="positive highlight" data-i18n="comparison.row3.svetozar">Works Offline</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row4.feature">Usage Limits</td>
-                            <td class="negative" data-i18n="comparison.row4.cloud">Limited minutes/pages</td>
-                            <td class="positive highlight" data-i18n="comparison.row4.svetozar">Unlimited</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row5.feature">Account Required</td>
-                            <td class="negative" data-i18n="comparison.row5.cloud">Yes + verification</td>
-                            <td class="positive highlight" data-i18n="comparison.row5.svetozar">No accounts</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row6.feature">Data Ownership</td>
-                            <td class="negative" data-i18n="comparison.row6.cloud">Stored on servers</td>
-                            <td class="positive highlight" data-i18n="comparison.row6.svetozar">You own 100%</td>
-                        </tr>
-                        <tr>
-                            <td data-i18n="comparison.row7.feature">Open Source</td>
-                            <td class="negative" data-i18n="comparison.row7.cloud">Proprietary</td>
-                            <td class="positive highlight" data-i18n="comparison.row7.svetozar">MIT License</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-label" data-i18n="testimonials.label">Global Users</div>
-                <h2 class="section-title" data-i18n="testimonials.title">Trusted Worldwide</h2>
-            </div>
-
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-quote" data-i18n="testimonials.t1.quote">"LocalMind's Spanish transcription is incredibly accurate. I process 10+ hours of interviews weekly without paying subscription fees."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">MG</div>
-                        <div class="testimonial-info">
-                            <div class="testimonial-name" data-i18n="testimonials.t1.name">Maria Gonzalez</div>
-                            <div class="testimonial-role" data-i18n="testimonials.t1.role">Podcaster, Mexico</div>
+            <div class="join-content">
+                <h2 data-i18n="join.heading">Join the Movement</h2>
+                <p data-i18n="join.paragraph">We're building AI differently. AI that respects you. AI that's yours. Join us in creating a future where powerful technology is accessible to everyone, without compromising on privacy.</p>
+                <div class="join-actions">
+                    <a href="https://github.com/Svetozar-Technologies" target="_blank" class="join-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <div>
+                            <strong data-i18n="join.github_title">View on GitHub</strong>
+                            <span data-i18n="join.github_desc">Star, fork, and contribute</span>
                         </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-quote" data-i18n="testimonials.t2.quote">"HIPAA compliance was critical for our patient interviews. LocalMind processes everything locally - no data ever leaves our secure systems."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">YT</div>
-                        <div class="testimonial-info">
-                            <div class="testimonial-name" data-i18n="testimonials.t2.name">Dr. Yuki Tanaka</div>
-                            <div class="testimonial-role" data-i18n="testimonials.t2.role">Medical Researcher, Japan</div>
+                    </a>
+                    <a href="https://github.com/orgs/Svetozar-Technologies/discussions" target="_blank" class="join-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        <div>
+                            <strong data-i18n="join.discussions_title">Join Discussions</strong>
+                            <span data-i18n="join.discussions_desc">Connect with the community</span>
                         </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-quote" data-i18n="testimonials.t3.quote">"LocalWrite helped me enhance my thesis while keeping my research completely private. The AI chat is like having a writing tutor offline."</div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar">PS</div>
-                        <div class="testimonial-info">
-                            <div class="testimonial-name" data-i18n="testimonials.t3.name">Priya Sharma</div>
-                            <div class="testimonial-role" data-i18n="testimonials.t3.role">PhD Student, India</div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
+    <!-- Final CTA -->
+    <section class="final-cta">
         <div class="container">
-            <div class="cta-box">
-                <div class="cta-content">
-                    <h2 data-i18n="cta.title">Ready for Private AI?</h2>
-                    <p data-i18n="cta.subtitle">Join thousands who've chosen privacy without sacrificing capability. Download our tools and experience the difference.</p>
-                    <div class="cta-buttons">
-                        <a href="#products" class="btn btn-white">
-                            <span data-i18n="cta.explore">Explore Products</span>
-                            <span>→</span>
-                        </a>
-                        <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-outline">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                            <span data-i18n="cta.github">Star on GitHub</span>
-                        </a>
-                    </div>
+            <div class="cta-content">
+                <h2 data-i18n="final_cta.heading">The Future of AI is Local.<br>The Future of AI is Open.<br><span class="gradient-text">The Future Starts Now.</span></h2>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg" data-i18n="final_cta.explore_btn">Explore Products</a>
+                    <a href="https://github.com/Svetozar-Technologies" target="_blank" class="btn btn-outline btn-lg" data-i18n="final_cta.source_btn">View Source Code</a>
                 </div>
             </div>
         </div>
@@ -399,29 +328,38 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <div class="footer-logo">Svetozar <span>Technologies</span></div>
-                    <p class="footer-tagline" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                    <a href="/" class="logo">
+                        <span class="logo-icon">S</span>
+                        <span>Svetozar</span>
+                    </a>
+                    <p class="footer-mission" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
                 </div>
-                <div class="footer-links-group">
-                    <h4 data-i18n="footer.products">Products</h4>
-                    <a href="./localmind/">LocalMind</a>
-                    <a href="./localwrite/">LocalWrite</a>
-                    <a href="./localpdf/">LocalPDF</a>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.products_title">Products</h4>
+                    <ul>
+                        <li><a href="./localmind/">LocalMind</a></li>
+                        <li><a href="./localwrite/">LocalWrite</a></li>
+                        <li><a href="./localpdf/">LocalPDF</a></li>
+                    </ul>
                 </div>
-                <div class="footer-links-group">
-                    <h4 data-i18n="footer.community">Community</h4>
-                    <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
-                    <a href="https://github.com/KaivalyaDeepTeam/localmind/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.community_title">Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/orgs/Svetozar-Technologies/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a></li>
+                    </ul>
                 </div>
-                <div class="footer-links-group">
-                    <h4 data-i18n="footer.legal">Legal</h4>
-                    <a href="./localmind/privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
-                    <a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.legal_title">Legal</h4>
+                    <ul>
+                        <li><a href="./privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+                        <li><a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies. MIT License.</p>
-                <p data-i18n="footer.built">Built with privacy in mind. No data leaves your device.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies</p>
+                <p class="footer-tagline" data-i18n="footer.footer_tagline">Building AI that serves humanity, not corporations.</p>
             </div>
         </div>
     </footer>

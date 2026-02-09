@@ -3,609 +3,755 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LocalMind - Private Speech Recognition | Svetozar Technologies</title>
-    <meta name="description" content="Professional-grade audio transcription that runs entirely on your device. 100% offline, free forever, open source.">
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>LocalMind - AI Should Be Free. AI Should Be Private. AI Should Be Yours.</title>
+    <meta name="description" content="We're building a future where AI works for people, not corporations. LocalMind is free, offline, open source AI transcription. Join the movement.">
+    <meta name="keywords" content="local AI, privacy, open source AI, free transcription, offline AI, AI freedom, data sovereignty">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="LocalMind - AI Freedom Starts Here">
+    <meta property="og:description" content="We believe AI should be free, private, and yours. Join us.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LocalMind - AI Freedom Starts Here">
+    <meta name="twitter:description" content="We believe AI should be free, private, and yours. Join us.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin-top: 3rem;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        .feature-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-        }
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
 
-        .feature-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
-        }
-
-        .feature-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.25rem;
-            color: white;
-        }
-
-        .feature-card h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-        }
-
-        .feature-card p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-            font-size: 0.95rem;
-        }
-
-        .language-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            justify-content: center;
-            margin-top: 2rem;
-        }
-
-        .language-tag {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-        }
-
-        .download-section {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 24px;
-            padding: 3rem;
-            text-align: center;
-            margin-top: 4rem;
-        }
-
-        .download-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-
-        .download-card {
-            background: var(--surface-2);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-            text-align: center;
-            text-decoration: none;
-            color: var(--text);
-            transition: all 0.3s ease;
-        }
-
-        .download-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
-        }
-
-        .download-card svg {
-            width: 48px;
-            height: 48px;
-            margin-bottom: 1rem;
-            color: var(--primary);
-        }
-
-        .download-card h3 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .download-card p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .download-size {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .docs-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            justify-content: center;
-            margin-top: 1.5rem;
-        }
-
-        .doc-link {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            text-decoration: none;
-            color: var(--text);
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .doc-link:hover {
-            border-color: var(--primary);
-            background: rgba(79, 70, 229, 0.1);
-        }
-
-        .use-cases-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1.5rem;
-            margin-top: 3rem;
-        }
-
-        .use-case-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-        }
-
-        .use-case-card h3 {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-        }
-
-        .use-case-card p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .comparison-table-wrapper {
-            overflow-x: auto;
-            margin-top: 2rem;
-        }
-
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            background: var(--surface);
-            border-radius: 16px;
-            overflow: hidden;
-        }
-
-        .comparison-table th,
-        .comparison-table td {
-            padding: 1rem 1.5rem;
-            text-align: left;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .comparison-table th {
-            background: var(--surface-2);
-            font-weight: 600;
-        }
-
-        .comparison-table td.highlight {
-            color: var(--success);
-            font-weight: 500;
-        }
-
-        .system-requirements {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-top: 2rem;
-        }
-
-        .requirements-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-
-        .requirement {
-            text-align: center;
-        }
-
-        .req-label {
-            display: block;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 0.25rem;
-        }
-
-        .req-value {
-            font-weight: 500;
-        }
-    </style>
+    <!-- Privacy-Friendly Analytics (Update data-domain after GitHub Pages is configured) -->
+    <script defer data-domain="svetozar-technologies.github.io" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="container nav-container">
-            <a href="../" class="nav-logo">
-                <span class="logo-icon">S</span>
-                <span>Svetozar</span>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="assets/logo.svg" alt="LocalMind" width="40" height="40">
+                <span>LocalMind</span>
             </a>
             <div class="nav-links">
-                <a href="../#mission" data-i18n="nav.mission">Mission</a>
-                <a href="../#products" data-i18n="nav.products">Products</a>
-                <a href="https://github.com/Svetozar-Technologies" target="_blank" data-i18n="nav.github">GitHub</a>
+                <a href="#mission" data-i18n="nav.mission">Our Mission</a>
+                <a href="#product" data-i18n="nav.product">Product</a>
+                <a href="#download" data-i18n="nav.download">Download</a>
+                <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
+                <div id="languageSelector"></div>
             </div>
-            <div class="nav-actions">
-                <div id="languageSelector" class="language-selector"></div>
-                <a href="#download" class="btn btn-primary btn-sm" data-i18n="nav.get_started">Get Started</a>
-            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero product-hero">
+    <!-- Hero Section - Mission Statement -->
+    <section class="hero">
         <div class="container">
-            <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
-                <div class="badge">
-                    <span data-i18n="hero.badge">100% Offline &bull; Open Source &bull; Free Forever</span>
-                </div>
-                <h1 style="font-size: 3.5rem; margin-bottom: 1.5rem;">
-                    <span class="gradient-text">LocalMind</span>
-                </h1>
-                <p class="hero-tagline" style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 1rem;">
-                    Private Speech Recognition
-                </p>
-                <p class="hero-subtitle" style="font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
-                    Professional-grade audio transcription that runs entirely on your device. State-of-the-art Whisper AI with speaker detection and quality analysis - all without sending a single byte to external servers.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="section" style="padding-top: 0;">
-        <div class="container">
-            <div class="stats-row" style="display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; text-align: center;">
-                <div class="stat-item">
-                    <span style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">v1.2.3</span>
-                    <span style="display: block; color: var(--text-secondary); margin-top: 0.5rem;">Latest Version</span>
-                </div>
-                <div class="stat-item">
-                    <span style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">99+</span>
-                    <span style="display: block; color: var(--text-secondary); margin-top: 0.5rem;">Languages Supported</span>
-                </div>
-                <div class="stat-item">
-                    <span style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">100%</span>
-                    <span style="display: block; color: var(--text-secondary); margin-top: 0.5rem;">Offline Processing</span>
-                </div>
-                <div class="stat-item">
-                    <span style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">$0</span>
-                    <span style="display: block; color: var(--text-secondary); margin-top: 0.5rem;">Forever Free</span>
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">We're not just building software. We're fighting for a future where artificial intelligence serves humanity - not the other way around. Where your conversations remain yours. Where powerful technology doesn't come with a surveillance price tag.</p>
+                <div class="hero-buttons">
+                    <a href="#mission" class="btn btn-primary btn-lg" data-i18n="hero.cta_mission">
+                        Read Our Mission
+                    </a>
+                    <a href="#download" class="btn btn-secondary btn-lg" id="heroDownloadBtn" data-i18n="hero.cta_download">
+                        Download LocalMind
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="section">
+    <!-- Social Proof Bar -->
+    <section class="social-proof-bar">
         <div class="container">
-            <div class="section-header" style="text-align: center;">
-                <span class="section-label">Core Features</span>
-                <h2 class="section-title">Professional <span class="gradient-text">Transcription</span> Made Private</h2>
-                <p class="section-subtitle">Everything you need for audio transcription, running entirely on your device.</p>
+            <div class="proof-stats">
+                <div class="proof-stat">
+                    <span class="proof-icon">🚀</span>
+                    <span class="proof-number">v1.2.3</span>
+                    <span class="proof-label" data-i18n="social_proof.launch">Just Launched!</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">💯</span>
+                    <span class="proof-number">100%</span>
+                    <span class="proof-label" data-i18n="social_proof.free">Free Forever</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🌍</span>
+                    <span class="proof-number">99+</span>
+                    <span class="proof-label" data-i18n="social_proof.languages">Languages</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🔓</span>
+                    <span class="proof-number">MIT</span>
+                    <span class="proof-label" data-i18n="social_proof.opensource">Open Source</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section" id="mission">
+        <div class="container">
+            <div class="mission-header">
+                <span class="section-label" data-i18n="mission.label">Our Mission</span>
+                <h2 data-i18n="mission.title">Democratizing AI.<br>Protecting Privacy.<br><span class="gradient-text">Empowering Everyone.</span></h2>
             </div>
 
-            <div class="features-grid">
-                <!-- Real-time Transcription -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                            <line x1="12" y1="19" x2="12" y2="23"/>
-                            <line x1="8" y1="23" x2="16" y2="23"/>
-                        </svg>
-                    </div>
-                    <h3>Real-time Transcription</h3>
-                    <p>State-of-the-art Whisper AI speech recognition that handles accents, background noise, and multiple languages with remarkable accuracy.</p>
+            <div class="manifesto">
+                <div class="manifesto-block">
+                    <span class="manifesto-number">01</span>
+                    <h3 data-i18n="manifesto.block1_title">The Problem We See</h3>
+                    <p data-i18n="manifesto.block1_p1">The AI revolution is happening, but it's happening on someone else's terms. Every major AI service requires you to upload your data to corporate servers. Your voice recordings, your conversations, your most private moments - stored, analyzed, and monetized by companies whose interests don't align with yours.</p>
+                    <p data-i18n="manifesto.block1_p2">This isn't just a privacy issue. It's a power issue. When AI only exists in the cloud, controlled by a handful of corporations, they decide who gets access, what it costs, and what happens to your data. That's not the future we want.</p>
                 </div>
 
-                <!-- Speaker Detection -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                            <circle cx="9" cy="7" r="4"/>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                        </svg>
+                <div class="manifesto-block">
+                    <span class="manifesto-number">02</span>
+                    <h3 data-i18n="manifesto.block2_title">What We Believe</h3>
+                    <div class="beliefs">
+                        <div class="belief">
+                            <h4 data-i18n="manifesto.belief1_title">AI is a Right, Not a Privilege</h4>
+                            <p data-i18n="manifesto.belief1_desc">Powerful AI tools shouldn't be locked behind expensive subscriptions. A student in Mumbai deserves the same AI capabilities as a Fortune 500 company. We build for everyone.</p>
+                        </div>
+                        <div class="belief">
+                            <h4 data-i18n="manifesto.belief2_title">Your Data Belongs to You</h4>
+                            <p data-i18n="manifesto.belief2_desc">Your voice is biometric data. Your conversations contain your thoughts, your relationships, your secrets. No company should have access to that without your explicit, informed consent.</p>
+                        </div>
+                        <div class="belief">
+                            <h4 data-i18n="manifesto.belief3_title">Transparency is Non-Negotiable</h4>
+                            <p data-i18n="manifesto.belief3_desc">You shouldn't have to trust our word. Every line of LocalMind's code is public. Audit it. Verify it. Build it yourself. That's the only way to truly trust software.</p>
+                        </div>
+                        <div class="belief">
+                            <h4 data-i18n="manifesto.belief4_title">Local-First is the Future</h4>
+                            <p data-i18n="manifesto.belief4_desc">Modern devices are powerful enough to run sophisticated AI. The cloud was a necessary compromise - it's no longer necessary. We're building for a world where AI lives on your device, under your control.</p>
+                        </div>
                     </div>
-                    <h3>Speaker Identification</h3>
-                    <p>Automatically identifies who's speaking in multi-person recordings. Perfect for meetings, interviews, podcasts, and depositions.</p>
                 </div>
 
-                <!-- Quality Scoring -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                            <polyline points="22 4 12 14.01 9 11.01"/>
-                        </svg>
+                <div class="manifesto-block">
+                    <span class="manifesto-number">03</span>
+                    <h3 data-i18n="manifesto.block3_title">Our Commitment</h3>
+                    <div class="commitments">
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment1_title">Forever Free</strong>
+                                <p data-i18n="manifesto.commitment1_desc">LocalMind will always have a free, fully-functional version. No trials. No feature walls. No "freemium" tricks.</p>
+                            </div>
+                        </div>
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment2_title">Forever Private</strong>
+                                <p data-i18n="manifesto.commitment2_desc">Your transcriptions and audio files never leave your device - not now, not ever. If you opt in to our email list, we only collect your email address to notify you of major updates. No tracking. No selling data. Unsubscribe anytime.</p>
+                            </div>
+                        </div>
+                        <div class="commitment">
+                            <span class="commitment-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong data-i18n="manifesto.commitment3_title">Forever Open</strong>
+                                <p data-i18n="manifesto.commitment3_desc">Our code is MIT licensed. Fork it. Modify it. Build on it. The mission is bigger than any single project.</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>AI Quality Scoring</h3>
-                    <p>Chain-of-Thought reasoning provides 20-30% better analysis accuracy. Evaluate customer service quality, compliance, and conversation metrics.</p>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Export Options -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                            <polyline points="17 8 12 3 7 8"/>
-                            <line x1="12" y1="3" x2="12" y2="15"/>
-                        </svg>
-                    </div>
-                    <h3>Flexible Export</h3>
-                    <p>Export to PDF reports, JSON for developers, or plain text. Your data, your format. No vendor lock-in.</p>
+    <!-- Impact Stats -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="impact-header">
+                <h2 data-i18n="impact.title">This Is What We're Fighting For</h2>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <span class="impact-number" data-i18n="impact.stat1_number">100%</span>
+                    <span class="impact-label" data-i18n="impact.stat1_label">Local Processing</span>
+                    <p data-i18n="impact.stat1_desc">Zero bytes sent to external servers. Ever.</p>
                 </div>
-
-                <!-- Multi-language -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="2" y1="12" x2="22" y2="12"/>
-                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                        </svg>
-                    </div>
-                    <h3>99+ Languages</h3>
-                    <p>Transcribe audio in virtually any language. Interface available in 8 languages including English, Hindi, Spanish, Arabic, Russian, Japanese, French, and Chinese.</p>
+                <div class="impact-card">
+                    <span class="impact-number" data-i18n="impact.stat2_number">$0</span>
+                    <span class="impact-label" data-i18n="impact.stat2_label">Cost to Users</span>
+                    <p data-i18n="impact.stat2_desc">Professional AI for everyone, regardless of income.</p>
                 </div>
-
-                <!-- Offline -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h3>100% Offline</h3>
-                    <p>After initial model download, works completely offline. Process audio on airplanes, in secure facilities, or anywhere without internet.</p>
+                <div class="impact-card">
+                    <span class="impact-number" data-i18n="impact.stat3_number">MIT</span>
+                    <span class="impact-label" data-i18n="impact.stat3_label">Open License</span>
+                    <p data-i18n="impact.stat3_desc">Freedom to use, modify, and share.</p>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-number" data-i18n="impact.stat4_number">∞</span>
+                    <span class="impact-label" data-i18n="impact.stat4_label">Possibilities</span>
+                    <p data-i18n="impact.stat4_desc">No usage limits. No API caps. Unlimited.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Use Cases Section -->
-    <section class="section" style="background: var(--surface);">
+    <section class="use-cases-section">
         <div class="container">
-            <div class="section-header" style="text-align: center;">
-                <span class="section-label">Use Cases</span>
-                <h2 class="section-title">Built for <span class="gradient-text">Real People</span></h2>
-                <p class="section-subtitle">From journalists protecting sources to businesses saving costs - LocalMind serves diverse needs with one promise: your data stays yours.</p>
+            <div class="section-header">
+                <span class="section-label" data-i18n="use_cases.label">Use Cases</span>
+                <h2 data-i18n="use_cases.title">Built for <span class="gradient-text">Real People</span></h2>
+                <p data-i18n="use_cases.subtitle">From journalists protecting sources to businesses saving costs - LocalMind serves diverse needs with one core promise: your data stays yours.</p>
             </div>
-
             <div class="use-cases-grid">
                 <div class="use-case-card">
-                    <h3>🎙️ Journalists & Podcasters</h3>
-                    <p>Protect source identities with 100% offline transcription. No server logs, no data breaches, complete confidentiality for sensitive interviews.</p>
+                    <div class="use-case-icon">🎙️</div>
+                    <h3 data-i18n="use_cases_cards.journalists.title">Journalists & Podcasters</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.journalists.problem"><strong>Pain Point:</strong> Cloud services expose sensitive source conversations to corporate servers and potential legal requests.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.journalists.solution"><strong>Solution:</strong> Protect sources with 100% offline transcription. No server logs. No data breaches. Complete confidentiality.</p>
                 </div>
                 <div class="use-case-card">
-                    <h3>📞 Call Centers</h3>
-                    <p>Audit 100% of customer calls with AI-powered quality scoring. Save $400+/month compared to cloud services with unlimited usage.</p>
+                    <div class="use-case-icon">📞</div>
+                    <h3 data-i18n="use_cases_cards.call_centers.title">Call Centers</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.call_centers.problem"><strong>Pain Point:</strong> Subscription services cost $400+/month for call quality auditing and agent training.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.call_centers.solution"><strong>Solution:</strong> Audit 100% of calls with AI-powered quality scoring. Zero recurring costs. Unlimited usage.</p>
                 </div>
                 <div class="use-case-card">
-                    <h3>🔬 Researchers</h3>
-                    <p>HIPAA and GDPR compliance is automatic when data never leaves your device. Process patient interviews and research data locally.</p>
+                    <div class="use-case-icon">🔬</div>
+                    <h3 data-i18n="use_cases_cards.researchers.title">Researchers</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.researchers.problem"><strong>Pain Point:</strong> HIPAA and GDPR compliance prohibits uploading patient/participant interviews to cloud services.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.researchers.solution"><strong>Solution:</strong> Process interviews locally. Data never leaves your secure systems. Automatic compliance.</p>
                 </div>
                 <div class="use-case-card">
-                    <h3>⚖️ Legal Professionals</h3>
-                    <p>Maintain attorney-client privilege with on-device processing. Transcribe depositions and sensitive recordings without third-party access.</p>
+                    <div class="use-case-icon">⚖️</div>
+                    <h3 data-i18n="use_cases_cards.legal.title">Legal Professionals</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.legal.problem"><strong>Pain Point:</strong> Attorney-client privilege at risk when transcribing sensitive depositions through third parties.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.legal.solution"><strong>Solution:</strong> Maintain privilege with on-device processing. No third-party access. Court-ready security.</p>
                 </div>
                 <div class="use-case-card">
-                    <h3>🏢 Small Businesses</h3>
-                    <p>Professional transcription for $0. Save $360+/year compared to cloud subscriptions. Invest in growth, not software rent.</p>
+                    <div class="use-case-icon">🏢</div>
+                    <h3 data-i18n="use_cases_cards.smb.title">Small Businesses</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.smb.problem"><strong>Pain Point:</strong> Transcription subscriptions cost $20-50/month ($240-600/year) - prohibitive for bootstrapped teams.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.smb.solution"><strong>Solution:</strong> Professional AI for $0. Save $360+/year. Invest savings in growth, not software rent.</p>
                 </div>
                 <div class="use-case-card">
-                    <h3>🔒 Privacy Advocates</h3>
-                    <p>Audit every line of code yourself. Open-source transparency means no blind trust required. Use AI on your own terms.</p>
+                    <div class="use-case-icon">🔒</div>
+                    <h3 data-i18n="use_cases_cards.privacy.title">Privacy-Conscious Users</h3>
+                    <p class="use-case-problem" data-i18n="use_cases_cards.privacy.problem"><strong>Pain Point:</strong> "Trust us" isn't good enough. Black-box AI services can't be verified or audited.</p>
+                    <p class="use-case-solution" data-i18n="use_cases_cards.privacy.solution"><strong>Solution:</strong> Audit every line of code yourself. Open-source transparency. No blind trust required.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Comparison Section -->
-    <section class="section">
+    <!-- Product Section -->
+    <section class="product-section" id="product">
         <div class="container">
-            <div class="section-header" style="text-align: center;">
-                <span class="section-label">Why LocalMind</span>
-                <h2 class="section-title">LocalMind vs <span class="gradient-text">Cloud Services</span></h2>
-                <p class="section-subtitle">See how LocalMind compares to Otter.ai, Rev, Descript, and other cloud transcription services.</p>
+            <div class="section-header">
+                <span class="section-label" data-i18n="product.label">The Product</span>
+                <h2 data-i18n="product.title">LocalMind:<br><span class="gradient-text">AI Transcription That Respects You</span></h2>
+                <p data-i18n="product.subtitle">Our first tool in the fight for AI freedom. Professional-grade audio transcription and analysis that runs entirely on your machine.</p>
             </div>
 
+            <div class="product-features">
+                <div class="product-feature">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_transcription_title">Transcription</h3>
+                    <p data-i18n="product.feature_transcription_desc">State-of-the-art speech recognition powered by Whisper. Handles accents, noise, and multiple languages with remarkable accuracy.</p>
+                </div>
+                <div class="product-feature">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_speaker_title">Speaker Detection</h3>
+                    <p data-i18n="product.feature_speaker_desc">Automatically identifies who's speaking. Perfect for meetings, interviews, podcasts, and any multi-person recording.</p>
+                </div>
+                <div class="product-feature">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_quality_title">Quality Analysis</h3>
+                    <p data-i18n="product.feature_quality_desc">AI-powered insights with Chain-of-Thought reasoning for 20-30% better accuracy. Analyzes call quality, customer service, and compliance. Customize scoring to match your needs.</p>
+                </div>
+                <div class="product-feature">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="17 8 12 3 7 8"/>
+                            <line x1="12" y1="3" x2="12" y2="15"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_export_title">Export Freedom</h3>
+                    <p data-i18n="product.feature_export_desc">Your data, your format. Export to PDF reports, JSON for developers, or plain text. No vendor lock-in.</p>
+                </div>
+                <div class="product-feature">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_multilang_title">Multi-Language UI</h3>
+                    <p data-i18n="product.feature_multilang_desc">Use LocalMind in your native language. Interface available in English, Russian, Spanish, Hindi, and more.</p>
+                </div>
+            </div>
+
+            <div class="product-languages">
+                <h4 data-i18n="product.languages_heading">Supported Languages</h4>
+                <div class="language-tags">
+                    <span class="language-tag" data-i18n="product_extended.lang_english">English</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_hindi">Hindi</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_spanish">Spanish</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_arabic">Arabic</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_russian">Russian</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_italian">Italian</span>
+                    <span class="language-tag" data-i18n="product_extended.lang_many_more">+ Many More</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="comparison.label">Why LocalMind</span>
+                <h2 data-i18n="comparison.title">LocalMind vs <span class="gradient-text">Cloud Services</span></h2>
+                <p data-i18n="comparison.subtitle">See how LocalMind compares to popular cloud transcription services like Otter.ai, Rev, and Descript.</p>
+            </div>
             <div class="comparison-table-wrapper">
                 <table class="comparison-table">
                     <thead>
                         <tr>
-                            <th>Feature</th>
-                            <th>Cloud Services</th>
-                            <th>LocalMind</th>
+                            <th data-i18n="comparison_table.header_feature">Feature</th>
+                            <th class="cloud-col" data-i18n="comparison_table.header_cloud">Cloud Services</th>
+                            <th class="localmind-col" data-i18n="comparison_table.header_localmind">LocalMind</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Monthly Cost</strong></td>
-                            <td>$20-50/month</td>
-                            <td class="highlight">$0 Forever</td>
+                            <td><strong data-i18n="comparison_table.row1_feature">Monthly Cost</strong></td>
+                            <td data-i18n="comparison_table.row1_cloud">$20-50/month</td>
+                            <td class="highlight" data-i18n="comparison_table.row1_localmind">$0 Forever</td>
                         </tr>
                         <tr>
-                            <td><strong>Annual Cost</strong></td>
-                            <td>$240-600/year</td>
-                            <td class="highlight">$0</td>
+                            <td><strong data-i18n="comparison_table.row2_feature">Annual Cost</strong></td>
+                            <td data-i18n="comparison_table.row2_cloud">$240-600/year</td>
+                            <td class="highlight" data-i18n="comparison_table.row2_localmind">$0</td>
                         </tr>
                         <tr>
-                            <td><strong>Privacy</strong></td>
-                            <td>Upload to servers</td>
-                            <td class="highlight">100% Local</td>
+                            <td><strong data-i18n="comparison_table.row3_feature">Privacy</strong></td>
+                            <td data-i18n="comparison_table.row3_cloud">❌ Upload to servers</td>
+                            <td class="highlight" data-i18n="comparison_table.row3_localmind">✅ 100% Local</td>
                         </tr>
                         <tr>
-                            <td><strong>Usage Limits</strong></td>
-                            <td>300-1200 min/month</td>
-                            <td class="highlight">Unlimited</td>
+                            <td><strong data-i18n="comparison_table.row4_feature">Usage Limits</strong></td>
+                            <td data-i18n="comparison_table.row4_cloud">300-1200 min/month</td>
+                            <td class="highlight" data-i18n="comparison_table.row4_localmind">✅ Unlimited</td>
                         </tr>
                         <tr>
-                            <td><strong>Internet Required</strong></td>
-                            <td>Yes</td>
-                            <td class="highlight">Works Offline</td>
+                            <td><strong data-i18n="comparison_table.row5_feature">Internet Required</strong></td>
+                            <td data-i18n="comparison_table.row5_cloud">❌ Yes</td>
+                            <td class="highlight" data-i18n="comparison_table.row5_localmind">✅ Works Offline</td>
                         </tr>
                         <tr>
-                            <td><strong>Quality Scoring</strong></td>
-                            <td>Not included</td>
-                            <td class="highlight">AI-Powered CoT</td>
+                            <td><strong data-i18n="comparison_table.row6_feature">Quality Scoring</strong></td>
+                            <td data-i18n="comparison_table.row6_cloud">❌ Not included</td>
+                            <td class="highlight" data-i18n="comparison_table.row6_localmind">✅ AI-Powered CoT</td>
                         </tr>
                         <tr>
-                            <td><strong>Data Ownership</strong></td>
-                            <td>Stored on servers</td>
-                            <td class="highlight">You own 100%</td>
+                            <td><strong data-i18n="comparison_table.row7_feature">Data Ownership</strong></td>
+                            <td data-i18n="comparison_table.row7_cloud">❌ Stored on servers</td>
+                            <td class="highlight" data-i18n="comparison_table.row7_localmind">✅ You own 100%</td>
                         </tr>
                         <tr>
-                            <td><strong>Open Source</strong></td>
-                            <td>Proprietary</td>
-                            <td class="highlight">MIT License</td>
+                            <td><strong data-i18n="comparison_table.row8_feature">Open Source</strong></td>
+                            <td data-i18n="comparison_table.row8_cloud">❌ Proprietary</td>
+                            <td class="highlight" data-i18n="comparison_table.row8_localmind">✅ MIT License</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="roi-calculator">
+                <h3 data-i18n="comparison.roi_title">💰 Calculate Your Annual Savings</h3>
+                <p data-i18n="comparison.roi_cloud">Average cloud service: <strong>$30/month × 12 months = $360/year</strong></p>
+                <p data-i18n="comparison.roi_localmind">LocalMind: <strong>$0/year</strong></p>
+                <p class="savings-highlight" data-i18n="comparison.roi_savings">You save: <span class="gradient-text">$360+ every year</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="how_it_works.title">Simple by Design</h2>
+                <p data-i18n="how_it_works.subtitle">No accounts. No API keys. No configuration. Just download, open, and use.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 data-i18n="how_it_works.step1_title">Download</h3>
+                        <p data-i18n="how_it_works.step1_desc">Get LocalMind for your platform. One file, no dependencies.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 data-i18n="how_it_works.step2_title">Drop Audio</h3>
+                        <p data-i18n="how_it_works.step2_desc">Drag any audio file into the app. MP3, WAV, M4A, and more.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 data-i18n="how_it_works.step3_title">Get Results</h3>
+                        <p data-i18n="how_it_works.step3_desc">Accurate transcription and insights. Export however you want.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="testimonials.label">Global Users</span>
+                <h2 data-i18n="testimonials.title">Trusted Worldwide, <span class="gradient-text">In Every Language</span></h2>
+                <p data-i18n="testimonials.subtitle">LocalMind serves diverse users across the globe - from podcasters in Mexico to researchers in Japan.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">MG</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.maria.name">Maria González</h4>
+                            <p data-i18n="testimonials_list.maria.role">Podcaster, Mexico 🇲🇽</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.maria.lang_label">Spanish</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.maria.quote">"LocalMind's Spanish transcription is incredibly accurate. I process 10+ hours of interviews weekly without paying subscription fees. The privacy guarantee means I can discuss sensitive topics with complete confidence."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">YT</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.yuki.name">Dr. Yuki Tanaka</h4>
+                            <p data-i18n="testimonials_list.yuki.role">Medical Researcher, Japan 🇯🇵</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.yuki.lang_label">Japanese</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.yuki.quote">"HIPAA compliance was critical for our patient interview transcriptions. LocalMind processes everything locally - no data ever leaves our secure systems. The quality scoring helps ensure accuracy for medical records."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">AH</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.ahmed.name">Ahmed Hassan</h4>
+                            <p data-i18n="testimonials_list.ahmed.role">Legal Professional, UAE 🇦🇪</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.ahmed.lang_label">Arabic</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.ahmed.quote">"Supporting Arabic with RTL text is rare in transcription tools. LocalMind handles it perfectly. Attorney-client privilege stays intact because audio never touches the cloud. Worth every penny - which is zero!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">PS</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.priya.name">Priya Sharma</h4>
+                            <p data-i18n="testimonials_list.priya.role">Call Center Manager, India 🇮🇳</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.priya.lang_label">Hindi</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.priya.quote">"We audit 500+ customer service calls monthly. LocalMind saves us $400/month compared to cloud services. The quality scoring with CoT reasoning helps train our agents on empathy and resolution skills."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">DV</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.dmitry.name">Dmitry Volkov</h4>
+                            <p data-i18n="testimonials_list.dmitry.role">Journalist, Russia 🇷🇺</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.dmitry.lang_label">Russian</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.dmitry.quote">"Protecting source identities is non-negotiable. LocalMind's offline transcription means no server logs, no data breaches, no government access requests. Finally, transcription I can trust."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">SM</div>
+                        <div class="testimonial-info">
+                            <h4 data-i18n="testimonials_list.sophie.name">Sophie Martin</h4>
+                            <p data-i18n="testimonials_list.sophie.role">Small Business Owner, France 🇫🇷</p>
+                        </div>
+                        <span class="testimonial-language" data-i18n="testimonials_list.sophie.lang_label">French</span>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonials_list.sophie.quote">"GDPR compliance is automatic when data never leaves my laptop. I transcribe client meetings, team standups, and strategy sessions - all unlimited, all free, all private. LocalMind is a game-changer."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="faq.label">Common Questions</span>
+                <h2 data-i18n="faq.title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q1.question">How can this be completely free?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q1.answer">LocalMind runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for, no storage fees. We believe AI should be accessible to everyone, so we've built a truly free solution that doesn't rely on the "freemium" model. Our code is open source - if you don't trust us, you can audit and compile it yourself.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q2.question">Is it really as accurate as cloud services?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q2.answer">Yes! LocalMind uses OpenAI's Whisper model - the same technology behind many commercial transcription services. We achieve 95%+ accuracy across 99 languages. Plus, our Chain-of-Thought quality scoring provides 20-30% better analysis accuracy than standard approaches. The only difference is your data stays on your device.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q3.question">Will this work without an internet connection?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q3.answer">Absolutely! After the initial model download (one-time, happens on first run), LocalMind works 100% offline. Process audio files on airplanes, in remote locations, or anywhere without internet. Your workflow is never interrupted by connectivity issues.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q4.question">Can I use this commercially?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q4.answer">Yes! LocalMind is licensed under MIT - one of the most permissive open source licenses. Use it for personal projects, client work, commercial products, or anything else. No attribution required (though always appreciated). The only restriction: you can't hold us liable if something goes wrong.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q5.question">What about subtitle/SRT export for videos?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q5.answer">SRT/subtitle export is coming soon! We're actively developing this feature based on user feedback. <a href="#download" class="faq-link">Sign up for updates</a> to be notified when we release multi-lingual subtitle export, including timecode synchronization and formatting options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-i18n="faq_items.q6.question">What are the system requirements?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q6.answer"><strong>Minimum:</strong> 8GB RAM, 10GB free storage, macOS 10.15+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing<br><strong>Coming Soon:</strong> Windows 10+ and Linux (Ubuntu 22.04+)</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section class="section" id="download" style="background: var(--surface);">
+    <section class="download" id="download">
         <div class="container">
-            <div class="section-header" style="text-align: center;">
-                <span class="section-label">Get Started</span>
-                <h2 class="section-title">Download <span class="gradient-text">LocalMind</span></h2>
-                <p class="section-subtitle">Available for macOS, Windows, and Linux. No accounts, no API keys - just download and use.</p>
+            <div class="section-header">
+                <span class="section-label" data-i18n="download.label">Get Started</span>
+                <h2 data-i18n="download.title">Download<br><span class="gradient-text">LocalMind</span></h2>
+                <p data-i18n="download.subtitle">Available now for macOS, Windows, and Linux.</p>
             </div>
-
             <div class="download-cards">
-                <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.3/LocalMind-1.2.3-macOS.dmg" class="download-card">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
+                <a href="#" class="download-card" id="macOSDownloadBtn" data-download-url="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.3/LocalMind-1.2.3-macOS.dmg">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                     </svg>
-                    <h3>macOS v1.2.3</h3>
-                    <p>macOS 12+ (Intel & Apple Silicon)</p>
-                    <span class="download-size">~800 MB (+ 1.5 GB model on first run)</span>
+                    <h3 data-i18n="download.macos">macOS v1.2.3</h3>
+                    <p data-i18n="download_details.macos_desc">macOS 12+ (Intel & Apple Silicon)</p>
+                    <span class="download-size" data-i18n="download_details.macos_size">~800 MB (+ 1.5 GB model on first run)</span>
                 </a>
-
-                <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.3/LocalMind-1.2.3-Windows.zip" class="download-card">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.3/LocalMind-1.2.3-Windows.zip" class="download-card" id="windowsDownloadBtn">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
                     </svg>
-                    <h3>Windows v1.2.3</h3>
-                    <p>Windows 10+ (64-bit)</p>
-                    <span class="download-size">~300 MB (+ 1.5 GB model on first run)</span>
+                    <h3 data-i18n="download.windows">Windows v1.2.3</h3>
+                    <p data-i18n="download_details.windows_desc">Windows 10+ (64-bit)</p>
+                    <span class="download-size" data-i18n="download_details.windows_size">~300 MB (+ 1.5 GB model on first run)</span>
                 </a>
-
-                <a href="https://github.com/KaivalyaDeepTeam/LocalMind/actions/runs/21212599525" target="_blank" class="download-card">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
+                <a href="https://github.com/KaivalyaDeepTeam/LocalMind/actions/runs/21212599525" target="_blank" class="download-card" id="linuxDownloadBtn">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139z"/>
                     </svg>
-                    <h3>Linux v1.2.3</h3>
-                    <p>Ubuntu 22.04+ / AppImage</p>
-                    <span class="download-size">~4 GB (GitHub Artifact)</span>
+                    <h3 data-i18n="download.linux">Linux v1.2.3</h3>
+                    <p data-i18n="download_details.linux_desc">Ubuntu 22.04+ / AppImage</p>
+                    <span class="download-size" data-i18n="download_details.linux_size">~4 GB (GitHub Artifact)</span>
                 </a>
             </div>
-
             <div class="system-requirements">
-                <h4 style="text-align: center; margin-bottom: 1rem;">System Requirements</h4>
+                <h4 data-i18n="download_details.system_req_heading">System Requirements</h4>
                 <div class="requirements-grid">
                     <div class="requirement">
-                        <span class="req-label">RAM</span>
-                        <span class="req-value">8 GB minimum, 16 GB recommended</span>
+                        <span class="req-label" data-i18n="download_details.req_ram_label">RAM</span>
+                        <span class="req-value" data-i18n="download_details.req_ram_value">8 GB minimum, 16 GB recommended</span>
                     </div>
                     <div class="requirement">
-                        <span class="req-label">Storage</span>
-                        <span class="req-value">10 GB free space</span>
+                        <span class="req-label" data-i18n="download_details.req_storage_label">Storage</span>
+                        <span class="req-value" data-i18n="download_details.req_storage_value">10 GB free space</span>
                     </div>
                     <div class="requirement">
-                        <span class="req-label">GPU</span>
-                        <span class="req-value">Optional - Apple Silicon or NVIDIA accelerates processing</span>
+                        <span class="req-label" data-i18n="download_details.req_gpu_label">GPU</span>
+                        <span class="req-value" data-i18n="download_details.req_gpu_value">Optional - Apple Silicon or NVIDIA accelerates processing</span>
                     </div>
                 </div>
             </div>
-
-            <!-- Documentation -->
-            <div style="text-align: center; margin-top: 3rem;">
-                <h4 style="margin-bottom: 1rem;">Technical Documentation</h4>
-                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Comprehensive guides available in 8 languages</p>
+            <div class="documentation-section">
+                <h4 data-i18n="docs.heading">📚 Technical Guide</h4>
+                <p data-i18n="docs.description">Comprehensive documentation covering installation, model selection, transcription, quality scoring, and troubleshooting.</p>
                 <div class="docs-grid">
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_EN.pdf" class="doc-link" target="_blank">
-                        <span>🇺🇸</span> English
+                        <span class="doc-flag">🇺🇸</span>
+                        <span>English</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_HI.pdf" class="doc-link" target="_blank">
-                        <span>🇮🇳</span> हिन्दी
+                        <span class="doc-flag">🇮🇳</span>
+                        <span>हिन्दी</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_ES.pdf" class="doc-link" target="_blank">
-                        <span>🇪🇸</span> Español
+                        <span class="doc-flag">🇪🇸</span>
+                        <span>Español</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_FR.pdf" class="doc-link" target="_blank">
-                        <span>🇫🇷</span> Français
+                        <span class="doc-flag">🇫🇷</span>
+                        <span>Français</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_AR.pdf" class="doc-link" target="_blank">
-                        <span>🇸🇦</span> العربية
+                        <span class="doc-flag">🇸🇦</span>
+                        <span>العربية</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_JA.pdf" class="doc-link" target="_blank">
-                        <span>🇯🇵</span> 日本語
+                        <span class="doc-flag">🇯🇵</span>
+                        <span>日本語</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_RU.pdf" class="doc-link" target="_blank">
-                        <span>🇷🇺</span> Русский
+                        <span class="doc-flag">🇷🇺</span>
+                        <span>Русский</span>
                     </a>
                     <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.1/LocalMind_Technical_Guide_ZH.pdf" class="doc-link" target="_blank">
-                        <span>🇨🇳</span> 中文
+                        <span class="doc-flag">🇨🇳</span>
+                        <span>中文</span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="section cta-section">
+    <!-- Join Section -->
+    <section class="join-section">
+        <div class="container">
+            <div class="join-content">
+                <h2 data-i18n="join.heading">Join the Movement</h2>
+                <p data-i18n="join.paragraph1">LocalMind is more than software. It's a statement that AI can be built differently. That privacy and power aren't mutually exclusive. That open source can compete with Big Tech.</p>
+                <p data-i18n="join.paragraph2">We're just getting started. And we need people like you.</p>
+                <div class="join-actions">
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="join-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <div>
+                            <strong data-i18n="join.star_title">Star the Project</strong>
+                            <span data-i18n="join.star_desc">Show your support on GitHub</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind/fork" target="_blank" class="join-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="18" r="3"/>
+                            <circle cx="6" cy="6" r="3"/>
+                            <circle cx="18" cy="6" r="3"/>
+                            <path d="M18 9v4a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9"/>
+                            <path d="M12 12v3"/>
+                        </svg>
+                        <div>
+                            <strong data-i18n="join.fork_title">Fork & Contribute</strong>
+                            <span data-i18n="join.fork_desc">Help build the future of AI</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind/discussions" target="_blank" class="join-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        <div>
+                            <strong data-i18n="join.discussions_title">Join Discussions</strong>
+                            <span data-i18n="join.discussions_desc">Share ideas with the community</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Transcribe Privately?</h2>
-                <p>Join thousands who've chosen privacy without sacrificing quality. Download LocalMind and experience the difference.</p>
+                <h2 data-i18n="final_cta.heading">The Future of AI is Local.<br>The Future of AI is Open.<br><span class="gradient-text">The Future Starts Now.</span></h2>
                 <div class="cta-buttons">
-                    <a href="https://github.com/KaivalyaDeepTeam/LocalMind" target="_blank" class="btn btn-primary btn-lg">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-                        </svg>
-                        Star on GitHub
-                    </a>
-                    <a href="../#products" class="btn btn-secondary btn-lg">
-                        Explore All Products
-                    </a>
+                    <a href="#download" class="btn btn-primary btn-lg" id="ctaDownloadBtn" data-i18n="final_cta.download_btn">Download LocalMind</a>
+                    <a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank" class="btn btn-outline btn-lg" data-i18n="final_cta.source_btn">View Source Code</a>
                 </div>
             </div>
         </div>
@@ -616,37 +762,143 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="../" class="nav-logo">
-                        <span class="logo-icon">S</span>
-                        <span>Svetozar</span>
+                    <a href="/" class="logo">
+                        <img src="assets/logo.svg" alt="LocalMind" width="40" height="40">
+                        <span>LocalMind</span>
                     </a>
-                    <p data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                    <p class="footer-mission" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                    <p class="company" data-i18n="footer.company">A <strong>Svetozar Technologies</strong> Project</p>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.products">Products</h4>
-                    <a href="../localmind/">LocalMind</a>
-                    <a href="../localwrite/">LocalWrite</a>
-                    <a href="../localpdf/">LocalPDF</a>
+                    <h4 data-i18n="footer.mission_title">Mission</h4>
+                    <ul>
+                        <li><a href="#mission">Our Beliefs</a></li>
+                        <li><a href="#product">The Product</a></li>
+                        <li><a href="#download">Get Started</a></li>
+                    </ul>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.community">Community</h4>
-                    <a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a>
-                    <a href="https://github.com/orgs/Svetozar-Technologies/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a>
+                    <h4 data-i18n="footer.community_title">Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/KaivalyaDeepTeam/localmind" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/KaivalyaDeepTeam/localmind/discussions" target="_blank">Discussions</a></li>
+                        <li><a href="https://github.com/KaivalyaDeepTeam/localmind/issues" target="_blank">Report Issues</a></li>
+                    </ul>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.legal">Legal</h4>
-                    <a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
-                    <a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a>
+                    <h4>Open Source</h4>
+                    <ul>
+                        <li><a href="https://github.com/KaivalyaDeepTeam/localmind/blob/main/LICENSE" target="_blank">MIT License</a></li>
+                        <li><a href="https://github.com/KaivalyaDeepTeam/localmind/fork" target="_blank">Fork the Project</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.legal_title">Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies. MIT License.</p>
-                <p data-i18n="footer.built">Built with privacy in mind. No data leaves your device.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies</p>
+                <p class="footer-tagline" data-i18n="footer.footer_tagline">Building AI that serves humanity, not corporations.</p>
             </div>
         </div>
     </footer>
 
-    <script src="../js/i18n.js"></script>
-    <script src="../js/main.js"></script>
+    <!-- Email Capture Modal -->
+    <div class="modal-overlay" id="emailCaptureModal">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+
+            <div class="modal-content">
+                <div class="modal-icon">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                </div>
+
+                <h2 data-i18n="modal.title">Your Download is Ready!</h2>
+                <p class="modal-subtitle" data-i18n="modal.subtitle">Get notified when we release new features like <strong>subtitle export (SRT)</strong>, Windows support, and quality improvements.</p>
+
+                <form id="emailCaptureForm" action="https://formspree.io/f/mykkelwl" method="POST">
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            name="email"
+                            data-i18n="modal.email_placeholder"
+                            placeholder="your@email.com"
+                            required
+                            class="form-input"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            name="name"
+                            data-i18n="modal.name_placeholder"
+                            placeholder="First name (optional)"
+                            class="form-input"
+                        />
+                    </div>
+
+                    <div class="feature-survey">
+                        <p class="survey-question" data-i18n="modal.survey_question">Which feature would you use most?</p>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="feature_srt" value="yes" />
+                            <div class="checkbox-content">
+                                <strong data-i18n="modal.feature_srt">Subtitle/SRT export</strong>
+                                <small data-i18n="modal.feature_srt_desc">For video captions</small>
+                            </div>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="feature_realtime" value="yes" />
+                            <div class="checkbox-content">
+                                <strong data-i18n="modal.feature_realtime">Real-time transcription</strong>
+                                <small data-i18n="modal.feature_realtime_desc">Live audio processing</small>
+                            </div>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="feature_api" value="yes" />
+                            <div class="checkbox-content">
+                                <strong data-i18n="modal.feature_api">Developer API</strong>
+                                <small data-i18n="modal.feature_api_desc">Programmatic access</small>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="privacy-badge">
+                        <span data-i18n="modal.privacy_text">🛡️ No spam. Unsubscribe anytime.</span>
+                        <a href="privacy.html" target="_blank" data-i18n="modal.privacy_link">Privacy Policy</a>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block btn-submit" data-i18n="modal.submit_btn">
+                        Get Updates & Download
+                    </button>
+                    <button type="button" id="skipBtn" class="btn btn-secondary btn-block" data-i18n="modal.skip_btn">
+                        Skip, just download
+                    </button>
+                </form>
+
+                <!-- Success State (hidden by default) -->
+                <div id="successState" class="success-state" style="display:none;">
+                    <div class="success-icon">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="modal.success_title">✓ Thank You!</h3>
+                    <p data-i18n="modal.success_text">We'll keep you updated on new features and improvements.</p>
+                    <a href="https://github.com/KaivalyaDeepTeam/LocalMind/releases/download/v1.2.3/LocalMind-1.2.3-macOS.dmg" class="btn btn-primary btn-lg btn-download-final" download data-i18n="modal.download_btn">
+                        Download LocalMind Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
