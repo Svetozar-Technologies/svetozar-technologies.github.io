@@ -9,16 +9,28 @@ class I18n {
         this.translations = {};
         this.supportedLanguages = [
             { code: 'en', name: 'English', flag: '🇬🇧' },
-            { code: 'es', name: 'Espanol', flag: '🇪🇸' },
+            { code: 'es', name: 'Español', flag: '🇪🇸' },
             { code: 'ja', name: '日本語', flag: '🇯🇵' },
             { code: 'ar', name: 'العربية', flag: '🇦🇪' },
             { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
             { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-            { code: 'fr', name: 'Francais', flag: '🇫🇷' },
+            { code: 'fr', name: 'Français', flag: '🇫🇷' },
             { code: 'zh', name: '中文', flag: '🇨🇳' }
         ];
 
+        // Determine base path for translations (handles subpages like /localmind/)
+        this.basePath = this.getBasePath();
+
         this.init();
+    }
+
+    getBasePath() {
+        // Check if we're in a subdirectory
+        const path = window.location.pathname;
+        if (path.includes('/localmind/') || path.includes('/localwrite/') || path.includes('/localpdf/')) {
+            return '../';
+        }
+        return './';
     }
 
     async init() {
@@ -37,8 +49,9 @@ class I18n {
 
     async loadLanguage(langCode) {
         try {
-            const response = await fetch(`translations/${langCode}.json`);
-            if (!response.ok) throw new Error(`Failed to load ${langCode}`);
+            const url = `${this.basePath}translations/${langCode}.json`;
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`Failed to load ${langCode} from ${url}`);
 
             this.translations = await response.json();
             this.currentLang = langCode;
