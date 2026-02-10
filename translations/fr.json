@@ -1,183 +1,176 @@
 {
   "lang": "fr",
-  "name": "Francais",
+  "name": "Français",
   "nav": {
-    "mission": "Mission",
+    "mission": "Notre mission",
     "products": "Produits",
     "github": "GitHub",
     "get_started": "Commencer"
   },
   "hero": {
-    "badge": "100% Hors Ligne &bull; Open Source &bull; Gratuit pour Toujours",
-    "title": "L'IA Devrait Etre Libre.<br>L'IA Devrait Etre Privee.<br><span class='gradient-text'>L'IA Devrait Etre Votre.</span>",
-    "subtitle": "Nous construisons des outils d'IA qui respectent votre vie privee. Pas de serveurs cloud, pas de collecte de donnees, pas de compromis. Vos pensees restent les votres.",
-    "cta_products": "Explorer les Produits",
-    "cta_github": "Voir sur GitHub"
+    "title": "L'IA doit être gratuite.<br>L'IA doit être privée.<br><span class='gradient-text'>L'IA doit être la vôtre.</span>",
+    "subtitle": "Nous ne faisons pas que développer des logiciels. Nous nous battons pour un avenir où l'intelligence artificielle sert l'humanité — et non l'inverse. Où vos données restent les vôtres. Où la technologie puissante n'a pas de prix de surveillance.",
+    "cta_products": "Explorer nos produits",
+    "cta_mission": "Lire notre mission"
   },
-  "stats": {
-    "offline": "Traitement Hors Ligne",
-    "data": "Donnees Collectees",
-    "products": "Outils de Confidentialite",
-    "license": "Licence Ouverte"
+  "social_proof": {
+    "local": "Traitement local",
+    "free": "Gratuit pour toujours",
+    "opensource": "Open source",
+    "products": "Produits IA"
   },
   "mission": {
-    "label": "Notre Mission",
-    "title": "Eclairer la Confidentialite de l'IA",
-    "subtitle": "\"Svetozar\" signifie \"lumiere du monde\" dans les langues slaves. Nous croyons que l'IA devrait eclairer les possibilites, pas assombrir votre vie privee.",
-    "privacy_title": "Confidentialite d'Abord",
-    "privacy_desc": "Chaque produit que nous construisons fonctionne 100% localement sur votre appareil. Vos donnees ne touchent jamais nos serveurs car nous n'en avons pas.",
-    "offline_title": "Toujours Hors Ligne",
-    "offline_desc": "Connexion internet? Optionnelle. Notre IA fonctionne partout - dans un avion, dans une cabane, ou simplement quand vous voulez la paix numerique.",
-    "opensource_title": "Open Source",
-    "opensource_desc": "La transparence cree la confiance. Tout notre code est open source, verifiable et sous licence MIT. Voyez exactement ce qui tourne sur votre machine.",
-    "free_title": "Gratuit pour Toujours",
-    "free_desc": "Pas d'abonnements, pas de niveaux premium, pas de ventes incitatives. La vie privee ne devrait pas etre un luxe. Nos outils sont gratuits pour tous, toujours.",
-    "noaccount_title": "Pas de Comptes",
-    "noaccount_desc": "Telechargez et utilisez. Pas d'inscription, pas de verification d'email, pas de cles API. Nous ne voulons pas vos informations personnelles.",
-    "empower_title": "Autonomisation des Utilisateurs",
-    "empower_desc": "Nous construisons des outils qui redonnent le pouvoir aux utilisateurs. Vous controlez votre IA, vos donnees et votre vie numerique."
+    "label": "Notre mission",
+    "title": "Démocratiser l'IA.<br>Protéger la vie privée.<br><span class='gradient-text'>Donner du pouvoir à tous.</span>"
+  },
+  "manifesto": {
+    "block1_title": "Le problème que nous voyons",
+    "block1_text": "La révolution de l'IA est en marche, mais elle se fait selon les conditions d'autrui. Chaque grand service d'IA exige que vous téléchargiez vos données vers des serveurs d'entreprise. Vos enregistrements vocaux, vos documents, votre contenu le plus privé — stockés, analysés et monétisés par des entreprises dont les intérêts ne sont pas alignés avec les vôtres.",
+    "block2_title": "Notre solution",
+    "block2_text": "Nous créons des outils d'IA qui fonctionnent entièrement sur votre appareil. Pas de cloud. Pas de comptes. Pas de collecte de données. Juste des logiciels open source puissants qui respectent votre vie privée et fonctionnent hors ligne. Lorsque vous utilisez nos produits, vos données restent exactement là où elles doivent être — avec vous.",
+    "block3_title": "Notre engagement",
+    "commitment1_title": "Gratuit pour toujours",
+    "commitment1_desc": "Tous nos produits auront toujours des versions gratuites entièrement fonctionnelles. Pas d'essais. Pas de restrictions de fonctionnalités. Pas de pièges d'abonnement.",
+    "commitment2_title": "Privé pour toujours",
+    "commitment2_desc": "Vos données ne quittent jamais votre appareil. Pas de télémétrie. Pas d'analytique. Pas d'exceptions.",
+    "commitment3_title": "Ouvert pour toujours",
+    "commitment3_desc": "Notre code est sous licence MIT. Auditez-le. Forkez-le. Construisez dessus. La mission est plus grande que n'importe quel projet individuel."
   },
   "products": {
-    "label": "Nos Produits",
-    "title": "Outils d'IA Prives",
-    "subtitle": "Des capacites d'IA puissantes qui fonctionnent entierement sur votre appareil. Pas de cloud necessaire.",
-    "badge_available": "Disponible Maintenant",
-    "badge_coming": "Bientot Disponible",
-    "download": "Telecharger",
-    "source": "Code Source",
-    "coming_soon": "Bientot Disponible",
-    "localmind": {
-      "tagline": "Reconnaissance Vocale Privee",
-      "desc": "Transformez la parole en texte avec une confidentialite totale. Transcription de qualite professionnelle qui ne quitte jamais votre appareil.",
-      "f1": "Transcription en temps reel",
-      "f2": "99+ langues supportees",
-      "f3": "Identification des intervenants",
-      "f4": "Evaluation de qualite par IA",
-      "f5": "macOS, Windows et Linux"
-    },
-    "localwrite": {
-      "tagline": "Assistant d'Ecriture IA Prive",
-      "desc": "Ameliorez votre ecriture avec une IA locale puissante. Plusieurs modes, chat IA et suggestions intelligentes - le tout 100% hors ligne.",
-      "f1": "5 modes d'amelioration de l'ecriture",
-      "f2": "Assistant chat IA (hors ligne)",
-      "f3": "Amelioration de documents PDF",
-      "f4": "5 modeles d'IA au choix",
-      "f5": "macOS (Windows bientot)"
-    },
-    "localpdf": {
-      "tagline": "Boite a Outils PDF Privee",
-      "desc": "Traitement PDF complet sans telechargement cloud. Compresser, fusionner, diviser, convertir - tout localement sur votre appareil.",
-      "f1": "Compression PDF intelligente",
-      "f2": "Fusionner et diviser des documents",
-      "f3": "Conversion image vers PDF",
-      "f4": "PowerPoint vers PDF",
-      "f5": "macOS, Windows et Linux"
-    }
+    "label": "Nos produits",
+    "title": "Des outils d'IA qui <span class='gradient-text'>vous respectent</span>",
+    "subtitle": "IA de qualité professionnelle qui fonctionne entièrement sur votre appareil. Pas de cloud. Pas de compromis.",
+    "badge_available": "Disponible maintenant",
+    "badge_coming": "Bientôt disponible",
+    "learn_more": "En savoir plus",
+    "localmind_tagline": "Transcription et analyse par IA",
+    "localmind_desc": "Transcription audio professionnelle, détection des locuteurs et analyse de qualité. Propulsé par Whisper AI, fonctionne 100 % localement sur votre machine.",
+    "localmind_feature1": "99+ langues prises en charge",
+    "localmind_feature2": "Détection des locuteurs",
+    "localmind_feature3": "Score de qualité par IA",
+    "localmind_feature4": "Export en PDF, JSON, TXT",
+    "localwrite_tagline": "Amélioration de l'écriture par IA",
+    "localwrite_desc": "Améliorez votre écriture avec une IA locale puissante. 11 modes d'écriture, statistiques en temps réel et traitement de documents PDF. Vos mots ne quittent jamais votre appareil.",
+    "localwrite_feature1": "11 modes d'écriture",
+    "localwrite_feature2": "Curseur de contrôle de créativité",
+    "localwrite_feature3": "Amélioration de documents PDF",
+    "localwrite_feature4": "Statistiques en temps réel",
+    "localpdf_tagline": "Outils PDF propulsés par IA",
+    "localpdf_desc": "Discutez avec vos documents, extrayez des informations et traitez des PDF avec une IA locale. Vos documents sensibles restent totalement privés.",
+    "localpdf_feature1": "Discuter avec des PDF",
+    "localpdf_feature2": "Extraire les informations clés",
+    "localpdf_feature3": "Résumer des documents",
+    "localpdf_feature4": "Traitement 100 % local"
   },
-  "usecases": {
-    "label": "Cas d'Utilisation",
-    "title": "Construit pour <span class='gradient-text'>de Vraies Personnes</span>",
-    "subtitle": "Des journalistes protegeant leurs sources aux entreprises economisant des couts - nos outils servent des besoins divers avec une promesse centrale: vos donnees restent les votres.",
-    "journalists": {
-      "title": "Journalistes et Podcasters",
-      "desc": "Protegez l'identite de vos sources avec la transcription et l'ecriture 100% hors ligne. Pas de logs serveur. Pas de fuites de donnees. Confidentialite totale."
-    },
-    "legal": {
-      "title": "Professionnels du Droit",
-      "desc": "Maintenez le secret professionnel avec le traitement sur appareil. Transcrivez les depositions et ameliorez les documents sans acces tiers."
-    },
-    "researchers": {
-      "title": "Chercheurs",
-      "desc": "La conformite HIPAA et RGPD est automatique lorsque les donnees ne quittent jamais votre appareil. Traitez les entretiens et documents localement."
-    },
-    "business": {
-      "title": "Petites Entreprises",
-      "desc": "Economisez 360$+/an sur les outils de transcription et d'ecriture seuls. IA professionnelle pour 0$. Investissez les economies dans la croissance, pas la location de logiciels."
-    },
-    "students": {
-      "title": "Etudiants et Academiques",
-      "desc": "Ameliorez vos essais, transcrivez vos cours et traitez vos documents sans abonnements couteux ni soucis de confidentialite."
-    },
-    "privacy": {
-      "title": "Defenseurs de la Vie Privee",
-      "desc": "Auditez chaque ligne de code vous-meme. Transparence open source. Pas de confiance aveugle requise. Utilisez l'IA a vos conditions."
-    }
+  "why": {
+    "label": "Pourquoi l'IA locale ?",
+    "title": "Cloud vs <span class='gradient-text'>IA locale</span>",
+    "cloud_title": "Services d'IA cloud",
+    "cloud1": "Données envoyées vers des serveurs",
+    "cloud2": "Abonnements de 20-50 $/mois",
+    "cloud3": "Internet requis",
+    "cloud4": "Limites d'utilisation",
+    "cloud5": "Compte requis",
+    "cloud6": "Propriétaire, code fermé",
+    "local_title": "Svetozar Technologies",
+    "local1": "Traitement 100 % sur l'appareil",
+    "local2": "Gratuit pour toujours",
+    "local3": "Fonctionne hors ligne",
+    "local4": "Utilisation illimitée",
+    "local5": "Aucun compte nécessaire",
+    "local6": "Open source (MIT)"
   },
-  "comparison": {
-    "label": "Pourquoi Nous Choisir",
-    "title": "Svetozar vs <span class='gradient-text'>Services Cloud</span>",
-    "feature": "Fonctionnalite",
-    "cloud": "Services Cloud",
-    "svetozar": "Outils Svetozar",
-    "row1": {
-      "feature": "Cout Mensuel",
-      "svetozar": "0$ pour Toujours"
-    },
-    "row2": {
-      "feature": "Confidentialite",
-      "cloud": "Telecharger sur serveurs",
-      "svetozar": "100% Local"
-    },
-    "row3": {
-      "feature": "Internet Requis",
-      "cloud": "Toujours",
-      "svetozar": "Fonctionne Hors Ligne"
-    },
-    "row4": {
-      "feature": "Limites d'Utilisation",
-      "cloud": "Minutes/pages limitees",
-      "svetozar": "Illimite"
-    },
-    "row5": {
-      "feature": "Compte Requis",
-      "cloud": "Oui + verification",
-      "svetozar": "Pas de comptes"
-    },
-    "row6": {
-      "feature": "Propriete des Donnees",
-      "cloud": "Stockees sur serveurs",
-      "svetozar": "Vous possedez 100%"
-    },
-    "row7": {
-      "feature": "Open Source",
-      "cloud": "Proprietaire",
-      "svetozar": "Licence MIT"
-    }
+  "join": {
+    "heading": "Rejoignez le mouvement",
+    "paragraph": "Nous construisons l'IA différemment. Une IA qui vous respecte. Une IA qui est la vôtre. Rejoignez-nous pour créer un avenir où la technologie puissante est accessible à tous, sans compromettre la vie privée.",
+    "github_title": "Voir sur GitHub",
+    "github_desc": "Star, fork et contribuez",
+    "discussions_title": "Rejoindre les discussions",
+    "discussions_desc": "Connectez-vous avec la communauté"
   },
-  "testimonials": {
-    "label": "Utilisateurs Mondiaux",
-    "title": "Fiable dans le Monde Entier",
-    "t1": {
-      "quote": "\"La transcription espagnole de LocalMind est incroyablement precise. Je traite plus de 10 heures d'entretiens par semaine sans payer de frais d'abonnement.\"",
-      "name": "Maria Gonzalez",
-      "role": "Podcaster, Mexique"
-    },
-    "t2": {
-      "quote": "\"La conformite HIPAA etait critique pour nos entretiens de patients. LocalMind traite tout localement - aucune donnee ne quitte jamais nos systemes securises.\"",
-      "name": "Dr. Yuki Tanaka",
-      "role": "Chercheur Medical, Japon"
-    },
-    "t3": {
-      "quote": "\"LocalWrite m'a aide a ameliorer ma these tout en gardant mes recherches completement privees. Le chat IA est comme avoir un tuteur d'ecriture hors ligne.\"",
-      "name": "Priya Sharma",
-      "role": "Etudiante en Doctorat, Inde"
-    }
-  },
-  "cta": {
-    "title": "Pret pour l'IA Privee?",
-    "subtitle": "Rejoignez des milliers de personnes qui ont choisi la confidentialite sans sacrifier les capacites. Telechargez nos outils et decouvrez la difference.",
-    "explore": "Explorer les Produits",
-    "github": "Etoiler sur GitHub"
+  "final_cta": {
+    "heading": "L'avenir de l'IA est local.<br>L'avenir de l'IA est ouvert.<br><span class='gradient-text'>L'avenir commence maintenant.</span>",
+    "explore_btn": "Explorer les produits",
+    "source_btn": "Voir le code source"
   },
   "footer": {
-    "tagline": "L'IA qui est gratuite, privee et votre.",
-    "products": "Produits",
-    "community": "Communaute",
-    "legal": "Legal",
+    "tagline": "IA gratuite, privée et la vôtre.",
+    "products_title": "Produits",
+    "community_title": "Communauté",
+    "legal_title": "Juridique",
     "discussions": "Discussions",
-    "privacy": "Politique de Confidentialite",
+    "privacy": "Politique de confidentialité",
     "license": "Licence MIT",
-    "copyright": "&copy; 2025 Svetozar Technologies. Licence MIT.",
-    "built": "Construit avec la confidentialite a l'esprit. Aucune donnee ne quitte votre appareil."
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "Construire une IA au service de l'humanité, pas des entreprises."
+  },
+  "privacy": {
+    "page_title": "Politique de confidentialité",
+    "last_updated": "Dernière mise à jour : février 2026",
+    "short_title": "La version courte",
+    "short_text": "Nous ne collectons pas vos données. Chaque produit Svetozar Technologies fonctionne 100 % localement sur votre appareil. Vos fichiers, textes, audio et documents ne touchent jamais nos serveurs — parce que nous n'avons pas de serveurs. Ce n'est pas une fonctionnalité. C'est notre principe fondateur.",
+    "s1_title": "1. Notre philosophie",
+    "s1_text": "Chez Svetozar Technologies, nous croyons que la vie privée est un droit fondamental, pas une fonctionnalité premium. Nous créons des outils d'IA qui fonctionnent entièrement sur votre appareil parce que c'est ainsi que les logiciels devraient fonctionner. Pas de comptes. Pas de traitement cloud. Pas de collecte de données. Jamais.",
+    "s2_title": "2. Applications de bureau — Zéro collecte de données",
+    "s2_intro": "Cette politique s'applique à toutes les applications de bureau Svetozar Technologies, y compris <strong>LocalMind</strong> (transcription audio), <strong>LocalWrite</strong> (assistant d'écriture IA) et <strong>LocalPDF</strong> (intelligence PDF). Chaque application :",
+    "s2_item1": "<strong>Traite 100 % localement :</strong> Tout le traitement IA — transcription, écriture, résumé, analyse PDF — se fait entièrement sur votre appareil.",
+    "s2_item2": "<strong>Zéro télémétrie :</strong> Nous ne collectons aucune statistique d'utilisation, rapport de plantage, métrique de performance ni aucune forme d'analytique de nos applications.",
+    "s2_item3": "<strong>Aucun appel réseau :</strong> Après le téléchargement initial du modèle IA, toutes les applications fonctionnent entièrement hors ligne.",
+    "s2_item4": "<strong>Aucun compte requis :</strong> Vous n'avez jamais besoin de créer un compte ni de fournir des informations personnelles pour utiliser nos produits.",
+    "s2_item5": "<strong>Fichiers locaux :</strong> Toutes les sorties — transcriptions, documents, rapports et exports — sont stockées uniquement sur votre appareil.",
+    "s3_title": "3. Analytique du site web",
+    "s3_intro": "Lorsque vous visitez notre site web (svetozar-technologies.github.io), nous utilisons <strong>Plausible Analytics</strong>, un service d'analytique qui privilégie la confidentialité :",
+    "s3_item1": "<strong>Pas de cookies :</strong> Plausible n'utilise pas de cookies et ne vous suit pas entre les sites web.",
+    "s3_item2": "<strong>Pas de données personnelles :</strong> Nous ne pouvons pas identifier les visiteurs individuels.",
+    "s3_item3": "<strong>Conforme au RGPD :</strong> Toutes les données sont anonymisées et agrégées.",
+    "s3_extra": "Nous ne collectons que des métriques anonymes de base comme les pages vues et les sources de référence pour comprendre comment les gens découvrent nos produits. Rien d'identifiable personnellement.",
+    "s4_title": "4. Pas de suivi par des tiers",
+    "s4_intro": "Notre site web et nos applications N'utilisent PAS :",
+    "s4_item1": "Google Analytics ni aucune analytique invasive",
+    "s4_item2": "Facebook Pixel ni traceurs publicitaires",
+    "s4_item3": "Cookies de tiers de quelque sorte que ce soit",
+    "s4_item4": "Techniques de prise d'empreinte du navigateur",
+    "s4_item5": "Scripts de suivi inter-sites",
+    "s5_title": "5. Communications par e-mail",
+    "s5_intro": "Si vous fournissez volontairement votre adresse e-mail pour des mises à jour de produits :",
+    "s5_item1": "<strong>100 % volontaire :</strong> La collecte d'e-mails est toujours volontaire. Vous pouvez télécharger et utiliser tous les produits sans fournir d'informations personnelles.",
+    "s5_item2": "<strong>Stockage sécurisé :</strong> Les e-mails sont gérés via Formspree, un service de formulaires axé sur la confidentialité.",
+    "s5_item3": "<strong>Utilisation limitée :</strong> Nous n'envoyons que des notifications peu fréquentes sur les lancements majeurs, les nouvelles fonctionnalités et les mises à jour de sécurité.",
+    "s5_item4": "<strong>Jamais partagé :</strong> Nous ne vendrons, louerons ni partagerons jamais votre e-mail avec des tiers.",
+    "s5_item5": "<strong>Désabonnement facile :</strong> Chaque e-mail contient un lien de désabonnement en un clic.",
+    "s6_title": "6. Services tiers",
+    "s6_text": "Nos applications ne s'intègrent pas avec des services tiers susceptibles de compromettre votre vie privée. La seule dépendance externe est le téléchargement initial du modèle IA, qui provient directement de <strong>Hugging Face</strong>, un dépôt de modèles open source de confiance. Après cela, tout fonctionne hors ligne.",
+    "s7_title": "7. Sécurité des données",
+    "s7_text1": "<strong>Applications de bureau :</strong> Puisque toutes les données restent sur votre appareil, la sécurité est déterminée par les protections intégrées de votre système d'exploitation (par ex., FileVault sur macOS, BitLocker sur Windows).",
+    "s7_text2": "<strong>Site web :</strong> Ce site est servi via HTTPS. Toute soumission de formulaire est chiffrée en transit.",
+    "s8_title": "8. Vos droits (conformité RGPD)",
+    "s8_intro": "Si vous avez fourni votre adresse e-mail, vous avez le droit de :",
+    "s8_item1": "<strong>Accès :</strong> Demander une copie de toute donnée que nous détenons (limitée à votre e-mail).",
+    "s8_item2": "<strong>Suppression :</strong> Demander la suppression immédiate de notre liste de diffusion.",
+    "s8_item3": "<strong>Portabilité :</strong> Recevoir vos données dans un format lisible par une machine.",
+    "s8_item4": "<strong>Rectification :</strong> Mettre à jour votre adresse e-mail à tout moment.",
+    "s8_contact": "Pour exercer ces droits, contactez-nous à : <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
+    "s9_title": "9. Transparence open source",
+    "s9_intro": "Tous les produits Svetozar Technologies sont open source sous licence MIT. Vous pouvez :",
+    "s9_item1": "<strong>Auditer chaque ligne de code</strong> pour vérifier nos déclarations de confidentialité dans tous les dépôts.",
+    "s9_item2": "<strong>Vérifier le comportement réseau</strong> — confirmer que nos applications ne font aucun appel réseau non autorisé.",
+    "s9_item3": "<strong>Compiler depuis les sources</strong> — compiler n'importe quelle application vous-même pour une confiance maximale.",
+    "s9_item4": "<strong>Modifier librement</strong> — adapter le code à vos exigences spécifiques en matière de confidentialité.",
+    "s9_repos": "Visitez nos dépôts : <a href='https://github.com/Svetozar-Technologies' target='_blank'>github.com/Svetozar-Technologies</a>",
+    "s10_title": "10. Vie privée des enfants",
+    "s10_text": "Nos produits ne sont pas destinés aux enfants de moins de 13 ans. Cependant, puisque nous ne collectons aucune donnée personnelle via nos applications de bureau, elles peuvent être utilisées en toute sécurité par des personnes de tout âge.",
+    "s11_title": "11. Modifications de cette politique",
+    "s11_intro": "Nous pouvons mettre à jour cette politique de confidentialité au fur et à mesure que nous lançons de nouveaux produits ou fonctionnalités. Les modifications importantes seront annoncées via :",
+    "s11_item1": "Notification par e-mail (si vous êtes abonné)",
+    "s11_item2": "Avis bien visible sur ce site web",
+    "s11_item3": "Annonces sur le dépôt GitHub",
+    "s11_extra": "Notre engagement fondamental — que vos données restent sur votre appareil — ne changera jamais.",
+    "s12_title": "12. Nous contacter",
+    "s12_intro": "Des questions sur nos pratiques de confidentialité ? Contactez-nous par l'un de ces canaux :",
+    "s12_item1": "<strong>E-mail :</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
+    "s12_item2": "<strong>GitHub :</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>Page de l'organisation</a>",
+    "s12_item3": "<strong>Discussions :</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>Forum communautaire</a>",
+    "promise_title": "Notre promesse",
+    "promise_text": "<strong>Applications de bureau :</strong> Zéro collecte de données. Tout reste sur votre appareil.<br><strong>Site web :</strong> Analytique axée sur la confidentialité. Pas de cookies. Pas de données personnelles.<br><strong>E-mail :</strong> Inscription volontaire uniquement. Pas de spam. Désabonnement facile.<br><strong>Toujours :</strong> Nous ne compromettrons jamais votre vie privée pour le profit."
   }
 }

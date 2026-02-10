@@ -2,175 +2,193 @@
   "lang": "zh",
   "name": "中文",
   "nav": {
-    "mission": "我们的使命",
-    "product": "产品",
+    "features": "功能",
+    "use_cases": "应用场景",
     "notify": "通知我",
     "github": "GitHub"
   },
   "hero": {
     "badge": "即将推出",
-    "title": "你的文档。<br>你的隐私。<br><span class='gradient-text'>你的 AI 助手。</span>",
-    "subtitle": "LocalPDF 是一款隐私优先的 PDF 文档 AI 工具包。与你的 PDF 对话、提取关键洞察、总结文档 - 所有功能 100% 在你的设备上运行。无需云端。无需上传。不妥协。",
+    "title": "您的文档。<br>您的隐私。<br><span class='gradient-text'>您的AI助手。</span>",
+    "subtitle": "LocalPDF是一套以隐私为先的AI驱动PDF工具。与PDF对话、提取关键洞察、生成文档摘要——100%在您的设备上运行。无需云端。无需上传。绝不妥协。",
     "cta_notify": "发布时通知我",
-    "cta_mission": "阅读我们的使命"
+    "cta_features": "了解功能"
   },
   "social_proof": {
     "local": "本地处理",
-    "chat": "与 PDF 对话",
+    "chat": "PDF对话",
     "free": "永久免费",
     "opensource": "开源"
   },
-  "mission": {
-    "label": "我们的使命",
-    "title": "自由分析。<br>私密分析。<br><span class='gradient-text'>强力分析。</span>"
-  },
-  "manifesto": {
-    "block1_title": "我们看到的问题",
-    "block1_p1": "如今每一个 AI PDF 工具都要求你将文档上传到企业服务器。合同、医疗记录、财务报表、机密报告 - 全部被发送到云端、无限期存储，并可能被用来训练 AI 模型。",
-    "block1_p2": "这不仅仅是隐私问题。这是职业责任。你的文档应该在你的掌控之下。",
-    "block2_title": "我们的信念",
-    "belief1_title": "文档是敏感的",
-    "belief1_desc": "你的合同、报告和记录应该享有与你最机密对话同等的保护。",
-    "belief2_title": "AI 应该是可及的",
-    "belief2_desc": "强大的文档分析工具不应该花费每月 30-100 美元。每个人都应该有权使用 AI 能力。",
-    "belief3_title": "本地优先是可能的",
-    "belief3_desc": "现代计算机足够强大，可以在本地运行复杂的 AI 文档分析。",
-    "belief4_title": "开源即信任",
-    "belief4_desc": "每一行代码都将是公开的。审计它。验证你的文档确实从未离开你的设备。",
-    "block3_title": "我们的承诺",
-    "commitment1_title": "永久免费",
-    "commitment1_desc": "LocalPDF 将永远免费。没有试用期。没有高级版。为所有人提供完整功能。",
-    "commitment2_title": "永久私密",
-    "commitment2_desc": "你的文档永远不会离开你的设备。没有上传。没有遥测。没有分析。",
-    "commitment3_title": "永久开放",
-    "commitment3_desc": "MIT 许可证。分叉它。修改它。在它的基础上构建。使命比任何单个项目都重要。"
-  },
-  "impact": {
-    "title": "我们正在构建什么",
-    "stat1_number": "100%",
-    "stat1_label": "本地处理",
-    "stat1_desc": "你的文档永远不会离开你的电脑。",
-    "stat2_number": "$0",
-    "stat2_label": "用户成本",
-    "stat2_desc": "为所有人提供专业的 AI 文档工具。",
-    "stat3_number": "AI",
-    "stat3_label": "驱动洞察",
-    "stat3_desc": "对话、总结、提取 - 全部使用本地 AI。",
-    "stat4_number": "∞",
-    "stat4_label": "无限可能",
-    "stat4_desc": "无页数限制。无文件限制。无限。"
-  },
   "product": {
     "label": "产品",
-    "title": "LocalPDF：<br><span class='gradient-text'>尊重你的 AI PDF 工具</span>",
-    "subtitle": "一套完全在你的机器上运行的强大 AI 驱动 PDF 工具。无需云端。",
-    "feature1_title": "与 PDF 对话",
-    "feature1_desc": "用自然语言询问关于你文档的问题。获得带有页面引用的答案。",
+    "title": "LocalPDF：<br><span class='gradient-text'>尊重您的AI PDF工具</span>",
+    "subtitle": "完全在您的设备上运行的强大AI驱动PDF工具套件。无需云端。",
+    "feature1_title": "PDF对话",
+    "feature1_desc": "用自然语言提问文档内容。获取带页码引用的精确答案。",
     "feature2_title": "智能摘要",
-    "feature2_desc": "即时获得长文档的摘要。在几秒内提取关键点和结论。",
+    "feature2_desc": "长文档即时摘要。数秒内提取要点和关键结论。",
     "feature3_title": "信息提取",
-    "feature3_desc": "自动从合同、发票、报告中提取特定数据点。",
+    "feature3_desc": "从合同、发票和报告中自动提取结构化数据。",
     "feature4_title": "批量处理",
-    "feature4_desc": "一次处理多个 PDF。一次性总结一个文件夹的报告。",
+    "feature4_desc": "同时处理多个PDF。一次性摘要整个文件夹的报告。",
     "feature5_title": "完全隐私",
-    "feature5_desc": "完全离线工作。你的机密文档保持机密。",
-    "usecases_heading": "适用于",
-    "usecase1": "法律文档",
-    "usecase2": "研究论文",
+    "feature5_desc": "完全离线运行。敏感文档始终保持机密。",
+    "usecases_heading": "适用场景",
+    "usecase1": "法律文件",
+    "usecase2": "学术论文",
     "usecase3": "财务报告",
-    "usecase4": "合同",
+    "usecase4": "合同文书",
     "usecase5": "医疗记录",
     "usecase6": "+ 更多"
   },
+  "use_cases": {
+    "label": "应用场景",
+    "title": "为<span class='gradient-text'>真正的专业人士</span>打造",
+    "subtitle": "从保护客户数据的律师到分析论文的研究人员——LocalPDF以一个核心承诺满足多样化需求：您的文档始终属于您。"
+  },
+  "use_cases_cards": {
+    "legal": {
+      "title": "法律专业人士",
+      "problem": "<strong>问题：</strong>将合同和证词上传到云端AI服务会危及律师-客户保密特权。",
+      "solution": "<strong>解决方案：</strong>在您自己的设备上分析合同、提取条款和摘要证词。零数据泄露。"
+    },
+    "researchers": {
+      "title": "研究人员",
+      "problem": "<strong>问题：</strong>手动审阅数百篇学术论文需要数周。云端工具会泄露未发表的研究数据。",
+      "solution": "<strong>解决方案：</strong>批量摘要论文、提取方法论并与文档私密对话。文献综述的理想之选。"
+    },
+    "financial": {
+      "title": "金融分析师",
+      "problem": "<strong>问题：</strong>机密财务报告和收益数据不能上传到第三方AI服务。",
+      "solution": "<strong>解决方案：</strong>提取关键指标、比较季度报告并生成摘要，数据永不离开您的设备。"
+    },
+    "healthcare": {
+      "title": "医疗专业人员",
+      "problem": "<strong>问题：</strong>HIPAA和数据保护法规禁止将患者记录上传到云端服务。",
+      "solution": "<strong>解决方案：</strong>在本地处理医疗PDF。自动符合数据保护合规要求。"
+    },
+    "students": {
+      "title": "学生和教育工作者",
+      "problem": "<strong>问题：</strong>云端AI订阅费每月$20-50——学生预算难以承受。",
+      "solution": "<strong>解决方案：</strong>摘要教科书、提取关键概念、备考——永久$0。"
+    },
+    "privacy": {
+      "title": "隐私倡导者",
+      "problem": "<strong>问题：</strong>云端PDF工具将您的文档无限期存储在其服务器上。",
+      "solution": "<strong>解决方案：</strong>开源代码，完全可审计。您的文档永远不会触及任何服务器。"
+    }
+  },
   "comparison": {
-    "label": "为什么选择 LocalPDF",
-    "title": "LocalPDF 对比 <span class='gradient-text'>云服务</span>",
-    "subtitle": "看看 LocalPDF 与 ChatPDF、PDF.ai 和 Adobe Acrobat AI 等流行 AI PDF 服务的对比。",
-    "roi_title": "计算你的年度节省",
-    "roi_cloud": "平均 AI PDF 服务：<strong>$40/月 x 12 = $480/年</strong>",
+    "label": "为什么选择LocalPDF",
+    "title": "LocalPDF 对比 <span class='gradient-text'>云端服务</span>",
+    "subtitle": "将LocalPDF与流行的AI PDF服务进行比较：ChatPDF、PDF.ai、Adobe Acrobat AI。",
+    "roi_title": "计算您的年度节省",
+    "roi_cloud": "AI PDF服务平均价格：<strong>$40/月 x 12 = $480/年</strong>",
     "roi_localpdf": "LocalPDF：<strong>$0/年</strong>",
-    "roi_savings": "你节省：<span class='gradient-text'>每年 $480+</span>"
+    "roi_savings": "您节省：<span class='gradient-text'>每年$480以上</span>"
   },
   "comparison_table": {
     "header_feature": "功能",
-    "header_cloud": "云服务",
+    "header_cloud": "云端服务",
     "header_localpdf": "LocalPDF",
     "row1_feature": "月费",
     "row1_cloud": "$20-100/月",
-    "row1_localpdf": "永久 $0",
+    "row1_localpdf": "永久$0",
     "row2_feature": "文档隐私",
-    "row2_cloud": "上传到服务器",
+    "row2_cloud": "上传至服务器",
     "row2_localpdf": "永不离开设备",
     "row3_feature": "页数限制",
-    "row3_cloud": "每月 50-500 页",
-    "row3_localpdf": "无限",
+    "row3_cloud": "50-500页/月",
+    "row3_localpdf": "无限制",
     "row4_feature": "文件大小限制",
     "row4_cloud": "10-50 MB",
     "row4_localpdf": "无限制",
     "row5_feature": "需要网络",
-    "row5_cloud": "是，始终需要",
-    "row5_localpdf": "离线工作",
+    "row5_cloud": "始终需要",
+    "row5_localpdf": "离线运行",
     "row6_feature": "数据保留",
     "row6_cloud": "无限期存储",
-    "row6_localpdf": "不存储任何内容",
+    "row6_localpdf": "零存储",
     "row7_feature": "开源",
-    "row7_cloud": "专有",
-    "row7_localpdf": "MIT 许可证"
+    "row7_cloud": "专有软件",
+    "row7_localpdf": "MIT许可证"
   },
   "how_it_works": {
-    "title": "设计简洁",
-    "subtitle": "无需账户。无需上传。无需配置。只需下载、打开你的 PDF、开始对话。",
+    "title": "设计至简",
+    "subtitle": "无需账户。无需上传。无需配置。下载、打开PDF、开始对话。",
     "step1_title": "下载",
-    "step1_desc": "获取适用于你平台的 LocalPDF。一个应用，即可使用。",
-    "step2_title": "打开 PDF",
-    "step2_desc": "将你的文档拖入 LocalPDF。它永远不会离开你的电脑。",
-    "step3_title": "对话和分析",
-    "step3_desc": "提问、获取摘要、提取数据 - 全部本地处理。"
+    "step1_desc": "获取适用于您平台的LocalPDF。一个应用，即装即用。",
+    "step2_title": "打开PDF",
+    "step2_desc": "将文档拖入LocalPDF。它永远不会离开您的电脑。",
+    "step3_title": "对话与分析",
+    "step3_desc": "提问、获取摘要、提取数据——一切在本地处理。"
+  },
+  "testimonials": {
+    "label": "用户评价",
+    "title": "深受<span class='gradient-text'>印度各地专业人士</span>信赖",
+    "subtitle": "从律师到金融分析师，LocalPDF以一个核心承诺满足多样化需求：您的文档始终属于您。",
+    "t1_text": "\"我每周分析数十份合同。LocalPDF让我能够提取关键条款并与法律文件对话，而无需将客户数据暴露给云端服务器。律师-客户保密特权得到维护。这才是AI法律工具应有的工作方式。\"",
+    "t2_text": "\"通过云端AI处理机密收益报告和财务报表对我们来说从来不是选项。LocalPDF改变了一切——我可以摘要季度报告、提取关键指标和比较文档。全部离线，全部私密。\"",
+    "t3_text": "\"每次文献综述我需要审阅50多篇学术论文。LocalPDF批量摘要整个PDF文件夹、提取方法论，并让我与论文对话以查找具体细节。每学期为我节省数周工作时间。而且完全免费。\""
+  },
+  "faq": {
+    "label": "常见问题",
+    "title": "常见<span class='gradient-text'>问题解答</span>"
+  },
+  "faq_items": {
+    "q1": {
+      "question": "为什么可以完全免费？",
+      "answer": "LocalPDF完全在您的设备上运行，因此我们的云基础设施成本为零。没有服务器，没有流量。我们相信AI应该对每个人开放。我们的代码以MIT许可证开源——欢迎自行验证。"
+    },
+    "q2": {
+      "question": "AI分析的准确度如何？",
+      "answer": "LocalPDF使用针对文档理解优化的先进开源AI模型。虽然云端服务可能使用更大的模型，但我们的本地模型在摘要、问答和数据提取方面提供出色的准确度——关键优势在于：您的文档永远不会离开设备。"
+    },
+    "q3": {
+      "question": "可以完全离线工作吗？",
+      "answer": "当然可以！初始模型下载后（首次启动时一次性完成），LocalPDF即可100%离线运行。在飞机上、偏远地区或隔离环境中分析文档都不成问题。"
+    },
+    "q4": {
+      "question": "可以用于商业工作吗？",
+      "answer": "可以！LocalPDF采用MIT许可证。用于个人项目、客户工作或商业产品均可。无需署名（但我们一直欢迎）。"
+    },
+    "q5": {
+      "question": "支持哪些PDF格式和大小？",
+      "answer": "LocalPDF可处理任意大小的标准PDF文件——无页数或文件大小限制。支持文本PDF、扫描文档（带OCR）以及包含图片和表格的混合内容PDF。"
+    },
+    "q6": {
+      "question": "系统要求是什么？",
+      "answer": "<strong>最低配置：</strong>8 GB RAM、10 GB可用空间、macOS 12+或Windows 10+<br><strong>推荐配置：</strong>16 GB RAM、Apple Silicon或NVIDIA GPU以加速处理"
+    }
   },
   "notify": {
     "label": "即将推出",
     "title": "成为第一个<br><span class='gradient-text'>知道的人</span>",
-    "subtitle": "LocalPDF 目前正在开发中。给 GitHub 仓库加星以获得发布通知。",
-    "star_title": "在 GitHub 上加星",
-    "star_desc": "LocalPDF 发布时获得通知",
+    "subtitle": "LocalPDF正在开发中。在GitHub上给仓库加星标，以便在发布时收到通知。",
+    "star_title": "GitHub加星",
+    "star_desc": "在LocalPDF发布时获得通知",
     "star_cta": "关注仓库",
     "discuss_title": "加入讨论",
-    "discuss_desc": "分享你的功能请求和想法",
+    "discuss_desc": "分享您的功能需求和想法",
     "discuss_cta": "开始讨论",
     "planned_heading": "计划功能",
     "planned1_label": "对话",
-    "planned1_value": "与 PDF 进行自然语言问答",
-    "planned2_label": "总结",
+    "planned1_value": "用自然语言与PDF问答",
+    "planned2_label": "摘要",
     "planned2_value": "任何文档的即时摘要",
     "planned3_label": "提取",
     "planned3_value": "从文档中提取特定数据"
   },
-  "join": {
-    "heading": "加入运动",
-    "paragraph1": "LocalPDF 是更大愿景的一部分：尊重隐私、服务用户、对所有人开放的 AI。",
-    "paragraph2": "在 LocalPDF 开发期间，看看我们其他的隐私优先 AI 工具。",
-    "localmind_title": "LocalMind",
-    "localmind_desc": "AI 转录和分析",
-    "localwrite_title": "LocalWrite",
-    "localwrite_desc": "AI 写作增强",
-    "github_title": "所有项目",
-    "github_desc": "探索我们的 GitHub"
-  },
-  "final_cta": {
-    "heading": "AI 的未来是本地的。<br>AI 的未来是开放的。<br><span class='gradient-text'>未来从现在开始。</span>",
-    "star_btn": "在 GitHub 上加星",
-    "explore_btn": "探索所有产品"
-  },
   "footer": {
-    "tagline": "免费、私密、属于你的 AI。",
-    "company": "<strong>Svetozar Technologies</strong> 项目",
+    "tagline": "免费、私密、属于您的AI。",
     "products_title": "产品",
     "community_title": "社区",
+    "discussions": "讨论区",
     "legal_title": "法律信息",
-    "discussions": "讨论",
     "privacy": "隐私政策",
-    "license": "MIT 许可证",
+    "license": "MIT许可证",
     "copyright": "&copy; 2025 Svetozar Technologies",
-    "footer_tagline": "构建服务于人类而非企业的 AI。"
+    "footer_tagline": "构建服务人类而非企业的AI。"
   }
 }

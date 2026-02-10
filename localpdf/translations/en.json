@@ -2,8 +2,8 @@
   "lang": "en",
   "name": "English",
   "nav": {
-    "mission": "Our Mission",
-    "product": "Product",
+    "features": "Features",
+    "use_cases": "Use Cases",
     "notify": "Get Notified",
     "github": "GitHub"
   },
@@ -12,53 +12,13 @@
     "title": "Your Documents.<br>Your Privacy.<br><span class='gradient-text'>Your AI Assistant.</span>",
     "subtitle": "LocalPDF is a privacy-first AI toolkit for PDF documents. Chat with your PDFs, extract key insights, and summarize documents - all running 100% on your device. No cloud. No uploads. No compromises.",
     "cta_notify": "Get Notified When Ready",
-    "cta_mission": "Read Our Mission"
+    "cta_features": "Explore Features"
   },
   "social_proof": {
     "local": "Local Processing",
     "chat": "Chat with PDFs",
     "free": "Free Forever",
     "opensource": "Open Source"
-  },
-  "mission": {
-    "label": "Our Mission",
-    "title": "Analyze Freely.<br>Analyze Privately.<br><span class='gradient-text'>Analyze Powerfully.</span>"
-  },
-  "manifesto": {
-    "block1_title": "The Problem We See",
-    "block1_p1": "Every AI PDF tool today requires you to upload your documents to corporate servers. Contracts, medical records, financial statements, confidential reports - all sent to the cloud, stored indefinitely, and potentially used to train AI models.",
-    "block1_p2": "This is not just a privacy concern. It is a professional liability. Your documents should stay under your control.",
-    "block2_title": "What We Believe",
-    "belief1_title": "Documents Are Sensitive",
-    "belief1_desc": "Your contracts, reports, and records deserve the same protection as your most confidential conversations.",
-    "belief2_title": "AI Should Be Accessible",
-    "belief2_desc": "Powerful document analysis tools should not cost $30-100/month. Everyone deserves access to AI capabilities.",
-    "belief3_title": "Local-First is Possible",
-    "belief3_desc": "Modern computers are powerful enough to run sophisticated AI document analysis locally.",
-    "belief4_title": "Open Source is Trust",
-    "belief4_desc": "Every line of code will be public. Audit it. Verify that your documents truly never leave your device.",
-    "block3_title": "Our Commitment",
-    "commitment1_title": "Forever Free",
-    "commitment1_desc": "LocalPDF will always be free. No trials. No premium tiers. Full functionality for everyone.",
-    "commitment2_title": "Forever Private",
-    "commitment2_desc": "Your documents never leave your device. No uploads. No telemetry. No analytics.",
-    "commitment3_title": "Forever Open",
-    "commitment3_desc": "MIT licensed. Fork it. Modify it. Build on it. The mission is bigger than any single project."
-  },
-  "impact": {
-    "title": "What We Are Building",
-    "stat1_number": "100%",
-    "stat1_label": "Local Processing",
-    "stat1_desc": "Your documents never leave your computer.",
-    "stat2_number": "$0",
-    "stat2_label": "Cost to Users",
-    "stat2_desc": "Professional AI document tools for everyone.",
-    "stat3_number": "AI",
-    "stat3_label": "Powered Insights",
-    "stat3_desc": "Chat, summarize, extract - all with local AI.",
-    "stat4_number": "∞",
-    "stat4_label": "Possibilities",
-    "stat4_desc": "No page limits. No file limits. Unlimited."
   },
   "product": {
     "label": "The Product",
@@ -81,6 +41,43 @@
     "usecase4": "Contracts",
     "usecase5": "Medical Records",
     "usecase6": "+ More"
+  },
+  "use_cases": {
+    "label": "Use Cases",
+    "title": "Built for <span class='gradient-text'>Real Professionals</span>",
+    "subtitle": "From lawyers protecting client data to researchers analyzing papers - LocalPDF serves diverse needs with one core promise: your documents stay yours."
+  },
+  "use_cases_cards": {
+    "legal": {
+      "title": "Legal Professionals",
+      "problem": "<strong>Pain Point:</strong> Uploading contracts and depositions to cloud AI services risks attorney-client privilege.",
+      "solution": "<strong>Solution:</strong> Analyze contracts, extract clauses, and summarize depositions entirely on your device. Zero exposure."
+    },
+    "researchers": {
+      "title": "Researchers",
+      "problem": "<strong>Pain Point:</strong> Reviewing hundreds of research papers manually takes weeks. Cloud tools compromise unpublished data.",
+      "solution": "<strong>Solution:</strong> Batch-summarize papers, extract methodologies, and chat with documents privately. Perfect for literature reviews."
+    },
+    "financial": {
+      "title": "Financial Analysts",
+      "problem": "<strong>Pain Point:</strong> Confidential financial reports and earnings cannot be uploaded to third-party AI services.",
+      "solution": "<strong>Solution:</strong> Extract key metrics, compare quarterly reports, and generate summaries without data leaving your machine."
+    },
+    "healthcare": {
+      "title": "Healthcare Professionals",
+      "problem": "<strong>Pain Point:</strong> HIPAA and data protection regulations prohibit uploading patient records to cloud services.",
+      "solution": "<strong>Solution:</strong> Process medical PDFs locally. Automatic compliance with data protection regulations."
+    },
+    "students": {
+      "title": "Students & Educators",
+      "problem": "<strong>Pain Point:</strong> Cloud AI subscriptions cost $20-50/month - too expensive for students.",
+      "solution": "<strong>Solution:</strong> Summarize textbooks, extract key concepts, and prepare for exams. $0 forever."
+    },
+    "privacy": {
+      "title": "Privacy-Conscious Users",
+      "problem": "<strong>Pain Point:</strong> Cloud PDF tools store your documents on their servers indefinitely.",
+      "solution": "<strong>Solution:</strong> Open source, fully auditable. Your documents never touch any server. Period."
+    }
   },
   "comparison": {
     "label": "Why LocalPDF",
@@ -127,6 +124,44 @@
     "step3_title": "Chat and Analyze",
     "step3_desc": "Ask questions, get summaries, extract data - all processed locally."
   },
+  "testimonials": {
+    "label": "What Users Say",
+    "title": "Trusted by <span class='gradient-text'>Professionals Across India</span>",
+    "subtitle": "From lawyers to financial analysts, LocalPDF serves diverse needs with one core promise: your documents stay yours.",
+    "t1_text": "\"I analyze dozens of contracts weekly. LocalPDF lets me extract key clauses and chat with legal documents without ever exposing client data to cloud servers. Attorney-client privilege stays intact. This is how AI tools should work for legal professionals.\"",
+    "t2_text": "\"Processing confidential earnings reports and financial statements through cloud AI was never an option for us. LocalPDF changed everything - I can summarize quarterly reports, extract key metrics, and compare documents. All offline, all private.\"",
+    "t3_text": "\"I review 50+ research papers for every literature review. LocalPDF batch-summarizes entire folders of PDFs, extracts methodologies, and lets me chat with papers to find specific details. It saves me weeks of work every semester. And it's completely free.\""
+  },
+  "faq": {
+    "label": "Common Questions",
+    "title": "Frequently Asked <span class='gradient-text'>Questions</span>"
+  },
+  "faq_items": {
+    "q1": {
+      "question": "How can this be completely free?",
+      "answer": "LocalPDF runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for. We believe AI should be accessible to everyone. Our code is open source under MIT license - audit it yourself."
+    },
+    "q2": {
+      "question": "How accurate is the AI analysis?",
+      "answer": "LocalPDF uses state-of-the-art open source AI models optimized for document understanding. While cloud services may use larger models, our local models provide excellent accuracy for summarization, Q&A, and data extraction - with the critical advantage that your documents never leave your device."
+    },
+    "q3": {
+      "question": "Will this work without an internet connection?",
+      "answer": "Absolutely! After the initial model download (one-time, happens on first run), LocalPDF works 100% offline. Analyze documents on airplanes, in remote locations, or in air-gapped environments."
+    },
+    "q4": {
+      "question": "Can I use this for commercial work?",
+      "answer": "Yes! LocalPDF is MIT licensed. Use it for personal projects, client work, or commercial products. No attribution required (though always appreciated)."
+    },
+    "q5": {
+      "question": "What PDF formats and sizes are supported?",
+      "answer": "LocalPDF handles standard PDF files of any size - no page or file size limits. It works with text-based PDFs, scanned documents (with OCR), and mixed-content PDFs containing images and tables."
+    },
+    "q6": {
+      "question": "What are the system requirements?",
+      "answer": "<strong>Minimum:</strong> 8GB RAM, 10GB free storage, macOS 12+ or Windows 10+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing"
+    }
+  },
   "notify": {
     "label": "Coming Soon",
     "title": "Be the First<br><span class='gradient-text'>to Know</span>",
@@ -145,29 +180,12 @@
     "planned3_label": "Extract",
     "planned3_value": "Pull specific data from documents"
   },
-  "join": {
-    "heading": "Join the Movement",
-    "paragraph1": "LocalPDF is part of a larger vision: AI that respects privacy, serves users, and remains accessible to all.",
-    "paragraph2": "While LocalPDF is in development, check out our other privacy-first AI tools.",
-    "localmind_title": "LocalMind",
-    "localmind_desc": "AI Transcription and Analysis",
-    "localwrite_title": "LocalWrite",
-    "localwrite_desc": "AI Writing Enhancement",
-    "github_title": "All Projects",
-    "github_desc": "Explore our GitHub"
-  },
-  "final_cta": {
-    "heading": "The Future of AI is Local.<br>The Future of AI is Open.<br><span class='gradient-text'>The Future Starts Now.</span>",
-    "star_btn": "Star on GitHub",
-    "explore_btn": "Explore All Products"
-  },
   "footer": {
     "tagline": "AI that is free, private, and yours.",
-    "company": "A <strong>Svetozar Technologies</strong> Project",
     "products_title": "Products",
     "community_title": "Community",
-    "legal_title": "Legal",
     "discussions": "Discussions",
+    "legal_title": "Legal",
     "privacy": "Privacy Policy",
     "license": "MIT License",
     "copyright": "&copy; 2025 Svetozar Technologies",

@@ -2,15 +2,15 @@
   "lang": "ja",
   "name": "日本語",
   "nav": {
-    "mission": "私たちの使命",
-    "product": "製品",
+    "features": "機能",
+    "use_cases": "活用事例",
     "download": "ダウンロード",
     "github": "GitHub"
   },
   "hero": {
     "title": "AIは無料であるべき。<br>AIはプライベートであるべき。<br><span class='gradient-text'>AIはあなたのものであるべき。</span>",
     "subtitle": "私たちは単にソフトウェアを作っているのではありません。人工知能が人類に奉仕する未来のために戦っています。あなたの会話があなたのものであり続ける未来のために。強力な技術が監視という代償を払わない未来のために。",
-    "cta_mission": "使命を読む",
+    "cta_features": "機能を見る",
     "cta_download": "LocalMindをダウンロード"
   },
   "social_proof": {
@@ -19,14 +19,42 @@
     "languages": "言語",
     "opensource": "オープンソース"
   },
-  "mission": {
-    "label": "私たちの使命",
-    "title": "AIの民主化。<br>プライバシーの保護。<br><span class='gradient-text'>すべての人に力を。</span>"
-  },
   "use_cases": {
-    "label": "使用例",
+    "label": "活用事例",
     "title": "<span class='gradient-text'>実在する人々</span>のために作られた",
-    "subtitle": "情報源を守るジャーナリストからコストを節約する企業まで - LocalMindは、データがあなたのものであり続けるという核心的な約束で、多様なニーズに応えます。"
+    "subtitle": "情報源を守るジャーナリストからコストを節約する企業まで——LocalMindは、データがあなたのものであり続けるという核心的な約束で、多様なニーズに応えます。"
+  },
+  "use_cases_cards": {
+    "journalists": {
+      "title": "ジャーナリストとポッドキャスター",
+      "problem": "<strong>課題：</strong>クラウドサービスは機密性の高い情報源の会話を企業サーバーや潜在的な法的要求にさらします。",
+      "solution": "<strong>解決策：</strong>100%オフラインの文字起こしで情報源を保護。サーバーログなし。データ漏洩なし。完全な機密性。"
+    },
+    "call_centers": {
+      "title": "コールセンター",
+      "problem": "<strong>課題：</strong>サブスクリプションサービスは、通話品質監査とエージェントトレーニングに月額$400以上かかります。",
+      "solution": "<strong>解決策：</strong>AI駆動の品質スコアリングで100%の通話を監査。継続費用ゼロ。無制限使用。"
+    },
+    "researchers": {
+      "title": "研究者",
+      "problem": "<strong>課題：</strong>HIPAAおよびGDPRコンプライアンスは、患者/参加者のインタビューをクラウドサービスにアップロードすることを禁止しています。",
+      "solution": "<strong>解決策：</strong>インタビューをローカルで処理。データは安全なシステムから出ません。自動コンプライアンス。"
+    },
+    "legal": {
+      "title": "法律専門家",
+      "problem": "<strong>課題：</strong>第三者を通じて機密性の高い証言録取を文字起こしする際、弁護士・依頼人間の秘匿特権がリスクにさらされます。",
+      "solution": "<strong>解決策：</strong>デバイス上での処理で特権を維持。第三者アクセスなし。法廷対応のセキュリティ。"
+    },
+    "smb": {
+      "title": "中小企業",
+      "problem": "<strong>課題：</strong>文字起こしサブスクリプションは月額$20〜50（年間$240〜600）かかり、ブートストラップチームには高額です。",
+      "solution": "<strong>解決策：</strong>プロフェッショナルAIを$0で。年間$360以上節約。節約分をソフトウェアレンタルではなく成長に投資。"
+    },
+    "privacy": {
+      "title": "プライバシー重視のユーザー",
+      "problem": "<strong>課題：</strong>「信頼してください」では不十分。ブラックボックスAIサービスは検証または監査できません。",
+      "solution": "<strong>解決策：</strong>コードのすべての行を自分で監査。オープンソースの透明性。盲目的な信頼は不要。"
+    }
   },
   "product": {
     "label": "製品",
@@ -44,6 +72,53 @@
     "feature_multilang_desc": "母国語でLocalMindを使用できます。英語、ロシア語、スペイン語、ヒンディー語などでインターフェースが利用可能です。",
     "languages_heading": "サポート言語"
   },
+  "product_extended": {
+    "lang_english": "英語",
+    "lang_hindi": "ヒンディー語",
+    "lang_spanish": "スペイン語",
+    "lang_arabic": "アラビア語",
+    "lang_russian": "ロシア語",
+    "lang_italian": "イタリア語",
+    "lang_many_more": "+ その他多数"
+  },
+  "comparison": {
+    "label": "LocalMindを選ぶ理由",
+    "title": "LocalMind vs <span class='gradient-text'>クラウドサービス</span>",
+    "subtitle": "LocalMindがOtter.ai、Rev、Descriptなどの人気クラウド文字起こしサービスとどう比較されるかをご覧ください。",
+    "roi_title": "年間節約額を計算",
+    "roi_cloud": "平均的なクラウドサービス：<strong>$30/月 x 12ヶ月 = $360/年</strong>",
+    "roi_localmind": "LocalMind：<strong>$0/年</strong>",
+    "roi_savings": "節約額：<span class='gradient-text'>毎年$360+</span>"
+  },
+  "comparison_table": {
+    "header_feature": "機能",
+    "header_cloud": "クラウドサービス",
+    "header_localmind": "LocalMind",
+    "row1_feature": "月額料金",
+    "row1_cloud": "$20-50/月",
+    "row1_localmind": "永久$0",
+    "row2_feature": "年間料金",
+    "row2_cloud": "$240-600/年",
+    "row2_localmind": "$0",
+    "row3_feature": "プライバシー",
+    "row3_cloud": "サーバーにアップロード",
+    "row3_localmind": "100%ローカル",
+    "row4_feature": "使用制限",
+    "row4_cloud": "300-1200分/月",
+    "row4_localmind": "無制限",
+    "row5_feature": "インターネット必須",
+    "row5_cloud": "はい",
+    "row5_localmind": "オフライン動作",
+    "row6_feature": "品質スコアリング",
+    "row6_cloud": "未含",
+    "row6_localmind": "AI搭載CoT",
+    "row7_feature": "データ所有権",
+    "row7_cloud": "サーバーに保存",
+    "row7_localmind": "100%所有",
+    "row8_feature": "オープンソース",
+    "row8_cloud": "プロプライエタリ",
+    "row8_localmind": "MITライセンス"
+  },
   "how_it_works": {
     "title": "シンプルな設計",
     "subtitle": "アカウント不要。APIキー不要。設定不要。ダウンロードして、開いて、使うだけ。",
@@ -54,32 +129,70 @@
     "step3_title": "結果を取得",
     "step3_desc": "正確な文字起こしとインサイト。好きな方法でエクスポート。"
   },
-  "comparison": {
-    "label": "LocalMindを選ぶ理由",
-    "title": "LocalMind vs <span class='gradient-text'>クラウドサービス</span>",
-    "subtitle": "LocalMindがOtter.ai、Rev、Descriptなどの人気クラウド文字起こしサービスとどう比較されるかをご覧ください。",
-    "roi_title": "💰 年間節約額を計算",
-    "roi_cloud": "平均的なクラウドサービス: <strong>$30/月 × 12ヶ月 = $360/年</strong>",
-    "roi_localmind": "LocalMind: <strong>$0/年</strong>",
-    "roi_savings": "節約額: <span class=\"gradient-text\">$360+毎年</span>"
-  },
   "testimonials": {
-    "label": "グローバルユーザー",
-    "title": "世界中で信頼され、<span class='gradient-text'>あらゆる言語で</span>",
-    "subtitle": "LocalMindは世界中の多様なユーザーにサービスを提供しています - メキシコのポッドキャスターから日本の研究者まで。"
+    "label": "ユーザーの声",
+    "title": "<span class='gradient-text'>インド各地のプロフェッショナル</span>が信頼",
+    "subtitle": "コールセンターマネージャーから医学研究者まで——LocalMindは一つの核心的な約束で多様なニーズに応えます：あなたのデータはあなたのもの。",
+    "t1_text": "\"毎月500以上のカスタマーサービスコールを監査しています。LocalMindはクラウドサービスと比較して月額$400節約できます。CoT推論を使用した品質スコアリングは、エージェントの共感と解決スキルのトレーニングに役立ちます。これまでで最高の投資——しかも無料です。\"",
+    "t2_text": "\"私の仕事では情報源のアイデンティティの保護は譲れません。LocalMindのオフライン文字起こしは、サーバーログなし、データ侵害なし、政府のアクセス要求なしを意味します。飛行機内や僻地でインタビューを処理しています。ついに完全に信頼できる文字起こしです。\"",
+    "t3_text": "\"患者インタビューの文字起こしにはHIPAA準拠が不可欠でした。LocalMindはすべてをローカルで処理します——データが私たちの安全な病院システムから出ることはありません。ヒンディー語と英語の混合音声の認識精度は驚異的です。医学研究にとって画期的です。\""
   },
   "faq": {
     "label": "よくある質問",
     "title": "よくある<span class='gradient-text'>質問</span>"
   },
+  "faq_items": {
+    "q1": {
+      "question": "なぜ完全無料なのですか？",
+      "answer": "LocalMindは完全にお使いのデバイス上で動作するため、クラウドインフラストラクチャのコストがゼロです。維持するサーバーも、支払う帯域幅も、ストレージ料金もありません。AIは誰もがアクセスできるべきだと考えているため、「freemium」モデルに依存しない本当に無料のソリューションを構築しました。私たちのコードはオープンソースです——信用できなければ、自分で監査してコンパイルできます。"
+    },
+    "q2": {
+      "question": "クラウドサービスと同じくらい正確ですか？",
+      "answer": "はい！LocalMindはOpenAIのWhisperモデルを使用しています——多くの商用文字起こしサービスの背後にある同じ技術です。99言語で95%以上の精度を達成しています。さらに、Chain-of-Thought品質スコアリングは、標準的なアプローチよりも20〜30%優れた分析精度を提供します。唯一の違いは、データがデバイス上に留まることです。"
+    },
+    "q3": {
+      "question": "インターネット接続なしで動作しますか？",
+      "answer": "もちろんです！初回のモデルダウンロード（1回のみ、初回実行時に発生）の後、LocalMindは100%オフラインで動作します。飛行機、リモートロケーション、またはインターネットのない場所でオーディオファイルを処理できます。接続の問題によってワークフローが中断されることはありません。"
+    },
+    "q4": {
+      "question": "商用利用できますか？",
+      "answer": "はい！LocalMindはMITライセンスで提供されています——最も寛容なオープンソースライセンスの1つです。個人プロジェクト、クライアントワーク、商用製品、またはその他の目的に使用できます。帰属表示は不要です（ただし常に歓迎されます）。唯一の制限：何か問題が発生した場合、私たちを責任者とすることはできません。"
+    },
+    "q5": {
+      "question": "ビデオ用の字幕/SRTエクスポートはありますか？",
+      "answer": "SRT/字幕エクスポートは近日公開予定です！ユーザーフィードバックに基づいてこの機能を積極的に開発しています。多言語字幕エクスポート（タイムコード同期とフォーマットオプションを含む）のリリース通知を受け取るには、更新に登録してください。"
+    },
+    "q6": {
+      "question": "システム要件は何ですか？",
+      "answer": "<strong>最小：</strong>8 GB RAM、10 GB空き容量、macOS 10.15+<br><strong>推奨：</strong>16 GB RAM、Apple SiliconまたはNVIDIA GPUでより高速な処理<br><strong>近日公開：</strong>Windows 10+およびLinux（Ubuntu 22.04+）"
+    }
+  },
   "download": {
     "label": "始める",
     "title": "ダウンロード<br><span class='gradient-text'>LocalMind</span>",
-    "subtitle": "現在macOSで利用可能。WindowsとLinuxは近日公開。",
-    "macos": "macOS v1.2.1",
-    "windows": "Windows",
-    "linux": "Linux",
-    "coming_soon": "近日公開"
+    "subtitle": "macOS、Windows、Linuxで利用可能。",
+    "macos": "macOS v1.2.3",
+    "windows": "Windows v1.2.3",
+    "linux": "Linux v1.2.3"
+  },
+  "download_details": {
+    "macos_desc": "macOS 12以降（IntelとApple Silicon）",
+    "macos_size": "約800 MB（+ 初回起動時に1.5 GBモデル）",
+    "windows_desc": "Windows 10以降（64ビット）",
+    "windows_size": "約300 MB（+ 初回起動時に1.5 GBモデル）",
+    "linux_desc": "Ubuntu 22.04以降 / AppImage",
+    "linux_size": "約4 GB（GitHub Artifact）",
+    "system_req_heading": "システム要件",
+    "req_ram_label": "RAM",
+    "req_ram_value": "最小8 GB、推奨16 GB",
+    "req_storage_label": "ストレージ",
+    "req_storage_value": "10 GBの空き容量",
+    "req_gpu_label": "GPU",
+    "req_gpu_value": "オプション——Apple SiliconまたはNVIDIAが処理を高速化"
+  },
+  "docs": {
+    "heading": "技術ガイド",
+    "description": "インストール、モデル選択、文字起こし、品質スコアリング、トラブルシューティングを網羅した包括的なドキュメント。"
   },
   "modal": {
     "title": "ダウンロードの準備ができました！",
@@ -93,224 +206,24 @@
     "feature_realtime_desc": "ライブ音声処理",
     "feature_api": "開発者API",
     "feature_api_desc": "プログラムアクセス",
-    "privacy_text": "🛡️ スパムなし。いつでも解除可能。",
+    "privacy_text": "スパムなし。いつでも解除可能。",
     "privacy_link": "プライバシーポリシー",
     "submit_btn": "更新情報を受け取りダウンロード",
     "skip_btn": "スキップしてダウンロード",
-    "success_title": "✓ ありがとうございます！",
+    "success_title": "ありがとうございます！",
     "success_text": "新機能と改善についてお知らせします。",
     "download_btn": "今すぐLocalMindをダウンロード"
   },
   "footer": {
     "tagline": "無料でプライベート、あなたのAI。",
     "company": "<strong>Svetozar Technologies</strong>のプロジェクト",
-    "mission_title": "使命",
+    "products_title": "製品",
     "community_title": "コミュニティ",
+    "discussions": "ディスカッション",
     "legal_title": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "license": "MITライセンス",
     "copyright": "&copy; 2025 Svetozar Technologies",
     "footer_tagline": "企業ではなく人類に奉仕するAIを構築。"
-  },
-  "testimonials_list": {
-    "maria": {
-      "name": "Maria González",
-      "role": "ポッドキャスター、メキシコ 🇲🇽",
-      "lang_label": "スペイン語",
-      "quote": "LocalMindのスペイン語文字起こしは驚くほど正確です。毎週10時間以上のインタビューをサブスクリプション料金なしで処理しています。プライバシー保証により、機密性の高いトピックについて完全な自信を持って議論できます。"
-    },
-    "yuki": {
-      "name": "Dr. Yuki Tanaka",
-      "role": "医学研究者、日本 🇯🇵",
-      "lang_label": "日本語",
-      "quote": "患者インタビューの文字起こしには、HIPAA準拠が不可欠でした。LocalMindはすべてをローカルで処理するため、データが私たちの安全なシステムから出ることはありません。品質スコアリングは医療記録の正確性を確保するのに役立ちます。"
-    },
-    "ahmed": {
-      "name": "Ahmed Hassan",
-      "role": "法律専門家、UAE 🇦🇪",
-      "lang_label": "アラビア語",
-      "quote": "RTLテキストを使用したアラビア語のサポートは、文字起こしツールでは珍しいです。LocalMindは完璧に処理します。音声がクラウドに触れることがないため、弁護士と依頼人の特権は無傷のままです。すべてのペニーに値します - それはゼロです！"
-    },
-    "priya": {
-      "name": "Priya Sharma",
-      "role": "コールセンターマネージャー、インド 🇮🇳",
-      "lang_label": "ヒンディー語",
-      "quote": "毎月500以上のカスタマーサービスコールを監査しています。LocalMindはクラウドサービスと比較して月額400ドル節約できます。CoT推論を使用した品質スコアリングは、エージェントの共感と解決スキルのトレーニングに役立ちます。"
-    },
-    "dmitry": {
-      "name": "Dmitry Volkov",
-      "role": "ジャーナリスト、ロシア 🇷🇺",
-      "lang_label": "ロシア語",
-      "quote": "情報源のアイデンティティの保護は譲れません。LocalMindのオフライン文字起こしは、サーバーログなし、データ侵害なし、政府のアクセス要求なしを意味します。ついに信頼できる文字起こしです。"
-    },
-    "sophie": {
-      "name": "Sophie Martin",
-      "role": "中小企業オーナー、フランス 🇫🇷",
-      "lang_label": "フランス語",
-      "quote": "データがラップトップから出ない場合、GDPR準拠は自動的です。クライアントミーティング、チームスタンドアップ、戦略セッションを文字起こしします - すべて無制限、すべて無料、すべてプライベート。LocalMindはゲームチェンジャーです。"
-    }
-  },
-  "faq_items": {
-    "q1": {
-      "question": "なぜ完全無料なのですか？",
-      "answer": "LocalMindは完全にお使いのデバイス上で動作するため、クラウドインフラストラクチャのコストがゼロです。維持するサーバーも、支払う帯域幅も、ストレージ料金もありません。AIは誰もがアクセスできるべきだと考えているため、「freemium」モデルに依存しない本当に無料のソリューションを構築しました。私たちのコードはオープンソースです。信用できなければ、自分で監査してコンパイルできます。"
-    },
-    "q2": {
-      "question": "クラウドサービスと同じくらい正確ですか？",
-      "answer": "はい！LocalMindはOpenAIのWhisperモデルを使用しています。これは多くの商用文字起こしサービスの背後にある同じ技術です。99言語で95%以上の精度を達成しています。さらに、Chain-of-Thought品質スコアリングは、標準的なアプローチよりも20〜30%優れた分析精度を提供します。唯一の違いは、データがデバイス上に留まることです。"
-    },
-    "q3": {
-      "question": "インターネット接続なしで動作しますか？",
-      "answer": "もちろんです！初回のモデルダウンロード（1回のみ、初回実行時に発生）の後、LocalMindは100%オフラインで動作します。飛行機、リモートロケーション、またはインターネットのない場所でオーディオファイルを処理できます。接続の問題によってワークフローが中断されることはありません。"
-    },
-    "q4": {
-      "question": "商用利用できますか？",
-      "answer": "はい！LocalMindはMITライセンスで提供されています。これは最も寛容なオープンソースライセンスの1つです。個人プロジェクト、クライアントワーク、商用製品、またはその他の目的に使用できます。帰属表示は不要です（ただし常に歓迎されます）。唯一の制限：何か問題が発生した場合、私たちを責任者とすることはできません。"
-    },
-    "q5": {
-      "question": "ビデオ用の字幕/SRTエクスポートはありますか？",
-      "answer": "SRT/字幕エクスポートは近日公開予定です！ユーザーフィードバックに基づいてこの機能を積極的に開発しています。多言語字幕エクスポート（タイムコード同期とフォーマットオプションを含む）のリリース通知を受け取るには、更新に登録してください。"
-    },
-    "q6": {
-      "question": "システム要件は何ですか？",
-      "answer": "最小: 8GB RAM、10GB空き容量、macOS 10.15+ | 推奨: 16GB RAM、Apple SiliconまたはNVIDIA GPUでより高速な処理 | 近日公開: Windows 10+およびLinux（Ubuntu 22.04+）"
-    }
-  },
-  "use_cases_cards": {
-    "journalists": {
-      "title": "ジャーナリストとポッドキャスター",
-      "problem": "<strong>課題:</strong> クラウドサービスは機密性の高い情報源の会話を企業サーバーや潜在的な法的要求にさらします。",
-      "solution": "<strong>解決策:</strong> 100%オフラインの文字起こしで情報源を保護。サーバーログなし。データ漏洩なし。完全な機密性。"
-    },
-    "call_centers": {
-      "title": "コールセンター",
-      "problem": "<strong>課題:</strong> サブスクリプションサービスは、通話品質監査とエージェントトレーニングに月額$400以上かかります。",
-      "solution": "<strong>解決策:</strong> AI駆動の品質スコアリングで100%の通話を監査。継続費用ゼロ。無制限使用。"
-    },
-    "researchers": {
-      "title": "研究者",
-      "problem": "<strong>課題:</strong> HIPAAおよびGDPRコンプライアンスは、患者/参加者のインタビューをクラウドサービスにアップロードすることを禁止しています。",
-      "solution": "<strong>解決策:</strong> インタビューをローカルで処理。データは安全なシステムから出ません。自動コンプライアンス。"
-    },
-    "legal": {
-      "title": "法律専門家",
-      "problem": "<strong>課題:</strong> 第三者を通じて機密性の高い証言録取を文字起こしする際、弁護士・依頼人間の秘匿特権がリスクにさらされます。",
-      "solution": "<strong>解決策:</strong> デバイス上での処理で特権を維持。第三者アクセスなし。法廷対応のセキュリティ。"
-    },
-    "smb": {
-      "title": "中小企業",
-      "problem": "<strong>課題:</strong> 文字起こしサブスクリプションは月額$20〜50（年間$240〜600）かかり、ブートストラップチームには高額です。",
-      "solution": "<strong>解決策:</strong> プロフェッショナルAIを$0で。年間$360以上節約。節約分をソフトウェアレンタルではなく成長に投資。"
-    },
-    "privacy": {
-      "title": "プライバシー重視のユーザー",
-      "problem": "<strong>課題:</strong> 「信頼してください」では不十分。ブラックボックスAIサービスは検証または監査できません。",
-      "solution": "<strong>解決策:</strong> コードのすべての行を自分で監査。オープンソースの透明性。盲目的な信頼は不要。"
-    }
-  },
-  "manifesto": {
-    "block1_title": "私たちが見る問題",
-    "block1_p1": "AI革命は起きていますが、他人の条件で起きています。すべての主要なAIサービスは、企業のサーバーにデータをアップロードすることを要求します。あなたの音声録音、会話、最もプライベートな瞬間 - あなたの利益と一致しない企業によって保存、分析、収益化されています。",
-    "block1_p2": "これは単なるプライバシーの問題ではありません。権力の問題です。AIがクラウドにのみ存在し、少数の企業によって管理されている場合、彼らが誰がアクセスできるか、費用、データに何が起こるかを決定します。それは私たちが望む未来ではありません。",
-    "block2_title": "私たちの信念",
-    "belief1_title": "AIは特権ではなく権利",
-    "belief1_desc": "強力なAIツールは高価なサブスクリプションの背後にロックされるべきではありません。ムンバイの学生はFortune 500企業と同じAI機能を持つべきです。私たちはすべての人のために構築します。",
-    "belief2_title": "あなたのデータはあなたのもの",
-    "belief2_desc": "あなたの声は生体認証データです。あなたの会話にはあなたの考え、関係、秘密が含まれています。どの企業も、あなたの明示的で十分な情報に基づく同意なしにそれにアクセスすべきではありません。",
-    "belief3_title": "透明性は交渉不可",
-    "belief3_desc": "私たちの言葉を信頼する必要はありません。LocalMindのコードのすべての行は公開されています。監査してください。検証してください。自分で構築してください。それがソフトウェアを本当に信頼する唯一の方法です。",
-    "belief4_title": "ローカルファーストが未来",
-    "belief4_desc": "現代のデバイスは洗練されたAIを実行するのに十分強力です。クラウドは必要な妥協でした - もはや必要ありません。私たちは、AIがあなたのデバイス上に存在し、あなたの管理下にある世界を構築しています。",
-    "block3_title": "私たちの約束",
-    "commitment1_title": "永久無料",
-    "commitment1_desc": "LocalMindには常に無料で完全に機能するバージョンがあります。試用版なし。機能の壁なし。「フリーミアム」のトリックなし。",
-    "commitment2_title": "永久プライベート",
-    "commitment2_desc": "あなたの文字起こしとオーディオファイルは、今も、これからも、デバイスから出ることはありません。メーリングリストにオプトインした場合、重要な更新を通知するためにメールアドレスのみを収集します。追跡なし。データ販売なし。いつでも登録解除できます。",
-    "commitment3_title": "永久オープン",
-    "commitment3_desc": "私たちのコードはMITライセンスです。フォークしてください。変更してください。その上に構築してください。使命は単一のプロジェクトよりも大きいです。"
-  },
-  "impact": {
-    "title": "これが私たちが戦っているもの",
-    "stat1_number": "100%",
-    "stat1_label": "ローカル処理",
-    "stat1_desc": "外部サーバーに送信されるバイトはゼロ。絶対に。",
-    "stat2_number": "$0",
-    "stat2_label": "ユーザーへのコスト",
-    "stat2_desc": "収入に関係なく、すべての人にプロフェッショナルなAI。",
-    "stat3_number": "MIT",
-    "stat3_label": "オープンライセンス",
-    "stat3_desc": "使用、変更、共有の自由。",
-    "stat4_number": "∞",
-    "stat4_label": "可能性",
-    "stat4_desc": "使用制限なし。API制限なし。無制限。"
-  },
-  "comparison_table": {
-    "header_feature": "機能",
-    "header_cloud": "クラウドサービス",
-    "header_localmind": "LocalMind",
-    "row1_feature": "月額料金",
-    "row1_cloud": "$20-50/月",
-    "row1_localmind": "永久$0",
-    "row2_feature": "年間料金",
-    "row2_cloud": "$240-600/年",
-    "row2_localmind": "$0",
-    "row3_feature": "プライバシー",
-    "row3_cloud": "❌ サーバーにアップロード",
-    "row3_localmind": "✅ 100%ローカル",
-    "row4_feature": "使用制限",
-    "row4_cloud": "300-1200分/月",
-    "row4_localmind": "✅ 無制限",
-    "row5_feature": "インターネット必須",
-    "row5_cloud": "❌ はい",
-    "row5_localmind": "✅ オフライン動作",
-    "row6_feature": "品質スコアリング",
-    "row6_cloud": "❌ 未含",
-    "row6_localmind": "✅ AI搭載CoT",
-    "row7_feature": "データ所有権",
-    "row7_cloud": "❌ サーバーに保存",
-    "row7_localmind": "✅ 100%所有",
-    "row8_feature": "オープンソース",
-    "row8_cloud": "❌ プロプライエタリ",
-    "row8_localmind": "✅ MITライセンス"
-  },
-  "product_extended": {
-    "lang_english": "英語",
-    "lang_hindi": "ヒンディー語",
-    "lang_spanish": "スペイン語",
-    "lang_arabic": "アラビア語",
-    "lang_russian": "ロシア語",
-    "lang_italian": "イタリア語",
-    "lang_many_more": "+ その他多数"
-  },
-  "join": {
-    "heading": "運動に参加",
-    "paragraph1": "LocalMindは単なるソフトウェア以上のものです。AIを異なる方法で構築できるという宣言です。プライバシーとパワーは相互に排他的ではありません。オープンソースはビッグテックと競争できます。",
-    "paragraph2": "私たちは始まったばかりです。あなたのような人が必要です。",
-    "star_title": "プロジェクトにスター",
-    "star_desc": "GitHubでサポートを示す",
-    "fork_title": "フォークと貢献",
-    "fork_desc": "AIの未来を構築する手助け",
-    "discussions_title": "ディスカッションに参加",
-    "discussions_desc": "コミュニティとアイデアを共有"
-  },
-  "final_cta": {
-    "heading": "AIの未来はローカル。<br>AIの未来はオープン。<br><span class='gradient-text'>未来は今始まる。</span>",
-    "download_btn": "LocalMindをダウンロード",
-    "source_btn": "ソースコードを表示"
-  },
-  "download_details": {
-    "macos_desc": "macOS 12以降 (IntelとApple Silicon)",
-    "macos_size": "約800 MB (+ 初回起動時に1.5 GBモデル)",
-    "windows_desc": "Windows 10以降 (64ビット)",
-    "linux_desc": "Ubuntu 22.04以降 / AppImage",
-    "system_req_heading": "システム要件",
-    "req_ram_label": "RAM",
-    "req_ram_value": "最小8 GB、推奨16 GB",
-    "req_storage_label": "ストレージ",
-    "req_storage_value": "10 GBの空き容量",
-    "req_gpu_label": "GPU",
-    "req_gpu_value": "オプション - Apple SiliconまたはNVIDIAが処理を高速化"
-  },
-  "docs": {
-    "heading": "📚 技術ガイド",
-    "description": "インストール、モデル選択、文字起こし、品質スコアリング、トラブルシューティングを網羅した包括的なドキュメント。"
   }
 }

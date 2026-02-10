@@ -2,179 +2,188 @@
   "lang": "zh",
   "name": "中文",
   "nav": {
-    "mission": "我们的使命",
-    "product": "产品",
+    "features": "功能",
+    "use_cases": "应用场景",
     "download": "下载",
     "github": "GitHub"
   },
   "hero": {
-    "title": "你的文字。<br>你的隐私。<br><span class='gradient-text'>你的掌控。</span>",
-    "subtitle": "LocalWrite 是一款隐私优先的 AI 写作助手，100% 在你的设备上运行。用强大的 AI 提升你的写作——无需向云端发送任何一个字。永久免费。开源。不妥协。",
-    "cta_download": "下载 LocalWrite",
-    "cta_mission": "阅读我们的使命"
+    "badge": "100% 离线",
+    "title": "私密AI写作。<br>强大模型。<br><span class='gradient-text'>你的文字属于你。</span>",
+    "subtitle": "使用完全在你设备上运行的强大AI提升写作。从5个精选模型、5种写作模式以及摘要、扩展和文档对话等功能中选择。无需云端。无需账户。不做妥协。",
+    "cta_download": "下载 macOS 版",
+    "cta_features": "浏览功能"
   },
   "social_proof": {
-    "launch": "刚刚发布！",
-    "free": "永久免费",
-    "modes": "种写作模式",
+    "offline": "离线",
+    "cost": "永久免费",
+    "models": "AI 模型",
     "opensource": "开源"
-  },
-  "mission": {
-    "label": "我们的使命",
-    "title": "自由地写作。<br>私密地写作。<br><span class='gradient-text'>强有力地写作。</span>"
-  },
-  "manifesto": {
-    "block1_title": "我们看到的问题",
-    "block1_p1": "如今每一个 AI 写作工具都会将你的文字发送到企业服务器。你的草稿、你的想法、你的私人思绪——全部被上传、存储，并可能被用来训练 AI 模型。作家、记者和专业人士被迫在 AI 辅助和隐私之间做出选择。",
-    "block1_p2": "这不仅仅是不便。这是对创作隐私的根本侵犯。你的文字应该属于你。",
-    "block2_title": "我们的信念",
-    "belief1_title": "写作是私人的",
-    "belief1_desc": "你的草稿、笔记和想法应该享有与口头对话同等的隐私保护。AI 辅助不应该需要监视。",
-    "belief2_title": "AI 应该是可及的",
-    "belief2_desc": "强大的写作工具不应该花费每月 20-50 美元。学生、独立作者和小企业应该享有与大公司同样的 AI 能力。",
-    "belief3_title": "本地优先是可能的",
-    "belief3_desc": "现代设备足够强大，可以在本地运行复杂的 AI。云依赖是一种商业模式，而非技术必需。",
-    "belief4_title": "开源即信任",
-    "belief4_desc": "你不必只听我们的一面之词。每一行代码都是公开的。审计它。自己验证我们的隐私声明。",
-    "block3_title": "我们的承诺",
-    "commitment1_title": "永久免费",
-    "commitment1_desc": "LocalWrite 将永远免费。没有试用期。没有功能限制。没有"免费增值"把戏。为所有人提供完整功能。",
-    "commitment2_title": "永久私密",
-    "commitment2_desc": "你的写作永远不会离开你的设备。没有遥测。没有分析。没有例外。我们确实无法看到你写了什么。",
-    "commitment3_title": "永久开放",
-    "commitment3_desc": "MIT 许可证。分叉它。修改它。在它的基础上构建。使命比任何单个项目都重要。"
-  },
-  "impact": {
-    "title": "这就是我们正在构建的",
-    "stat1_number": "100%",
-    "stat1_label": "本地处理",
-    "stat1_desc": "零字节发送到外部服务器。永远不会。",
-    "stat2_number": "$0",
-    "stat2_label": "用户成本",
-    "stat2_desc": "为所有人提供专业的 AI 写作。",
-    "stat3_number": "11",
-    "stat3_label": "种写作模式",
-    "stat3_desc": "从专业到创意再到简洁。",
-    "stat4_number": "∞",
-    "stat4_label": "无限可能",
-    "stat4_desc": "无使用限制。无 API 上限。无限。"
   },
   "product": {
     "label": "产品",
-    "title": "LocalWrite：<br><span class='gradient-text'>尊重你的 AI 写作</span>",
-    "subtitle": "一款完全在你的机器上运行的强大写作增强工具。无需云端。",
-    "feature1_title": "11 种写作模式",
-    "feature1_desc": "专业、创意、学术、对话、简洁、详尽等等。将你的文本转换为适合任何风格或受众。",
-    "feature2_title": "创意控制",
-    "feature2_desc": "用简单的滑块微调 AI 的创意程度。商务写作保守，创意工作表达丰富。",
-    "feature3_title": "PDF 增强",
-    "feature3_desc": "增强整个 PDF 文档同时保留格式。非常适合报告、论文和专业文档。",
-    "feature4_title": "实时统计",
-    "feature4_desc": "字数、句数、阅读时间、年级水平和语气分析。了解你写作的方方面面。",
-    "feature5_title": "多种 AI 模型",
-    "feature5_desc": "从 5 个精选 AI 模型中选择。Qwen、Llama、Gemma、Mistral——为你的写作风格挑选最佳。",
-    "modes_heading": "写作模式",
-    "mode1": "专业",
-    "mode2": "创意",
-    "mode3": "学术",
-    "mode4": "对话",
-    "mode5": "简洁",
-    "mode6": "详尽",
-    "mode7": "+ 更多"
+    "title": "LocalWrite：<br><span class='gradient-text'>尊重你的AI写作</span>",
+    "subtitle": "一款完全在你设备上运行的强大AI写作助手。选择模型、挑选风格，以完全隐私的方式写作。",
+    "feature1_title": "智能模型选择",
+    "feature1_desc": "从5个精选AI模型中选择：Qwen 2.5 7B（推荐）、Gemma 2 9B、Llama 3.1 8B、Llama 3.2 3B 和 Mistral 7B。每个模型针对不同写作任务优化。首次使用时自动下载。",
+    "feature2_title": "5种写作模式",
+    "feature2_desc": "专业、对话、学术、创意和简洁。为任何场景提供完美的语气——从商务邮件到创意小说。",
+    "feature3_title": "摘要与扩展",
+    "feature3_desc": "将长文本浓缩为要点，或通过更多示例和练习题进行扩展。数秒内转换你的内容。",
+    "feature4_title": "文档上传",
+    "feature4_desc": "导入 TXT、Markdown、DOCX 和 PDF 文件。无缝处理你的现有文档。直接下载优化后的文本。",
+    "feature5_title": "文档对话",
+    "feature5_desc": "上传书籍、论文或笔记，使用 RAG（检索增强生成）提问。组件在首次使用时自动安装。",
+    "feature6_title": "AI 聊天",
+    "feature6_desc": "离线与AI助手聊天。提问、头脑风暴、生成内容、获取帮助——一切完全私密。",
+    "models_heading": "可用AI模型"
+  },
+  "use_cases": {
+    "label": "应用场景",
+    "title": "为<span class='gradient-text'>重视隐私的写作者</span>打造",
+    "subtitle": "从保护未发表手稿的作者到改进论文的学生——LocalWrite以一个核心承诺满足多样化需求：你的文字属于你。"
+  },
+  "use_cases_cards": {
+    "writers": {
+      "title": "作家与作者",
+      "problem": "<strong>痛点：</strong>云端AI服务将你未发表的手稿存储在其服务器上，面临泄露风险。",
+      "solution": "<strong>解决方案：</strong>使用不会上传任何一个字的AI润色手稿。在你决定分享之前，你的故事属于你。"
+    },
+    "scriptwriters": {
+      "title": "编剧",
+      "problem": "<strong>痛点：</strong>剧本和策划书是高度敏感的知识产权，在云端十分脆弱。",
+      "solution": "<strong>解决方案：</strong>完全离线优化对白、精炼剧情摘要和润色剧本。你的创意受到保护。"
+    },
+    "journalists": {
+      "title": "记者",
+      "problem": "<strong>痛点：</strong>敏感报道和涉及消息来源的草稿不能交给云端AI服务。",
+      "solution": "<strong>解决方案：</strong>在不暴露敏感信息的情况下改进文章。没有第三方能看到你的草稿。"
+    },
+    "students": {
+      "title": "学生",
+      "problem": "<strong>痛点：</strong>云端AI订阅费用为每月20-50美元。学生预算无法承受。",
+      "solution": "<strong>解决方案：</strong>私密地改进论文、研究报告和作业。在无监控下学习更好的写作。永久0美元。"
+    },
+    "business": {
+      "title": "商务人士",
+      "problem": "<strong>痛点：</strong>提案、合同和内部文件包含机密商业信息。",
+      "solution": "<strong>解决方案：</strong>离线优化商务文档。你的竞争优势保持机密。"
+    },
+    "privacy": {
+      "title": "隐私倡导者",
+      "problem": "<strong>痛点：</strong>\"请信任我们\"远远不够。闭源AI服务无法被验证或审计。",
+      "solution": "<strong>解决方案：</strong>开源，完全可审计。准确验证代码如何处理你的文本。"
+    }
   },
   "comparison": {
     "label": "为什么选择 LocalWrite",
-    "title": "LocalWrite 对比 <span class='gradient-text'>云服务</span>",
-    "subtitle": "看看 LocalWrite 与 Grammarly、Jasper 和 Copy.ai 等流行 AI 写作服务的对比。",
+    "title": "LocalWrite 对比<span class='gradient-text'>云端AI</span>",
+    "subtitle": "了解 LocalWrite 与 ChatGPT、Grammarly AI 和 Jasper 等流行云端写作助手的对比。",
     "roi_title": "计算你的年度节省",
-    "roi_cloud": "平均 AI 写作服务：<strong>$30/月 x 12 = $360/年</strong>",
+    "roi_cloud": "平均云端AI写作工具：<strong>$25/月 x 12 = $300/年</strong>",
     "roi_localwrite": "LocalWrite：<strong>$0/年</strong>",
-    "roi_savings": "你节省：<span class='gradient-text'>每年 $360+</span>"
+    "roi_savings": "你节省：<span class='gradient-text'>每年 $300+</span>"
   },
   "comparison_table": {
     "header_feature": "功能",
-    "header_cloud": "云服务",
+    "header_cloud": "云端AI",
     "header_localwrite": "LocalWrite",
     "row1_feature": "月费",
     "row1_cloud": "$20-50/月",
-    "row1_localwrite": "永久 $0",
-    "row2_feature": "年费",
-    "row2_cloud": "$240-600/年",
-    "row2_localwrite": "$0",
-    "row3_feature": "隐私",
-    "row3_cloud": "上传到服务器",
-    "row3_localwrite": "100% 本地",
-    "row4_feature": "使用限制",
-    "row4_cloud": "字数/请求限制",
-    "row4_localwrite": "无限",
-    "row5_feature": "需要网络",
-    "row5_cloud": "是",
-    "row5_localwrite": "离线工作",
-    "row6_feature": "数据所有权",
-    "row6_cloud": "存储在服务器",
-    "row6_localwrite": "你 100% 拥有",
-    "row7_feature": "开源",
-    "row7_cloud": "专有",
-    "row7_localwrite": "MIT 许可证"
+    "row1_localwrite": "永久$0",
+    "row2_feature": "隐私",
+    "row2_cloud": "文本发送到服务器",
+    "row2_localwrite": "100%本地",
+    "row3_feature": "需要网络",
+    "row3_cloud": "始终需要",
+    "row3_localwrite": "离线工作",
+    "row4_feature": "需要账户",
+    "row4_cloud": "需要邮箱注册",
+    "row4_localwrite": "无需账户",
+    "row5_feature": "数据收集",
+    "row5_cloud": "收集你输入的一切",
+    "row5_localwrite": "零收集",
+    "row6_feature": "开源",
+    "row6_cloud": "专有",
+    "row6_localwrite": "MIT 许可证"
   },
   "how_it_works": {
     "title": "设计简洁",
-    "subtitle": "无需账户。无需 API 密钥。无需配置。只需下载、打开、写作。",
+    "subtitle": "无需账户。无需API密钥。无需配置。只需下载、选择模型、开始写作。",
     "step1_title": "下载",
-    "step1_desc": "获取 macOS 版 LocalWrite。一个文件，即可使用。",
+    "step1_desc": "获取 macOS 版 LocalWrite。一个应用，即装即用。",
     "step2_title": "选择模型",
-    "step2_desc": "从我们精选的列表中选择 AI 模型。一次性下载。",
+    "step2_desc": "从5个AI模型中选择。首次使用时自动下载。",
     "step3_title": "私密写作",
-    "step3_desc": "用 AI 增强你的写作。你的文字永远不会离开你的设备。"
+    "step3_desc": "提升你的写作。你的文字永远不会离开你的设备。"
+  },
+  "testimonials": {
+    "label": "用户评价",
+    "title": "受到<span class='gradient-text'>印度各地专业人士</span>的信赖",
+    "subtitle": "从作者到商务顾问，LocalWrite以一个核心承诺满足多样化需求：你的文字属于你。",
+    "t1_text": "\"我正在写第三部小说，将未发表的手稿上传到云端AI的想法让我恐惧。LocalWrite让我润色散文、检查不一致之处和改进对白——一个字都不会离开我的笔记本电脑。就像拥有一个私人编辑。\"",
+    "t2_text": "\"作为学生，我付不起每月20美元的AI写作工具。LocalWrite免费提供同样的质量。我用它写论文、做研究和准备考试。学术写作模式非常适合学术工作。无监控，无费用。\"",
+    "t3_text": "\"我处理世界500强客户的机密战略文档。云端AI从来不是选项。LocalWrite在本地优化我的提案和报告——客户的竞争情报受到保护。专业写作模式非常适合商务文档。\""
   },
   "download": {
     "label": "开始使用",
     "title": "下载<br><span class='gradient-text'>LocalWrite</span>",
-    "subtitle": "现已提供 macOS 版本。Windows 和 Linux 即将推出。",
-    "macos": "macOS",
-    "windows": "Windows",
-    "linux": "Linux"
+    "subtitle": "现已提供 macOS 版。永久免费。",
+    "macos_title": "macOS v1.0.0",
+    "macos_desc": "macOS 11.0+（Apple Silicon 和 Intel）",
+    "macos_size": "约200 MB（+ 每个模型首次使用时需2-6 GB）",
+    "source_title": "源代码",
+    "source_desc": "从源码构建（Python 和 PyQt6）",
+    "source_size": "MIT 许可证 - 可 Fork 和修改"
   },
   "download_details": {
-    "macos_desc": "macOS 11+（Apple Silicon 和 Intel）",
-    "macos_size": "约 100 MB（+ 2-6 GB 模型）",
-    "windows_desc": "即将推出",
-    "linux_desc": "即将推出",
-    "coming_soon": "开发中",
     "system_req_heading": "系统要求",
     "req_ram_label": "内存",
-    "req_ram_value": "最低 8 GB，推荐 16 GB",
+    "req_ram_value": "最低8 GB，推荐16 GB",
     "req_storage_label": "存储",
-    "req_storage_value": "每个 AI 模型 2-6 GB",
+    "req_storage_value": "每个模型2-6 GB",
     "req_gpu_label": "GPU",
-    "req_gpu_value": "可选 - 针对 Apple Silicon 优化"
+    "req_gpu_value": "Apple Silicon 或 Metal GPU 可加速处理"
   },
-  "join": {
-    "heading": "加入运动",
-    "paragraph1": "LocalWrite 不仅仅是软件。这是一个声明：AI 可以以不同的方式构建。隐私和能力并不互斥。开源可以与大科技公司竞争。",
-    "paragraph2": "我们才刚刚开始。我们需要像你这样的人。",
-    "star_title": "给项目点星",
-    "star_desc": "在 GitHub 上表示支持",
-    "fork_title": "分叉并贡献",
-    "fork_desc": "帮助构建 AI 的未来",
-    "discussions_title": "加入讨论",
-    "discussions_desc": "与社区分享想法"
+  "faq": {
+    "label": "常见问题",
+    "title": "常见<span class='gradient-text'>问答</span>"
   },
-  "final_cta": {
-    "heading": "AI 的未来是本地的。<br>AI 的未来是开放的。<br><span class='gradient-text'>未来从现在开始。</span>",
-    "download_btn": "下载 LocalWrite",
-    "source_btn": "查看源代码"
+  "faq_items": {
+    "q1": {
+      "question": "怎么可能完全免费？",
+      "answer": "LocalWrite完全在你的设备上运行，使用开源AI模型。我们的云成本为零——没有服务器、没有带宽、没有API费用。我们的代码采用MIT许可证开源。"
+    },
+    "q2": {
+      "question": "写作质量与ChatGPT相比如何？",
+      "answer": "LocalWrite使用最先进的开源模型，如Qwen 2.5 7B和Gemma 2 9B。虽然云端模型可能更大，但我们的本地模型在写作提升、编辑和内容生成方面提供出色的质量。关键优势：你的文本永远不会离开你的设备。"
+    },
+    "q3": {
+      "question": "是否完全离线工作？",
+      "answer": "是的！初始模型下载（每个模型2-6 GB，仅需一次）后，LocalWrite 100%离线工作。在飞机上、没有Wi-Fi的咖啡馆里、或任何没有网络的地方都能写作。"
+    },
+    "q4": {
+      "question": "可以用于商业工作吗？",
+      "answer": "当然！LocalWrite采用MIT许可证。可用于个人项目、客户工作、商业产品或任何其他用途。对商业使用没有任何限制。"
+    },
+    "q5": {
+      "question": "应该选择哪个AI模型？",
+      "answer": "<strong>Qwen 2.5 7B</strong>（推荐）- 最佳全能模型，适合论文、文章和一般写作。<br><strong>Gemma 2 9B</strong> - 非常适合创意写作和故事叙述。<br><strong>Llama 3.1 8B</strong> - 适合专业、简洁的散文。<br><strong>Llama 3.2 3B</strong> - 低内存快速编辑。<br><strong>Mistral 7B</strong> - 速度与质量的平衡。"
+    },
+    "q6": {
+      "question": "系统要求是什么？",
+      "answer": "<strong>最低要求：</strong>macOS 11.0+，8GB内存，每个模型2-6 GB存储<br><strong>推荐配置：</strong>16GB内存，Apple Silicon以获得更快处理速度<br><strong>技术栈：</strong>llama.cpp后端，GGUF模型，Metal GPU加速"
+    }
   },
   "footer": {
-    "tagline": "免费、私密、属于你的 AI。",
-    "company": "<strong>Svetozar Technologies</strong> 项目",
+    "tagline": "免费、私密、属于你的AI。",
     "products_title": "产品",
     "community_title": "社区",
-    "legal_title": "法律信息",
     "discussions": "讨论",
+    "legal_title": "法律信息",
     "privacy": "隐私政策",
     "license": "MIT 许可证",
     "copyright": "&copy; 2025 Svetozar Technologies",
-    "footer_tagline": "构建服务于人类而非企业的 AI。"
+    "footer_tagline": "构建服务于人类而非企业的AI。"
   }
 }

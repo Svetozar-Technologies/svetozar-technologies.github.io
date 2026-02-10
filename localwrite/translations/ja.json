@@ -2,179 +2,188 @@
   "lang": "ja",
   "name": "日本語",
   "nav": {
-    "mission": "私たちの使命",
-    "product": "製品",
+    "features": "機能",
+    "use_cases": "活用事例",
     "download": "ダウンロード",
     "github": "GitHub"
   },
   "hero": {
-    "title": "あなたの言葉。<br>あなたのプライバシー。<br><span class='gradient-text'>あなたのコントロール。</span>",
-    "subtitle": "LocalWriteは、デバイス上で100%動作するプライバシー重視のAIライティングアシスタントです。クラウドに一言も送ることなく、強力なAIで文章を改善します。永久無料。オープンソース。妥協なし。",
-    "cta_download": "LocalWriteをダウンロード",
-    "cta_mission": "私たちの使命を読む"
+    "badge": "100% オフライン",
+    "title": "プライベートAIライティング。<br>パワフルなモデル。<br><span class='gradient-text'>あなたの言葉はあなたのもの。</span>",
+    "subtitle": "デバイス上で完全に動作する強力なAIでライティングを向上。5つの厳選モデル、5つのライティングモード、要約・展開・ドキュメントチャットなどの機能から選べます。クラウド不要。アカウント不要。妥協なし。",
+    "cta_download": "macOS版をダウンロード",
+    "cta_features": "機能を見る"
   },
   "social_proof": {
-    "launch": "リリース！",
-    "free": "永久無料",
-    "modes": "ライティングモード",
+    "offline": "オフライン",
+    "cost": "永久無料",
+    "models": "AIモデル",
     "opensource": "オープンソース"
-  },
-  "mission": {
-    "label": "私たちの使命",
-    "title": "自由に書く。<br>プライベートに書く。<br><span class='gradient-text'>力強く書く。</span>"
-  },
-  "manifesto": {
-    "block1_title": "私たちが見ている問題",
-    "block1_p1": "今日のすべてのAIライティングツールは、あなたの言葉を企業サーバーに送信します。下書き、アイデア、プライベートな考え - すべてがアップロードされ、保存され、AIモデルのトレーニングに使用される可能性があります。作家、ジャーナリスト、専門家は、AIアシスタンスとプライバシーのどちらかを選ばなければなりません。",
-    "block1_p2": "これは単に不便というだけではありません。クリエイティブプライバシーの根本的な侵害です。あなたの言葉はあなたのものであるべきです。",
-    "block2_title": "私たちの信念",
-    "belief1_title": "ライティングはパーソナル",
-    "belief1_desc": "下書き、メモ、アイデアは、話し言葉と同じプライバシーに値します。AIアシスタンスに監視は必要ありません。",
-    "belief2_title": "AIはアクセス可能であるべき",
-    "belief2_desc": "強力なライティングツールに月額20-50ドルも払う必要はないはずです。学生、独立した著者、中小企業は、大企業と同じAI能力を持つ資格があります。",
-    "belief3_title": "ローカルファーストは可能",
-    "belief3_desc": "現代のデバイスは、洗練されたAIをローカルで実行するのに十分なパワーを持っています。クラウド依存はビジネスモデルであり、技術的な必要性ではありません。",
-    "belief4_title": "オープンソースは信頼",
-    "belief4_desc": "私たちの言葉を信じる必要はありません。すべてのコードが公開されています。監査してください。プライバシーの主張を自分で確認してください。",
-    "block3_title": "私たちのコミットメント",
-    "commitment1_title": "永久無料",
-    "commitment1_desc": "LocalWriteは常に無料です。試用期間なし。機能制限なし。「フリーミアム」のトリックなし。すべての人に完全な機能を。",
-    "commitment2_title": "永久プライベート",
-    "commitment2_desc": "あなたの文章はデバイスを離れません。テレメトリなし。分析なし。例外なし。私たちはあなたが何を書いているか見ることができません。",
-    "commitment3_title": "永久オープン",
-    "commitment3_desc": "MITライセンス。フォークして。修正して。その上に構築して。使命は単一のプロジェクトよりも大きいです。"
-  },
-  "impact": {
-    "title": "私たちが構築しているもの",
-    "stat1_number": "100%",
-    "stat1_label": "ローカル処理",
-    "stat1_desc": "外部サーバーに送信されるバイトはゼロ。",
-    "stat2_number": "$0",
-    "stat2_label": "ユーザーコスト",
-    "stat2_desc": "すべての人にプロのAIライティングを。",
-    "stat3_number": "11",
-    "stat3_label": "ライティングモード",
-    "stat3_desc": "プロから創造的、簡潔まで。",
-    "stat4_number": "∞",
-    "stat4_label": "可能性",
-    "stat4_desc": "使用制限なし。API制限なし。無制限。"
   },
   "product": {
     "label": "製品",
     "title": "LocalWrite：<br><span class='gradient-text'>あなたを尊重するAIライティング</span>",
-    "subtitle": "あなたのマシン上で完全に動作する強力なライティング強化ツール。クラウド不要。",
-    "feature1_title": "11のライティングモード",
-    "feature1_desc": "プロフェッショナル、クリエイティブ、アカデミック、会話的、簡潔、詳細など。テキストをあらゆるスタイルや聴衆に合わせて変換します。",
-    "feature2_title": "クリエイティビティコントロール",
-    "feature2_desc": "シンプルなスライダーでAIの創造性を微調整。ビジネスライティングには保守的に、クリエイティブワークには表現豊かに。",
-    "feature3_title": "PDF強化",
-    "feature3_desc": "フォーマットを保持しながらPDFドキュメント全体を強化。レポート、エッセイ、専門文書に最適。",
-    "feature4_title": "リアルタイム統計",
-    "feature4_desc": "単語数、文数、読書時間、学年レベル、トーン分析。あなたの文章を内外から知る。",
-    "feature5_title": "複数のAIモデル",
-    "feature5_desc": "5つの厳選されたAIモデルから選択。Qwen、Llama、Gemma、Mistral - あなたのライティングスタイルに最適なものを選んで。",
-    "modes_heading": "ライティングモード",
-    "mode1": "プロフェッショナル",
-    "mode2": "クリエイティブ",
-    "mode3": "アカデミック",
-    "mode4": "会話的",
-    "mode5": "簡潔",
-    "mode6": "詳細",
-    "mode7": "+ その他"
+    "subtitle": "あなたのマシン上で完全に動作する強力なAIライティングアシスタント。モデルを選び、スタイルを決めて、完全なプライバシーで執筆。",
+    "feature1_title": "スマートモデル選択",
+    "feature1_desc": "5つの厳選AIモデルから選択：Qwen 2.5 7B（推奨）、Gemma 2 9B、Llama 3.1 8B、Llama 3.2 3B、Mistral 7B。それぞれ異なるライティングタスクに最適化。初回使用時に自動ダウンロード。",
+    "feature2_title": "5つのライティングモード",
+    "feature2_desc": "プロフェッショナル、会話的、学術的、クリエイティブ、簡潔。あらゆるコンテキストに最適なトーン — ビジネスメールから創作小説まで。",
+    "feature3_title": "要約と展開",
+    "feature3_desc": "長文をキーポイントに要約、または例題や練習問題で展開。コンテンツを数秒で変換。",
+    "feature4_title": "ドキュメントアップロード",
+    "feature4_desc": "TXT、Markdown、DOCX、PDFファイルをインポート。既存のドキュメントをシームレスに処理。改善されたテキストを直接ダウンロード。",
+    "feature5_title": "ドキュメントチャット",
+    "feature5_desc": "書籍、論文、ノートをアップロードし、RAG（検索拡張生成）で質問。コンポーネントは初回使用時に自動インストール。",
+    "feature6_title": "AIチャット",
+    "feature6_desc": "AIアシスタントとオフラインでチャット。質問、アイデア出し、コンテンツ生成、あらゆるサポート — すべてプライベート。",
+    "models_heading": "利用可能なAIモデル"
+  },
+  "use_cases": {
+    "label": "活用事例",
+    "title": "<span class='gradient-text'>プライバシーを大切にする執筆者</span>のために",
+    "subtitle": "未発表の原稿を守る著者から、エッセイを改善する学生まで — LocalWriteは一つの核心的な約束で多様なニーズに応えます：あなたの言葉はあなたのもの。"
+  },
+  "use_cases_cards": {
+    "writers": {
+      "title": "作家・著者",
+      "problem": "<strong>課題：</strong>クラウドAIサービスは未発表の原稿をサーバーに保存し、漏洩のリスクがあります。",
+      "solution": "<strong>解決策：</strong>一語も送信しないAIで原稿を推敲。あなたが共有を決めるまで、作品はあなたのものです。"
+    },
+    "scriptwriters": {
+      "title": "脚本家",
+      "problem": "<strong>課題：</strong>脚本やトリートメントはクラウドで脆弱な、極めて機密性の高い知的財産です。",
+      "solution": "<strong>解決策：</strong>完全オフラインでセリフの改善、プロット要約の精緻化、脚本の推敲。アイデアは守られます。"
+    },
+    "journalists": {
+      "title": "ジャーナリスト",
+      "problem": "<strong>課題：</strong>機密性の高い記事や情報源関連の草稿をクラウドAIサービスに預けることはできません。",
+      "solution": "<strong>解決策：</strong>機密情報を公開せずに記事を改善。第三者があなたの草稿を見ることは決してありません。"
+    },
+    "students": {
+      "title": "学生",
+      "problem": "<strong>課題：</strong>クラウドAIの月額料金は$20-50。学生の予算では負担できません。",
+      "solution": "<strong>解決策：</strong>エッセイ、論文、課題をプライベートに改善。監視なしでより良いライティングを学ぶ。永久$0。"
+    },
+    "business": {
+      "title": "ビジネスプロフェッショナル",
+      "problem": "<strong>課題：</strong>提案書、契約書、社内文書には機密のビジネスインテリジェンスが含まれています。",
+      "solution": "<strong>解決策：</strong>ビジネス文書をオフラインで改善。競争上の優位性は機密のまま保たれます。"
+    },
+    "privacy": {
+      "title": "プライバシー重視の方",
+      "problem": "<strong>課題：</strong>「信頼してください」では不十分。クローズドソースのAIサービスは検証も監査もできません。",
+      "solution": "<strong>解決策：</strong>オープンソースで完全に監査可能。コードがテキストに対して何をするか正確に検証できます。"
+    }
   },
   "comparison": {
     "label": "LocalWriteを選ぶ理由",
-    "title": "LocalWrite vs <span class='gradient-text'>クラウドサービス</span>",
-    "subtitle": "Grammarly、Jasper、Copy.aiなどの人気AIライティングサービスとLocalWriteを比較してみましょう。",
+    "title": "LocalWrite vs <span class='gradient-text'>クラウドAI</span>",
+    "subtitle": "ChatGPT、Grammarly AI、Jasperなどの人気クラウドライティングアシスタントとLocalWriteの比較をご覧ください。",
     "roi_title": "年間節約額を計算",
-    "roi_cloud": "平均的なAIライティングサービス：<strong>月額$30 x 12 = 年間$360</strong>",
-    "roi_localwrite": "LocalWrite：<strong>年間$0</strong>",
-    "roi_savings": "節約額：<span class='gradient-text'>毎年$360以上</span>"
+    "roi_cloud": "平均的なクラウドAIライティングツール：<strong>$25/月 x 12 = $300/年</strong>",
+    "roi_localwrite": "LocalWrite：<strong>$0/年</strong>",
+    "roi_savings": "節約額：<span class='gradient-text'>毎年$300以上</span>"
   },
   "comparison_table": {
     "header_feature": "機能",
-    "header_cloud": "クラウドサービス",
+    "header_cloud": "クラウドAI",
     "header_localwrite": "LocalWrite",
-    "row1_feature": "月額コスト",
+    "row1_feature": "月額料金",
     "row1_cloud": "$20-50/月",
     "row1_localwrite": "永久$0",
-    "row2_feature": "年間コスト",
-    "row2_cloud": "$240-600/年",
-    "row2_localwrite": "$0",
-    "row3_feature": "プライバシー",
-    "row3_cloud": "サーバーにアップロード",
-    "row3_localwrite": "100%ローカル",
-    "row4_feature": "使用制限",
-    "row4_cloud": "単語/リクエスト制限",
-    "row4_localwrite": "無制限",
-    "row5_feature": "インターネット必要",
-    "row5_cloud": "はい",
-    "row5_localwrite": "オフラインで動作",
-    "row6_feature": "データ所有権",
-    "row6_cloud": "サーバーに保存",
-    "row6_localwrite": "あなたが100%所有",
-    "row7_feature": "オープンソース",
-    "row7_cloud": "プロプライエタリ",
-    "row7_localwrite": "MITライセンス"
+    "row2_feature": "プライバシー",
+    "row2_cloud": "テキストがサーバーに送信",
+    "row2_localwrite": "100%ローカル",
+    "row3_feature": "インターネット必要",
+    "row3_cloud": "常に必要",
+    "row3_localwrite": "オフラインで動作",
+    "row4_feature": "アカウント必要",
+    "row4_cloud": "メール登録が必要",
+    "row4_localwrite": "アカウント不要",
+    "row5_feature": "データ収集",
+    "row5_cloud": "入力したすべて",
+    "row5_localwrite": "収集ゼロ",
+    "row6_feature": "オープンソース",
+    "row6_cloud": "プロプライエタリ",
+    "row6_localwrite": "MITライセンス"
   },
   "how_it_works": {
     "title": "シンプル設計",
-    "subtitle": "アカウント不要。APIキー不要。設定不要。ダウンロードして、開いて、書くだけ。",
+    "subtitle": "アカウント不要。APIキー不要。設定不要。ダウンロードして、モデルを選んで、書き始めるだけ。",
     "step1_title": "ダウンロード",
-    "step1_desc": "macOS用LocalWriteを入手。1ファイルですぐに使える。",
+    "step1_desc": "macOS版LocalWriteを入手。1つのアプリですぐに使えます。",
     "step2_title": "モデルを選択",
-    "step2_desc": "厳選されたリストからAIモデルを選択。一度だけダウンロード。",
-    "step3_title": "プライベートに書く",
-    "step3_desc": "AIで文章を強化。あなたの言葉はデバイスを離れません。"
+    "step2_desc": "5つのAIモデルから選択。初回使用時に自動ダウンロード。",
+    "step3_title": "プライベートに執筆",
+    "step3_desc": "ライティングを向上。あなたの言葉はデバイスの外に出ません。"
+  },
+  "testimonials": {
+    "label": "ユーザーの声",
+    "title": "<span class='gradient-text'>インド各地のプロフェッショナル</span>が信頼",
+    "subtitle": "著者からビジネスコンサルタントまで、LocalWriteは一つの核心的な約束で多様なニーズに応えます：あなたの言葉はあなたのもの。",
+    "t1_text": "\"3作目の小説を執筆中で、未発表の原稿をクラウドAIにアップロードするのは恐ろしいことでした。LocalWriteなら散文の推敲、矛盾のチェック、セリフの改善がすべてできます — 一語もノートパソコンの外に出ません。プライベートな編集者がいるようなものです。\"",
+    "t2_text": "\"学生として、AIライティングツールに月$20は払えませんでした。LocalWriteは同じ品質を無料で提供してくれます。エッセイ、研究論文、試験準備に使っています。学術ライティングモードは学術的な作業に最適です。監視なし、コストなし。\"",
+    "t3_text": "\"Fortune 500クライアントの機密戦略文書を扱っています。クラウドAIは選択肢にありませんでした。LocalWriteは提案書やレポートをローカルで改善し、クライアントの競合情報は保護されます。プロフェッショナルライティングモードはビジネス文書に最適です。\""
   },
   "download": {
     "label": "始める",
     "title": "ダウンロード<br><span class='gradient-text'>LocalWrite</span>",
-    "subtitle": "macOS版が利用可能。WindowsとLinuxは近日公開。",
-    "macos": "macOS",
-    "windows": "Windows",
-    "linux": "Linux"
+    "subtitle": "macOS版が利用可能。永久無料。",
+    "macos_title": "macOS v1.0.0",
+    "macos_desc": "macOS 11.0+（Apple Silicon & Intel）",
+    "macos_size": "約200 MB（+ 初回使用時にモデルあたり2-6 GB）",
+    "source_title": "ソースコード",
+    "source_desc": "ソースからビルド（Python & PyQt6）",
+    "source_size": "MITライセンス — フォーク＆カスタマイズ"
   },
   "download_details": {
-    "macos_desc": "macOS 11+（Apple Silicon & Intel）",
-    "macos_size": "約100 MB（+ 2-6 GB モデル）",
-    "windows_desc": "近日公開",
-    "linux_desc": "近日公開",
-    "coming_soon": "開発中",
     "system_req_heading": "システム要件",
     "req_ram_label": "RAM",
     "req_ram_value": "最小8 GB、推奨16 GB",
     "req_storage_label": "ストレージ",
-    "req_storage_value": "AIモデルあたり2-6 GB",
+    "req_storage_value": "モデルあたり2-6 GB",
     "req_gpu_label": "GPU",
-    "req_gpu_value": "オプション - Apple Silicon最適化"
+    "req_gpu_value": "Apple SiliconまたはMetal GPUで処理を高速化"
   },
-  "join": {
-    "heading": "ムーブメントに参加",
-    "paragraph1": "LocalWriteは単なるソフトウェア以上のものです。AIは違う方法で構築できるという声明です。プライバシーとパワーは相互に排他的ではないということ。オープンソースがビッグテックと競争できるということ。",
-    "paragraph2": "私たちは始まったばかりです。あなたのような人が必要です。",
-    "star_title": "プロジェクトにスターを",
-    "star_desc": "GitHubでサポートを示す",
-    "fork_title": "フォーク＆貢献",
-    "fork_desc": "AIの未来を一緒に構築",
-    "discussions_title": "ディスカッションに参加",
-    "discussions_desc": "コミュニティとアイデアを共有"
+  "faq": {
+    "label": "よくある質問",
+    "title": "よくある<span class='gradient-text'>質問</span>"
   },
-  "final_cta": {
-    "heading": "AIの未来はローカル。<br>AIの未来はオープン。<br><span class='gradient-text'>未来は今始まる。</span>",
-    "download_btn": "LocalWriteをダウンロード",
-    "source_btn": "ソースコードを見る"
+  "faq_items": {
+    "q1": {
+      "question": "なぜ完全無料なのですか？",
+      "answer": "LocalWriteはオープンソースのAIモデルを使用して、完全にデバイス上で動作します。クラウドコストはゼロです — サーバーなし、帯域幅なし、API料金なし。コードはMITライセンスのオープンソースです。"
+    },
+    "q2": {
+      "question": "ChatGPTと比較してライティング品質はどうですか？",
+      "answer": "LocalWriteはQwen 2.5 7BやGemma 2 9Bなどの最先端オープンソースモデルを使用しています。クラウドモデルの方が大きい場合もありますが、ローカルモデルはライティング改善、編集、コンテンツ生成に優れた品質を提供します。決定的な利点：テキストがデバイスの外に出ることはありません。"
+    },
+    "q3": {
+      "question": "完全にオフラインで動作しますか？",
+      "answer": "はい！初回のモデルダウンロード（モデルあたり2-6 GB、一度だけ）の後、LocalWriteは100%オフラインで動作します。飛行機の中、Wi-Fiのないカフェ、インターネットのない場所でも執筆できます。"
+    },
+    "q4": {
+      "question": "商用利用できますか？",
+      "answer": "もちろん！LocalWriteはMITライセンスです。個人プロジェクト、クライアントワーク、商用製品、その他何にでも使えます。商用利用の制限はありません。"
+    },
+    "q5": {
+      "question": "どのAIモデルを選ぶべきですか？",
+      "answer": "<strong>Qwen 2.5 7B</strong>（推奨）— エッセイ、記事、一般的なライティングに最適。<br><strong>Gemma 2 9B</strong> — クリエイティブライティングやストーリーテリングに優秀。<br><strong>Llama 3.1 8B</strong> — プロフェッショナルでクリーンな文章に最適。<br><strong>Llama 3.2 3B</strong> — 低メモリで素早い編集。<br><strong>Mistral 7B</strong> — スピードと品質のバランス。"
+    },
+    "q6": {
+      "question": "システム要件は何ですか？",
+      "answer": "<strong>最小要件：</strong>macOS 11.0+、8GB RAM、モデルあたり2-6 GBストレージ<br><strong>推奨：</strong>16GB RAM、より高速な処理にApple Silicon<br><strong>技術：</strong>llama.cppバックエンド、GGUFモデル、Metal GPUアクセラレーション"
+    }
   },
   "footer": {
     "tagline": "無料で、プライベートで、あなたのAI。",
-    "company": "<strong>Svetozar Technologies</strong>のプロジェクト",
     "products_title": "製品",
     "community_title": "コミュニティ",
-    "legal_title": "法的情報",
     "discussions": "ディスカッション",
+    "legal_title": "法的情報",
     "privacy": "プライバシーポリシー",
     "license": "MITライセンス",
     "copyright": "&copy; 2025 Svetozar Technologies",
-    "footer_tagline": "企業ではなく人類に奉仕するAIを構築。"
+    "footer_tagline": "企業ではなく人類のためのAIを構築。"
   }
 }

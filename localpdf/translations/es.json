@@ -2,173 +2,191 @@
   "lang": "es",
   "name": "Español",
   "nav": {
-    "mission": "Nuestra Misión",
-    "product": "Producto",
+    "features": "Funciones",
+    "use_cases": "Casos de uso",
     "notify": "Notificarme",
     "github": "GitHub"
   },
   "hero": {
     "badge": "Próximamente",
-    "title": "Tus Documentos.<br>Tu Privacidad.<br><span class='gradient-text'>Tu Asistente IA.</span>",
-    "subtitle": "LocalPDF es un conjunto de herramientas de IA para PDF que prioriza la privacidad. Chatea con tus PDFs, extrae información clave y resume documentos - todo funcionando 100% en tu dispositivo. Sin nube. Sin subidas. Sin compromisos.",
-    "cta_notify": "Notificarme Cuando Esté Listo",
-    "cta_mission": "Lee Nuestra Misión"
+    "title": "Tus documentos.<br>Tu privacidad.<br><span class='gradient-text'>Tu asistente de IA.</span>",
+    "subtitle": "LocalPDF es un conjunto de herramientas PDF impulsadas por IA que prioriza la privacidad. Chatea con PDFs, extrae información clave, genera resúmenes de documentos — todo funciona 100% en tu dispositivo. Sin nube. Sin subidas. Sin compromisos.",
+    "cta_notify": "Notificarme del lanzamiento",
+    "cta_features": "Explorar funciones"
   },
   "social_proof": {
-    "local": "Procesamiento Local",
-    "chat": "Chatea con PDFs",
-    "free": "Gratis Siempre",
-    "opensource": "Código Abierto"
-  },
-  "mission": {
-    "label": "Nuestra Misión",
-    "title": "Analiza Libremente.<br>Analiza Privadamente.<br><span class='gradient-text'>Analiza Poderosamente.</span>"
-  },
-  "manifesto": {
-    "block1_title": "El Problema que Vemos",
-    "block1_p1": "Cada herramienta de IA para PDF hoy requiere que subas tus documentos a servidores corporativos. Contratos, registros médicos, estados financieros, informes confidenciales - todo enviado a la nube, almacenado indefinidamente y potencialmente usado para entrenar modelos de IA.",
-    "block1_p2": "Esto no es solo una preocupación de privacidad. Es una responsabilidad profesional. Tus documentos deberían permanecer bajo tu control.",
-    "block2_title": "Lo Que Creemos",
-    "belief1_title": "Los Documentos Son Sensibles",
-    "belief1_desc": "Tus contratos, informes y registros merecen la misma protección que tus conversaciones más confidenciales.",
-    "belief2_title": "La IA Debería Ser Accesible",
-    "belief2_desc": "Las herramientas potentes de análisis de documentos no deberían costar $30-100/mes. Todos merecen acceso a capacidades de IA.",
-    "belief3_title": "Lo Local es Posible",
-    "belief3_desc": "Las computadoras modernas son lo suficientemente potentes para ejecutar análisis de documentos con IA sofisticada localmente.",
-    "belief4_title": "Código Abierto es Confianza",
-    "belief4_desc": "Cada línea de código será pública. Audítala. Verifica que tus documentos realmente nunca dejan tu dispositivo.",
-    "block3_title": "Nuestro Compromiso",
-    "commitment1_title": "Siempre Gratis",
-    "commitment1_desc": "LocalPDF siempre será gratis. Sin pruebas. Sin niveles premium. Funcionalidad completa para todos.",
-    "commitment2_title": "Siempre Privado",
-    "commitment2_desc": "Tus documentos nunca dejan tu dispositivo. Sin subidas. Sin telemetría. Sin analíticas.",
-    "commitment3_title": "Siempre Abierto",
-    "commitment3_desc": "Licencia MIT. Haz un fork. Modifícalo. Construye sobre él. La misión es más grande que cualquier proyecto individual."
-  },
-  "impact": {
-    "title": "Lo Que Estamos Construyendo",
-    "stat1_number": "100%",
-    "stat1_label": "Procesamiento Local",
-    "stat1_desc": "Tus documentos nunca dejan tu computadora.",
-    "stat2_number": "$0",
-    "stat2_label": "Costo para Usuarios",
-    "stat2_desc": "Herramientas profesionales de IA para documentos para todos.",
-    "stat3_number": "IA",
-    "stat3_label": "Análisis Potenciado",
-    "stat3_desc": "Chatea, resume, extrae - todo con IA local.",
-    "stat4_number": "∞",
-    "stat4_label": "Posibilidades",
-    "stat4_desc": "Sin límites de páginas. Sin límites de archivos. Ilimitado."
+    "local": "Procesamiento local",
+    "chat": "Chat con PDF",
+    "free": "Gratis para siempre",
+    "opensource": "Código abierto"
   },
   "product": {
-    "label": "El Producto",
-    "title": "LocalPDF:<br><span class='gradient-text'>Herramientas PDF con IA que Te Respetan</span>",
-    "subtitle": "Un potente conjunto de herramientas PDF con IA que funciona completamente en tu máquina. Sin nube requerida.",
-    "feature1_title": "Chatea con PDFs",
-    "feature1_desc": "Haz preguntas sobre tus documentos en lenguaje natural. Obtén respuestas con referencias de página.",
-    "feature2_title": "Resúmenes Inteligentes",
-    "feature2_desc": "Obtén resúmenes instantáneos de documentos extensos. Extrae puntos clave y conclusiones en segundos.",
-    "feature3_title": "Extracción de Información",
-    "feature3_desc": "Extrae puntos de datos específicos de contratos, facturas e informes automáticamente.",
-    "feature4_title": "Procesamiento por Lotes",
-    "feature4_desc": "Procesa múltiples PDFs a la vez. Resume una carpeta de informes de una sola vez.",
-    "feature5_title": "Privacidad Completa",
-    "feature5_desc": "Funciona completamente sin conexión. Tus documentos confidenciales permanecen confidenciales.",
-    "usecases_heading": "Perfecto Para",
-    "usecase1": "Documentos Legales",
-    "usecase2": "Artículos de Investigación",
-    "usecase3": "Informes Financieros",
+    "label": "Producto",
+    "title": "LocalPDF:<br><span class='gradient-text'>Herramientas PDF con IA que te respetan</span>",
+    "subtitle": "Un potente conjunto de herramientas PDF impulsadas por IA que funciona completamente en tu máquina. Sin nube necesaria.",
+    "feature1_title": "Chat con PDF",
+    "feature1_desc": "Haz preguntas sobre documentos en lenguaje natural. Obtén respuestas con referencias a números de página.",
+    "feature2_title": "Resúmenes inteligentes",
+    "feature2_desc": "Resúmenes instantáneos de documentos largos. Extrae puntos clave y conclusiones en segundos.",
+    "feature3_title": "Extracción de información",
+    "feature3_desc": "Extracción automática de datos estructurados de contratos, facturas e informes.",
+    "feature4_title": "Procesamiento por lotes",
+    "feature4_desc": "Procesa múltiples PDFs a la vez. Resume una carpeta entera de informes de una sola vez.",
+    "feature5_title": "Privacidad total",
+    "feature5_desc": "Funciona completamente sin conexión. Los documentos sensibles permanecen confidenciales.",
+    "usecases_heading": "Ideal para",
+    "usecase1": "Documentos legales",
+    "usecase2": "Artículos académicos",
+    "usecase3": "Informes financieros",
     "usecase4": "Contratos",
-    "usecase5": "Registros Médicos",
+    "usecase5": "Registros médicos",
     "usecase6": "+ Más"
   },
+  "use_cases": {
+    "label": "Casos de uso",
+    "title": "Creado para <span class='gradient-text'>profesionales reales</span>",
+    "subtitle": "Desde abogados que protegen datos de clientes hasta investigadores que analizan artículos — LocalPDF sirve diversas necesidades con una promesa central: tus documentos siguen siendo tuyos."
+  },
+  "use_cases_cards": {
+    "legal": {
+      "title": "Abogados",
+      "problem": "<strong>Problema:</strong> Subir contratos y declaraciones a servicios de IA en la nube pone en riesgo el privilegio abogado-cliente.",
+      "solution": "<strong>Solución:</strong> Analiza contratos, extrae cláusulas y resume declaraciones completamente en tu dispositivo. Cero fugas de datos."
+    },
+    "researchers": {
+      "title": "Investigadores",
+      "problem": "<strong>Problema:</strong> Revisar manualmente cientos de artículos académicos lleva semanas. Las herramientas en la nube comprometen datos no publicados.",
+      "solution": "<strong>Solución:</strong> Resume artículos por lotes, extrae metodologías y chatea con documentos de forma privada. Ideal para revisiones de literatura."
+    },
+    "financial": {
+      "title": "Analistas financieros",
+      "problem": "<strong>Problema:</strong> Los informes financieros confidenciales y datos de ganancias no pueden subirse a servicios de IA de terceros.",
+      "solution": "<strong>Solución:</strong> Extrae métricas clave, compara informes trimestrales y genera resúmenes sin que los datos salgan de tu máquina."
+    },
+    "healthcare": {
+      "title": "Profesionales de salud",
+      "problem": "<strong>Problema:</strong> Las regulaciones HIPAA y de protección de datos prohíben subir registros de pacientes a servicios en la nube.",
+      "solution": "<strong>Solución:</strong> Procesa PDFs médicos localmente. Cumplimiento automático con los requisitos de protección de datos."
+    },
+    "students": {
+      "title": "Estudiantes y educadores",
+      "problem": "<strong>Problema:</strong> Las suscripciones de IA en la nube cuestan $20-50/mes — demasiado caro para presupuestos estudiantiles.",
+      "solution": "<strong>Solución:</strong> Resume libros de texto, extrae conceptos clave y prepárate para exámenes. $0 para siempre."
+    },
+    "privacy": {
+      "title": "Defensores de la privacidad",
+      "problem": "<strong>Problema:</strong> Las herramientas PDF en la nube almacenan tus documentos en sus servidores indefinidamente.",
+      "solution": "<strong>Solución:</strong> Código abierto, completamente auditable. Tus documentos nunca tocan ningún servidor. Punto."
+    }
+  },
   "comparison": {
-    "label": "Por Qué LocalPDF",
-    "title": "LocalPDF vs <span class='gradient-text'>Servicios en la Nube</span>",
-    "subtitle": "Ve cómo LocalPDF se compara con servicios populares de IA para PDF como ChatPDF, PDF.ai y Adobe Acrobat AI.",
-    "roi_title": "Calcula Tus Ahorros Anuales",
-    "roi_cloud": "Servicio promedio de IA para PDF: <strong>$40/mes x 12 = $480/año</strong>",
+    "label": "Por qué LocalPDF",
+    "title": "LocalPDF vs <span class='gradient-text'>servicios en la nube</span>",
+    "subtitle": "Compara LocalPDF con servicios populares de PDF con IA: ChatPDF, PDF.ai, Adobe Acrobat AI.",
+    "roi_title": "Calcula tu ahorro anual",
+    "roi_cloud": "Servicio promedio de PDF con IA: <strong>$40/mes x 12 = $480/año</strong>",
     "roi_localpdf": "LocalPDF: <strong>$0/año</strong>",
     "roi_savings": "Ahorras: <span class='gradient-text'>$480+ cada año</span>"
   },
   "comparison_table": {
-    "header_feature": "Característica",
-    "header_cloud": "Servicios en la Nube",
+    "header_feature": "Función",
+    "header_cloud": "Servicios en la nube",
     "header_localpdf": "LocalPDF",
-    "row1_feature": "Costo Mensual",
+    "row1_feature": "Costo mensual",
     "row1_cloud": "$20-100/mes",
-    "row1_localpdf": "$0 Siempre",
-    "row2_feature": "Privacidad de Documentos",
-    "row2_cloud": "Subidos a servidores",
-    "row2_localpdf": "Nunca deja el dispositivo",
-    "row3_feature": "Límites de Páginas",
+    "row1_localpdf": "$0 para siempre",
+    "row2_feature": "Privacidad de documentos",
+    "row2_cloud": "Se suben a servidores",
+    "row2_localpdf": "Nunca salen del dispositivo",
+    "row3_feature": "Límite de páginas",
     "row3_cloud": "50-500 páginas/mes",
     "row3_localpdf": "Ilimitado",
-    "row4_feature": "Límites de Tamaño",
+    "row4_feature": "Límite de tamaño",
     "row4_cloud": "10-50 MB",
     "row4_localpdf": "Sin límites",
-    "row5_feature": "Internet Requerido",
+    "row5_feature": "Requiere internet",
     "row5_cloud": "Sí, siempre",
-    "row5_localpdf": "Funciona Sin Conexión",
-    "row6_feature": "Retención de Datos",
-    "row6_cloud": "Almacenado indefinidamente",
-    "row6_localpdf": "Nada almacenado",
-    "row7_feature": "Código Abierto",
+    "row5_localpdf": "Funciona sin conexión",
+    "row6_feature": "Retención de datos",
+    "row6_cloud": "Almacenamiento indefinido",
+    "row6_localpdf": "No almacena nada",
+    "row7_feature": "Código abierto",
     "row7_cloud": "Propietario",
     "row7_localpdf": "Licencia MIT"
   },
   "how_it_works": {
-    "title": "Simple por Diseño",
-    "subtitle": "Sin cuentas. Sin subidas. Sin configuración. Solo descarga, abre tu PDF y comienza a chatear.",
+    "title": "Simple por diseño",
+    "subtitle": "Sin cuentas. Sin subidas. Sin configuración. Descarga, abre un PDF y comienza a chatear.",
     "step1_title": "Descarga",
     "step1_desc": "Obtén LocalPDF para tu plataforma. Una app, lista para usar.",
-    "step2_title": "Abre PDF",
-    "step2_desc": "Arrastra tu documento a LocalPDF. Nunca deja tu computadora.",
-    "step3_title": "Chatea y Analiza",
-    "step3_desc": "Haz preguntas, obtén resúmenes, extrae datos - todo procesado localmente."
+    "step2_title": "Abre un PDF",
+    "step2_desc": "Arrastra un documento a LocalPDF. Nunca saldrá de tu computadora.",
+    "step3_title": "Chatea y analiza",
+    "step3_desc": "Haz preguntas, obtén resúmenes, extrae datos — todo se procesa localmente."
+  },
+  "testimonials": {
+    "label": "Lo que dicen los usuarios",
+    "title": "Confiado por <span class='gradient-text'>profesionales en toda India</span>",
+    "subtitle": "Desde abogados hasta analistas financieros, LocalPDF sirve diversas necesidades con una promesa central: tus documentos siguen siendo tuyos.",
+    "t1_text": "\"Analizo docenas de contratos semanalmente. LocalPDF me permite extraer cláusulas clave y chatear con documentos legales sin exponer datos de clientes a servidores en la nube. El privilegio abogado-cliente se mantiene. Así es como las herramientas legales de IA deberían funcionar.\"",
+    "t2_text": "\"Procesar informes de ganancias confidenciales y estados financieros a través de IA en la nube nunca fue una opción para nosotros. LocalPDF cambió todo — puedo resumir informes trimestrales, extraer métricas clave y comparar documentos. Todo sin conexión, todo privado.\"",
+    "t3_text": "\"Reviso más de 50 artículos académicos para cada revisión de literatura. LocalPDF resume carpetas enteras de PDFs por lotes, extrae metodologías y me permite chatear con artículos para encontrar detalles específicos. Me ahorra semanas de trabajo cada semestre. Y es completamente gratis.\""
+  },
+  "faq": {
+    "label": "Preguntas frecuentes",
+    "title": "Preguntas <span class='gradient-text'>frecuentes</span>"
+  },
+  "faq_items": {
+    "q1": {
+      "question": "¿Cómo puede ser completamente gratis?",
+      "answer": "LocalPDF funciona completamente en tu dispositivo, así que nuestros costos de infraestructura en la nube son cero. Sin servidores, sin tráfico. Creemos que la IA debería ser accesible para todos. Nuestro código es de código abierto con licencia MIT — compruébalo tú mismo."
+    },
+    "q2": {
+      "question": "¿Qué tan preciso es el análisis de IA?",
+      "answer": "LocalPDF usa modelos de IA de código abierto de vanguardia optimizados para comprensión de documentos. Aunque los servicios en la nube pueden usar modelos más grandes, nuestros modelos locales proporcionan excelente precisión para resúmenes, preguntas y respuestas, y extracción de datos — con la ventaja crítica: tus documentos nunca salen del dispositivo."
+    },
+    "q3": {
+      "question": "¿Funciona sin internet?",
+      "answer": "¡Absolutamente! Después de la descarga inicial del modelo (una vez, en el primer inicio), LocalPDF funciona 100% sin conexión. Analiza documentos en aviones, en ubicaciones remotas o en entornos aislados."
+    },
+    "q4": {
+      "question": "¿Se puede usar para trabajo comercial?",
+      "answer": "¡Sí! LocalPDF tiene licencia MIT. Úsalo para proyectos personales, trabajo para clientes o productos comerciales. No se requiere atribución (aunque siempre se agradece)."
+    },
+    "q5": {
+      "question": "¿Qué formatos y tamaños de PDF son compatibles?",
+      "answer": "LocalPDF procesa archivos PDF estándar de cualquier tamaño — sin límites de páginas o tamaño. Funciona con PDFs de texto, documentos escaneados (con OCR) y PDFs de contenido mixto que incluyen imágenes y tablas."
+    },
+    "q6": {
+      "question": "¿Cuáles son los requisitos del sistema?",
+      "answer": "<strong>Mínimo:</strong> 8 GB RAM, 10 GB de espacio libre, macOS 12+ o Windows 10+<br><strong>Recomendado:</strong> 16 GB RAM, Apple Silicon o NVIDIA GPU para procesamiento más rápido"
+    }
   },
   "notify": {
     "label": "Próximamente",
-    "title": "Sé el Primero<br><span class='gradient-text'>en Saber</span>",
-    "subtitle": "LocalPDF está actualmente en desarrollo. Dale estrella al repo de GitHub para ser notificado cuando lancemos.",
+    "title": "Sé el primero<br><span class='gradient-text'>en saberlo</span>",
+    "subtitle": "LocalPDF está en desarrollo. Dale una estrella al repositorio en GitHub para recibir notificación del lanzamiento.",
     "star_title": "Estrella en GitHub",
-    "star_desc": "Recibe notificación cuando LocalPDF lance",
-    "star_cta": "Ver Repositorio",
-    "discuss_title": "Únete a Discusiones",
-    "discuss_desc": "Comparte tus solicitudes de funciones e ideas",
-    "discuss_cta": "Comenzar a Discutir",
-    "planned_heading": "Funciones Planificadas",
+    "star_desc": "Recibe notificación cuando LocalPDF se lance",
+    "star_cta": "Seguir el repositorio",
+    "discuss_title": "Únete a la discusión",
+    "discuss_desc": "Comparte solicitudes de funciones e ideas",
+    "discuss_cta": "Iniciar discusión",
+    "planned_heading": "Funciones planeadas",
     "planned1_label": "Chat",
-    "planned1_value": "Preguntas y respuestas en lenguaje natural con PDFs",
-    "planned2_label": "Resumir",
+    "planned1_value": "Preguntas y respuestas en lenguaje natural con PDF",
+    "planned2_label": "Resúmenes",
     "planned2_value": "Resúmenes instantáneos de cualquier documento",
-    "planned3_label": "Extraer",
-    "planned3_value": "Obtener datos específicos de documentos"
-  },
-  "join": {
-    "heading": "Únete al Movimiento",
-    "paragraph1": "LocalPDF es parte de una visión más grande: IA que respeta la privacidad, sirve a los usuarios y permanece accesible para todos.",
-    "paragraph2": "Mientras LocalPDF está en desarrollo, echa un vistazo a nuestras otras herramientas de IA que priorizan la privacidad.",
-    "localmind_title": "LocalMind",
-    "localmind_desc": "Transcripción y Análisis con IA",
-    "localwrite_title": "LocalWrite",
-    "localwrite_desc": "Mejora de Escritura con IA",
-    "github_title": "Todos los Proyectos",
-    "github_desc": "Explora nuestro GitHub"
-  },
-  "final_cta": {
-    "heading": "El Futuro de la IA es Local.<br>El Futuro de la IA es Abierto.<br><span class='gradient-text'>El Futuro Comienza Ahora.</span>",
-    "star_btn": "Estrella en GitHub",
-    "explore_btn": "Explorar Todos los Productos"
+    "planned3_label": "Extracción",
+    "planned3_value": "Extraer datos específicos de documentos"
   },
   "footer": {
-    "tagline": "IA que es gratis, privada y tuya.",
-    "company": "Un Proyecto de <strong>Svetozar Technologies</strong>",
+    "tagline": "IA gratuita, privada y tuya.",
     "products_title": "Productos",
     "community_title": "Comunidad",
-    "legal_title": "Legal",
     "discussions": "Discusiones",
-    "privacy": "Política de Privacidad",
+    "legal_title": "Legal",
+    "privacy": "Política de privacidad",
     "license": "Licencia MIT",
     "copyright": "&copy; 2025 Svetozar Technologies",
     "footer_tagline": "Construyendo IA que sirve a la humanidad, no a corporaciones."

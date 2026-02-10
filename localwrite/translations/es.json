@@ -2,177 +2,186 @@
   "lang": "es",
   "name": "Español",
   "nav": {
-    "mission": "Nuestra Misión",
-    "product": "Producto",
+    "features": "Funciones",
+    "use_cases": "Casos de uso",
     "download": "Descargar",
     "github": "GitHub"
   },
   "hero": {
-    "title": "Tus Palabras.<br>Tu Privacidad.<br><span class='gradient-text'>Tu Control.</span>",
-    "subtitle": "LocalWrite es un asistente de escritura con IA que prioriza la privacidad y funciona 100% en tu dispositivo. Mejora tu escritura con IA potente, sin enviar una sola palabra a la nube. Gratis para siempre. Código abierto. Sin compromisos.",
-    "cta_download": "Descargar LocalWrite",
-    "cta_mission": "Lee Nuestra Misión"
+    "badge": "100% Sin conexión",
+    "title": "Escritura AI privada.<br>Modelos potentes.<br><span class='gradient-text'>Tus palabras siguen siendo tuyas.</span>",
+    "subtitle": "Mejora tu escritura con IA potente que se ejecuta completamente en tu dispositivo. Elige entre 5 modelos seleccionados, 5 modos de escritura y funciones como resumir, expandir y chat con documentos. Sin nube. Sin cuentas. Sin compromisos.",
+    "cta_download": "Descargar para macOS",
+    "cta_features": "Explorar funciones"
   },
   "social_proof": {
-    "launch": "¡Recién Lanzado!",
-    "free": "Gratis Siempre",
-    "modes": "Modos de Escritura",
-    "opensource": "Código Abierto"
-  },
-  "mission": {
-    "label": "Nuestra Misión",
-    "title": "Escribe Libremente.<br>Escribe Privadamente.<br><span class='gradient-text'>Escribe Poderosamente.</span>"
-  },
-  "manifesto": {
-    "block1_title": "El Problema que Vemos",
-    "block1_p1": "Cada herramienta de escritura con IA hoy envía tus palabras a servidores corporativos. Tus borradores, tus ideas, tus pensamientos privados - todo subido, almacenado y potencialmente usado para entrenar modelos de IA. Escritores, periodistas y profesionales se ven obligados a elegir entre asistencia de IA y privacidad.",
-    "block1_p2": "Esto no es solo inconveniente. Es una violación fundamental de la privacidad creativa. Tus palabras deberían pertenecerte a ti.",
-    "block2_title": "Lo Que Creemos",
-    "belief1_title": "La Escritura es Personal",
-    "belief1_desc": "Tus borradores, notas e ideas merecen la misma privacidad que tus conversaciones habladas. La asistencia de IA no debería requerir vigilancia.",
-    "belief2_title": "La IA Debería Ser Accesible",
-    "belief2_desc": "Las herramientas de escritura potentes no deberían costar $20-50/mes. Estudiantes, autores independientes y pequeñas empresas merecen las mismas capacidades de IA que las grandes corporaciones.",
-    "belief3_title": "Lo Local es Posible",
-    "belief3_desc": "Los dispositivos modernos son lo suficientemente potentes para ejecutar IA sofisticada localmente. La dependencia de la nube es un modelo de negocio, no una necesidad técnica.",
-    "belief4_title": "Código Abierto es Confianza",
-    "belief4_desc": "No deberías tener que confiar en nuestra palabra. Cada línea de código es pública. Audítalo. Verifica nuestras afirmaciones de privacidad tú mismo.",
-    "block3_title": "Nuestro Compromiso",
-    "commitment1_title": "Siempre Gratis",
-    "commitment1_desc": "LocalWrite siempre será gratis. Sin pruebas. Sin muros de funciones. Sin trucos \"freemium\". Funcionalidad completa para todos.",
-    "commitment2_title": "Siempre Privado",
-    "commitment2_desc": "Tu escritura nunca sale de tu dispositivo. Sin telemetría. Sin analíticas. Sin excepciones. Literalmente no podemos ver lo que escribes.",
-    "commitment3_title": "Siempre Abierto",
-    "commitment3_desc": "Licencia MIT. Haz un fork. Modifícalo. Construye sobre él. La misión es más grande que cualquier proyecto individual."
-  },
-  "impact": {
-    "title": "Esto Es Lo Que Estamos Construyendo",
-    "stat1_number": "100%",
-    "stat1_label": "Procesamiento Local",
-    "stat1_desc": "Cero bytes enviados a servidores externos. Nunca.",
-    "stat2_number": "$0",
-    "stat2_label": "Costo para Usuarios",
-    "stat2_desc": "Escritura profesional con IA para todos.",
-    "stat3_number": "11",
-    "stat3_label": "Modos de Escritura",
-    "stat3_desc": "Desde profesional hasta creativo y conciso.",
-    "stat4_number": "∞",
-    "stat4_label": "Posibilidades",
-    "stat4_desc": "Sin límites de uso. Sin topes de API. Ilimitado."
+    "offline": "Sin conexión",
+    "cost": "Gratis para siempre",
+    "models": "Modelos AI",
+    "opensource": "Código abierto"
   },
   "product": {
-    "label": "El Producto",
-    "title": "LocalWrite:<br><span class='gradient-text'>Escritura con IA que Te Respeta</span>",
-    "subtitle": "Una herramienta potente de mejora de escritura que funciona completamente en tu máquina. Sin nube requerida.",
-    "feature1_title": "11 Modos de Escritura",
-    "feature1_desc": "Profesional, Creativo, Académico, Conversacional, Conciso, Elaborado y más. Transforma tu texto para adaptarse a cualquier estilo o audiencia.",
-    "feature2_title": "Control de Creatividad",
-    "feature2_desc": "Ajusta la creatividad de la IA con un simple deslizador. Conservador para escritura de negocios, expresivo para trabajo creativo.",
-    "feature3_title": "Mejora de PDF",
-    "feature3_desc": "Mejora documentos PDF completos preservando el formato. Perfecto para informes, ensayos y documentos profesionales.",
-    "feature4_title": "Estadísticas en Tiempo Real",
-    "feature4_desc": "Conteo de palabras, oraciones, tiempo de lectura, nivel de grado y análisis de tono. Conoce tu escritura a fondo.",
-    "feature5_title": "Múltiples Modelos de IA",
-    "feature5_desc": "Elige entre 5 modelos de IA curados. Qwen, Llama, Gemma, Mistral - elige el mejor para tu estilo de escritura.",
-    "modes_heading": "Modos de Escritura",
-    "mode1": "Profesional",
-    "mode2": "Creativo",
-    "mode3": "Académico",
-    "mode4": "Conversacional",
-    "mode5": "Conciso",
-    "mode6": "Elaborado",
-    "mode7": "+ Más"
+    "label": "El producto",
+    "title": "LocalWrite:<br><span class='gradient-text'>Escritura AI que te respeta</span>",
+    "subtitle": "Un potente asistente de escritura AI que se ejecuta completamente en tu máquina. Elige tu modelo, selecciona tu estilo y escribe con total privacidad.",
+    "feature1_title": "Selección inteligente de modelo",
+    "feature1_desc": "Elige entre 5 modelos AI seleccionados: Qwen 2.5 7B (recomendado), Gemma 2 9B, Llama 3.1 8B, Llama 3.2 3B y Mistral 7B. Cada uno optimizado para diferentes tareas de escritura. Se descarga automáticamente en el primer uso.",
+    "feature2_title": "5 modos de escritura",
+    "feature2_desc": "Profesional, Conversacional, Académico, Creativo y Conciso. El tono perfecto para cualquier contexto — desde correos de negocios hasta ficción creativa.",
+    "feature3_title": "Resumir y expandir",
+    "feature3_desc": "Condensa textos largos a puntos clave o expande con más ejemplos y preguntas de práctica. Transforma tu contenido en segundos.",
+    "feature4_title": "Carga de documentos",
+    "feature4_desc": "Importa archivos TXT, Markdown, DOCX y PDF. Trabaja con tus documentos existentes sin problemas. Descarga directa del texto mejorado.",
+    "feature5_title": "Chat con documentos",
+    "feature5_desc": "Sube libros, artículos o notas y haz preguntas usando RAG (Generación Aumentada por Recuperación). Los componentes se instalan automáticamente en el primer uso.",
+    "feature6_title": "Chat AI",
+    "feature6_desc": "Chatea con tu asistente AI sin conexión. Haz preguntas, genera ideas, crea contenido, obtén ayuda — todo privado.",
+    "models_heading": "Modelos AI disponibles"
+  },
+  "use_cases": {
+    "label": "Casos de uso",
+    "title": "Creado para <span class='gradient-text'>escritores que valoran la privacidad</span>",
+    "subtitle": "Desde autores que protegen manuscritos inéditos hasta estudiantes que mejoran ensayos — LocalWrite sirve diversas necesidades con una promesa central: tus palabras siguen siendo tuyas."
+  },
+  "use_cases_cards": {
+    "writers": {
+      "title": "Escritores y autores",
+      "problem": "<strong>Problema:</strong> Los servicios de IA en la nube almacenan tus manuscritos inéditos en sus servidores, arriesgando filtraciones.",
+      "solution": "<strong>Solución:</strong> Perfecciona manuscritos con IA que nunca sube una sola palabra. Tu historia sigue siendo tuya hasta que decidas compartirla."
+    },
+    "scriptwriters": {
+      "title": "Guionistas",
+      "problem": "<strong>Problema:</strong> Los guiones y tratamientos son propiedad intelectual altamente sensible y vulnerable en la nube.",
+      "solution": "<strong>Solución:</strong> Mejora diálogos, refina resúmenes de trama y perfecciona guiones completamente sin conexión. Tus ideas están protegidas."
+    },
+    "journalists": {
+      "title": "Periodistas",
+      "problem": "<strong>Problema:</strong> Las historias sensibles y los borradores relacionados con fuentes no pueden confiarse a servicios de IA en la nube.",
+      "solution": "<strong>Solución:</strong> Mejora artículos sin exponer información sensible. Ningún tercero ve tus borradores jamás."
+    },
+    "students": {
+      "title": "Estudiantes",
+      "problem": "<strong>Problema:</strong> Las suscripciones de IA en la nube cuestan $20-50/mes. Los presupuestos estudiantiles no pueden absorber esto.",
+      "solution": "<strong>Solución:</strong> Mejora ensayos, trabajos y tareas de forma privada. Aprende a escribir mejor sin vigilancia. $0 para siempre."
+    },
+    "business": {
+      "title": "Profesionales de negocios",
+      "problem": "<strong>Problema:</strong> Las propuestas, contratos y documentos internos contienen información comercial confidencial.",
+      "solution": "<strong>Solución:</strong> Mejora documentos de negocios sin conexión. Tus ventajas competitivas permanecen confidenciales."
+    },
+    "privacy": {
+      "title": "Defensores de la privacidad",
+      "problem": "<strong>Problema:</strong> \"Confía en nosotros\" no es suficiente. Los servicios de IA de código cerrado no pueden verificarse ni auditarse.",
+      "solution": "<strong>Solución:</strong> Código abierto, totalmente auditable. Verifica exactamente lo que el código hace con tu texto."
+    }
   },
   "comparison": {
-    "label": "Por Qué LocalWrite",
-    "title": "LocalWrite vs <span class='gradient-text'>Servicios en la Nube</span>",
-    "subtitle": "Ve cómo LocalWrite se compara con servicios populares de escritura con IA como Grammarly, Jasper y Copy.ai.",
-    "roi_title": "Calcula Tus Ahorros Anuales",
-    "roi_cloud": "Servicio promedio de escritura con IA: <strong>$30/mes x 12 = $360/año</strong>",
+    "label": "Por qué LocalWrite",
+    "title": "LocalWrite vs <span class='gradient-text'>IA en la nube</span>",
+    "subtitle": "Mira cómo LocalWrite se compara con asistentes de escritura en la nube populares como ChatGPT, Grammarly AI y Jasper.",
+    "roi_title": "Calcula tus ahorros anuales",
+    "roi_cloud": "Herramienta promedio de escritura AI en la nube: <strong>$25/mes x 12 = $300/año</strong>",
     "roi_localwrite": "LocalWrite: <strong>$0/año</strong>",
-    "roi_savings": "Ahorras: <span class='gradient-text'>$360+ cada año</span>"
+    "roi_savings": "Ahorras: <span class='gradient-text'>$300+ cada año</span>"
   },
   "comparison_table": {
-    "header_feature": "Característica",
-    "header_cloud": "Servicios en la Nube",
+    "header_feature": "Función",
+    "header_cloud": "IA en la nube",
     "header_localwrite": "LocalWrite",
-    "row1_feature": "Costo Mensual",
+    "row1_feature": "Costo mensual",
     "row1_cloud": "$20-50/mes",
-    "row1_localwrite": "$0 Siempre",
-    "row2_feature": "Costo Anual",
-    "row2_cloud": "$240-600/año",
-    "row2_localwrite": "$0",
-    "row3_feature": "Privacidad",
-    "row3_cloud": "Subir a servidores",
-    "row3_localwrite": "100% Local",
-    "row4_feature": "Límites de Uso",
-    "row4_cloud": "Límites de palabras/solicitudes",
-    "row4_localwrite": "Ilimitado",
-    "row5_feature": "Internet Requerido",
-    "row5_cloud": "Sí",
-    "row5_localwrite": "Funciona Sin Conexión",
-    "row6_feature": "Propiedad de Datos",
-    "row6_cloud": "Almacenado en servidores",
-    "row6_localwrite": "Tú posees el 100%",
-    "row7_feature": "Código Abierto",
-    "row7_cloud": "Propietario",
-    "row7_localwrite": "Licencia MIT"
+    "row1_localwrite": "$0 para siempre",
+    "row2_feature": "Privacidad",
+    "row2_cloud": "Texto enviado a servidores",
+    "row2_localwrite": "100% local",
+    "row3_feature": "Internet requerido",
+    "row3_cloud": "Siempre necesario",
+    "row3_localwrite": "Funciona sin conexión",
+    "row4_feature": "Cuenta requerida",
+    "row4_cloud": "Sí, con email",
+    "row4_localwrite": "No necesita cuenta",
+    "row5_feature": "Recopilación de datos",
+    "row5_cloud": "Todo lo que escribes",
+    "row5_localwrite": "Cero recopilación",
+    "row6_feature": "Código abierto",
+    "row6_cloud": "Propietario",
+    "row6_localwrite": "Licencia MIT"
   },
   "how_it_works": {
-    "title": "Simple por Diseño",
-    "subtitle": "Sin cuentas. Sin claves API. Sin configuración. Solo descarga, abre y escribe.",
+    "title": "Simple por diseño",
+    "subtitle": "Sin cuentas. Sin claves API. Sin configuración. Solo descarga, selecciona un modelo y comienza a escribir.",
     "step1_title": "Descarga",
-    "step1_desc": "Obtén LocalWrite para macOS. Un archivo, listo para usar.",
-    "step2_title": "Selecciona Modelo",
-    "step2_desc": "Elige un modelo de IA de nuestra lista curada. Se descarga una vez.",
-    "step3_title": "Escribe Privadamente",
-    "step3_desc": "Mejora tu escritura con IA. Tus palabras nunca salen de tu dispositivo."
+    "step1_desc": "Obtén LocalWrite para macOS. Una app, lista para usar.",
+    "step2_title": "Selecciona modelo",
+    "step2_desc": "Elige entre 5 modelos AI. Se descarga automáticamente en el primer uso.",
+    "step3_title": "Escribe en privado",
+    "step3_desc": "Mejora tu escritura. Tus palabras nunca salen de tu dispositivo."
+  },
+  "testimonials": {
+    "label": "Lo que dicen los usuarios",
+    "title": "Confiado por <span class='gradient-text'>profesionales en toda India</span>",
+    "subtitle": "Desde autores hasta consultores de negocios, LocalWrite sirve diversas necesidades con una promesa central: tus palabras siguen siendo tuyas.",
+    "t1_text": "\"Estoy escribiendo mi tercera novela y la idea de subir mi manuscrito inédito a IA en la nube me aterrorizaba. LocalWrite me permite perfeccionar la prosa, verificar inconsistencias y mejorar diálogos — todo sin que una sola palabra salga de mi portátil. Es como tener un editor privado.\"",
+    "t2_text": "\"Como estudiante, no podía pagar $20/mes por herramientas de escritura AI. LocalWrite me da la misma calidad gratis. Lo uso para ensayos, trabajos de investigación y preparación de exámenes. El modo de escritura académica es perfecto para trabajo académico. Sin vigilancia, sin costo.\"",
+    "t3_text": "\"Manejo documentos estratégicos confidenciales para clientes Fortune 500. La IA en la nube nunca fue una opción. LocalWrite mejora mis propuestas e informes localmente — la inteligencia competitiva de mis clientes está protegida. El modo de escritura profesional es perfecto para documentos de negocios.\""
   },
   "download": {
     "label": "Comenzar",
     "title": "Descargar<br><span class='gradient-text'>LocalWrite</span>",
-    "subtitle": "Disponible ahora para macOS. Windows y Linux próximamente.",
-    "macos": "macOS",
-    "windows": "Windows",
-    "linux": "Linux"
+    "subtitle": "Disponible ahora para macOS. Gratis para siempre.",
+    "macos_title": "macOS v1.0.0",
+    "macos_desc": "macOS 11.0+ (Apple Silicon e Intel)",
+    "macos_size": "~200 MB (+ 2-6 GB por modelo en el primer uso)",
+    "source_title": "Código fuente",
+    "source_desc": "Compilar desde fuente (Python y PyQt6)",
+    "source_size": "Licencia MIT — Fork y modifica"
   },
   "download_details": {
-    "macos_desc": "macOS 11+ (Apple Silicon e Intel)",
-    "macos_size": "~100 MB (+ 2-6 GB modelo)",
-    "windows_desc": "Próximamente",
-    "linux_desc": "Próximamente",
-    "coming_soon": "En Desarrollo",
-    "system_req_heading": "Requisitos del Sistema",
+    "system_req_heading": "Requisitos del sistema",
     "req_ram_label": "RAM",
     "req_ram_value": "8 GB mínimo, 16 GB recomendado",
     "req_storage_label": "Almacenamiento",
-    "req_storage_value": "2-6 GB por modelo de IA",
+    "req_storage_value": "2-6 GB por modelo",
     "req_gpu_label": "GPU",
-    "req_gpu_value": "Opcional - Optimizado para Apple Silicon"
+    "req_gpu_value": "Apple Silicon o Metal GPU acelera el procesamiento"
   },
-  "join": {
-    "heading": "Únete al Movimiento",
-    "paragraph1": "LocalWrite es más que software. Es una declaración de que la IA puede construirse diferente. Que privacidad y poder no son mutuamente excluyentes. Que el código abierto puede competir con Big Tech.",
-    "paragraph2": "Apenas estamos comenzando. Y necesitamos personas como tú.",
-    "star_title": "Dale Estrella al Proyecto",
-    "star_desc": "Muestra tu apoyo en GitHub",
-    "fork_title": "Fork y Contribuye",
-    "fork_desc": "Ayuda a construir el futuro de la IA",
-    "discussions_title": "Únete a Discusiones",
-    "discussions_desc": "Comparte ideas con la comunidad"
+  "faq": {
+    "label": "Preguntas frecuentes",
+    "title": "Preguntas <span class='gradient-text'>frecuentes</span>"
   },
-  "final_cta": {
-    "heading": "El Futuro de la IA es Local.<br>El Futuro de la IA es Abierto.<br><span class='gradient-text'>El Futuro Comienza Ahora.</span>",
-    "download_btn": "Descargar LocalWrite",
-    "source_btn": "Ver Código Fuente"
+  "faq_items": {
+    "q1": {
+      "question": "¿Cómo puede ser completamente gratis?",
+      "answer": "LocalWrite se ejecuta completamente en tu dispositivo usando modelos AI de código abierto. Nuestros costos de nube son cero — sin servidores, sin ancho de banda, sin tarifas API. Nuestro código tiene licencia MIT y es código abierto."
+    },
+    "q2": {
+      "question": "¿Qué tan buena es la calidad de escritura comparada con ChatGPT?",
+      "answer": "LocalWrite usa modelos de código abierto de última generación como Qwen 2.5 7B y Gemma 2 9B. Aunque los modelos en la nube pueden ser más grandes, nuestros modelos locales proporcionan excelente calidad para mejora de escritura, edición y generación de contenido. La ventaja crítica: tu texto nunca sale de tu dispositivo."
+    },
+    "q3": {
+      "question": "¿Funciona completamente sin conexión?",
+      "answer": "¡Sí! Después de la descarga inicial del modelo (2-6 GB por modelo, una sola vez), LocalWrite funciona 100% sin conexión. Escribe en aviones, en cafés sin Wi-Fi o en cualquier lugar sin internet."
+    },
+    "q4": {
+      "question": "¿Puedo usarlo para trabajo comercial?",
+      "answer": "¡Absolutamente! LocalWrite tiene licencia MIT. Úsalo para proyectos personales, trabajo para clientes, productos comerciales o cualquier otra cosa. Sin restricciones de uso comercial."
+    },
+    "q5": {
+      "question": "¿Qué modelo AI debería elegir?",
+      "answer": "<strong>Qwen 2.5 7B</strong> (recomendado) — El mejor todoterreno para ensayos, artículos y escritura general.<br><strong>Gemma 2 9B</strong> — Excelente para escritura creativa y narrativa.<br><strong>Llama 3.1 8B</strong> — Ideal para prosa profesional y limpia.<br><strong>Llama 3.2 3B</strong> — Ediciones rápidas con bajo uso de memoria.<br><strong>Mistral 7B</strong> — Balance entre velocidad y calidad."
+    },
+    "q6": {
+      "question": "¿Cuáles son los requisitos del sistema?",
+      "answer": "<strong>Mínimo:</strong> macOS 11.0+, 8GB RAM, 2-6 GB almacenamiento por modelo<br><strong>Recomendado:</strong> 16GB RAM, Apple Silicon para procesamiento más rápido<br><strong>Tecnología:</strong> backend llama.cpp, modelos GGUF, aceleración Metal GPU"
+    }
   },
   "footer": {
-    "tagline": "IA que es gratis, privada y tuya.",
-    "company": "Un Proyecto de <strong>Svetozar Technologies</strong>",
+    "tagline": "IA gratuita, privada y tuya.",
     "products_title": "Productos",
     "community_title": "Comunidad",
-    "legal_title": "Legal",
     "discussions": "Discusiones",
-    "privacy": "Política de Privacidad",
+    "legal_title": "Legal",
+    "privacy": "Política de privacidad",
     "license": "Licencia MIT",
     "copyright": "&copy; 2025 Svetozar Technologies",
     "footer_tagline": "Construyendo IA que sirve a la humanidad, no a corporaciones."
