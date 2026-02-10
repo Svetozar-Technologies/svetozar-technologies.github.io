@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const navHeight = document.querySelector('.nav').offsetHeight;
+            const navHeight = document.querySelector('.navbar').offsetHeight;
             const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
             window.scrollTo({
                 top: targetPosition,
@@ -23,11 +23,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Navbar background on scroll
 window.addEventListener('scroll', () => {
-    const nav = document.querySelector('.nav');
-    if (window.scrollY > 50) {
-        nav.classList.add('scrolled');
-    } else {
-        nav.classList.remove('scrolled');
+    const nav = document.querySelector('.navbar');
+    if (nav) {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
     }
 });
 

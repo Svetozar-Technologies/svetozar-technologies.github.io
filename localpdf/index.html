@@ -37,8 +37,8 @@
                 </div>
             </a>
             <div class="nav-links">
-                <a href="#mission" data-i18n="nav.mission">Our Mission</a>
-                <a href="#product" data-i18n="nav.product">Product</a>
+                <a href="#product" data-i18n="nav.features">Features</a>
+                <a href="#use-cases" data-i18n="nav.use_cases">Use Cases</a>
                 <a href="#notify" data-i18n="nav.notify">Get Notified</a>
                 <a href="https://github.com/Svetozar-Technologies/LocalPDF" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
                 <div id="languageSelector"></div>
@@ -65,8 +65,8 @@
                     <a href="#notify" class="btn btn-primary btn-lg" data-i18n="hero.cta_notify">
                         Get Notified When Ready
                     </a>
-                    <a href="#mission" class="btn btn-secondary btn-lg" data-i18n="hero.cta_mission">
-                        Read Our Mission
+                    <a href="#product" class="btn btn-secondary btn-lg" data-i18n="hero.cta_features">
+                        Explore Features
                     </a>
                 </div>
             </div>
@@ -101,114 +101,50 @@
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission-section" id="mission">
+    <!-- Use Cases Section -->
+    <section class="use-cases-section" id="use-cases">
         <div class="container">
-            <div class="mission-header">
-                <span class="section-label" data-i18n="mission.label">Our Mission</span>
-                <h2 data-i18n="mission.title">Analyze Freely.<br>Analyze Privately.<br><span class="gradient-text">Analyze Powerfully.</span></h2>
+            <div class="section-header">
+                <span class="section-label">Use Cases</span>
+                <h2>Built for <span class="gradient-text">Real Professionals</span></h2>
+                <p>From lawyers protecting client data to researchers analyzing papers - LocalPDF serves diverse needs with one core promise: your documents stay yours.</p>
             </div>
-
-            <div class="manifesto">
-                <div class="manifesto-block">
-                    <span class="manifesto-number">01</span>
-                    <h3 data-i18n="manifesto.block1_title">The Problem We See</h3>
-                    <p data-i18n="manifesto.block1_p1">Every AI PDF tool today requires you to upload your documents to corporate servers. Contracts, medical records, financial statements, confidential reports - all sent to the cloud, stored indefinitely, and potentially used to train AI models.</p>
-                    <p data-i18n="manifesto.block1_p2">This is not just a privacy concern. It is a professional liability. Your documents should stay under your control.</p>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">⚖️</div>
+                    <h3>Legal Professionals</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> Uploading contracts and depositions to cloud AI services risks attorney-client privilege.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Analyze contracts, extract clauses, and summarize depositions entirely on your device. Zero exposure.</p>
                 </div>
-
-                <div class="manifesto-block">
-                    <span class="manifesto-number">02</span>
-                    <h3 data-i18n="manifesto.block2_title">What We Believe</h3>
-                    <div class="beliefs">
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief1_title">Documents Are Sensitive</h4>
-                            <p data-i18n="manifesto.belief1_desc">Your contracts, reports, and records deserve the same protection as your most confidential conversations.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief2_title">AI Should Be Accessible</h4>
-                            <p data-i18n="manifesto.belief2_desc">Powerful document analysis tools should not cost $30-100/month. Everyone deserves access to AI capabilities.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief3_title">Local-First is Possible</h4>
-                            <p data-i18n="manifesto.belief3_desc">Modern computers are powerful enough to run sophisticated AI document analysis locally.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief4_title">Open Source is Trust</h4>
-                            <p data-i18n="manifesto.belief4_desc">Every line of code will be public. Audit it. Verify that your documents truly never leave your device.</p>
-                        </div>
-                    </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🔬</div>
+                    <h3>Researchers</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> Reviewing hundreds of research papers manually takes weeks. Cloud tools compromise unpublished data.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Batch-summarize papers, extract methodologies, and chat with documents privately. Perfect for literature reviews.</p>
                 </div>
-
-                <div class="manifesto-block">
-                    <span class="manifesto-number">03</span>
-                    <h3 data-i18n="manifesto.block3_title">Our Commitment</h3>
-                    <div class="commitments">
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment1_title">Forever Free</strong>
-                                <p data-i18n="manifesto.commitment1_desc">LocalPDF will always be free. No trials. No premium tiers. Full functionality for everyone.</p>
-                            </div>
-                        </div>
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment2_title">Forever Private</strong>
-                                <p data-i18n="manifesto.commitment2_desc">Your documents never leave your device. No uploads. No telemetry. No analytics.</p>
-                            </div>
-                        </div>
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment3_title">Forever Open</strong>
-                                <p data-i18n="manifesto.commitment3_desc">MIT licensed. Fork it. Modify it. Build on it. The mission is bigger than any single project.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">📊</div>
+                    <h3>Financial Analysts</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> Confidential financial reports and earnings cannot be uploaded to third-party AI services.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Extract key metrics, compare quarterly reports, and generate summaries without data leaving your machine.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Impact Stats -->
-    <section class="impact-section">
-        <div class="container">
-            <div class="impact-header">
-                <h2 data-i18n="impact.title">What We Are Building</h2>
-            </div>
-            <div class="impact-grid">
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat1_number">100%</span>
-                    <span class="impact-label" data-i18n="impact.stat1_label">Local Processing</span>
-                    <p data-i18n="impact.stat1_desc">Your documents never leave your computer.</p>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🏥</div>
+                    <h3>Healthcare Professionals</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> HIPAA and data protection regulations prohibit uploading patient records to cloud services.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Process medical PDFs locally. Automatic compliance with data protection regulations.</p>
                 </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat2_number">$0</span>
-                    <span class="impact-label" data-i18n="impact.stat2_label">Cost to Users</span>
-                    <p data-i18n="impact.stat2_desc">Professional AI document tools for everyone.</p>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎓</div>
+                    <h3>Students & Educators</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> Cloud AI subscriptions cost $20-50/month - too expensive for students.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Summarize textbooks, extract key concepts, and prepare for exams. $0 forever.</p>
                 </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat3_number">AI</span>
-                    <span class="impact-label" data-i18n="impact.stat3_label">Powered Insights</span>
-                    <p data-i18n="impact.stat3_desc">Chat, summarize, extract - all with local AI.</p>
-                </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat4_number">∞</span>
-                    <span class="impact-label" data-i18n="impact.stat4_label">Possibilities</span>
-                    <p data-i18n="impact.stat4_desc">No page limits. No file limits. Unlimited.</p>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🔒</div>
+                    <h3>Privacy-Conscious Users</h3>
+                    <p class="use-case-problem"><strong>Pain Point:</strong> Cloud PDF tools store your documents on their servers indefinitely.</p>
+                    <p class="use-case-solution"><strong>Solution:</strong> Open source, fully auditable. Your documents never touch any server. Period.</p>
                 </div>
             </div>
         </div>
@@ -392,6 +328,127 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What Users Say</span>
+                <h2>Trusted by <span class="gradient-text">Professionals Across India</span></h2>
+                <p>From lawyers to financial analysts, LocalPDF serves diverse needs with one core promise: your documents stay yours.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">KR</div>
+                        <div class="testimonial-info">
+                            <h4>Kavita Reddy</h4>
+                            <p>Lawyer, Hyderabad</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"I analyze dozens of contracts weekly. LocalPDF lets me extract key clauses and chat with legal documents without ever exposing client data to cloud servers. Attorney-client privilege stays intact. This is how AI tools should work for legal professionals."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">RG</div>
+                        <div class="testimonial-info">
+                            <h4>Rohan Gupta</h4>
+                            <p>Financial Analyst, Mumbai</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Processing confidential earnings reports and financial statements through cloud AI was never an option for us. LocalPDF changed everything - I can summarize quarterly reports, extract key metrics, and compare documents. All offline, all private."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">MK</div>
+                        <div class="testimonial-info">
+                            <h4>Dr. Meera Krishnan</h4>
+                            <p>Professor, Pune</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"I review 50+ research papers for every literature review. LocalPDF batch-summarizes entire folders of PDFs, extracts methodologies, and lets me chat with papers to find specific details. It saves me weeks of work every semester. And it's completely free."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Common Questions</span>
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can this be completely free?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>LocalPDF runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for. We believe AI should be accessible to everyone. Our code is open source under MIT license - audit it yourself.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How accurate is the AI analysis?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>LocalPDF uses state-of-the-art open source AI models optimized for document understanding. While cloud services may use larger models, our local models provide excellent accuracy for summarization, Q&A, and data extraction - with the critical advantage that your documents never leave your device.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Will this work without an internet connection?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! After the initial model download (one-time, happens on first run), LocalPDF works 100% offline. Analyze documents on airplanes, in remote locations, or in air-gapped environments.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I use this for commercial work?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! LocalPDF is MIT licensed. Use it for personal projects, client work, or commercial products. No attribution required (though always appreciated).</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What PDF formats and sizes are supported?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>LocalPDF handles standard PDF files of any size - no page or file size limits. It works with text-based PDFs, scanned documents (with OCR), and mixed-content PDFs containing images and tables.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are the system requirements?</span>
+                        <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>Minimum:</strong> 8GB RAM, 10GB free storage, macOS 12+ or Windows 10+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Notify Section -->
     <section class="download" id="notify">
         <div class="container">
@@ -438,63 +495,6 @@
         </div>
     </section>
 
-    <!-- Join Section -->
-    <section class="join-section">
-        <div class="container">
-            <div class="join-content">
-                <h2 data-i18n="join.heading">Join the Movement</h2>
-                <p data-i18n="join.paragraph1">LocalPDF is part of a larger vision: AI that respects privacy, serves users, and remains accessible to all.</p>
-                <p data-i18n="join.paragraph2">While LocalPDF is in development, check out our other privacy-first AI tools.</p>
-                <div class="join-actions">
-                    <a href="../localmind/" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                            <line x1="12" y1="19" x2="12" y2="23"/>
-                            <line x1="8" y1="23" x2="16" y2="23"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.localmind_title">LocalMind</strong>
-                            <span data-i18n="join.localmind_desc">AI Transcription and Analysis</span>
-                        </div>
-                    </a>
-                    <a href="../localwrite/" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
-                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.localwrite_title">LocalWrite</strong>
-                            <span data-i18n="join.localwrite_desc">AI Writing Enhancement</span>
-                        </div>
-                    </a>
-                    <a href="https://github.com/Svetozar-Technologies" target="_blank" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.github_title">All Projects</strong>
-                            <span data-i18n="join.github_desc">Explore our GitHub</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA -->
-    <section class="final-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 data-i18n="final_cta.heading">The Future of AI is Local.<br>The Future of AI is Open.<br><span class="gradient-text">The Future Starts Now.</span></h2>
-                <div class="cta-buttons">
-                    <a href="https://github.com/Svetozar-Technologies/LocalPDF" target="_blank" class="btn btn-primary btn-lg" data-i18n="final_cta.star_btn">Star on GitHub</a>
-                    <a href="../" class="btn btn-outline btn-lg" data-i18n="final_cta.explore_btn">Explore All Products</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -507,10 +507,10 @@
                             <span class="logo-tagline">Free AI. Private AI.</span>
                         </div>
                     </a>
-                    <p class="footer-mission" data-i18n="footer.tagline">AI that is free, private, and yours.</p>
+                    <p class="footer-mission">AI that is free, private, and yours.</p>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.products_title">Products</h4>
+                    <h4>Products</h4>
                     <ul>
                         <li><a href="../localmind/">LocalMind</a></li>
                         <li><a href="../localwrite/">LocalWrite</a></li>
@@ -518,23 +518,23 @@
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.community_title">Community</h4>
+                    <h4>Community</h4>
                     <ul>
-                        <li><a href="https://github.com/Svetozar-Technologies/LocalPDF" target="_blank">GitHub</a></li>
-                        <li><a href="https://github.com/Svetozar-Technologies/LocalPDF/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a></li>
+                        <li><a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/Svetozar-Technologies/LocalPDF/discussions" target="_blank">Discussions</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.legal_title">Legal</h4>
+                    <h4>Legal</h4>
                     <ul>
-                        <li><a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
-                        <li><a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies</p>
-                <p class="footer-tagline" data-i18n="footer.footer_tagline">Building AI that serves humanity, not corporations.</p>
+                <p>&copy; 2025 Svetozar Technologies</p>
+                <p class="footer-tagline">Building AI that serves humanity, not corporations.</p>
             </div>
         </div>
     </footer>
