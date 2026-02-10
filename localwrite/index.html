@@ -3,554 +3,396 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LocalWrite - Private AI Writing Assistant | Svetozar Technologies</title>
-    <meta name="description" content="LocalWrite is a privacy-first AI writing assistant. Enhance your writing with 11 modes, creativity control, and PDF processing. 100% offline, free forever, open source.">
-    <meta name="keywords" content="AI writing assistant, offline AI, private writing, text enhancement, writing modes, PDF enhancement">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="LocalWrite - Private AI Writing Assistant">
-    <meta property="og:description" content="Enhance your writing with powerful local AI. 100% offline, free forever.">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="LocalWrite - Private AI Writing Assistant">
-    <meta name="twitter:description" content="Enhance your writing with powerful local AI. 100% offline, free forever.">
-
-    <!-- Fonts -->
+    <title>LocalWrite - Private AI Writing Assistant</title>
+    <meta name="description" content="100% offline AI writing assistant. Enhance your writing with powerful local AI models. No cloud. No accounts. No compromise.">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="../" class="logo">
-                <img src="../assets/logo.png" alt="Svetozar Technologies" class="logo-img">
-                <div class="logo-text">
-                    <span class="logo-name">Svetozar Technologies</span>
-                    <span class="logo-tagline">Free AI. Private AI.</span>
-                </div>
-            </a>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">LocalWrite</a>
             <div class="nav-links">
-                <a href="#mission" data-i18n="nav.mission">Our Mission</a>
-                <a href="#product" data-i18n="nav.product">Product</a>
-                <a href="#download" data-i18n="nav.download">Download</a>
-                <a href="https://github.com/Svetozar-Technologies/LocalWrite" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
-                <div id="languageSelector"></div>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#download" class="nav-cta">Download</a>
             </div>
-            <button class="mobile-menu-btn" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 data-i18n="hero.title">Your Words.<br>Your Privacy.<br><span class="gradient-text">Your Control.</span></h1>
-                <p class="hero-subtitle" data-i18n="hero.subtitle">LocalWrite is a privacy-first AI writing assistant that runs 100% on your device. Enhance your writing with powerful AI - without sending a single word to the cloud. Free forever. Open source. No compromises.</p>
-                <div class="hero-buttons">
-                    <a href="#download" class="btn btn-primary btn-lg" data-i18n="hero.cta_download">
-                        Download LocalWrite
-                    </a>
-                    <a href="#mission" class="btn btn-secondary btn-lg" data-i18n="hero.cta_mission">
-                        Read Our Mission
-                    </a>
+        <div class="hero-container">
+            <div class="hero-badge">100% Offline</div>
+            <h1 class="hero-title">Private AI Writing Assistant</h1>
+            <p class="hero-subtitle">
+                Enhance your writing with powerful AI that runs entirely on your device.<br>
+                No cloud. No accounts. No compromise.
+            </p>
+            <div class="hero-cta">
+                <a href="#download" class="btn btn-primary">Download for macOS</a>
+                <a href="https://github.com/svetozar-technologies/localwrite" class="btn btn-secondary" target="_blank">View on GitHub</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">100%</span>
+                    <span class="stat-label">Offline</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">0</span>
+                    <span class="stat-label">Data Collected</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">Free</span>
+                    <span class="stat-label">Forever</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof Bar -->
-    <section class="social-proof-bar">
+    <!-- Problem Section -->
+    <section class="problem">
         <div class="container">
-            <div class="proof-stats">
-                <div class="proof-stat">
-                    <span class="proof-icon">🚀</span>
-                    <span class="proof-number">v1.0</span>
-                    <span class="proof-label" data-i18n="social_proof.launch">Just Launched!</span>
+            <h2 class="section-title">The Problem with Cloud AI</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">&#128065;</div>
+                    <h3>Your Words Are Watched</h3>
+                    <p>Every sentence you type is sent to remote servers. Your private thoughts, drafts, and documents become someone else's data.</p>
                 </div>
-                <div class="proof-stat">
-                    <span class="proof-icon">💯</span>
-                    <span class="proof-number">100%</span>
-                    <span class="proof-label" data-i18n="social_proof.free">Free Forever</span>
+                <div class="problem-card">
+                    <div class="problem-icon">&#128176;</div>
+                    <h3>Subscription Fatigue</h3>
+                    <p>$20-50 per month, forever. Cloud AI tools drain your wallet while harvesting your content.</p>
                 </div>
-                <div class="proof-stat">
-                    <span class="proof-icon">✍️</span>
-                    <span class="proof-number">11</span>
-                    <span class="proof-label" data-i18n="social_proof.modes">Writing Modes</span>
-                </div>
-                <div class="proof-stat">
-                    <span class="proof-icon">🔓</span>
-                    <span class="proof-number">MIT</span>
-                    <span class="proof-label" data-i18n="social_proof.opensource">Open Source</span>
+                <div class="problem-card">
+                    <div class="problem-icon">&#128268;</div>
+                    <h3>Internet Dependent</h3>
+                    <p>No Wi-Fi? No writing help. Cloud tools leave you stranded when you need them most.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission-section" id="mission">
+    <!-- Solution Section -->
+    <section class="solution">
         <div class="container">
-            <div class="mission-header">
-                <span class="section-label" data-i18n="mission.label">Our Mission</span>
-                <h2 data-i18n="mission.title">Write Freely.<br>Write Privately.<br><span class="gradient-text">Write Powerfully.</span></h2>
-            </div>
-
-            <div class="manifesto">
-                <div class="manifesto-block">
-                    <span class="manifesto-number">01</span>
-                    <h3 data-i18n="manifesto.block1_title">The Problem We See</h3>
-                    <p data-i18n="manifesto.block1_p1">Every AI writing tool today sends your words to corporate servers. Your drafts, your ideas, your private thoughts - all uploaded, stored, and potentially used to train AI models. Writers, journalists, and professionals are forced to choose between AI assistance and privacy.</p>
-                    <p data-i18n="manifesto.block1_p2">This isn't just inconvenient. It's a fundamental breach of creative privacy. Your words should belong to you.</p>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2 class="section-title">Write Privately. Write Freely.</h2>
+                    <p class="solution-description">
+                        LocalWrite runs powerful AI models directly on your Mac. Your words never leave your device.
+                        No internet required. No accounts needed. Just download, select a model, and start writing.
+                    </p>
+                    <ul class="solution-list">
+                        <li>All AI processing happens locally on your device</li>
+                        <li>Works completely offline after one-time model download</li>
+                        <li>No telemetry, analytics, or usage tracking</li>
+                        <li>Open source code you can audit yourself</li>
+                    </ul>
                 </div>
-
-                <div class="manifesto-block">
-                    <span class="manifesto-number">02</span>
-                    <h3 data-i18n="manifesto.block2_title">What We Believe</h3>
-                    <div class="beliefs">
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief1_title">Writing is Personal</h4>
-                            <p data-i18n="manifesto.belief1_desc">Your drafts, notes, and ideas deserve the same privacy as your spoken conversations. AI assistance shouldn't require surveillance.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief2_title">AI Should Be Accessible</h4>
-                            <p data-i18n="manifesto.belief2_desc">Powerful writing tools shouldn't cost $20-50/month. Students, indie authors, and small businesses deserve the same AI capabilities as big corporations.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief3_title">Local-First is Possible</h4>
-                            <p data-i18n="manifesto.belief3_desc">Modern devices are powerful enough to run sophisticated AI locally. Cloud dependency is a business model, not a technical necessity.</p>
-                        </div>
-                        <div class="belief">
-                            <h4 data-i18n="manifesto.belief4_title">Open Source is Trust</h4>
-                            <p data-i18n="manifesto.belief4_desc">You shouldn't have to take our word for it. Every line of code is public. Audit it. Verify our privacy claims yourself.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="manifesto-block">
-                    <span class="manifesto-number">03</span>
-                    <h3 data-i18n="manifesto.block3_title">Our Commitment</h3>
-                    <div class="commitments">
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment1_title">Forever Free</strong>
-                                <p data-i18n="manifesto.commitment1_desc">LocalWrite will always be free. No trials. No feature walls. No "freemium" tricks. Full functionality for everyone.</p>
-                            </div>
-                        </div>
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment2_title">Forever Private</strong>
-                                <p data-i18n="manifesto.commitment2_desc">Your writing never leaves your device. No telemetry. No analytics. No exceptions. We literally cannot see what you write.</p>
-                            </div>
-                        </div>
-                        <div class="commitment">
-                            <span class="commitment-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polyline points="20 6 9 17 4 12"/>
-                                </svg>
-                            </span>
-                            <div>
-                                <strong data-i18n="manifesto.commitment3_title">Forever Open</strong>
-                                <p data-i18n="manifesto.commitment3_desc">MIT licensed. Fork it. Modify it. Build on it. The mission is bigger than any single project.</p>
-                            </div>
-                        </div>
+                <div class="solution-visual">
+                    <div class="privacy-shield">
+                        <div class="shield-icon">&#128737;</div>
+                        <div class="shield-text">Your Words Stay Here</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Impact Stats -->
-    <section class="impact-section">
+    <!-- Features Section -->
+    <section id="features" class="features">
         <div class="container">
-            <div class="impact-header">
-                <h2 data-i18n="impact.title">This Is What We're Building</h2>
-            </div>
-            <div class="impact-grid">
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat1_number">100%</span>
-                    <span class="impact-label" data-i18n="impact.stat1_label">Local Processing</span>
-                    <p data-i18n="impact.stat1_desc">Zero bytes sent to external servers. Ever.</p>
+            <h2 class="section-title">Powerful Features, Total Privacy</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">&#128640;</div>
+                    <h3>Smart Model Selection</h3>
+                    <p>Choose from 5 curated AI models optimized for different writing tasks. Auto-downloads on first use.</p>
                 </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat2_number">$0</span>
-                    <span class="impact-label" data-i18n="impact.stat2_label">Cost to Users</span>
-                    <p data-i18n="impact.stat2_desc">Professional AI writing for everyone.</p>
+                <div class="feature-card">
+                    <div class="feature-icon">&#9997;</div>
+                    <h3>5 Writing Modes</h3>
+                    <p>Professional, Conversational, Scholarly, Creative, and Concise. Perfect tone for any context.</p>
                 </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat3_number">11</span>
-                    <span class="impact-label" data-i18n="impact.stat3_label">Writing Modes</span>
-                    <p data-i18n="impact.stat3_desc">From professional to creative to concise.</p>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128196;</div>
+                    <h3>Summarize & Expand</h3>
+                    <p>Condense long texts to key points or expand with more examples and practice questions.</p>
                 </div>
-                <div class="impact-card">
-                    <span class="impact-number" data-i18n="impact.stat4_number">∞</span>
-                    <span class="impact-label" data-i18n="impact.stat4_label">Possibilities</span>
-                    <p data-i18n="impact.stat4_desc">No usage limits. No API caps. Unlimited.</p>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128206;</div>
+                    <h3>Document Upload</h3>
+                    <p>Import TXT, Markdown, DOCX, and PDF files. Work with your existing documents seamlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128218;</div>
+                    <h3>Chat with Documents</h3>
+                    <p>Upload books, papers, or notes and ask questions. Components auto-install on first use.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128172;</div>
+                    <h3>AI Chat</h3>
+                    <p>Chat with your AI assistant offline. Ask questions, generate content, get help with anything.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128202;</div>
+                    <h3>Real-time Statistics</h3>
+                    <p>Word count, reading time, grade level, and tone analysis. Know your text at a glance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#127769;</div>
+                    <h3>Dark Mode</h3>
+                    <p>Comfortable writing experience day and night. Easy on your eyes during late sessions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128190;</div>
+                    <h3>Export Options</h3>
+                    <p>Save your enhanced text as TXT, Markdown, or DOCX. Your format, your choice.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Section -->
-    <section class="product-section" id="product">
+    <!-- Models Section -->
+    <section class="models">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-i18n="product.label">The Product</span>
-                <h2 data-i18n="product.title">LocalWrite:<br><span class="gradient-text">AI Writing That Respects You</span></h2>
-                <p data-i18n="product.subtitle">A powerful writing enhancement tool that runs entirely on your machine. No cloud required.</p>
-            </div>
-
-            <div class="product-features">
-                <div class="product-feature">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
-                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
-                        </svg>
-                    </div>
-                    <h3 data-i18n="product.feature1_title">11 Writing Modes</h3>
-                    <p data-i18n="product.feature1_desc">Professional, Creative, Academic, Conversational, Concise, Elaborate, and more. Transform your text to match any style or audience.</p>
+            <h2 class="section-title">Choose Your AI</h2>
+            <p class="section-subtitle">Curated models optimized for different writing tasks</p>
+            <div class="models-table">
+                <div class="model-row model-header">
+                    <div class="model-name">Model</div>
+                    <div class="model-best">Best For</div>
+                    <div class="model-size">Size</div>
                 </div>
-                <div class="product-feature">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="4" y1="21" x2="4" y2="14"/>
-                            <line x1="4" y1="10" x2="4" y2="3"/>
-                            <line x1="12" y1="21" x2="12" y2="12"/>
-                            <line x1="12" y1="8" x2="12" y2="3"/>
-                            <line x1="20" y1="21" x2="20" y2="16"/>
-                            <line x1="20" y1="12" x2="20" y2="3"/>
-                            <circle cx="4" cy="12" r="2"/>
-                            <circle cx="12" cy="10" r="2"/>
-                            <circle cx="20" cy="14" r="2"/>
-                        </svg>
+                <div class="model-row recommended">
+                    <div class="model-name">
+                        <span class="star">&#9733;</span> Qwen 2.5 7B
+                        <span class="badge">Recommended</span>
                     </div>
-                    <h3 data-i18n="product.feature2_title">Creativity Control</h3>
-                    <p data-i18n="product.feature2_desc">Fine-tune the AI's creativity with a simple slider. Conservative for business writing, expressive for creative work.</p>
+                    <div class="model-best">General writing, essays, articles</div>
+                    <div class="model-size">4.7 GB</div>
                 </div>
-                <div class="product-feature">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                            <polyline points="14 2 14 8 20 8"/>
-                        </svg>
-                    </div>
-                    <h3 data-i18n="product.feature3_title">PDF Enhancement</h3>
-                    <p data-i18n="product.feature3_desc">Enhance entire PDF documents while preserving formatting. Perfect for reports, essays, and professional documents.</p>
+                <div class="model-row">
+                    <div class="model-name">Gemma 2 9B</div>
+                    <div class="model-best">Creative writing, storytelling</div>
+                    <div class="model-size">5.8 GB</div>
                 </div>
-                <div class="product-feature">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                            <line x1="3" y1="9" x2="21" y2="9"/>
-                            <line x1="9" y1="21" x2="9" y2="9"/>
-                        </svg>
-                    </div>
-                    <h3 data-i18n="product.feature4_title">Real-time Statistics</h3>
-                    <p data-i18n="product.feature4_desc">Word count, sentence count, reading time, grade level, and tone analysis. Know your writing inside and out.</p>
+                <div class="model-row">
+                    <div class="model-name">Llama 3.1 8B</div>
+                    <div class="model-best">Professional, clean prose</div>
+                    <div class="model-size">4.9 GB</div>
                 </div>
-                <div class="product-feature">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"/>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-                        </svg>
-                    </div>
-                    <h3 data-i18n="product.feature5_title">Multiple AI Models</h3>
-                    <p data-i18n="product.feature5_desc">Choose from 5 curated AI models. Qwen, Llama, Gemma, Mistral - pick the best for your writing style.</p>
+                <div class="model-row">
+                    <div class="model-name">Llama 3.2 3B</div>
+                    <div class="model-best">Quick edits, low memory</div>
+                    <div class="model-size">2.0 GB</div>
                 </div>
-            </div>
-
-            <div class="product-languages">
-                <h4 data-i18n="product.modes_heading">Writing Modes</h4>
-                <div class="language-tags">
-                    <span class="language-tag" data-i18n="product.mode1">Professional</span>
-                    <span class="language-tag" data-i18n="product.mode2">Creative</span>
-                    <span class="language-tag" data-i18n="product.mode3">Academic</span>
-                    <span class="language-tag" data-i18n="product.mode4">Conversational</span>
-                    <span class="language-tag" data-i18n="product.mode5">Concise</span>
-                    <span class="language-tag" data-i18n="product.mode6">Elaborate</span>
-                    <span class="language-tag" data-i18n="product.mode7">+ More</span>
+                <div class="model-row">
+                    <div class="model-name">Mistral 7B</div>
+                    <div class="model-best">Balanced speed & quality</div>
+                    <div class="model-size">4.4 GB</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Comparison Table -->
-    <section class="comparison-section">
+    <!-- Who It's For Section -->
+    <section class="personas">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-i18n="comparison.label">Why LocalWrite</span>
-                <h2 data-i18n="comparison.title">LocalWrite vs <span class="gradient-text">Cloud Services</span></h2>
-                <p data-i18n="comparison.subtitle">See how LocalWrite compares to popular AI writing services like Grammarly, Jasper, and Copy.ai.</p>
-            </div>
-            <div class="comparison-table-wrapper">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th data-i18n="comparison_table.header_feature">Feature</th>
-                            <th class="cloud-col" data-i18n="comparison_table.header_cloud">Cloud Services</th>
-                            <th class="localmind-col" data-i18n="comparison_table.header_localwrite">LocalWrite</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row1_feature">Monthly Cost</strong></td>
-                            <td data-i18n="comparison_table.row1_cloud">$20-50/month</td>
-                            <td class="highlight" data-i18n="comparison_table.row1_localwrite">$0 Forever</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row2_feature">Annual Cost</strong></td>
-                            <td data-i18n="comparison_table.row2_cloud">$240-600/year</td>
-                            <td class="highlight" data-i18n="comparison_table.row2_localwrite">$0</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row3_feature">Privacy</strong></td>
-                            <td data-i18n="comparison_table.row3_cloud">Upload to servers</td>
-                            <td class="highlight" data-i18n="comparison_table.row3_localwrite">100% Local</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row4_feature">Usage Limits</strong></td>
-                            <td data-i18n="comparison_table.row4_cloud">Word/request limits</td>
-                            <td class="highlight" data-i18n="comparison_table.row4_localwrite">Unlimited</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row5_feature">Internet Required</strong></td>
-                            <td data-i18n="comparison_table.row5_cloud">Yes</td>
-                            <td class="highlight" data-i18n="comparison_table.row5_localwrite">Works Offline</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row6_feature">Data Ownership</strong></td>
-                            <td data-i18n="comparison_table.row6_cloud">Stored on servers</td>
-                            <td class="highlight" data-i18n="comparison_table.row6_localwrite">You own 100%</td>
-                        </tr>
-                        <tr>
-                            <td><strong data-i18n="comparison_table.row7_feature">Open Source</strong></td>
-                            <td data-i18n="comparison_table.row7_cloud">Proprietary</td>
-                            <td class="highlight" data-i18n="comparison_table.row7_localwrite">MIT License</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="roi-calculator">
-                <h3 data-i18n="comparison.roi_title">Calculate Your Annual Savings</h3>
-                <p data-i18n="comparison.roi_cloud">Average AI writing service: <strong>$30/month x 12 = $360/year</strong></p>
-                <p data-i18n="comparison.roi_localwrite">LocalWrite: <strong>$0/year</strong></p>
-                <p class="savings-highlight" data-i18n="comparison.roi_savings">You save: <span class="gradient-text">$360+ every year</span></p>
+            <h2 class="section-title">Built for Writers Who Value Privacy</h2>
+            <div class="personas-grid">
+                <div class="persona-card">
+                    <div class="persona-icon">&#128214;</div>
+                    <h3>Writers & Authors</h3>
+                    <p>Polish manuscripts without exposing unpublished work to cloud services.</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-icon">&#127916;</div>
+                    <h3>Scriptwriters</h3>
+                    <p>Protect your scripts and treatments. Your ideas stay yours until you're ready to share.</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-icon">&#128240;</div>
+                    <h3>Journalists</h3>
+                    <p>Protect sources and sensitive stories. No third party ever sees your drafts.</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-icon">&#127891;</div>
+                    <h3>Students</h3>
+                    <p>Improve essays and papers privately. Learn better writing without surveillance.</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-icon">&#128188;</div>
+                    <h3>Business Professionals</h3>
+                    <p>Enhance confidential documents. Proposals, contracts, and reports stay private.</p>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-icon">&#128273;</div>
+                    <h3>Privacy Advocates</h3>
+                    <p>Open source, fully auditable. Verify exactly what the code does.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section class="how-section">
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
         <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="how_it_works.title">Simple by Design</h2>
-                <p data-i18n="how_it_works.subtitle">No accounts. No API keys. No configuration. Just download, open, and write.</p>
-            </div>
+            <h2 class="section-title">Get Started in 3 Steps</h2>
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3 data-i18n="how_it_works.step1_title">Download</h3>
-                        <p data-i18n="how_it_works.step1_desc">Get LocalWrite for macOS. One file, ready to use.</p>
-                    </div>
+                    <h3>Download LocalWrite</h3>
+                    <p>Free download for macOS. No sign-up, no account needed.</p>
                 </div>
-                <div class="step-connector"></div>
+                <div class="step-arrow">&#8594;</div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3 data-i18n="how_it_works.step2_title">Select Model</h3>
-                        <p data-i18n="how_it_works.step2_desc">Choose an AI model from our curated list. Downloads once.</p>
-                    </div>
+                    <h3>Select Your AI Model</h3>
+                    <p>Choose from 5 curated models. Auto-downloads on first use.</p>
                 </div>
-                <div class="step-connector"></div>
+                <div class="step-arrow">&#8594;</div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3 data-i18n="how_it_works.step3_title">Write Privately</h3>
-                        <p data-i18n="how_it_works.step3_desc">Enhance your writing with AI. Your words never leave your device.</p>
-                    </div>
+                    <h3>Write Privately</h3>
+                    <p>Enhance your writing. Your words never leave your device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="container">
+            <h2 class="section-title">LocalWrite vs Cloud AI</h2>
+            <div class="comparison-table">
+                <div class="comparison-row comparison-header">
+                    <div class="comparison-feature">Feature</div>
+                    <div class="comparison-local">LocalWrite</div>
+                    <div class="comparison-cloud">Cloud AI</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Privacy</div>
+                    <div class="comparison-local good">100% Local</div>
+                    <div class="comparison-cloud bad">Cloud Servers</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Cost</div>
+                    <div class="comparison-local good">Free Forever</div>
+                    <div class="comparison-cloud bad">$20-50/month</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Internet</div>
+                    <div class="comparison-local good">Not Required</div>
+                    <div class="comparison-cloud bad">Always Required</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Account</div>
+                    <div class="comparison-local good">None Needed</div>
+                    <div class="comparison-cloud bad">Required</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Open Source</div>
+                    <div class="comparison-local good">Yes</div>
+                    <div class="comparison-cloud bad">No</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-feature">Data Collection</div>
+                    <div class="comparison-local good">Zero</div>
+                    <div class="comparison-cloud bad">Everything</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specs -->
+    <section class="specs">
+        <div class="container">
+            <h2 class="section-title">Technical Specifications</h2>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h4>System Requirements</h4>
+                    <ul>
+                        <li>macOS 11.0 or later</li>
+                        <li>8GB RAM minimum</li>
+                        <li>16GB RAM recommended</li>
+                        <li>2-6 GB disk per model</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h4>AI Technology</h4>
+                    <ul>
+                        <li>llama.cpp backend</li>
+                        <li>GGUF model format</li>
+                        <li>Apple Silicon optimized</li>
+                        <li>Metal GPU acceleration</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h4>Document RAG</h4>
+                    <ul>
+                        <li>BGE embeddings model</li>
+                        <li>ChromaDB vector store</li>
+                        <li>Hybrid semantic + BM25</li>
+                        <li>Smart text chunking</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h4>License & Source</h4>
+                    <ul>
+                        <li>MIT License</li>
+                        <li>100% Open Source</li>
+                        <li>Python & PyQt6</li>
+                        <li>GitHub hosted</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section class="download" id="download">
+    <section id="download" class="download">
         <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-i18n="download.label">Get Started</span>
-                <h2 data-i18n="download.title">Download<br><span class="gradient-text">LocalWrite</span></h2>
-                <p data-i18n="download.subtitle">Available now for macOS. Windows and Linux coming soon.</p>
-            </div>
-            <div class="download-cards">
-                <a href="https://github.com/Svetozar-Technologies/LocalWrite/releases/latest" class="download-card" id="macOSDownloadBtn">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-                    </svg>
-                    <h3 data-i18n="download.macos">macOS</h3>
-                    <p data-i18n="download_details.macos_desc">macOS 11+ (Apple Silicon & Intel)</p>
-                    <span class="download-size" data-i18n="download_details.macos_size">~100 MB (+ 2-6 GB model)</span>
+            <h2 class="section-title">Start Writing Privately</h2>
+            <p class="section-subtitle">Free download. No sign-up required. Your words stay yours.</p>
+            <div class="download-buttons">
+                <a href="https://github.com/Svetozar-Technologies/LocalWrite/releases/download/v1.0.0/LocalWrite-1.0.0-macOS.dmg" class="btn btn-primary btn-large" download>
+                    Download for macOS
                 </a>
-                <div class="download-card disabled">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
-                    </svg>
-                    <h3 data-i18n="download.windows">Windows</h3>
-                    <p data-i18n="download_details.windows_desc">Coming Soon</p>
-                    <span class="coming-soon-badge" data-i18n="download_details.coming_soon">In Development</span>
-                </div>
-                <div class="download-card disabled">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139z"/>
-                    </svg>
-                    <h3 data-i18n="download.linux">Linux</h3>
-                    <p data-i18n="download_details.linux_desc">Coming Soon</p>
-                    <span class="coming-soon-badge" data-i18n="download_details.coming_soon">In Development</span>
-                </div>
+                <a href="https://github.com/svetozar-technologies/localwrite" class="btn btn-secondary btn-large" target="_blank">
+                    View Source Code
+                </a>
             </div>
-            <div class="system-requirements">
-                <h4 data-i18n="download_details.system_req_heading">System Requirements</h4>
-                <div class="requirements-grid">
-                    <div class="requirement">
-                        <span class="req-label" data-i18n="download_details.req_ram_label">RAM</span>
-                        <span class="req-value" data-i18n="download_details.req_ram_value">8 GB minimum, 16 GB recommended</span>
-                    </div>
-                    <div class="requirement">
-                        <span class="req-label" data-i18n="download_details.req_storage_label">Storage</span>
-                        <span class="req-value" data-i18n="download_details.req_storage_value">2-6 GB per AI model</span>
-                    </div>
-                    <div class="requirement">
-                        <span class="req-label" data-i18n="download_details.req_gpu_label">GPU</span>
-                        <span class="req-value" data-i18n="download_details.req_gpu_value">Optional - Apple Silicon optimized</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Join Section -->
-    <section class="join-section">
-        <div class="container">
-            <div class="join-content">
-                <h2 data-i18n="join.heading">Join the Movement</h2>
-                <p data-i18n="join.paragraph1">LocalWrite is more than software. It's a statement that AI can be built differently. That privacy and power aren't mutually exclusive. That open source can compete with Big Tech.</p>
-                <p data-i18n="join.paragraph2">We're just getting started. And we need people like you.</p>
-                <div class="join-actions">
-                    <a href="https://github.com/Svetozar-Technologies/LocalWrite" target="_blank" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.star_title">Star the Project</strong>
-                            <span data-i18n="join.star_desc">Show your support on GitHub</span>
-                        </div>
-                    </a>
-                    <a href="https://github.com/Svetozar-Technologies/LocalWrite/fork" target="_blank" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="18" r="3"/>
-                            <circle cx="6" cy="6" r="3"/>
-                            <circle cx="18" cy="6" r="3"/>
-                            <path d="M18 9v4a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9"/>
-                            <path d="M12 12v3"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.fork_title">Fork & Contribute</strong>
-                            <span data-i18n="join.fork_desc">Help build the future of AI</span>
-                        </div>
-                    </a>
-                    <a href="https://github.com/Svetozar-Technologies/LocalWrite/discussions" target="_blank" class="join-card">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                        </svg>
-                        <div>
-                            <strong data-i18n="join.discussions_title">Join Discussions</strong>
-                            <span data-i18n="join.discussions_desc">Share ideas with the community</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA -->
-    <section class="final-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 data-i18n="final_cta.heading">The Future of AI is Local.<br>The Future of AI is Open.<br><span class="gradient-text">The Future Starts Now.</span></h2>
-                <div class="cta-buttons">
-                    <a href="#download" class="btn btn-primary btn-lg" data-i18n="final_cta.download_btn">Download LocalWrite</a>
-                    <a href="https://github.com/Svetozar-Technologies/LocalWrite" target="_blank" class="btn btn-outline btn-lg" data-i18n="final_cta.source_btn">View Source Code</a>
-                </div>
-            </div>
+            <p class="download-note">Requires macOS 11.0+ and 8GB RAM</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
+            <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="../" class="logo footer-logo">
-                        <img src="../assets/logo.png" alt="Svetozar Technologies" class="logo-img footer-logo-img">
-                        <div class="logo-text">
-                            <span class="logo-name">Svetozar Technologies</span>
-                            <span class="logo-tagline">Free AI. Private AI.</span>
-                        </div>
-                    </a>
-                    <p class="footer-mission" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                    <span class="footer-logo">LocalWrite</span>
+                    <p>Private AI Writing Assistant</p>
                 </div>
                 <div class="footer-links">
-                    <h4 data-i18n="footer.products_title">Products</h4>
-                    <ul>
-                        <li><a href="../localmind/">LocalMind</a></li>
-                        <li><a href="../localwrite/">LocalWrite</a></li>
-                        <li><a href="../localpdf/">LocalPDF</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4 data-i18n="footer.community_title">Community</h4>
-                    <ul>
-                        <li><a href="https://github.com/Svetozar-Technologies/LocalWrite" target="_blank">GitHub</a></li>
-                        <li><a href="https://github.com/Svetozar-Technologies/LocalWrite/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4 data-i18n="footer.legal_title">Legal</h4>
-                    <ul>
-                        <li><a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
-                        <li><a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a></li>
-                    </ul>
+                    <a href="https://github.com/svetozar-technologies/localwrite" target="_blank">GitHub</a>
+                    <a href="https://github.com/svetozar-technologies/localwrite/issues" target="_blank">Report Issue</a>
+                    <a href="https://github.com/svetozar-technologies" target="_blank">Svetozar Technologies</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies</p>
-                <p class="footer-tagline" data-i18n="footer.footer_tagline">Building AI that serves humanity, not corporations.</p>
+                <p>MIT License. Free to use, modify, and distribute.</p>
+                <p>Built with privacy in mind.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
