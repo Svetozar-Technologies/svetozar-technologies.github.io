@@ -172,16 +172,16 @@
     "title": "下载<br><span class='gradient-text'>LocalMind</span>",
     "subtitle": "现已支持macOS、Windows和Linux。",
     "macos": "macOS v1.2.3",
-    "windows": "Windows v1.2.3",
-    "linux": "Linux v1.2.3"
+    "windows": "Windows - 即将推出",
+    "linux": "Linux - 即将推出"
   },
   "download_details": {
     "macos_desc": "macOS 12及以上（Intel和Apple Silicon）",
     "macos_size": "约800 MB（+ 首次运行时下载1.5 GB模型）",
     "windows_desc": "Windows 10及以上（64位）",
-    "windows_size": "约300 MB（+ 首次运行时下载1.5 GB模型）",
+    "windows_size": "即将推出",
     "linux_desc": "Ubuntu 22.04及以上 / AppImage",
-    "linux_size": "约4 GB（GitHub Artifact）",
+    "linux_size": "即将推出",
     "system_req_heading": "系统要求",
     "req_ram_label": "内存",
     "req_ram_value": "最低8 GB，推荐16 GB",

@@ -132,6 +132,12 @@
     "macos_title": "macOS v1.0.0",
     "macos_desc": "macOS 11.0+ (Apple Silicon और Intel)",
     "macos_size": "~200 MB (+ पहले उपयोग पर प्रति मॉडल 2-6 GB)",
+    "windows_title": "Windows - जल्द आ रहा है",
+    "windows_desc": "Windows 10+ (64-बिट)",
+    "windows_size": "जल्द आ रहा है",
+    "linux_title": "Linux - जल्द आ रहा है",
+    "linux_desc": "Ubuntu 22.04+ / AppImage",
+    "linux_size": "जल्द आ रहा है",
     "source_title": "सोर्स कोड",
     "source_desc": "सोर्स से बिल्ड करें (Python और PyQt6)",
     "source_size": "MIT लाइसेंस - Fork और संशोधित करें"

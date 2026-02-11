@@ -132,6 +132,12 @@
     "macos_title": "macOS v1.0.0",
     "macos_desc": "macOS 11.0+ (Apple Silicon e Intel)",
     "macos_size": "~200 MB (+ 2-6 GB por modelo en el primer uso)",
+    "windows_title": "Windows - Próximamente",
+    "windows_desc": "Windows 10+ (64 bits)",
+    "windows_size": "Próximamente",
+    "linux_title": "Linux - Próximamente",
+    "linux_desc": "Ubuntu 22.04+ / AppImage",
+    "linux_size": "Próximamente",
     "source_title": "Código fuente",
     "source_desc": "Compilar desde fuente (Python y PyQt6)",
     "source_size": "Licencia MIT — Fork y modifica"

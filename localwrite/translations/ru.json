@@ -132,6 +132,12 @@
     "macos_title": "macOS v1.0.0",
     "macos_desc": "macOS 11.0+ (Apple Silicon и Intel)",
     "macos_size": "~200 МБ (+ 2-6 ГБ на модель при первом использовании)",
+    "windows_title": "Windows - Скоро",
+    "windows_desc": "Windows 10+ (64-бит)",
+    "windows_size": "Скоро",
+    "linux_title": "Linux - Скоро",
+    "linux_desc": "Ubuntu 22.04+ / AppImage",
+    "linux_size": "Скоро",
     "source_title": "Исходный код",
     "source_desc": "Сборка из исходников (Python и PyQt6)",
     "source_size": "Лицензия MIT — форкните и модифицируйте"

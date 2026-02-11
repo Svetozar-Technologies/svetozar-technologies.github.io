@@ -132,6 +132,12 @@
     "macos_title": "macOS v1.0.0",
     "macos_desc": "macOS 11.0+（Apple Silicon 和 Intel）",
     "macos_size": "约200 MB（+ 每个模型首次使用时需2-6 GB）",
+    "windows_title": "Windows - 即将推出",
+    "windows_desc": "Windows 10及以上（64位）",
+    "windows_size": "即将推出",
+    "linux_title": "Linux - 即将推出",
+    "linux_desc": "Ubuntu 22.04及以上 / AppImage",
+    "linux_size": "即将推出",
     "source_title": "源代码",
     "source_desc": "从源码构建（Python 和 PyQt6）",
     "source_size": "MIT 许可证 - 可 Fork 和修改"

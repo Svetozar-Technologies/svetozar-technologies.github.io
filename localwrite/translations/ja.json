@@ -132,6 +132,12 @@
     "macos_title": "macOS v1.0.0",
     "macos_desc": "macOS 11.0+（Apple Silicon & Intel）",
     "macos_size": "約200 MB（+ 初回使用時にモデルあたり2-6 GB）",
+    "windows_title": "Windows - 近日公開",
+    "windows_desc": "Windows 10以降（64ビット）",
+    "windows_size": "近日公開",
+    "linux_title": "Linux - 近日公開",
+    "linux_desc": "Ubuntu 22.04以降 / AppImage",
+    "linux_size": "近日公開",
     "source_title": "ソースコード",
     "source_desc": "ソースからビルド（Python & PyQt6）",
     "source_size": "MITライセンス — フォーク＆カスタマイズ"

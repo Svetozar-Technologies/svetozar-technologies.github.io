@@ -172,16 +172,16 @@
     "title": "डाउनलोड<br><span class='gradient-text'>LocalMind</span>",
     "subtitle": "अभी macOS, Windows और Linux के लिए उपलब्ध।",
     "macos": "macOS v1.2.3",
-    "windows": "Windows v1.2.3",
-    "linux": "Linux v1.2.3"
+    "windows": "Windows - जल्द आ रहा है",
+    "linux": "Linux - जल्द आ रहा है"
   },
   "download_details": {
     "macos_desc": "macOS 12+ (Intel और Apple Silicon)",
     "macos_size": "~800 MB (+ पहली बार चलाने पर 1.5 GB मॉडल)",
     "windows_desc": "Windows 10+ (64-बिट)",
-    "windows_size": "~300 MB (+ पहली बार चलाने पर 1.5 GB मॉडल)",
+    "windows_size": "जल्द आ रहा है",
     "linux_desc": "Ubuntu 22.04+ / AppImage",
-    "linux_size": "~4 GB (GitHub Artifact)",
+    "linux_size": "जल्द आ रहा है",
     "system_req_heading": "सिस्टम आवश्यकताएं",
     "req_ram_label": "RAM",
     "req_ram_value": "न्यूनतम 8 GB, अनुशंसित 16 GB",
