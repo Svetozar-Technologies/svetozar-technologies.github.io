@@ -55,11 +55,11 @@
     "localwrite_feature2": "クリエイティビティコントロール",
     "localwrite_feature3": "PDF ドキュメント強化",
     "localwrite_feature4": "リアルタイム統計",
-    "localpdf_tagline": "AI 搭載 PDF ツール",
-    "localpdf_desc": "ドキュメントとチャット、インサイト抽出、ローカル AI で PDF を処理。機密ドキュメントは完全にプライベートのまま。",
-    "localpdf_feature1": "PDF とチャット",
-    "localpdf_feature2": "重要情報の抽出",
-    "localpdf_feature3": "ドキュメント要約",
+    "localpdf_tagline": "完全版 PDF ツールキット",
+    "localpdf_desc": "PDF の圧縮、結合、分割、保護、透かし、変換、編集が可能。10 種類のツールを 1 つのアプリに搭載、すべて 100% デバイス上で動作。",
+    "localpdf_feature1": "圧縮、結合、分割",
+    "localpdf_feature2": "保護、透かし、変換",
+    "localpdf_feature3": "PDF ページエディタと注釈",
     "localpdf_feature4": "100% ローカル処理"
   },
   "why": {

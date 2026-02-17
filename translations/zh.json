@@ -55,11 +55,11 @@
     "localwrite_feature2": "创意控制滑块",
     "localwrite_feature3": "PDF 文档增强",
     "localwrite_feature4": "实时统计",
-    "localpdf_tagline": "AI 驱动的 PDF 工具",
-    "localpdf_desc": "与文档对话、提取洞察、使用本地 AI 处理 PDF。你的敏感文档始终完全私密。",
-    "localpdf_feature1": "与 PDF 对话",
-    "localpdf_feature2": "提取关键信息",
-    "localpdf_feature3": "文档摘要",
+    "localpdf_tagline": "完整 PDF 工具箱",
+    "localpdf_desc": "压缩、合并、拆分、加密、添加水印、转换和编辑你的 PDF。10 种工具集于一个应用，全部在你的设备上 100% 本地运行。",
+    "localpdf_feature1": "压缩、合并和拆分",
+    "localpdf_feature2": "加密、水印和转换",
+    "localpdf_feature3": "PDF 页面编辑器和批注",
     "localpdf_feature4": "100% 本地处理"
   },
   "why": {

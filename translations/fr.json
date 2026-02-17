@@ -55,11 +55,11 @@
     "localwrite_feature2": "Curseur de contrôle de créativité",
     "localwrite_feature3": "Amélioration de documents PDF",
     "localwrite_feature4": "Statistiques en temps réel",
-    "localpdf_tagline": "Outils PDF propulsés par IA",
-    "localpdf_desc": "Discutez avec vos documents, extrayez des informations et traitez des PDF avec une IA locale. Vos documents sensibles restent totalement privés.",
-    "localpdf_feature1": "Discuter avec des PDF",
-    "localpdf_feature2": "Extraire les informations clés",
-    "localpdf_feature3": "Résumer des documents",
+    "localpdf_tagline": "Boîte à outils PDF complète",
+    "localpdf_desc": "Compressez, fusionnez, divisez, protégez, ajoutez des filigranes, convertissez et éditez vos PDF. 10 outils en une app, tout 100 % sur votre appareil.",
+    "localpdf_feature1": "Compresser, fusionner et diviser",
+    "localpdf_feature2": "Protéger, filigrane et convertir",
+    "localpdf_feature3": "Éditeur de pages PDF et annotations",
     "localpdf_feature4": "Traitement 100 % local"
   },
   "why": {

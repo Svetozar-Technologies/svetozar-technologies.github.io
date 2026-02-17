@@ -3,88 +3,88 @@
   "name": "日本語",
   "nav": {
     "features": "機能",
-    "use_cases": "活用事例",
-    "notify": "通知を受け取る",
+    "use_cases": "ユースケース",
+    "notify": "ダウンロード",
     "github": "GitHub"
   },
   "hero": {
-    "badge": "近日公開",
-    "title": "あなたの文書。<br>あなたのプライバシー。<br><span class='gradient-text'>あなたのAIアシスタント。</span>",
-    "subtitle": "LocalPDFは、プライバシー重視のAI搭載PDFツールキットです。PDFとチャット、重要な洞察の抽出、文書の要約 — すべて100%あなたのデバイスで動作。クラウド不要。アップロード不要。妥協なし。",
-    "cta_notify": "リリース時に通知を受け取る",
+    "badge": "今すぐ利用可能 — 無料＆オープンソース",
+    "title": "あなたの文書。<br>あなたのプライバシー。<br><span class='gradient-text'>あなたのPDFツールキット。</span>",
+    "subtitle": "LocalPDFは、プライバシーを最優先にした完全なPDFツールキットです。圧縮、結合、分割、保護、透かし、変換、編集 — すべてがデバイス上で100%動作します。クラウドなし。アップロードなし。妥協なし。",
+    "cta_notify": "⬇ macOS版をダウンロード",
     "cta_features": "機能を見る"
   },
   "social_proof": {
     "local": "ローカル処理",
-    "chat": "PDFチャット",
+    "tools": "PDFツール",
     "free": "永久無料",
     "opensource": "オープンソース"
   },
   "product": {
     "label": "製品",
-    "title": "LocalPDF：<br><span class='gradient-text'>あなたを尊重するAI PDFツール</span>",
-    "subtitle": "あなたのマシン上で完全に動作する強力なAI搭載PDFツールスイート。クラウド不要。",
-    "feature1_title": "PDFチャット",
-    "feature1_desc": "自然言語で文書について質問。ページ番号参照付きの回答を取得。",
-    "feature2_title": "スマート要約",
-    "feature2_desc": "長文文書の即時要約。数秒でキーポイントと結論を抽出。",
-    "feature3_title": "情報抽出",
-    "feature3_desc": "契約書、請求書、報告書から構造化データを自動抽出。",
-    "feature4_title": "バッチ処理",
-    "feature4_desc": "複数のPDFを同時に処理。報告書フォルダを一括で要約。",
-    "feature5_title": "完全なプライバシー",
-    "feature5_desc": "完全オフラインで動作。機密文書は機密のまま。",
-    "usecases_heading": "最適な用途",
-    "usecase1": "法的文書",
+    "title": "LocalPDF：<br><span class='gradient-text'>あなたを尊重するPDFツール</span>",
+    "subtitle": "完全にローカルで動作する強力なPDFツールスイート。クラウド不要。",
+    "feature1_title": "圧縮＆一括圧縮",
+    "feature1_desc": "スマートプリセット（メール、Web、印刷）でPDFを縮小。バッチモードで数百ファイルを一度に処理。",
+    "feature2_title": "結合＆分割",
+    "feature2_desc": "複数のPDFを1つに結合、またはページ、範囲、個別ファイルに分割。ドラッグ＆ドロップで並べ替え。",
+    "feature3_title": "保護＆透かし",
+    "feature3_desc": "AES-256パスワードを追加、権限を設定、またはテキストと画像の透かしをライブプレビューで重ねて表示。パスワード保護されたPDFのロック解除も可能。",
+    "feature4_title": "何でも変換",
+    "feature4_desc": "画像からPDF、PDFから画像（PNG/JPEG 72-600 DPI）、PPT/PPTXからPDF。複数画像のドラッグ＆ドロップと並べ替えに対応。",
+    "feature5_title": "PDFページエディター",
+    "feature5_desc": "注釈、消しゴムツール、テキストオーバーレイ、画像スタンプ、署名サポートでPDFページを編集。挿入と並べ替えによる完全なページ管理。",
+    "usecases_heading": "1つのアプリに10のツール",
+    "usecase1": "法律文書",
     "usecase2": "研究論文",
-    "usecase3": "財務報告書",
+    "usecase3": "財務報告",
     "usecase4": "契約書",
     "usecase5": "医療記録",
     "usecase6": "+ その他"
   },
   "use_cases": {
-    "label": "活用事例",
-    "title": "<span class='gradient-text'>真のプロフェッショナル</span>のために",
-    "subtitle": "クライアントデータを守る弁護士から、論文を分析する研究者まで — LocalPDFは一つの核心的な約束で多様なニーズに応えます：あなたの文書はあなたのもの。"
+    "label": "ユースケース",
+    "title": "<span class='gradient-text'>本物のプロフェッショナル</span>のために",
+    "subtitle": "クライアントデータを守る弁護士から論文を整理する研究者まで — LocalPDFは一つの約束で多様なニーズに応えます：あなたの文書はあなたのものです。"
   },
   "use_cases_cards": {
     "legal": {
-      "title": "弁護士",
-      "problem": "<strong>課題：</strong>契約書や証言をクラウドAIサービスにアップロードすると、弁護士-依頼人間の秘密特権が危険にさらされます。",
-      "solution": "<strong>解決策：</strong>自分のデバイスで契約書の分析、条項の抽出、証言の要約を完全に実行。データ漏洩ゼロ。"
+      "title": "法律専門家",
+      "problem": "<strong>課題：</strong>契約書や証言録をクラウドPDFサービスにアップロードすると、弁護士・依頼者間の秘匿特権が危険にさらされます。",
+      "solution": "<strong>解決策：</strong>法律文書の結合、分割、保護、透かしをすべてデバイス上で完結。情報漏洩ゼロ。"
     },
     "researchers": {
       "title": "研究者",
-      "problem": "<strong>課題：</strong>数百の学術論文を手動でレビューするのに数週間かかります。クラウドツールは未発表データを危険にさらします。",
-      "solution": "<strong>解決策：</strong>論文の一括要約、方法論の抽出、文書とのプライベートチャット。文献レビューに最適。"
+      "problem": "<strong>課題：</strong>数百の研究論文を手動で確認するには数週間かかります。クラウドツールは未公開データを危険にさらします。",
+      "solution": "<strong>解決策：</strong>研究論文を一括圧縮、結合、注釈をプライベートに。クラウドに依存せず文書を変換・整理。"
     },
     "financial": {
       "title": "金融アナリスト",
-      "problem": "<strong>課題：</strong>機密財務報告書や収益データをサードパーティのAIサービスにアップロードすることはできません。",
-      "solution": "<strong>解決策：</strong>主要指標の抽出、四半期報告書の比較、要約の生成 — データはデバイスの外に出ません。"
+      "problem": "<strong>課題：</strong>機密の財務報告書や決算書をサードパーティのPDFサービスにアップロードすることはできません。",
+      "solution": "<strong>解決策：</strong>AES-256暗号化で圧縮・保護し、透かしを追加。データがマシンから出ることはありません。"
     },
     "healthcare": {
-      "title": "医療専門家",
-      "problem": "<strong>課題：</strong>HIPAAおよびデータ保護規制により、患者記録のクラウドサービスへのアップロードが禁止されています。",
-      "solution": "<strong>解決策：</strong>医療PDFをローカルで処理。データ保護コンプライアンスを自動的に確保。"
+      "title": "医療従事者",
+      "problem": "<strong>課題：</strong>HIPAAやデータ保護規制により、患者記録のクラウドサービスへのアップロードは禁止されています。",
+      "solution": "<strong>解決策：</strong>医療PDFをローカルで処理。データ保護規制への自動準拠。"
     },
     "students": {
-      "title": "学生と教育者",
-      "problem": "<strong>課題：</strong>クラウドAIサブスクリプションは月額$20-50 — 学生の予算には高すぎます。",
-      "solution": "<strong>解決策：</strong>教科書の要約、キーコンセプトの抽出、試験準備。永久$0。"
+      "title": "学生＆教育者",
+      "problem": "<strong>課題：</strong>クラウドPDFサブスクリプションは月額$20-50 — 学生には高すぎます。",
+      "solution": "<strong>解決策：</strong>講義ノートの結合、教科書の圧縮、プレゼンのPDF変換、ページへの注釈。永久に$0。"
     },
     "privacy": {
-      "title": "プライバシー重視の方",
-      "problem": "<strong>課題：</strong>クラウドPDFツールは、あなたの文書をサーバーに無期限に保存します。",
-      "solution": "<strong>解決策：</strong>オープンソースで完全に監査可能。あなたの文書がサーバーに触れることは決してありません。"
+      "title": "プライバシー意識の高いユーザー",
+      "problem": "<strong>課題：</strong>クラウドPDFツールはあなたの文書をサーバーに無期限に保存します。",
+      "solution": "<strong>解決策：</strong>オープンソースで完全に監査可能。あなたの文書はサーバーに一切触れません。"
     }
   },
   "comparison": {
     "label": "LocalPDFを選ぶ理由",
     "title": "LocalPDF vs <span class='gradient-text'>クラウドサービス</span>",
-    "subtitle": "LocalPDFと人気のAI PDFサービスを比較：ChatPDF、PDF.ai、Adobe Acrobat AI。",
+    "subtitle": "Adobe Acrobat、Smallpdf、iLovePDFなどの人気クラウドPDFサービスとLocalPDFを比較してみましょう。",
     "roi_title": "年間節約額を計算",
-    "roi_cloud": "AI PDFサービスの平均：<strong>$40/月 x 12 = $480/年</strong>",
+    "roi_cloud": "平均的なクラウドPDFサービス：<strong>$40/月 x 12 = $480/年</strong>",
     "roi_localpdf": "LocalPDF：<strong>$0/年</strong>",
     "roi_savings": "節約額：<span class='gradient-text'>毎年$480以上</span>"
   },
@@ -94,18 +94,18 @@
     "header_localpdf": "LocalPDF",
     "row1_feature": "月額費用",
     "row1_cloud": "$20-100/月",
-    "row1_localpdf": "永久$0",
+    "row1_localpdf": "永久に$0",
     "row2_feature": "文書のプライバシー",
     "row2_cloud": "サーバーにアップロード",
-    "row2_localpdf": "デバイスの外に出ない",
+    "row2_localpdf": "デバイスから出ない",
     "row3_feature": "ページ制限",
-    "row3_cloud": "月50-500ページ",
+    "row3_cloud": "50-500ページ/月",
     "row3_localpdf": "無制限",
     "row4_feature": "ファイルサイズ制限",
     "row4_cloud": "10-50 MB",
     "row4_localpdf": "制限なし",
     "row5_feature": "インターネット必要",
-    "row5_cloud": "常に必要",
+    "row5_cloud": "はい、常に",
     "row5_localpdf": "オフラインで動作",
     "row6_feature": "データ保持",
     "row6_cloud": "無期限に保存",
@@ -116,21 +116,21 @@
   },
   "how_it_works": {
     "title": "シンプル設計",
-    "subtitle": "アカウント不要。アップロード不要。設定不要。ダウンロードして、PDFを開いて、チャット開始。",
+    "subtitle": "アカウント不要。アップロード不要。設定不要。ダウンロードして、ファイルをドロップして、作業開始。",
     "step1_title": "ダウンロード",
-    "step1_desc": "お使いのプラットフォーム用LocalPDFを入手。1つのアプリですぐに使えます。",
+    "step1_desc": "お使いのプラットフォーム用のLocalPDFを入手。1つのアプリですぐに使えます。",
     "step2_title": "PDFを開く",
-    "step2_desc": "文書をLocalPDFにドラッグ。コンピュータの外に出ることはありません。",
-    "step3_title": "チャット＆分析",
-    "step3_desc": "質問して、要約を取得、データを抽出 — すべてローカルで処理。"
+    "step2_desc": "LocalPDFにドキュメントをドロップ。コンピューターの外に出ることはありません。",
+    "step3_title": "処理＆保存",
+    "step3_desc": "圧縮、結合、分割、編集、保護、変換 — すべてローカルで処理。"
   },
   "testimonials": {
     "label": "ユーザーの声",
-    "title": "<span class='gradient-text'>インド各地のプロフェッショナル</span>が信頼",
-    "subtitle": "弁護士から金融アナリストまで、LocalPDFは一つの核心的な約束で多様なニーズに応えます：あなたの文書はあなたのもの。",
-    "t1_text": "\"毎週数十件の契約書を分析しています。LocalPDFにより、クライアントデータをクラウドサーバーに晒すことなく、重要な条項を抽出し法的文書とチャットできます。弁護士-依頼人間の秘密特権が守られます。AI法律ツールはこうあるべきです。\"",
-    "t2_text": "\"機密の収益報告書や財務諸表をクラウドAIで処理することは、私たちにとって選択肢ではありませんでした。LocalPDFがすべてを変えました — 四半期報告書の要約、主要指標の抽出、文書の比較ができます。すべてオフライン、すべてプライベート。\"",
-    "t3_text": "\"文献レビューごとに50以上の学術論文をレビューしています。LocalPDFはPDFフォルダ全体を一括要約し、方法論を抽出し、特定の詳細を探すために論文とチャットできます。毎学期数週間の作業を節約。しかも完全無料です。\""
+    "title": "<span class='gradient-text'>インド全土のプロフェッショナル</span>に信頼されています",
+    "subtitle": "弁護士から金融アナリストまで、LocalPDFは一つの約束で多様なニーズに応えます：あなたの文書はあなたのものです。",
+    "t1_text": "\"毎週数十件の契約書を処理しています。LocalPDFを使えば、クライアントデータをクラウドサーバーに晒すことなく、法律文書の結合、分割、保護、透かしが可能です。弁護士・依頼者間の秘匿特権が守られます。法律専門家のためのPDFツールはこうあるべきです。\"",
+    "t2_text": "\"機密の決算報告書や財務諸表をクラウドPDFツールで処理することは、私たちにとって選択肢ではありませんでした。LocalPDFがすべてを変えました — 暗号化で圧縮・保護し、一括処理ができます。すべてオフライン、すべてプライベート。\"",
+    "t3_text": "\"文献レビューのたびに50以上の研究論文を扱います。LocalPDFでフォルダ全体を一括圧縮、関連論文の結合、注釈の追加、プレゼンのPDF変換ができます。毎学期何時間もの作業を節約できます。しかも完全に無料です。\""
   },
   "faq": {
     "label": "よくある質問",
@@ -138,50 +138,47 @@
   },
   "faq_items": {
     "q1": {
-      "question": "なぜ完全無料なのですか？",
-      "answer": "LocalPDFは完全にデバイス上で動作するため、クラウドインフラのコストはゼロです。サーバーなし、トラフィックなし。AIはすべての人にアクセス可能であるべきだと信じています。コードはMITライセンスのオープンソース — ご自身でご確認ください。"
+      "question": "なぜ完全に無料なのですか？",
+      "answer": "LocalPDFはデバイス上で完全に動作するため、クラウドインフラのコストがゼロです。維持するサーバーも、支払う帯域幅もありません。PDFツールは誰もがアクセスできるべきだと信じています。コードはMITライセンスのオープンソースです — ご自身で監査できます。"
     },
     "q2": {
-      "question": "AI分析の精度はどのくらいですか？",
-      "answer": "LocalPDFは文書理解に最適化された最先端のオープンソースAIモデルを使用しています。クラウドサービスはより大きなモデルを使用する場合がありますが、ローカルモデルは要約、Q&A、データ抽出において優れた精度を提供します — 決定的な利点：文書がデバイスの外に出ることはありません。"
+      "question": "どのPDFツールが含まれていますか？",
+      "answer": "LocalPDFには10のツールが含まれています：圧縮、一括圧縮、結合、分割、保護/ロック解除（AES-256）、透かし（テキスト＆画像、ライブプレビュー付き）、画像からPDF、PDFから画像、PPTからPDF、そして注釈、消しゴム、署名サポート付きの完全なPDFページエディター。"
     },
     "q3": {
-      "question": "完全にオフラインで動作しますか？",
-      "answer": "はい！初回のモデルダウンロード後（初回起動時に一度だけ）、LocalPDFは100%オフラインで動作します。飛行機内、離れた場所、隔離された環境で文書を分析できます。"
+      "question": "インターネット接続なしで動作しますか？",
+      "answer": "はい！LocalPDFはインストール直後から100%オフラインで動作します。ダウンロードも設定もインターネットも不要。飛行機内、遠隔地、エアギャップ環境でも文書を処理できます。"
     },
     "q4": {
-      "question": "商用利用できますか？",
-      "answer": "はい！LocalPDFはMITライセンスです。個人プロジェクト、クライアントワーク、商用製品に使用できます。帰属表示は不要です（いつでも歓迎しますが）。"
+      "question": "商用利用は可能ですか？",
+      "answer": "はい！LocalPDFはMITライセンスです。個人プロジェクト、クライアントワーク、商用製品にご利用いただけます。帰属表示は不要です（いつでも歓迎しますが）。"
     },
     "q5": {
-      "question": "対応するPDF形式とサイズは？",
-      "answer": "LocalPDFはあらゆるサイズの標準PDFファイルを処理します — ページ数やファイルサイズの制限なし。テキストPDF、スキャンした文書（OCR付き）、画像や表を含む混合コンテンツPDFに対応しています。"
+      "question": "どのPDF形式とサイズに対応していますか？",
+      "answer": "LocalPDFはあらゆるサイズの標準PDFファイルに対応しています — ページ数やファイルサイズの制限はありません。テキストベースのPDF、画像が多い文書、画像と表を含む混合コンテンツPDFに対応しています。"
     },
     "q6": {
       "question": "システム要件は何ですか？",
-      "answer": "<strong>最小要件：</strong>8 GB RAM、10 GB空き容量、macOS 12+またはWindows 10+<br><strong>推奨：</strong>16 GB RAM、Apple SiliconまたはNVIDIA GPUで高速処理"
+      "answer": "<strong>最小：</strong>4GB RAM、200MBの空き容量、macOS 11.0（Big Sur）以降<br><strong>推奨：</strong>8GB RAM、最高のパフォーマンスにはApple Silicon。WindowsとLinuxは近日公開予定。"
     }
   },
   "notify": {
-    "label": "近日公開",
-    "title": "最初に<br><span class='gradient-text'>知る</span>",
-    "subtitle": "LocalPDFは現在開発中です。GitHubリポジトリにスターを付けて、リリース時に通知を受け取りましょう。",
-    "star_title": "GitHubでスター",
-    "star_desc": "LocalPDFのリリース時に通知を受け取る",
-    "star_cta": "リポジトリをフォロー",
-    "discuss_title": "ディスカッションに参加",
-    "discuss_desc": "機能リクエストやアイデアを共有",
-    "discuss_cta": "ディスカッションを始める",
-    "planned_heading": "予定機能",
-    "planned1_label": "チャット",
-    "planned1_value": "PDFと自然言語でQ&A",
-    "planned2_label": "要約",
-    "planned2_value": "あらゆる文書の即時要約",
-    "planned3_label": "抽出",
-    "planned3_value": "文書から特定データを抽出"
+    "label": "ダウンロード",
+    "title": "LocalPDFを入手<br><span class='gradient-text'>永久に無料</span>",
+    "subtitle": "お使いのプラットフォーム用のLocalPDFをダウンロード。1つのアプリ、10の強力なPDFツール、クラウド依存ゼロ。",
+    "mac_title": "macOS版をダウンロード",
+    "mac_desc": "macOS 11.0+ • Apple Siliconネイティブ • 58 MB",
+    "win_title": "Windows",
+    "win_desc": "Windows 10+ • 近日公開",
+    "linux_title": "Linux",
+    "linux_desc": "Ubuntu 22.04+ • 近日公開",
+    "star_title": "ソースコードを見る",
+    "star_desc": "MITライセンス • オープンソース",
+    "star_cta": "GitHubリポジトリ",
+    "planned_heading": "システム要件"
   },
   "footer": {
-    "tagline": "無料で、プライベートで、あなたのAI。",
+    "tagline": "無料で、プライベートで、あなたのためのAI。",
     "products_title": "製品",
     "community_title": "コミュニティ",
     "discussions": "ディスカッション",
@@ -189,6 +186,6 @@
     "privacy": "プライバシーポリシー",
     "license": "MITライセンス",
     "copyright": "&copy; 2025 Svetozar Technologies",
-    "footer_tagline": "企業ではなく人類のためのAIを構築。"
+    "footer_tagline": "企業ではなく、人類に奉仕するAIを構築。"
   }
 }

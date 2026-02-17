@@ -55,11 +55,11 @@
     "localwrite_feature2": "Control de creatividad",
     "localwrite_feature3": "Mejora de documentos PDF",
     "localwrite_feature4": "Estadísticas en tiempo real",
-    "localpdf_tagline": "Herramientas PDF con IA",
-    "localpdf_desc": "Chatea con tus documentos, extrae información y procesa PDF con IA local. Tus documentos confidenciales permanecen completamente privados.",
-    "localpdf_feature1": "Chatea con PDF",
-    "localpdf_feature2": "Extrae información clave",
-    "localpdf_feature3": "Resume documentos",
+    "localpdf_tagline": "Kit completo de herramientas PDF",
+    "localpdf_desc": "Comprime, fusiona, divide, protege, añade marcas de agua, convierte y edita tus PDF. 10 herramientas en una app, todo 100% en tu dispositivo.",
+    "localpdf_feature1": "Comprimir, fusionar y dividir",
+    "localpdf_feature2": "Proteger, marca de agua y convertir",
+    "localpdf_feature3": "Editor de páginas PDF y anotaciones",
     "localpdf_feature4": "Procesamiento 100% local"
   },
   "why": {

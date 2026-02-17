@@ -4,37 +4,37 @@
   "nav": {
     "features": "Features",
     "use_cases": "Use Cases",
-    "notify": "Get Notified",
+    "notify": "Download",
     "github": "GitHub"
   },
   "hero": {
-    "badge": "Coming Soon",
-    "title": "Your Documents.<br>Your Privacy.<br><span class='gradient-text'>Your AI Assistant.</span>",
-    "subtitle": "LocalPDF is a privacy-first AI toolkit for PDF documents. Chat with your PDFs, extract key insights, and summarize documents - all running 100% on your device. No cloud. No uploads. No compromises.",
-    "cta_notify": "Get Notified When Ready",
+    "badge": "Available Now — Free & Open Source",
+    "title": "Your Documents.<br>Your Privacy.<br><span class='gradient-text'>Your PDF Toolkit.</span>",
+    "subtitle": "LocalPDF is a complete, privacy-first PDF toolkit. Compress, merge, split, protect, watermark, convert, and edit your documents — all running 100% on your device. No cloud. No uploads. No compromises.",
+    "cta_notify": "⬇ Download for macOS",
     "cta_features": "Explore Features"
   },
   "social_proof": {
     "local": "Local Processing",
-    "chat": "Chat with PDFs",
+    "tools": "PDF Tools",
     "free": "Free Forever",
     "opensource": "Open Source"
   },
   "product": {
     "label": "The Product",
-    "title": "LocalPDF:<br><span class='gradient-text'>AI PDF Tools That Respect You</span>",
-    "subtitle": "A powerful suite of AI-powered PDF tools running entirely on your machine. No cloud required.",
-    "feature1_title": "Chat with PDFs",
-    "feature1_desc": "Ask questions about your documents in natural language. Get answers with page references.",
-    "feature2_title": "Smart Summaries",
-    "feature2_desc": "Get instant summaries of lengthy documents. Extract key points and conclusions in seconds.",
-    "feature3_title": "Information Extraction",
-    "feature3_desc": "Extract specific data points from contracts, invoices, reports automatically.",
-    "feature4_title": "Batch Processing",
-    "feature4_desc": "Process multiple PDFs at once. Summarize a folder of reports in one go.",
-    "feature5_title": "Complete Privacy",
-    "feature5_desc": "Works entirely offline. Your confidential documents stay confidential.",
-    "usecases_heading": "Perfect For",
+    "title": "LocalPDF:<br><span class='gradient-text'>PDF Tools That Respect You</span>",
+    "subtitle": "A powerful suite of PDF tools running entirely on your machine. No cloud required.",
+    "feature1_title": "Compress & Batch Compress",
+    "feature1_desc": "Shrink PDFs with smart presets (Email, Web, Print). Process hundreds of files at once with batch mode.",
+    "feature2_title": "Merge & Split",
+    "feature2_desc": "Combine multiple PDFs into one or split a PDF by pages, ranges, or into individual files. Drag-and-drop reorder.",
+    "feature3_title": "Protect & Watermark",
+    "feature3_desc": "Add AES-256 passwords, set permissions, or overlay text and image watermarks with live preview. Unlock password-protected PDFs too.",
+    "feature4_title": "Convert Anything",
+    "feature4_desc": "Image to PDF, PDF to Image (PNG/JPEG at 72-600 DPI), PPT/PPTX to PDF. Drag-and-drop multiple images with reorder support.",
+    "feature5_title": "PDF Page Editor",
+    "feature5_desc": "Edit PDF pages with annotations, eraser tool, text overlays, image stamps, and signature support. Full page management with insert and reorder.",
+    "usecases_heading": "10 Tools in One App",
     "usecase1": "Legal Documents",
     "usecase2": "Research Papers",
     "usecase3": "Financial Reports",
@@ -45,23 +45,23 @@
   "use_cases": {
     "label": "Use Cases",
     "title": "Built for <span class='gradient-text'>Real Professionals</span>",
-    "subtitle": "From lawyers protecting client data to researchers analyzing papers - LocalPDF serves diverse needs with one core promise: your documents stay yours."
+    "subtitle": "From lawyers protecting client data to researchers organizing papers - LocalPDF serves diverse needs with one core promise: your documents stay yours."
   },
   "use_cases_cards": {
     "legal": {
       "title": "Legal Professionals",
-      "problem": "<strong>Pain Point:</strong> Uploading contracts and depositions to cloud AI services risks attorney-client privilege.",
-      "solution": "<strong>Solution:</strong> Analyze contracts, extract clauses, and summarize depositions entirely on your device. Zero exposure."
+      "problem": "<strong>Pain Point:</strong> Uploading contracts and depositions to cloud PDF services risks attorney-client privilege.",
+      "solution": "<strong>Solution:</strong> Merge, split, protect, and watermark legal documents entirely on your device. Zero exposure."
     },
     "researchers": {
       "title": "Researchers",
       "problem": "<strong>Pain Point:</strong> Reviewing hundreds of research papers manually takes weeks. Cloud tools compromise unpublished data.",
-      "solution": "<strong>Solution:</strong> Batch-summarize papers, extract methodologies, and chat with documents privately. Perfect for literature reviews."
+      "solution": "<strong>Solution:</strong> Batch compress, merge, and annotate research papers privately. Convert and organize documents without cloud dependency."
     },
     "financial": {
       "title": "Financial Analysts",
-      "problem": "<strong>Pain Point:</strong> Confidential financial reports and earnings cannot be uploaded to third-party AI services.",
-      "solution": "<strong>Solution:</strong> Extract key metrics, compare quarterly reports, and generate summaries without data leaving your machine."
+      "problem": "<strong>Pain Point:</strong> Confidential financial reports and earnings cannot be uploaded to third-party PDF services.",
+      "solution": "<strong>Solution:</strong> Compress, protect with AES-256 encryption, and watermark financial documents without data leaving your machine."
     },
     "healthcare": {
       "title": "Healthcare Professionals",
@@ -70,8 +70,8 @@
     },
     "students": {
       "title": "Students & Educators",
-      "problem": "<strong>Pain Point:</strong> Cloud AI subscriptions cost $20-50/month - too expensive for students.",
-      "solution": "<strong>Solution:</strong> Summarize textbooks, extract key concepts, and prepare for exams. $0 forever."
+      "problem": "<strong>Pain Point:</strong> Cloud PDF subscriptions cost $20-50/month - too expensive for students.",
+      "solution": "<strong>Solution:</strong> Merge lecture notes, compress textbooks, convert presentations to PDF, and annotate pages. $0 forever."
     },
     "privacy": {
       "title": "Privacy-Conscious Users",
@@ -82,9 +82,9 @@
   "comparison": {
     "label": "Why LocalPDF",
     "title": "LocalPDF vs <span class='gradient-text'>Cloud Services</span>",
-    "subtitle": "See how LocalPDF compares to popular AI PDF services like ChatPDF, PDF.ai, and Adobe Acrobat AI.",
+    "subtitle": "See how LocalPDF compares to popular cloud PDF services like Adobe Acrobat, Smallpdf, and iLovePDF.",
     "roi_title": "Calculate Your Annual Savings",
-    "roi_cloud": "Average AI PDF service: <strong>$40/month x 12 = $480/year</strong>",
+    "roi_cloud": "Average cloud PDF service: <strong>$40/month x 12 = $480/year</strong>",
     "roi_localpdf": "LocalPDF: <strong>$0/year</strong>",
     "roi_savings": "You save: <span class='gradient-text'>$480+ every year</span>"
   },
@@ -116,21 +116,21 @@
   },
   "how_it_works": {
     "title": "Simple by Design",
-    "subtitle": "No accounts. No uploads. No configuration. Just download, open your PDF, and start chatting.",
+    "subtitle": "No accounts. No uploads. No configuration. Just download, drop your files, and get to work.",
     "step1_title": "Download",
     "step1_desc": "Get LocalPDF for your platform. One app, ready to use.",
     "step2_title": "Open PDF",
     "step2_desc": "Drop your document into LocalPDF. It never leaves your computer.",
-    "step3_title": "Chat and Analyze",
-    "step3_desc": "Ask questions, get summaries, extract data - all processed locally."
+    "step3_title": "Process & Save",
+    "step3_desc": "Compress, merge, split, edit, protect, or convert - all processed locally."
   },
   "testimonials": {
     "label": "What Users Say",
     "title": "Trusted by <span class='gradient-text'>Professionals Across India</span>",
     "subtitle": "From lawyers to financial analysts, LocalPDF serves diverse needs with one core promise: your documents stay yours.",
-    "t1_text": "\"I analyze dozens of contracts weekly. LocalPDF lets me extract key clauses and chat with legal documents without ever exposing client data to cloud servers. Attorney-client privilege stays intact. This is how AI tools should work for legal professionals.\"",
-    "t2_text": "\"Processing confidential earnings reports and financial statements through cloud AI was never an option for us. LocalPDF changed everything - I can summarize quarterly reports, extract key metrics, and compare documents. All offline, all private.\"",
-    "t3_text": "\"I review 50+ research papers for every literature review. LocalPDF batch-summarizes entire folders of PDFs, extracts methodologies, and lets me chat with papers to find specific details. It saves me weeks of work every semester. And it's completely free.\""
+    "t1_text": "\"I handle dozens of contracts weekly. LocalPDF lets me merge, split, protect, and watermark legal documents without ever exposing client data to cloud servers. Attorney-client privilege stays intact. This is how PDF tools should work for legal professionals.\"",
+    "t2_text": "\"Processing confidential earnings reports and financial statements through cloud PDF tools was never an option for us. LocalPDF changed everything - I can compress, protect with encryption, and batch process documents. All offline, all private.\"",
+    "t3_text": "\"I handle 50+ research papers for every literature review. LocalPDF lets me batch compress entire folders, merge related papers, add annotations, and convert presentations to PDF. It saves me hours of work every semester. And it's completely free.\""
   },
   "faq": {
     "label": "Common Questions",
@@ -139,15 +139,15 @@
   "faq_items": {
     "q1": {
       "question": "How can this be completely free?",
-      "answer": "LocalPDF runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for. We believe AI should be accessible to everyone. Our code is open source under MIT license - audit it yourself."
+      "answer": "LocalPDF runs entirely on your device, so we have zero cloud infrastructure costs. No servers to maintain, no bandwidth to pay for. We believe PDF tools should be accessible to everyone. Our code is open source under MIT license - audit it yourself."
     },
     "q2": {
-      "question": "How accurate is the AI analysis?",
-      "answer": "LocalPDF uses state-of-the-art open source AI models optimized for document understanding. While cloud services may use larger models, our local models provide excellent accuracy for summarization, Q&A, and data extraction - with the critical advantage that your documents never leave your device."
+      "question": "What PDF tools are included?",
+      "answer": "LocalPDF includes 10 tools: Compress, Batch Compress, Merge, Split, Protect/Unlock (AES-256), Watermark (text & image with live preview), Image to PDF, PDF to Image, PPT to PDF, and a full PDF Page Editor with annotations, eraser, and signature support."
     },
     "q3": {
       "question": "Will this work without an internet connection?",
-      "answer": "Absolutely! After the initial model download (one-time, happens on first run), LocalPDF works 100% offline. Analyze documents on airplanes, in remote locations, or in air-gapped environments."
+      "answer": "Absolutely! LocalPDF works 100% offline right out of the box. No downloads, no setup, no internet needed. Process documents on airplanes, in remote locations, or in air-gapped environments."
     },
     "q4": {
       "question": "Can I use this for commercial work?",
@@ -155,30 +155,27 @@
     },
     "q5": {
       "question": "What PDF formats and sizes are supported?",
-      "answer": "LocalPDF handles standard PDF files of any size - no page or file size limits. It works with text-based PDFs, scanned documents (with OCR), and mixed-content PDFs containing images and tables."
+      "answer": "LocalPDF handles standard PDF files of any size - no page or file size limits. It works with text-based PDFs, image-heavy documents, and mixed-content PDFs containing images and tables."
     },
     "q6": {
       "question": "What are the system requirements?",
-      "answer": "<strong>Minimum:</strong> 8GB RAM, 10GB free storage, macOS 12+ or Windows 10+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon or NVIDIA GPU for faster processing"
+      "answer": "<strong>Minimum:</strong> 4GB RAM, 200MB free storage, macOS 11.0 (Big Sur) or later<br><strong>Recommended:</strong> 8GB RAM, Apple Silicon for best performance. Windows and Linux coming soon."
     }
   },
   "notify": {
-    "label": "Coming Soon",
-    "title": "Be the First<br><span class='gradient-text'>to Know</span>",
-    "subtitle": "LocalPDF is currently in development. Star the GitHub repo to get notified when we launch.",
-    "star_title": "Star on GitHub",
-    "star_desc": "Get notified when LocalPDF launches",
-    "star_cta": "Watch Repository",
-    "discuss_title": "Join Discussions",
-    "discuss_desc": "Share your feature requests and ideas",
-    "discuss_cta": "Start Discussing",
-    "planned_heading": "Planned Features",
-    "planned1_label": "Chat",
-    "planned1_value": "Natural language Q&A with PDFs",
-    "planned2_label": "Summarize",
-    "planned2_value": "Instant summaries of any document",
-    "planned3_label": "Extract",
-    "planned3_value": "Pull specific data from documents"
+    "label": "Download",
+    "title": "Get LocalPDF<br><span class='gradient-text'>Free Forever</span>",
+    "subtitle": "Download LocalPDF for your platform. One app, 10 powerful PDF tools, zero cloud dependency.",
+    "mac_title": "Download for macOS",
+    "mac_desc": "macOS 11.0+ • Apple Silicon native • 58 MB",
+    "win_title": "Windows",
+    "win_desc": "Windows 10+ • Coming soon",
+    "linux_title": "Linux",
+    "linux_desc": "Ubuntu 22.04+ • Coming soon",
+    "star_title": "View Source Code",
+    "star_desc": "MIT Licensed • Open Source",
+    "star_cta": "GitHub Repository",
+    "planned_heading": "System Requirements"
   },
   "footer": {
     "tagline": "AI that is free, private, and yours.",

@@ -3,192 +3,189 @@
   "name": "Español",
   "nav": {
     "features": "Funciones",
-    "use_cases": "Casos de uso",
-    "notify": "Notificarme",
+    "use_cases": "Casos de Uso",
+    "notify": "Descargar",
     "github": "GitHub"
   },
   "hero": {
-    "badge": "Próximamente",
-    "title": "Tus documentos.<br>Tu privacidad.<br><span class='gradient-text'>Tu asistente de IA.</span>",
-    "subtitle": "LocalPDF es un conjunto de herramientas PDF impulsadas por IA que prioriza la privacidad. Chatea con PDFs, extrae información clave, genera resúmenes de documentos — todo funciona 100% en tu dispositivo. Sin nube. Sin subidas. Sin compromisos.",
-    "cta_notify": "Notificarme del lanzamiento",
-    "cta_features": "Explorar funciones"
+    "badge": "Disponible Ahora — Gratis y Código Abierto",
+    "title": "Tus Documentos.<br>Tu Privacidad.<br><span class='gradient-text'>Tu Kit de PDF.</span>",
+    "subtitle": "LocalPDF es un kit de herramientas PDF completo que prioriza la privacidad. Comprime, fusiona, divide, protege, marca de agua, convierte y edita tus documentos — todo ejecutándose 100% en tu dispositivo. Sin nube. Sin subidas. Sin compromisos.",
+    "cta_notify": "⬇ Descargar para macOS",
+    "cta_features": "Explorar Funciones"
   },
   "social_proof": {
-    "local": "Procesamiento local",
-    "chat": "Chat con PDF",
-    "free": "Gratis para siempre",
-    "opensource": "Código abierto"
+    "local": "Procesamiento Local",
+    "tools": "Herramientas PDF",
+    "free": "Gratis para Siempre",
+    "opensource": "Código Abierto"
   },
   "product": {
-    "label": "Producto",
-    "title": "LocalPDF:<br><span class='gradient-text'>Herramientas PDF con IA que te respetan</span>",
-    "subtitle": "Un potente conjunto de herramientas PDF impulsadas por IA que funciona completamente en tu máquina. Sin nube necesaria.",
-    "feature1_title": "Chat con PDF",
-    "feature1_desc": "Haz preguntas sobre documentos en lenguaje natural. Obtén respuestas con referencias a números de página.",
-    "feature2_title": "Resúmenes inteligentes",
-    "feature2_desc": "Resúmenes instantáneos de documentos largos. Extrae puntos clave y conclusiones en segundos.",
-    "feature3_title": "Extracción de información",
-    "feature3_desc": "Extracción automática de datos estructurados de contratos, facturas e informes.",
-    "feature4_title": "Procesamiento por lotes",
-    "feature4_desc": "Procesa múltiples PDFs a la vez. Resume una carpeta entera de informes de una sola vez.",
-    "feature5_title": "Privacidad total",
-    "feature5_desc": "Funciona completamente sin conexión. Los documentos sensibles permanecen confidenciales.",
-    "usecases_heading": "Ideal para",
-    "usecase1": "Documentos legales",
-    "usecase2": "Artículos académicos",
-    "usecase3": "Informes financieros",
+    "label": "El Producto",
+    "title": "LocalPDF:<br><span class='gradient-text'>Herramientas PDF Que Te Respetan</span>",
+    "subtitle": "Un potente conjunto de herramientas PDF que se ejecuta completamente en tu máquina. Sin necesidad de nube.",
+    "feature1_title": "Comprimir y Comprimir en Lote",
+    "feature1_desc": "Reduce el tamaño de PDFs con preajustes inteligentes (Email, Web, Impresión). Procesa cientos de archivos a la vez con el modo por lotes.",
+    "feature2_title": "Fusionar y Dividir",
+    "feature2_desc": "Combina múltiples PDFs en uno o divide un PDF por páginas, rangos o en archivos individuales. Reordena arrastrando y soltando.",
+    "feature3_title": "Proteger y Marca de Agua",
+    "feature3_desc": "Añade contraseñas AES-256, establece permisos o superpone marcas de agua de texto e imagen con vista previa en vivo. También desbloquea PDFs protegidos con contraseña.",
+    "feature4_title": "Convertir Todo",
+    "feature4_desc": "Imagen a PDF, PDF a Imagen (PNG/JPEG a 72-600 DPI), PPT/PPTX a PDF. Arrastra y suelta múltiples imágenes con soporte de reorden.",
+    "feature5_title": "Editor de Páginas PDF",
+    "feature5_desc": "Edita páginas PDF con anotaciones, herramienta de borrador, superposición de texto, sellos de imagen y soporte de firma. Gestión completa de páginas con inserción y reorden.",
+    "usecases_heading": "10 Herramientas en Una App",
+    "usecase1": "Documentos Legales",
+    "usecase2": "Artículos de Investigación",
+    "usecase3": "Informes Financieros",
     "usecase4": "Contratos",
-    "usecase5": "Registros médicos",
+    "usecase5": "Historiales Médicos",
     "usecase6": "+ Más"
   },
   "use_cases": {
-    "label": "Casos de uso",
-    "title": "Creado para <span class='gradient-text'>profesionales reales</span>",
-    "subtitle": "Desde abogados que protegen datos de clientes hasta investigadores que analizan artículos — LocalPDF sirve diversas necesidades con una promesa central: tus documentos siguen siendo tuyos."
+    "label": "Casos de Uso",
+    "title": "Hecho para <span class='gradient-text'>Profesionales Reales</span>",
+    "subtitle": "Desde abogados que protegen datos de clientes hasta investigadores que organizan artículos - LocalPDF sirve a diversas necesidades con una promesa central: tus documentos siguen siendo tuyos."
   },
   "use_cases_cards": {
     "legal": {
-      "title": "Abogados",
-      "problem": "<strong>Problema:</strong> Subir contratos y declaraciones a servicios de IA en la nube pone en riesgo el privilegio abogado-cliente.",
-      "solution": "<strong>Solución:</strong> Analiza contratos, extrae cláusulas y resume declaraciones completamente en tu dispositivo. Cero fugas de datos."
+      "title": "Profesionales Legales",
+      "problem": "<strong>Problema:</strong> Subir contratos y deposiciones a servicios PDF en la nube arriesga el privilegio abogado-cliente.",
+      "solution": "<strong>Solución:</strong> Fusiona, divide, protege y marca de agua documentos legales completamente en tu dispositivo. Cero exposición."
     },
     "researchers": {
       "title": "Investigadores",
-      "problem": "<strong>Problema:</strong> Revisar manualmente cientos de artículos académicos lleva semanas. Las herramientas en la nube comprometen datos no publicados.",
-      "solution": "<strong>Solución:</strong> Resume artículos por lotes, extrae metodologías y chatea con documentos de forma privada. Ideal para revisiones de literatura."
+      "problem": "<strong>Problema:</strong> Revisar cientos de artículos de investigación manualmente toma semanas. Las herramientas en la nube comprometen datos no publicados.",
+      "solution": "<strong>Solución:</strong> Comprime en lote, fusiona y anota artículos de investigación de forma privada. Convierte y organiza documentos sin dependencia de la nube."
     },
     "financial": {
-      "title": "Analistas financieros",
-      "problem": "<strong>Problema:</strong> Los informes financieros confidenciales y datos de ganancias no pueden subirse a servicios de IA de terceros.",
-      "solution": "<strong>Solución:</strong> Extrae métricas clave, compara informes trimestrales y genera resúmenes sin que los datos salgan de tu máquina."
+      "title": "Analistas Financieros",
+      "problem": "<strong>Problema:</strong> Informes financieros confidenciales y ganancias no pueden subirse a servicios PDF de terceros.",
+      "solution": "<strong>Solución:</strong> Comprime, protege con cifrado AES-256 y marca de agua documentos financieros sin que los datos salgan de tu máquina."
     },
     "healthcare": {
-      "title": "Profesionales de salud",
+      "title": "Profesionales de la Salud",
       "problem": "<strong>Problema:</strong> Las regulaciones HIPAA y de protección de datos prohíben subir registros de pacientes a servicios en la nube.",
-      "solution": "<strong>Solución:</strong> Procesa PDFs médicos localmente. Cumplimiento automático con los requisitos de protección de datos."
+      "solution": "<strong>Solución:</strong> Procesa PDFs médicos localmente. Cumplimiento automático con regulaciones de protección de datos."
     },
     "students": {
-      "title": "Estudiantes y educadores",
-      "problem": "<strong>Problema:</strong> Las suscripciones de IA en la nube cuestan $20-50/mes — demasiado caro para presupuestos estudiantiles.",
-      "solution": "<strong>Solución:</strong> Resume libros de texto, extrae conceptos clave y prepárate para exámenes. $0 para siempre."
+      "title": "Estudiantes y Educadores",
+      "problem": "<strong>Problema:</strong> Las suscripciones a PDF en la nube cuestan $20-50/mes - demasiado caro para estudiantes.",
+      "solution": "<strong>Solución:</strong> Fusiona apuntes de clase, comprime libros de texto, convierte presentaciones a PDF y anota páginas. $0 para siempre."
     },
     "privacy": {
-      "title": "Defensores de la privacidad",
+      "title": "Usuarios Conscientes de la Privacidad",
       "problem": "<strong>Problema:</strong> Las herramientas PDF en la nube almacenan tus documentos en sus servidores indefinidamente.",
-      "solution": "<strong>Solución:</strong> Código abierto, completamente auditable. Tus documentos nunca tocan ningún servidor. Punto."
+      "solution": "<strong>Solución:</strong> Código abierto, totalmente auditable. Tus documentos nunca tocan ningún servidor. Punto."
     }
   },
   "comparison": {
-    "label": "Por qué LocalPDF",
-    "title": "LocalPDF vs <span class='gradient-text'>servicios en la nube</span>",
-    "subtitle": "Compara LocalPDF con servicios populares de PDF con IA: ChatPDF, PDF.ai, Adobe Acrobat AI.",
-    "roi_title": "Calcula tu ahorro anual",
-    "roi_cloud": "Servicio promedio de PDF con IA: <strong>$40/mes x 12 = $480/año</strong>",
+    "label": "Por Qué LocalPDF",
+    "title": "LocalPDF vs <span class='gradient-text'>Servicios en la Nube</span>",
+    "subtitle": "Mira cómo LocalPDF se compara con servicios PDF populares en la nube como Adobe Acrobat, Smallpdf e iLovePDF.",
+    "roi_title": "Calcula Tu Ahorro Anual",
+    "roi_cloud": "Servicio PDF en la nube promedio: <strong>$40/mes x 12 = $480/año</strong>",
     "roi_localpdf": "LocalPDF: <strong>$0/año</strong>",
-    "roi_savings": "Ahorras: <span class='gradient-text'>$480+ cada año</span>"
+    "roi_savings": "Tú ahorras: <span class='gradient-text'>$480+ cada año</span>"
   },
   "comparison_table": {
-    "header_feature": "Función",
-    "header_cloud": "Servicios en la nube",
+    "header_feature": "Característica",
+    "header_cloud": "Servicios en la Nube",
     "header_localpdf": "LocalPDF",
-    "row1_feature": "Costo mensual",
+    "row1_feature": "Costo Mensual",
     "row1_cloud": "$20-100/mes",
-    "row1_localpdf": "$0 para siempre",
-    "row2_feature": "Privacidad de documentos",
-    "row2_cloud": "Se suben a servidores",
-    "row2_localpdf": "Nunca salen del dispositivo",
-    "row3_feature": "Límite de páginas",
+    "row1_localpdf": "$0 Para Siempre",
+    "row2_feature": "Privacidad de Documentos",
+    "row2_cloud": "Subidos a servidores",
+    "row2_localpdf": "Nunca sale del dispositivo",
+    "row3_feature": "Límite de Páginas",
     "row3_cloud": "50-500 páginas/mes",
     "row3_localpdf": "Ilimitado",
-    "row4_feature": "Límite de tamaño",
+    "row4_feature": "Límite de Tamaño",
     "row4_cloud": "10-50 MB",
     "row4_localpdf": "Sin límites",
-    "row5_feature": "Requiere internet",
+    "row5_feature": "Internet Requerido",
     "row5_cloud": "Sí, siempre",
-    "row5_localpdf": "Funciona sin conexión",
-    "row6_feature": "Retención de datos",
-    "row6_cloud": "Almacenamiento indefinido",
-    "row6_localpdf": "No almacena nada",
-    "row7_feature": "Código abierto",
+    "row5_localpdf": "Funciona Sin Conexión",
+    "row6_feature": "Retención de Datos",
+    "row6_cloud": "Almacenados indefinidamente",
+    "row6_localpdf": "Nada almacenado",
+    "row7_feature": "Código Abierto",
     "row7_cloud": "Propietario",
     "row7_localpdf": "Licencia MIT"
   },
   "how_it_works": {
-    "title": "Simple por diseño",
-    "subtitle": "Sin cuentas. Sin subidas. Sin configuración. Descarga, abre un PDF y comienza a chatear.",
-    "step1_title": "Descarga",
+    "title": "Simple por Diseño",
+    "subtitle": "Sin cuentas. Sin subidas. Sin configuración. Solo descarga, suelta tus archivos y ponte a trabajar.",
+    "step1_title": "Descargar",
     "step1_desc": "Obtén LocalPDF para tu plataforma. Una app, lista para usar.",
-    "step2_title": "Abre un PDF",
-    "step2_desc": "Arrastra un documento a LocalPDF. Nunca saldrá de tu computadora.",
-    "step3_title": "Chatea y analiza",
-    "step3_desc": "Haz preguntas, obtén resúmenes, extrae datos — todo se procesa localmente."
+    "step2_title": "Abrir PDF",
+    "step2_desc": "Suelta tu documento en LocalPDF. Nunca sale de tu computadora.",
+    "step3_title": "Procesar y Guardar",
+    "step3_desc": "Comprime, fusiona, divide, edita, protege o convierte - todo procesado localmente."
   },
   "testimonials": {
-    "label": "Lo que dicen los usuarios",
-    "title": "Confiado por <span class='gradient-text'>profesionales en toda India</span>",
-    "subtitle": "Desde abogados hasta analistas financieros, LocalPDF sirve diversas necesidades con una promesa central: tus documentos siguen siendo tuyos.",
-    "t1_text": "\"Analizo docenas de contratos semanalmente. LocalPDF me permite extraer cláusulas clave y chatear con documentos legales sin exponer datos de clientes a servidores en la nube. El privilegio abogado-cliente se mantiene. Así es como las herramientas legales de IA deberían funcionar.\"",
-    "t2_text": "\"Procesar informes de ganancias confidenciales y estados financieros a través de IA en la nube nunca fue una opción para nosotros. LocalPDF cambió todo — puedo resumir informes trimestrales, extraer métricas clave y comparar documentos. Todo sin conexión, todo privado.\"",
-    "t3_text": "\"Reviso más de 50 artículos académicos para cada revisión de literatura. LocalPDF resume carpetas enteras de PDFs por lotes, extrae metodologías y me permite chatear con artículos para encontrar detalles específicos. Me ahorra semanas de trabajo cada semestre. Y es completamente gratis.\""
+    "label": "Lo Que Dicen los Usuarios",
+    "title": "Confiado por <span class='gradient-text'>Profesionales en Toda India</span>",
+    "subtitle": "Desde abogados hasta analistas financieros, LocalPDF sirve a diversas necesidades con una promesa central: tus documentos siguen siendo tuyos.",
+    "t1_text": "\"Manejo docenas de contratos semanalmente. LocalPDF me permite fusionar, dividir, proteger y poner marca de agua a documentos legales sin exponer datos de clientes a servidores en la nube. El privilegio abogado-cliente permanece intacto. Así es como deberían funcionar las herramientas PDF para profesionales legales.\"",
+    "t2_text": "\"Procesar informes confidenciales de ganancias y estados financieros a través de herramientas PDF en la nube nunca fue una opción para nosotros. LocalPDF lo cambió todo - puedo comprimir, proteger con cifrado y procesar documentos en lote. Todo sin conexión, todo privado.\"",
+    "t3_text": "\"Manejo más de 50 artículos de investigación para cada revisión de literatura. LocalPDF me permite comprimir carpetas enteras en lote, fusionar artículos relacionados, añadir anotaciones y convertir presentaciones a PDF. Me ahorra horas de trabajo cada semestre. Y es completamente gratis.\""
   },
   "faq": {
-    "label": "Preguntas frecuentes",
-    "title": "Preguntas <span class='gradient-text'>frecuentes</span>"
+    "label": "Preguntas Frecuentes",
+    "title": "Preguntas <span class='gradient-text'>Frecuentes</span>"
   },
   "faq_items": {
     "q1": {
       "question": "¿Cómo puede ser completamente gratis?",
-      "answer": "LocalPDF funciona completamente en tu dispositivo, así que nuestros costos de infraestructura en la nube son cero. Sin servidores, sin tráfico. Creemos que la IA debería ser accesible para todos. Nuestro código es de código abierto con licencia MIT — compruébalo tú mismo."
+      "answer": "LocalPDF se ejecuta completamente en tu dispositivo, así que tenemos cero costos de infraestructura en la nube. Sin servidores que mantener, sin ancho de banda que pagar. Creemos que las herramientas PDF deberían ser accesibles para todos. Nuestro código es de código abierto bajo licencia MIT - audítalo tú mismo."
     },
     "q2": {
-      "question": "¿Qué tan preciso es el análisis de IA?",
-      "answer": "LocalPDF usa modelos de IA de código abierto de vanguardia optimizados para comprensión de documentos. Aunque los servicios en la nube pueden usar modelos más grandes, nuestros modelos locales proporcionan excelente precisión para resúmenes, preguntas y respuestas, y extracción de datos — con la ventaja crítica: tus documentos nunca salen del dispositivo."
+      "question": "¿Qué herramientas PDF están incluidas?",
+      "answer": "LocalPDF incluye 10 herramientas: Comprimir, Comprimir en Lote, Fusionar, Dividir, Proteger/Desbloquear (AES-256), Marca de Agua (texto e imagen con vista previa en vivo), Imagen a PDF, PDF a Imagen, PPT a PDF, y un Editor de Páginas PDF completo con anotaciones, borrador y soporte de firma."
     },
     "q3": {
-      "question": "¿Funciona sin internet?",
-      "answer": "¡Absolutamente! Después de la descarga inicial del modelo (una vez, en el primer inicio), LocalPDF funciona 100% sin conexión. Analiza documentos en aviones, en ubicaciones remotas o en entornos aislados."
+      "question": "¿Funcionará sin conexión a internet?",
+      "answer": "¡Absolutamente! LocalPDF funciona 100% sin conexión desde el primer momento. Sin descargas, sin configuración, sin internet necesario. Procesa documentos en aviones, en ubicaciones remotas o en entornos aislados."
     },
     "q4": {
-      "question": "¿Se puede usar para trabajo comercial?",
-      "answer": "¡Sí! LocalPDF tiene licencia MIT. Úsalo para proyectos personales, trabajo para clientes o productos comerciales. No se requiere atribución (aunque siempre se agradece)."
+      "question": "¿Puedo usarlo para trabajo comercial?",
+      "answer": "¡Sí! LocalPDF tiene licencia MIT. Úsalo para proyectos personales, trabajo de clientes o productos comerciales. No se requiere atribución (aunque siempre se agradece)."
     },
     "q5": {
       "question": "¿Qué formatos y tamaños de PDF son compatibles?",
-      "answer": "LocalPDF procesa archivos PDF estándar de cualquier tamaño — sin límites de páginas o tamaño. Funciona con PDFs de texto, documentos escaneados (con OCR) y PDFs de contenido mixto que incluyen imágenes y tablas."
+      "answer": "LocalPDF maneja archivos PDF estándar de cualquier tamaño - sin límites de páginas ni de tamaño de archivo. Funciona con PDFs basados en texto, documentos con muchas imágenes y PDFs de contenido mixto que contienen imágenes y tablas."
     },
     "q6": {
       "question": "¿Cuáles son los requisitos del sistema?",
-      "answer": "<strong>Mínimo:</strong> 8 GB RAM, 10 GB de espacio libre, macOS 12+ o Windows 10+<br><strong>Recomendado:</strong> 16 GB RAM, Apple Silicon o NVIDIA GPU para procesamiento más rápido"
+      "answer": "<strong>Mínimo:</strong> 4GB RAM, 200MB de almacenamiento libre, macOS 11.0 (Big Sur) o posterior<br><strong>Recomendado:</strong> 8GB RAM, Apple Silicon para mejor rendimiento. Windows y Linux próximamente."
     }
   },
   "notify": {
-    "label": "Próximamente",
-    "title": "Sé el primero<br><span class='gradient-text'>en saberlo</span>",
-    "subtitle": "LocalPDF está en desarrollo. Dale una estrella al repositorio en GitHub para recibir notificación del lanzamiento.",
-    "star_title": "Estrella en GitHub",
-    "star_desc": "Recibe notificación cuando LocalPDF se lance",
-    "star_cta": "Seguir el repositorio",
-    "discuss_title": "Únete a la discusión",
-    "discuss_desc": "Comparte solicitudes de funciones e ideas",
-    "discuss_cta": "Iniciar discusión",
-    "planned_heading": "Funciones planeadas",
-    "planned1_label": "Chat",
-    "planned1_value": "Preguntas y respuestas en lenguaje natural con PDF",
-    "planned2_label": "Resúmenes",
-    "planned2_value": "Resúmenes instantáneos de cualquier documento",
-    "planned3_label": "Extracción",
-    "planned3_value": "Extraer datos específicos de documentos"
+    "label": "Descargar",
+    "title": "Obtén LocalPDF<br><span class='gradient-text'>Gratis para Siempre</span>",
+    "subtitle": "Descarga LocalPDF para tu plataforma. Una app, 10 potentes herramientas PDF, cero dependencia de la nube.",
+    "mac_title": "Descargar para macOS",
+    "mac_desc": "macOS 11.0+ • Apple Silicon nativo • 58 MB",
+    "win_title": "Windows",
+    "win_desc": "Windows 10+ • Próximamente",
+    "linux_title": "Linux",
+    "linux_desc": "Ubuntu 22.04+ • Próximamente",
+    "star_title": "Ver Código Fuente",
+    "star_desc": "Licencia MIT • Código Abierto",
+    "star_cta": "Repositorio GitHub",
+    "planned_heading": "Requisitos del Sistema"
   },
   "footer": {
-    "tagline": "IA gratuita, privada y tuya.",
+    "tagline": "IA que es gratis, privada y tuya.",
     "products_title": "Productos",
     "community_title": "Comunidad",
     "discussions": "Discusiones",
     "legal_title": "Legal",
-    "privacy": "Política de privacidad",
+    "privacy": "Política de Privacidad",
     "license": "Licencia MIT",
     "copyright": "&copy; 2025 Svetozar Technologies",
-    "footer_tagline": "Construyendo IA que sirve a la humanidad, no a corporaciones."
+    "footer_tagline": "Construyendo IA que sirve a la humanidad, no a las corporaciones."
   }
 }

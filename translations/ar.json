@@ -56,11 +56,11 @@
     "localwrite_feature2": "شريط تحكم بالإبداع",
     "localwrite_feature3": "تحسين مستندات PDF",
     "localwrite_feature4": "إحصائيات فورية",
-    "localpdf_tagline": "أدوات PDF مدعومة بالـ AI",
-    "localpdf_desc": "تحدث مع مستنداتك، واستخرج المعلومات، وعالج ملفات PDF باستخدام AI محلي. مستنداتك الحساسة تبقى خاصة تمامًا.",
-    "localpdf_feature1": "محادثة مع ملفات PDF",
-    "localpdf_feature2": "استخراج المعلومات الرئيسية",
-    "localpdf_feature3": "تلخيص المستندات",
+    "localpdf_tagline": "مجموعة أدوات PDF الكاملة",
+    "localpdf_desc": "اضغط، ادمج، قسّم، احمِ، أضف علامات مائية، حوّل، وعدّل ملفات PDF الخاصة بك. 10 أدوات في تطبيق واحد، تعمل جميعها 100% على جهازك.",
+    "localpdf_feature1": "ضغط ودمج وتقسيم",
+    "localpdf_feature2": "حماية وعلامة مائية وتحويل",
+    "localpdf_feature3": "محرر صفحات PDF والتعليقات التوضيحية",
     "localpdf_feature4": "معالجة محلية 100%"
   },
   "why": {

@@ -55,11 +55,11 @@
     "localwrite_feature2": "Creativity Control Slider",
     "localwrite_feature3": "PDF Document Enhancement",
     "localwrite_feature4": "Real-time Statistics",
-    "localpdf_tagline": "AI-Powered PDF Tools",
-    "localpdf_desc": "Chat with your documents, extract insights, and process PDFs with local AI. Your sensitive documents stay completely private.",
-    "localpdf_feature1": "Chat with PDFs",
-    "localpdf_feature2": "Extract Key Information",
-    "localpdf_feature3": "Summarize Documents",
+    "localpdf_tagline": "Complete PDF Toolkit",
+    "localpdf_desc": "Compress, merge, split, protect, watermark, convert, and edit your PDFs. 10 tools in one app, all running 100% on your device.",
+    "localpdf_feature1": "Compress, Merge & Split",
+    "localpdf_feature2": "Protect, Watermark & Convert",
+    "localpdf_feature3": "PDF Page Editor & Annotations",
     "localpdf_feature4": "100% Local Processing"
   },
   "why": {
