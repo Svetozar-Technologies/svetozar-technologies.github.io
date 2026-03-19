@@ -1,0 +1,195 @@
+{
+  "lang": "en",
+  "name": "English",
+  "nav": {
+    "features": "Features",
+    "use_cases": "Use Cases",
+    "download": "Download",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "100% Offline AI",
+    "title": "AI Should Be Free.<br>AI Should Be Private.<br><span class='gradient-text'>AI Should Be Yours.</span>",
+    "subtitle": "A powerful code editor with AI completions that run entirely on your machine. No cloud. No subscriptions. No data collection. Just you, your code, and a local AI that actually respects your privacy.",
+    "cta_features": "Explore Features",
+    "cta_download": "Download LocalCode"
+  },
+  "social_proof": {
+    "offline": "Offline AI",
+    "free": "Free Forever",
+    "llm": "LLM Powered",
+    "opensource": "Open Source"
+  },
+  "use_cases": {
+    "label": "Use Cases",
+    "title": "Built for <span class='gradient-text'>Real Developers</span>",
+    "subtitle": "From indie developers to privacy-conscious teams - LocalCode serves diverse needs with one core promise: your code stays yours."
+  },
+  "use_cases_cards": {
+    "indie": {
+      "title": "Indie Developers",
+      "problem": "<strong>Pain Point:</strong> AI coding assistants cost $10-20/month. Copilot, Cursor, and others require subscriptions and send your code to the cloud.",
+      "solution": "<strong>Solution:</strong> Get AI code completions for $0. Your code never leaves your machine. No subscription, no account, no limits."
+    },
+    "enterprise": {
+      "title": "Enterprise & Consulting",
+      "problem": "<strong>Pain Point:</strong> Client code and proprietary algorithms cannot be sent to third-party AI services due to NDA and compliance requirements.",
+      "solution": "<strong>Solution:</strong> AI completions run 100% locally. No code leaves your device. Automatic compliance with NDAs and data protection policies."
+    },
+    "students": {
+      "title": "Students & Learners",
+      "problem": "<strong>Pain Point:</strong> Professional IDEs and AI tools are expensive. Students can't afford $10-20/month for coding assistants.",
+      "solution": "<strong>Solution:</strong> A complete IDE with AI assistance, completely free. Learn to code with intelligent suggestions without spending a dime."
+    },
+    "security": {
+      "title": "Security Researchers",
+      "problem": "<strong>Pain Point:</strong> Sensitive exploit code and vulnerability research cannot be uploaded to cloud AI services without risk of exposure.",
+      "solution": "<strong>Solution:</strong> Analyze and write security code with AI assistance that never phones home. Complete air-gap capability."
+    },
+    "remote": {
+      "title": "Remote & Offline Workers",
+      "problem": "<strong>Pain Point:</strong> Cloud-based AI coding tools are useless without internet. Developers in remote areas or on flights lose AI assistance.",
+      "solution": "<strong>Solution:</strong> Full AI coding capabilities offline. Code on flights, in remote areas, or anywhere without internet. Never lose your AI assistant."
+    },
+    "privacy": {
+      "title": "Privacy Advocates",
+      "problem": "<strong>Pain Point:</strong> \"Trust us\" isn't good enough. AI services collect code, queries, and behavior data. You can't verify their privacy claims.",
+      "solution": "<strong>Solution:</strong> Audit every line of our code. MIT licensed, fully open source. No telemetry, no analytics, no blind trust required."
+    }
+  },
+  "product": {
+    "label": "The Product",
+    "title": "LocalCode:<br><span class='gradient-text'>AI Coding That Respects You</span>",
+    "subtitle": "A complete development environment with AI superpowers. Built with Tauri and Monaco Editor, powered by local LLMs.",
+    "feature_ai_title": "Local AI Completions",
+    "feature_ai_desc": "Intelligent code completions powered by local LLMs. Supports streaming, multi-line completions, and smart context with 150-line awareness. Works with any local or cloud provider.",
+    "feature_editor_title": "Monaco Editor",
+    "feature_editor_desc": "The same editor engine that powers VS Code. Syntax highlighting for 50+ languages, IntelliSense, find & replace, minimap, and split view.",
+    "feature_terminal_title": "Built-in Terminal",
+    "feature_terminal_desc": "Full terminal emulator built right in. Run commands, build projects, and execute code without leaving the editor. Powered by xterm.js.",
+    "feature_git_title": "Git Integration",
+    "feature_git_desc": "Built-in Git support with visual diff viewer, blame view, branch management, commit history, and one-click staging. No plugins needed.",
+    "feature_chat_title": "AI Chat",
+    "feature_chat_desc": "Chat with AI about your code. Ask questions, get explanations, generate code snippets. Works with local models, OpenAI, and Anthropic.",
+    "feature_explorer_title": "File Explorer",
+    "feature_explorer_desc": "Full file tree with search, new file templates for 18+ languages, image preview, markdown preview, and breadcrumb navigation.",
+    "languages_heading": "Supported Languages",
+    "lang_many_more": "+ 50 More"
+  },
+  "comparison": {
+    "label": "Why LocalCode",
+    "title": "LocalCode vs <span class='gradient-text'>Cloud AI Editors</span>",
+    "subtitle": "See how LocalCode compares to VS Code + Copilot, Cursor, and other AI-powered editors.",
+    "roi_cloud": "Average AI coding tool: <strong>$15/month x 12 months = $180/year</strong>",
+    "roi_localcode": "LocalCode: <strong>$0/year</strong>",
+    "roi_savings": "You save: <span class='gradient-text'>$180+ every year</span>"
+  },
+  "comparison_table": {
+    "header_feature": "Feature",
+    "header_cloud": "Cloud AI Editors",
+    "header_localcode": "LocalCode",
+    "row1_feature": "Monthly Cost",
+    "row1_cloud": "$10-20/month",
+    "row1_localcode": "$0 Forever",
+    "row2_feature": "Annual Cost",
+    "row2_cloud": "$120-240/year",
+    "row2_localcode": "$0",
+    "row3_feature": "Code Privacy",
+    "row3_cloud": "Sent to servers",
+    "row3_localcode": "100% Local",
+    "row4_feature": "Internet Required",
+    "row4_cloud": "Yes, always",
+    "row4_localcode": "Works Offline",
+    "row5_feature": "Usage Limits",
+    "row5_cloud": "Rate limited",
+    "row5_localcode": "Unlimited",
+    "row6_feature": "Data Ownership",
+    "row6_cloud": "Stored on servers",
+    "row6_localcode": "You own 100%",
+    "row7_feature": "Open Source",
+    "row7_cloud": "Proprietary",
+    "row7_localcode": "MIT License"
+  },
+  "how_it_works": {
+    "title": "Simple by Design",
+    "subtitle": "No accounts. No API keys. No configuration. Just download, open, and code.",
+    "step1_title": "Download",
+    "step1_desc": "Get LocalCode for your platform. One file, installs in seconds.",
+    "step2_title": "Open Project",
+    "step2_desc": "Open any folder or start a new project. LocalCode auto-detects languages and settings.",
+    "step3_title": "Code with AI",
+    "step3_desc": "Start typing and get intelligent completions. Use the built-in chat for help. All powered by local AI."
+  },
+  "testimonials": {
+    "label": "What Users Say",
+    "title": "Trusted by <span class='gradient-text'>Developers Worldwide</span>",
+    "t1_text": "\"I switched from VS Code + Copilot to LocalCode for my freelance work. No more worrying about client code being sent to Microsoft's servers. The local AI completions are surprisingly good, and I save $120/year on Copilot subscriptions.\"",
+    "t2_text": "\"As a CS student, I couldn't afford Copilot or Cursor. LocalCode gives me AI-powered coding for free. The built-in terminal and Git integration mean I don't need anything else. It's become my daily driver.\"",
+    "t3_text": "\"We needed an AI coding tool that keeps proprietary code on-premise. LocalCode runs entirely offline - perfect for our defense contractor clients. The fact that it's MIT licensed and auditable was the deciding factor.\""
+  },
+  "faq": {
+    "label": "Common Questions",
+    "title": "Frequently Asked <span class='gradient-text'>Questions</span>"
+  },
+  "faq_items": {
+    "q1": {
+      "question": "How can this be completely free?",
+      "answer": "LocalCode runs entirely on your device, so we have zero cloud infrastructure costs. The AI models run locally using llama.cpp - no API fees, no server costs. We believe every developer deserves AI assistance regardless of budget. Our code is MIT licensed and open source."
+    },
+    "q2": {
+      "question": "How good are the AI completions compared to Copilot?",
+      "answer": "LocalCode uses local LLMs (like CodeLlama, DeepSeek Coder, Qwen) that provide surprisingly good completions. While cloud models have an edge in some scenarios, local models are improving rapidly and handle most coding tasks well. Plus, you get unlimited usage with zero latency concerns."
+    },
+    "q3": {
+      "question": "Does it work completely offline?",
+      "answer": "Yes! After the initial model download, LocalCode works 100% offline. Code on airplanes, in remote areas, or anywhere without internet. You can also optionally connect to cloud AI providers (OpenAI, Anthropic) if you prefer."
+    },
+    "q4": {
+      "question": "Can I use this commercially?",
+      "answer": "Yes! LocalCode is MIT licensed - one of the most permissive open source licenses. Use it for personal projects, client work, commercial products, or anything else. No attribution required."
+    },
+    "q5": {
+      "question": "What are the system requirements?",
+      "answer": "<strong>Minimum:</strong> 8GB RAM, 5GB free storage, macOS 12+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon for faster AI inference<br><strong>Coming Soon:</strong> Windows 10+ and Linux support"
+    },
+    "q6": {
+      "question": "Can I use my own AI models?",
+      "answer": "Yes! LocalCode uses llama.cpp under the hood and supports any GGUF model. Load CodeLlama, DeepSeek Coder, Qwen, or any compatible model. You can also connect to OpenAI or Anthropic APIs if you prefer cloud models."
+    }
+  },
+  "download": {
+    "label": "Get Started",
+    "title": "Download<br><span class='gradient-text'>LocalCode</span>",
+    "subtitle": "Available now for macOS. Windows and Linux coming soon.",
+    "macos": "macOS v0.4.0",
+    "windows": "Windows - Coming Soon",
+    "linux": "Linux - Coming Soon"
+  },
+  "download_details": {
+    "macos_desc": "macOS 12+ (Intel & Apple Silicon)",
+    "macos_size": "~15 MB DMG",
+    "windows_desc": "Windows 10+ (64-bit)",
+    "windows_size": "Coming Soon",
+    "linux_desc": "Ubuntu 22.04+ / AppImage",
+    "linux_size": "Coming Soon",
+    "system_req_heading": "System Requirements",
+    "req_ram_label": "RAM",
+    "req_ram_value": "8 GB minimum, 16 GB recommended",
+    "req_storage_label": "Storage",
+    "req_storage_value": "5 GB free space (+ model size)",
+    "req_gpu_label": "GPU",
+    "req_gpu_value": "Optional - Apple Silicon or NVIDIA accelerates AI inference"
+  },
+  "footer": {
+    "tagline": "AI that's free, private, and yours.",
+    "company": "A <strong>Svetozar Technologies</strong> Project",
+    "products_title": "Products",
+    "community_title": "Community",
+    "discussions": "Discussions",
+    "legal_title": "Legal",
+    "privacy": "Privacy Policy",
+    "license": "MIT License",
+    "copyright": "&copy; 2025 Svetozar Technologies",
+    "footer_tagline": "Building AI that serves humanity, not corporations."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lang": "zh",
+  "name": "中文",
+  "nav": { "features": "功能", "use_cases": "使用场景", "download": "下载", "github": "GitHub" },
+  "hero": { "badge": "100% 离线AI", "title": "AI 应该免费。<br>AI 应该私密。<br><span class='gradient-text'>AI 应该属于你。</span>", "subtitle": "一款强大的代码编辑器，AI补全完全在你的设备上运行。无云端。无订阅。无数据收集。", "cta_features": "探索功能", "cta_download": "下载 LocalCode" },
+  "social_proof": { "offline": "离线AI", "free": "永久免费", "llm": "LLM 驱动", "opensource": "开源" },
+  "use_cases": { "label": "使用场景", "title": "为<span class='gradient-text'>真正的开发者</span>打造", "subtitle": "从独立开发者到注重隐私的团队——你的代码始终属于你。" },
+  "use_cases_cards": {
+    "indie": { "title": "独立开发者", "problem": "<strong>痛点：</strong> AI编码助手每月$10-20，且将代码发送到云端。", "solution": "<strong>方案：</strong> $0获取AI代码补全。代码永不离开你的设备。" },
+    "enterprise": { "title": "企业与咨询", "problem": "<strong>痛点：</strong> 由于NDA合规要求，客户代码不能发送到第三方AI服务。", "solution": "<strong>方案：</strong> 100%本地AI。自动符合NDA和数据保护政策。" },
+    "students": { "title": "学生", "problem": "<strong>痛点：</strong> AI工具对学生来说太贵了。", "solution": "<strong>方案：</strong> 带AI的完整IDE，完全免费。" },
+    "security": { "title": "安全研究员", "problem": "<strong>痛点：</strong> 敏感代码不能上传到云AI服务。", "solution": "<strong>方案：</strong> 从不联网的AI助手。完全气隙能力。" },
+    "remote": { "title": "远程办公者", "problem": "<strong>痛点：</strong> 云AI工具没有网络就无法使用。", "solution": "<strong>方案：</strong> 完整的离线AI编码能力。" },
+    "privacy": { "title": "隐私倡导者", "problem": "<strong>痛点：</strong> AI服务收集代码和行为数据。", "solution": "<strong>方案：</strong> 审计每一行代码。MIT许可，无遥测。" }
+  },
+  "product": {
+    "label": "产品", "title": "LocalCode:<br><span class='gradient-text'>尊重你的AI编码</span>", "subtitle": "基于Tauri和Monaco Editor构建的完整开发环境，由本地LLM驱动。",
+    "feature_ai_title": "本地AI补全", "feature_ai_desc": "本地LLM驱动的智能代码补全。支持流式传输、多行补全和150行上下文感知。",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "与VS Code相同的编辑器引擎。50+语言语法高亮、IntelliSense、小地图。",
+    "feature_terminal_title": "内置终端", "feature_terminal_desc": "基于xterm.js的完整终端模拟器。",
+    "feature_git_title": "Git集成", "feature_git_desc": "差异对比、blame视图、分支管理、提交历史、一键暂存。",
+    "feature_chat_title": "AI对话", "feature_chat_desc": "与AI讨论代码。支持本地模型、OpenAI和Anthropic。",
+    "feature_explorer_title": "文件浏览器", "feature_explorer_desc": "完整文件树、搜索、18+语言模板、图片和Markdown预览。",
+    "languages_heading": "支持的语言", "lang_many_more": "+ 50 更多"
+  },
+  "comparison": { "label": "为什么选LocalCode", "title": "LocalCode vs <span class='gradient-text'>云AI编辑器</span>", "subtitle": "与 VS Code + Copilot、Cursor等AI编辑器的对比。", "roi_cloud": "平均AI编码工具：<strong>$15/月 x 12 = $180/年</strong>", "roi_localcode": "LocalCode：<strong>$0/年</strong>", "roi_savings": "节省：<span class='gradient-text'>每年$180+</span>" },
+  "comparison_table": { "header_feature": "功能", "header_cloud": "云AI编辑器", "header_localcode": "LocalCode", "row1_feature": "月费", "row1_cloud": "$10-20/月", "row1_localcode": "永久$0", "row2_feature": "年费", "row2_cloud": "$120-240/年", "row2_localcode": "$0", "row3_feature": "隐私", "row3_cloud": "发送到服务器", "row3_localcode": "100%本地", "row4_feature": "网络", "row4_cloud": "始终需要", "row4_localcode": "离线可用", "row5_feature": "限制", "row5_cloud": "有限制", "row5_localcode": "无限制", "row6_feature": "数据", "row6_cloud": "在服务器上", "row6_localcode": "100%属于你", "row7_feature": "开源", "row7_cloud": "闭源", "row7_localcode": "MIT许可" },
+  "how_it_works": { "title": "简约设计", "subtitle": "无需账号。无需API密钥。下载即可编码。", "step1_title": "下载", "step1_desc": "一个文件，秒级安装。", "step2_title": "打开项目", "step2_desc": "打开任意文件夹。自动检测语言。", "step3_title": "AI编码", "step3_desc": "智能补全和内置对话。全部本地AI。" },
+  "testimonials": { "label": "用户评价", "title": "受到<span class='gradient-text'>开发者</span>信赖", "t1_text": "\"从VS Code + Copilot切换到LocalCode。不再担心客户代码被发送到服务器。每年省$120。\"", "t2_text": "\"作为学生买不起Copilot。LocalCode免费提供AI。成了我的日常工具。\"", "t3_text": "\"我们需要一个保持代码本地化的AI工具。LocalCode非常适合我们的国防客户。\"" },
+  "faq": { "label": "问答", "title": "常见<span class='gradient-text'>问题</span>" },
+  "faq_items": {
+    "q1": { "question": "为什么免费？", "answer": "在你的设备上运行。零云成本。通过llama.cpp运行模型。MIT许可开源。" },
+    "q2": { "question": "与Copilot相比？", "answer": "本地LLM（CodeLlama、DeepSeek Coder、Qwen）。无限使用。" },
+    "q3": { "question": "完全离线？", "answer": "是的。模型下载后100%离线。可选：OpenAI、Anthropic。" },
+    "q4": { "question": "商业使用？", "answer": "可以。MIT许可，无需署名。" },
+    "q5": { "question": "系统要求？", "answer": "<strong>最低：</strong> 8GB RAM、5GB存储、macOS 12+<br><strong>推荐：</strong> 16GB RAM、Apple Silicon<br><strong>即将：</strong> Windows和Linux" },
+    "q6": { "question": "自己的模型？", "answer": "可以。通过llama.cpp支持任何GGUF模型。也支持OpenAI和Anthropic API。" }
+  },
+  "download": { "label": "开始使用", "title": "下载<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS版已可用。Windows和Linux即将推出。", "macos": "macOS v0.4.0", "windows": "Windows - 即将推出", "linux": "Linux - 即将推出" },
+  "download_details": { "macos_desc": "macOS 12+（Intel和Apple Silicon）", "macos_size": "约15 MB DMG", "windows_desc": "Windows 10+（64位）", "windows_size": "即将推出", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "即将推出", "system_req_heading": "系统要求", "req_ram_label": "RAM", "req_ram_value": "最低8 GB，推荐16 GB", "req_storage_label": "存储", "req_storage_value": "5 GB空闲（+模型大小）", "req_gpu_label": "GPU", "req_gpu_value": "可选 - Apple Silicon或NVIDIA加速AI推理" },
+  "footer": { "tagline": "免费、私密、属于你的AI。", "company": "<strong>Svetozar Technologies</strong> 项目", "products_title": "产品", "community_title": "社区", "discussions": "讨论", "legal_title": "法律", "privacy": "隐私政策", "license": "MIT许可", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "构建服务人类的AI。" }
+}

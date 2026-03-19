@@ -1,0 +1,42 @@
+{
+  "lang": "hi",
+  "name": "हिन्दी",
+  "nav": { "features": "सुविधाएँ", "use_cases": "उपयोग", "download": "डाउनलोड", "github": "GitHub" },
+  "hero": { "badge": "100% ऑफलाइन AI", "title": "AI मुफ्त होनी चाहिए।<br>AI प्राइवेट होनी चाहिए।<br><span class='gradient-text'>AI आपकी होनी चाहिए।</span>", "subtitle": "एक शक्तिशाली कोड एडिटर जिसमें AI ऑटो-कम्पलीशन पूरी तरह आपकी मशीन पर चलता है। कोई क्लाउड नहीं। कोई सब्सक्रिप्शन नहीं। कोई डेटा कलेक्शन नहीं।", "cta_features": "सुविधाएँ देखें", "cta_download": "LocalCode डाउनलोड करें" },
+  "social_proof": { "offline": "ऑफलाइन AI", "free": "हमेशा मुफ्त", "llm": "LLM संचालित", "opensource": "ओपन सोर्स" },
+  "use_cases": { "label": "उपयोग", "title": "<span class='gradient-text'>असली डेवलपर्स</span> के लिए बनाया", "subtitle": "फ्रीलांसरों से लेकर प्राइवेसी-कॉन्शस टीमों तक — आपका कोड आपका रहता है।" },
+  "use_cases_cards": {
+    "indie": { "title": "इंडी डेवलपर्स", "problem": "<strong>समस्या:</strong> AI कोडिंग असिस्टेंट $10-20/माह खर्च करते हैं और कोड क्लाउड पर भेजते हैं।", "solution": "<strong>समाधान:</strong> $0 में AI कोड कम्पलीशन। कोड कभी मशीन नहीं छोड़ता।" },
+    "enterprise": { "title": "एंटरप्राइज", "problem": "<strong>समस्या:</strong> क्लाइंट कोड NDA की वजह से थर्ड-पार्टी AI को नहीं भेज सकते।", "solution": "<strong>समाधान:</strong> 100% लोकल AI। NDA ऑटो-कम्प्लायंस।" },
+    "students": { "title": "छात्र", "problem": "<strong>समस्या:</strong> AI टूल्स छात्रों के लिए महंगे हैं।", "solution": "<strong>समाधान:</strong> पूरा IDE मुफ्त AI के साथ।" },
+    "security": { "title": "सिक्योरिटी रिसर्चर", "problem": "<strong>समस्या:</strong> संवेदनशील कोड क्लाउड पर अपलोड नहीं कर सकते।", "solution": "<strong>समाधान:</strong> AI जो कभी इंटरनेट से कनेक्ट नहीं होता।" },
+    "remote": { "title": "रिमोट वर्कर", "problem": "<strong>समस्या:</strong> क्लाउड AI टूल्स बिना इंटरनेट बेकार हैं।", "solution": "<strong>समाधान:</strong> पूर्ण ऑफलाइन AI कोडिंग।" },
+    "privacy": { "title": "प्राइवेसी एडवोकेट", "problem": "<strong>समस्या:</strong> AI सेवाएँ कोड और डेटा इकट्ठा करती हैं।", "solution": "<strong>समाधान:</strong> हर लाइन ऑडिट करें। MIT, ओपन सोर्स, कोई ट्रैकिंग नहीं।" }
+  },
+  "product": {
+    "label": "प्रोडक्ट", "title": "LocalCode:<br><span class='gradient-text'>AI कोडिंग जो आपका सम्मान करती है</span>", "subtitle": "Tauri और Monaco Editor पर बना पूरा डेवलपमेंट एनवायरनमेंट, लोकल LLM से संचालित।",
+    "feature_ai_title": "लोकल AI कम्पलीशन", "feature_ai_desc": "लोकल LLM से इंटेलिजेंट कोड कम्पलीशन। स्ट्रीमिंग, मल्टी-लाइन, 150-लाइन कॉन्टेक्स्ट।",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "VS Code जैसा एडिटर इंजन। 50+ भाषाएँ, IntelliSense, minimap।",
+    "feature_terminal_title": "बिल्ट-इन टर्मिनल", "feature_terminal_desc": "xterm.js पर पूरा टर्मिनल एडिटर में।",
+    "feature_git_title": "Git इंटीग्रेशन", "feature_git_desc": "Diff, blame, ब्रांचेज, कमिट्स, वन-क्लिक स्टेजिंग।",
+    "feature_chat_title": "AI चैट", "feature_chat_desc": "कोड के बारे में AI से बात करें। लोकल मॉडल, OpenAI, Anthropic।",
+    "feature_explorer_title": "फाइल एक्सप्लोरर", "feature_explorer_desc": "फाइल ट्री, सर्च, 18+ भाषाओं के टेम्पलेट, प्रीव्यू।",
+    "languages_heading": "समर्थित भाषाएँ", "lang_many_more": "+ 50 और"
+  },
+  "comparison": { "label": "LocalCode क्यों", "title": "LocalCode vs <span class='gradient-text'>क्लाउड AI एडिटर</span>", "subtitle": "VS Code + Copilot, Cursor और अन्य से तुलना।", "roi_cloud": "औसत AI टूल: <strong>$15/माह x 12 = $180/साल</strong>", "roi_localcode": "LocalCode: <strong>$0/साल</strong>", "roi_savings": "बचत: <span class='gradient-text'>$180+ हर साल</span>" },
+  "comparison_table": { "header_feature": "सुविधा", "header_cloud": "क्लाउड AI", "header_localcode": "LocalCode", "row1_feature": "मासिक लागत", "row1_cloud": "$10-20/माह", "row1_localcode": "$0 हमेशा", "row2_feature": "वार्षिक लागत", "row2_cloud": "$120-240/साल", "row2_localcode": "$0", "row3_feature": "प्राइवेसी", "row3_cloud": "सर्वर पर", "row3_localcode": "100% लोकल", "row4_feature": "इंटरनेट", "row4_cloud": "हमेशा जरूरी", "row4_localcode": "ऑफलाइन", "row5_feature": "लिमिट", "row5_cloud": "सीमित", "row5_localcode": "अनलिमिटेड", "row6_feature": "डेटा", "row6_cloud": "सर्वर पर", "row6_localcode": "100% आपका", "row7_feature": "ओपन सोर्स", "row7_cloud": "प्रोप्राइटरी", "row7_localcode": "MIT लाइसेंस" },
+  "how_it_works": { "title": "सिंपल डिज़ाइन", "subtitle": "कोई अकाउंट नहीं। कोई API कीज नहीं। डाउनलोड करें और कोड करें।", "step1_title": "डाउनलोड", "step1_desc": "एक फाइल, सेकंडों में इंस्टॉल।", "step2_title": "प्रोजेक्ट खोलें", "step2_desc": "कोई भी फोल्डर खोलें। ऑटो-डिटेक्शन।", "step3_title": "AI के साथ कोड", "step3_desc": "स्मार्ट कम्पलीशन और बिल्ट-इन चैट।" },
+  "testimonials": { "label": "रिव्यू", "title": "<span class='gradient-text'>डेवलपर्स</span> का भरोसा", "t1_text": "\"VS Code + Copilot से LocalCode पर शिफ्ट किया। क्लाइंट कोड सर्वर पर जाने की चिंता खत्म। $120/साल बचत।\"", "t2_text": "\"स्टूडेंट के तौर पर Copilot afford नहीं कर सकता था। LocalCode फ्री AI देता है।\"", "t3_text": "\"हमें कोड लोकल रखने वाला AI टूल चाहिए था। LocalCode डिफेंस क्लाइंट्स के लिए परफेक्ट है।\"" },
+  "faq": { "label": "सवाल", "title": "अक्सर पूछे जाने वाले <span class='gradient-text'>सवाल</span>" },
+  "faq_items": {
+    "q1": { "question": "यह मुफ्त कैसे है?", "answer": "आपके डिवाइस पर चलता है। जीरो क्लाउड कॉस्ट। llama.cpp से मॉडल। MIT लाइसेंस।" },
+    "q2": { "question": "Copilot से तुलना?", "answer": "लोकल LLM (CodeLlama, DeepSeek Coder, Qwen)। अनलिमिटेड उपयोग।" },
+    "q3": { "question": "ऑफलाइन काम करता है?", "answer": "हाँ, मॉडल डाउनलोड के बाद 100%। वैकल्पिक: OpenAI, Anthropic।" },
+    "q4": { "question": "कमर्शियल उपयोग?", "answer": "हाँ। MIT लाइसेंस, कोई एट्रिब्यूशन जरूरी नहीं।" },
+    "q5": { "question": "सिस्टम रिक्वायरमेंट?", "answer": "<strong>न्यूनतम:</strong> 8GB RAM, 5GB स्टोरेज, macOS 12+<br><strong>अनुशंसित:</strong> 16GB RAM, Apple Silicon<br><strong>जल्द:</strong> Windows और Linux" },
+    "q6": { "question": "अपने मॉडल?", "answer": "हाँ। llama.cpp से कोई भी GGUF मॉडल। OpenAI और Anthropic API भी।" }
+  },
+  "download": { "label": "शुरू करें", "title": "डाउनलोड करें<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS पर उपलब्ध। Windows और Linux जल्द।", "macos": "macOS v0.4.0", "windows": "Windows - जल्द", "linux": "Linux - जल्द" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel और Apple Silicon)", "macos_size": "~15 MB DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "जल्द", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "जल्द", "system_req_heading": "सिस्टम आवश्यकताएँ", "req_ram_label": "RAM", "req_ram_value": "8 GB न्यूनतम, 16 GB अनुशंसित", "req_storage_label": "स्टोरेज", "req_storage_value": "5 GB फ्री (+ मॉडल साइज)", "req_gpu_label": "GPU", "req_gpu_value": "वैकल्पिक - Apple Silicon या NVIDIA" },
+  "footer": { "tagline": "AI जो मुफ्त, प्राइवेट और आपकी है।", "company": "<strong>Svetozar Technologies</strong> का प्रोजेक्ट", "products_title": "प्रोडक्ट्स", "community_title": "समुदाय", "discussions": "चर्चाएँ", "legal_title": "कानूनी", "privacy": "प्राइवेसी पॉलिसी", "license": "MIT लाइसेंस", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "AI जो मानवता की सेवा करती है।" }
+}

@@ -1,0 +1,42 @@
+{
+  "lang": "ja",
+  "name": "日本語",
+  "nav": { "features": "機能", "use_cases": "ユースケース", "download": "ダウンロード", "github": "GitHub" },
+  "hero": { "badge": "100% オフラインAI", "title": "AIは無料であるべき。<br>AIはプライベートであるべき。<br><span class='gradient-text'>AIはあなたのものであるべき。</span>", "subtitle": "ローカルAI補完を搭載した強力なコードエディタ。クラウドなし。サブスクリプションなし。データ収集なし。", "cta_features": "機能を見る", "cta_download": "LocalCodeをダウンロード" },
+  "social_proof": { "offline": "オフラインAI", "free": "永久無料", "llm": "LLM搭載", "opensource": "オープンソース" },
+  "use_cases": { "label": "ユースケース", "title": "<span class='gradient-text'>本物の開発者</span>のために", "subtitle": "フリーランスからプライバシー重視のチームまで — あなたのコードはあなたのもの。" },
+  "use_cases_cards": {
+    "indie": { "title": "個人開発者", "problem": "<strong>課題：</strong> AIコーディングアシスタントは月$10-20、コードはクラウドに送信される。", "solution": "<strong>解決：</strong> $0でAIコード補完。コードはマシンから出ない。" },
+    "enterprise": { "title": "企業・コンサルティング", "problem": "<strong>課題：</strong> NDAによりクライアントコードを外部AIに送れない。", "solution": "<strong>解決：</strong> 100%ローカルAI。NDA自動準拠。" },
+    "students": { "title": "学生", "problem": "<strong>課題：</strong> AIツールは学生には高価。", "solution": "<strong>解決：</strong> AI付き完全なIDE、完全無料。" },
+    "security": { "title": "セキュリティ研究者", "problem": "<strong>課題：</strong> 機密コードをクラウドにアップロードできない。", "solution": "<strong>解決：</strong> 外部通信しないAIアシスタント。" },
+    "remote": { "title": "リモートワーカー", "problem": "<strong>課題：</strong> クラウドAIツールはオフラインで使えない。", "solution": "<strong>解決：</strong> 完全オフラインAIコーディング。" },
+    "privacy": { "title": "プライバシー擁護者", "problem": "<strong>課題：</strong> AIサービスはコードとデータを収集する。", "solution": "<strong>解決：</strong> 全コード監査可能。MIT、テレメトリなし。" }
+  },
+  "product": {
+    "label": "製品", "title": "LocalCode:<br><span class='gradient-text'>あなたを尊重するAIコーディング</span>", "subtitle": "TauriとMonaco Editorで構築、ローカルLLMで動作する完全な開発環境。",
+    "feature_ai_title": "ローカルAI補完", "feature_ai_desc": "ローカルLLMによるインテリジェントなコード補完。ストリーミング、マルチライン、150行コンテキスト。",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "VS Codeと同じエンジン。50+言語、IntelliSense、ミニマップ。",
+    "feature_terminal_title": "内蔵ターミナル", "feature_terminal_desc": "xterm.jsによる完全なターミナルを内蔵。",
+    "feature_git_title": "Git統合", "feature_git_desc": "差分、blame、ブランチ、コミット、ワンクリックステージング。",
+    "feature_chat_title": "AIチャット", "feature_chat_desc": "コードについてAIと会話。ローカルモデル、OpenAI、Anthropic。",
+    "feature_explorer_title": "ファイルエクスプローラー", "feature_explorer_desc": "完全なファイルツリー、検索、18+言語テンプレート、プレビュー。",
+    "languages_heading": "対応言語", "lang_many_more": "+ 50以上"
+  },
+  "comparison": { "label": "なぜLocalCode", "title": "LocalCode vs <span class='gradient-text'>クラウドAIエディタ</span>", "subtitle": "VS Code + Copilot、Cursorなどとの比較。", "roi_cloud": "平均AIツール：<strong>$15/月 x 12 = $180/年</strong>", "roi_localcode": "LocalCode：<strong>$0/年</strong>", "roi_savings": "節約：<span class='gradient-text'>年間$180+</span>" },
+  "comparison_table": { "header_feature": "機能", "header_cloud": "クラウドAI", "header_localcode": "LocalCode", "row1_feature": "月額", "row1_cloud": "$10-20/月", "row1_localcode": "永久$0", "row2_feature": "年額", "row2_cloud": "$120-240/年", "row2_localcode": "$0", "row3_feature": "プライバシー", "row3_cloud": "サーバーに送信", "row3_localcode": "100%ローカル", "row4_feature": "インターネット", "row4_cloud": "常時必要", "row4_localcode": "オフライン", "row5_feature": "制限", "row5_cloud": "制限あり", "row5_localcode": "無制限", "row6_feature": "データ", "row6_cloud": "サーバー上", "row6_localcode": "100%あなたのもの", "row7_feature": "オープンソース", "row7_cloud": "プロプライエタリ", "row7_localcode": "MITライセンス" },
+  "how_it_works": { "title": "シンプル設計", "subtitle": "アカウント不要。APIキー不要。ダウンロードして即コーディング。", "step1_title": "ダウンロード", "step1_desc": "1ファイル、数秒でインストール。", "step2_title": "プロジェクトを開く", "step2_desc": "フォルダを開く。自動検出。", "step3_title": "AIでコーディング", "step3_desc": "スマート補完と内蔵チャット。すべてローカルAI。" },
+  "testimonials": { "label": "レビュー", "title": "<span class='gradient-text'>開発者</span>から信頼", "t1_text": "\"VS Code + CopilotからLocalCodeに移行。クライアントコードの心配なし。年間$120節約。\"", "t2_text": "\"学生としてCopilotは買えなかった。LocalCodeは無料でAIを提供してくれる。\"", "t3_text": "\"コードをローカルに保つAIツールが必要だった。防衛クライアントに最適。\"" },
+  "faq": { "label": "質問", "title": "よくある<span class='gradient-text'>質問</span>" },
+  "faq_items": {
+    "q1": { "question": "なぜ無料？", "answer": "デバイス上で動作。クラウドコストゼロ。llama.cppでモデル実行。MITライセンス。" },
+    "q2": { "question": "Copilotとの比較は？", "answer": "ローカルLLM（CodeLlama、DeepSeek Coder、Qwen）。無制限使用。" },
+    "q3": { "question": "オフラインで動く？", "answer": "はい。モデルダウンロード後100%。オプション：OpenAI、Anthropic。" },
+    "q4": { "question": "商用利用可？", "answer": "はい。MITライセンス。帰属表示不要。" },
+    "q5": { "question": "システム要件？", "answer": "<strong>最小：</strong> 8GB RAM、5GBストレージ、macOS 12+<br><strong>推奨：</strong> 16GB RAM、Apple Silicon<br><strong>近日：</strong> WindowsとLinux" },
+    "q6": { "question": "自分のモデルを使える？", "answer": "はい。llama.cppで任意のGGUFモデル。OpenAIとAnthropicのAPIも。" }
+  },
+  "download": { "label": "始める", "title": "ダウンロード<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS版利用可能。WindowsとLinux近日公開。", "macos": "macOS v0.4.0", "windows": "Windows - 近日公開", "linux": "Linux - 近日公開" },
+  "download_details": { "macos_desc": "macOS 12+（IntelとApple Silicon）", "macos_size": "約15 MB DMG", "windows_desc": "Windows 10+（64-bit）", "windows_size": "近日公開", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "近日公開", "system_req_heading": "システム要件", "req_ram_label": "RAM", "req_ram_value": "最小8 GB、推奨16 GB", "req_storage_label": "ストレージ", "req_storage_value": "5 GB空き（+モデルサイズ）", "req_gpu_label": "GPU", "req_gpu_value": "オプション - Apple SiliconまたはNVIDIA" },
+  "footer": { "tagline": "無料でプライベートで、あなたのAI。", "company": "<strong>Svetozar Technologies</strong>プロジェクト", "products_title": "製品", "community_title": "コミュニティ", "discussions": "ディスカッション", "legal_title": "法的情報", "privacy": "プライバシーポリシー", "license": "MITライセンス", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "人類のためのAIを構築。" }
+}

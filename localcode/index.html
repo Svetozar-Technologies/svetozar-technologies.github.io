@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalCode - AI-Powered Code Editor. Free. Private. Yours.</title>
+    <meta name="description" content="A full-featured code editor with local AI completions, built-in terminal, Git integration, and multi-language support. 100% local, free, and open source.">
+    <meta name="keywords" content="local AI, code editor, AI completions, privacy, open source, offline IDE, free code editor, LLM, Monaco editor">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="LocalCode - AI-Powered Code Editor">
+    <meta property="og:description" content="Code with AI that respects your privacy. Local AI completions, built-in terminal, Git integration. Free and open source.">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LocalCode - AI-Powered Code Editor">
+    <meta name="twitter:description" content="Code with AI that respects your privacy. Free and open source.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../" class="logo">
+                <img src="assets/logo.png" alt="Svetozar Technologies" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-name">LocalCode</span>
+                    <span class="logo-tagline">Free AI. Private AI.</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#use-cases" data-i18n="nav.use_cases">Use Cases</a>
+                <a href="#download" data-i18n="nav.download">Download</a>
+                <a href="https://github.com/Svetozar-Technologies/LocalCode" target="_blank" class="btn btn-outline" data-i18n="nav.github">GitHub</a>
+                <div id="languageSelector"></div>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-i18n="hero.badge">100% Offline AI</div>
+                <h1 data-i18n="hero.title">AI Should Be Free.<br>AI Should Be Private.<br><span class="gradient-text">AI Should Be Yours.</span></h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">A powerful code editor with AI completions that run entirely on your machine. No cloud. No subscriptions. No data collection. Just you, your code, and a local AI that actually respects your privacy.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary btn-lg" data-i18n="hero.cta_features">Explore Features</a>
+                    <a href="#download" class="btn btn-secondary btn-lg" data-i18n="hero.cta_download">Download LocalCode</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="social-proof-bar">
+        <div class="container">
+            <div class="proof-stats">
+                <div class="proof-stat">
+                    <span class="proof-icon">🔒</span>
+                    <span class="proof-number">100%</span>
+                    <span class="proof-label" data-i18n="social_proof.offline">Offline AI</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">💯</span>
+                    <span class="proof-number">$0</span>
+                    <span class="proof-label" data-i18n="social_proof.free">Free Forever</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🤖</span>
+                    <span class="proof-number">Local</span>
+                    <span class="proof-label" data-i18n="social_proof.llm">LLM Powered</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-icon">🔓</span>
+                    <span class="proof-number">MIT</span>
+                    <span class="proof-label" data-i18n="social_proof.opensource">Open Source</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases-section" id="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="use_cases.label">Use Cases</span>
+                <h2 data-i18n="use_cases.title">Built for <span class="gradient-text">Real Developers</span></h2>
+                <p data-i18n="use_cases.subtitle">From indie developers to privacy-conscious teams - LocalCode serves diverse needs with one core promise: your code stays yours.</p>
+            </div>
+
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.indie.title">Indie Developers</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.indie.problem"><strong>Pain Point:</strong> AI coding assistants cost $10-20/month. Copilot, Cursor, and others require subscriptions and send your code to the cloud.</p>
+                    <p class="solution" data-i18n="use_cases_cards.indie.solution"><strong>Solution:</strong> Get AI code completions for $0. Your code never leaves your machine. No subscription, no account, no limits.</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.enterprise.title">Enterprise & Consulting</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.enterprise.problem"><strong>Pain Point:</strong> Client code and proprietary algorithms cannot be sent to third-party AI services due to NDA and compliance requirements.</p>
+                    <p class="solution" data-i18n="use_cases_cards.enterprise.solution"><strong>Solution:</strong> AI completions run 100% locally. No code leaves your device. Automatic compliance with NDAs and data protection policies.</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.students.title">Students & Learners</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.students.problem"><strong>Pain Point:</strong> Professional IDEs and AI tools are expensive. Students can't afford $10-20/month for coding assistants.</p>
+                    <p class="solution" data-i18n="use_cases_cards.students.solution"><strong>Solution:</strong> A complete IDE with AI assistance, completely free. Learn to code with intelligent suggestions without spending a dime.</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.security.title">Security Researchers</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.security.problem"><strong>Pain Point:</strong> Sensitive exploit code and vulnerability research cannot be uploaded to cloud AI services without risk of exposure.</p>
+                    <p class="solution" data-i18n="use_cases_cards.security.solution"><strong>Solution:</strong> Analyze and write security code with AI assistance that never phones home. Complete air-gap capability.</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.remote.title">Remote & Offline Workers</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.remote.problem"><strong>Pain Point:</strong> Cloud-based AI coding tools are useless without internet. Developers in remote areas or on flights lose AI assistance.</p>
+                    <p class="solution" data-i18n="use_cases_cards.remote.solution"><strong>Solution:</strong> Full AI coding capabilities offline. Code on flights, in remote areas, or anywhere without internet. Never lose your AI assistant.</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="use_cases_cards.privacy.title">Privacy Advocates</h3>
+                    <p class="pain-point" data-i18n="use_cases_cards.privacy.problem"><strong>Pain Point:</strong> "Trust us" isn't good enough. AI services collect code, queries, and behavior data. You can't verify their privacy claims.</p>
+                    <p class="solution" data-i18n="use_cases_cards.privacy.solution"><strong>Solution:</strong> Audit every line of our code. MIT licensed, fully open source. No telemetry, no analytics, no blind trust required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features Section -->
+    <section class="product-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="product.label">The Product</span>
+                <h2 data-i18n="product.title">LocalCode:<br><span class="gradient-text">AI Coding That Respects You</span></h2>
+                <p data-i18n="product.subtitle">A complete development environment with AI superpowers. Built with Tauri and Monaco Editor, powered by local LLMs.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_ai_title">Local AI Completions</h3>
+                    <p data-i18n="product.feature_ai_desc">Intelligent code completions powered by local LLMs. Supports streaming, multi-line completions, and smart context with 150-line awareness. Works with any local or cloud provider.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_editor_title">Monaco Editor</h3>
+                    <p data-i18n="product.feature_editor_desc">The same editor engine that powers VS Code. Syntax highlighting for 50+ languages, IntelliSense, find & replace, minimap, and split view.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 8l4 4-4 4"/><line x1="14" y1="16" x2="18" y2="16"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_terminal_title">Built-in Terminal</h3>
+                    <p data-i18n="product.feature_terminal_desc">Full terminal emulator built right in. Run commands, build projects, and execute code without leaving the editor. Powered by xterm.js.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="4"/><line x1="1.05" y1="12" x2="7" y2="12"/><line x1="17.01" y1="12" x2="22.96" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_git_title">Git Integration</h3>
+                    <p data-i18n="product.feature_git_desc">Built-in Git support with visual diff viewer, blame view, branch management, commit history, and one-click staging. No plugins needed.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_chat_title">AI Chat</h3>
+                    <p data-i18n="product.feature_chat_desc">Chat with AI about your code. Ask questions, get explanations, generate code snippets. Works with local models, OpenAI, and Anthropic.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="product.feature_explorer_title">File Explorer</h3>
+                    <p data-i18n="product.feature_explorer_desc">Full file tree with search, new file templates for 18+ languages, image preview, markdown preview, and breadcrumb navigation.</p>
+                </div>
+            </div>
+
+            <div class="languages-section">
+                <h3 data-i18n="product.languages_heading">Supported Languages</h3>
+                <div class="language-tags">
+                    <span class="lang-tag">Python</span>
+                    <span class="lang-tag">JavaScript</span>
+                    <span class="lang-tag">TypeScript</span>
+                    <span class="lang-tag">Rust</span>
+                    <span class="lang-tag">Go</span>
+                    <span class="lang-tag">Java</span>
+                    <span class="lang-tag">C / C++</span>
+                    <span class="lang-tag">Ruby</span>
+                    <span class="lang-tag">PHP</span>
+                    <span class="lang-tag">Swift</span>
+                    <span class="lang-tag">Kotlin</span>
+                    <span class="lang-tag">Lua</span>
+                    <span class="lang-tag">HTML / CSS</span>
+                    <span class="lang-tag">Bash</span>
+                    <span class="lang-tag" data-i18n="product.lang_many_more">+ 50 More</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="comparison.label">Why LocalCode</span>
+                <h2 data-i18n="comparison.title">LocalCode vs <span class="gradient-text">Cloud AI Editors</span></h2>
+                <p data-i18n="comparison.subtitle">See how LocalCode compares to VS Code + Copilot, Cursor, and other AI-powered editors.</p>
+            </div>
+
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="comparison_table.header_feature">Feature</th>
+                            <th class="cloud-col" data-i18n="comparison_table.header_cloud">Cloud AI Editors</th>
+                            <th class="local-col" data-i18n="comparison_table.header_localcode">LocalCode</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="comparison_table.row1_feature">Monthly Cost</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row1_cloud">$10-20/month</td>
+                            <td class="local-col" data-i18n="comparison_table.row1_localcode">$0 Forever</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row2_feature">Annual Cost</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row2_cloud">$120-240/year</td>
+                            <td class="local-col" data-i18n="comparison_table.row2_localcode">$0</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row3_feature">Code Privacy</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row3_cloud">Sent to servers</td>
+                            <td class="local-col" data-i18n="comparison_table.row3_localcode">100% Local</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row4_feature">Internet Required</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row4_cloud">Yes, always</td>
+                            <td class="local-col" data-i18n="comparison_table.row4_localcode">Works Offline</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row5_feature">Usage Limits</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row5_cloud">Rate limited</td>
+                            <td class="local-col" data-i18n="comparison_table.row5_localcode">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row6_feature">Data Ownership</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row6_cloud">Stored on servers</td>
+                            <td class="local-col" data-i18n="comparison_table.row6_localcode">You own 100%</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison_table.row7_feature">Open Source</td>
+                            <td class="cloud-col" data-i18n="comparison_table.row7_cloud">Proprietary</td>
+                            <td class="local-col" data-i18n="comparison_table.row7_localcode">MIT License</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="roi-box">
+                <p data-i18n="comparison.roi_cloud">Average AI coding tool: <strong>$15/month x 12 months = $180/year</strong></p>
+                <p data-i18n="comparison.roi_localcode">LocalCode: <strong>$0/year</strong></p>
+                <p class="roi-savings" data-i18n="comparison.roi_savings">You save: <span class="gradient-text">$180+ every year</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="how_it_works.title">Simple by Design</h2>
+                <p data-i18n="how_it_works.subtitle">No accounts. No API keys. No configuration. Just download, open, and code.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-i18n="how_it_works.step1_title">Download</h3>
+                    <p data-i18n="how_it_works.step1_desc">Get LocalCode for your platform. One file, installs in seconds.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-i18n="how_it_works.step2_title">Open Project</h3>
+                    <p data-i18n="how_it_works.step2_desc">Open any folder or start a new project. LocalCode auto-detects languages and settings.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-i18n="how_it_works.step3_title">Code with AI</h3>
+                    <p data-i18n="how_it_works.step3_desc">Start typing and get intelligent completions. Use the built-in chat for help. All powered by local AI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="testimonials.label">What Users Say</span>
+                <h2 data-i18n="testimonials.title">Trusted by <span class="gradient-text">Developers Worldwide</span></h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonials.t1_text">"I switched from VS Code + Copilot to LocalCode for my freelance work. No more worrying about client code being sent to Microsoft's servers. The local AI completions are surprisingly good, and I save $120/year on Copilot subscriptions."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div>
+                            <strong>Arjun Kumar</strong>
+                            <span>Freelance Developer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonials.t2_text">"As a CS student, I couldn't afford Copilot or Cursor. LocalCode gives me AI-powered coding for free. The built-in terminal and Git integration mean I don't need anything else. It's become my daily driver."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SP</div>
+                        <div>
+                            <strong>Sneha Patel</strong>
+                            <span>Computer Science Student</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="testimonials.t3_text">"We needed an AI coding tool that keeps proprietary code on-premise. LocalCode runs entirely offline - perfect for our defense contractor clients. The fact that it's MIT licensed and auditable was the deciding factor."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RN</div>
+                        <div>
+                            <strong>Rohan Nair</strong>
+                            <span>Security Consultant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="faq.label">Common Questions</span>
+                <h2 data-i18n="faq.title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q1.question">How can this be completely free?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q1.answer">LocalCode runs entirely on your device, so we have zero cloud infrastructure costs. The AI models run locally using llama.cpp - no API fees, no server costs. We believe every developer deserves AI assistance regardless of budget. Our code is MIT licensed and open source.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q2.question">How good are the AI completions compared to Copilot?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q2.answer">LocalCode uses local LLMs (like CodeLlama, DeepSeek Coder, Qwen) that provide surprisingly good completions. While cloud models have an edge in some scenarios, local models are improving rapidly and handle most coding tasks well. Plus, you get unlimited usage with zero latency concerns.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q3.question">Does it work completely offline?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q3.answer">Yes! After the initial model download, LocalCode works 100% offline. Code on airplanes, in remote areas, or anywhere without internet. You can also optionally connect to cloud AI providers (OpenAI, Anthropic) if you prefer.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q4.question">Can I use this commercially?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q4.answer">Yes! LocalCode is MIT licensed - one of the most permissive open source licenses. Use it for personal projects, client work, commercial products, or anything else. No attribution required.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q5.question">What are the system requirements?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q5.answer"><strong>Minimum:</strong> 8GB RAM, 5GB free storage, macOS 12+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon for faster AI inference<br><strong>Coming Soon:</strong> Windows 10+ and Linux support</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" data-i18n="faq_items.q6.question">Can I use my own AI models?</button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_items.q6.answer">Yes! LocalCode uses llama.cpp under the hood and supports any GGUF model. Load CodeLlama, DeepSeek Coder, Qwen, or any compatible model. You can also connect to OpenAI or Anthropic APIs if you prefer cloud models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="download.label">Get Started</span>
+                <h2 data-i18n="download.title">Download<br><span class="gradient-text">LocalCode</span></h2>
+                <p data-i18n="download.subtitle">Available now for macOS. Windows and Linux coming soon.</p>
+            </div>
+
+            <div class="download-grid">
+                <a href="https://github.com/Svetozar-Technologies/LocalCode/releases/tag/v0.4.0" class="download-card active" target="_blank">
+                    <div class="download-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="download.macos">macOS v0.4.0</h3>
+                    <p data-i18n="download_details.macos_desc">macOS 12+ (Intel & Apple Silicon)</p>
+                    <span class="download-size" data-i18n="download_details.macos_size">~15 MB DMG</span>
+                </a>
+
+                <div class="download-card coming-soon">
+                    <div class="download-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="download.windows">Windows - Coming Soon</h3>
+                    <p data-i18n="download_details.windows_desc">Windows 10+ (64-bit)</p>
+                    <span class="download-size" data-i18n="download_details.windows_size">Coming Soon</span>
+                </div>
+
+                <div class="download-card coming-soon">
+                    <div class="download-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.504 0c-.155 0-.311.015-.465.045C10.401.36 9.127 1.325 8.68 2.633L7.452 6.155l4.076 4.076 3.519-1.228c1.308-.447 2.273-1.721 2.588-3.359.03-.154.045-.31.045-.465C17.68 2.316 15.364 0 12.504 0zm-4.552 7.683L3.876 8.911C1.691 9.64.05 11.614.05 13.953c0 2.944 2.387 5.331 5.331 5.331.342 0 .676-.033 1-.097l3.904-1.312-2.333-2.333zm9.096 0L12.972 9.76l2.333 2.333 3.904 1.312c.324.064.658.097 1 .097 2.944 0 5.331-2.387 5.331-5.331 0-2.339-1.641-4.313-3.826-5.042zm-4.576 3.145l-4.076 4.076 1.228 3.519c.447 1.308 1.721 2.273 3.359 2.588.154.03.31.045.465.045 2.86 0 5.176-2.316 5.176-5.176 0-.155-.015-.311-.045-.465-.315-1.638-1.28-2.912-2.588-3.359z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="download.linux">Linux - Coming Soon</h3>
+                    <p data-i18n="download_details.linux_desc">Ubuntu 22.04+ / AppImage</p>
+                    <span class="download-size" data-i18n="download_details.linux_size">Coming Soon</span>
+                </div>
+            </div>
+
+            <div class="system-requirements">
+                <h3 data-i18n="download_details.system_req_heading">System Requirements</h3>
+                <div class="req-grid">
+                    <div class="req-item">
+                        <strong data-i18n="download_details.req_ram_label">RAM</strong>
+                        <span data-i18n="download_details.req_ram_value">8 GB minimum, 16 GB recommended</span>
+                    </div>
+                    <div class="req-item">
+                        <strong data-i18n="download_details.req_storage_label">Storage</strong>
+                        <span data-i18n="download_details.req_storage_value">5 GB free space (+ model size)</span>
+                    </div>
+                    <div class="req-item">
+                        <strong data-i18n="download_details.req_gpu_label">GPU</strong>
+                        <span data-i18n="download_details.req_gpu_value">Optional - Apple Silicon or NVIDIA accelerates AI inference</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../" class="logo footer-logo">
+                        <img src="assets/logo.png" alt="Svetozar Technologies" class="logo-img footer-logo-img">
+                        <div class="logo-text">
+                            <span class="logo-name">Svetozar Technologies</span>
+                            <span class="logo-tagline">Free AI. Private AI.</span>
+                        </div>
+                    </a>
+                    <p class="footer-mission" data-i18n="footer.tagline">AI that's free, private, and yours.</p>
+                    <p class="footer-company" data-i18n="footer.company">A <strong>Svetozar Technologies</strong> Project</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.products_title">Products</h4>
+                    <ul>
+                        <li><a href="../localcode/">LocalCode</a></li>
+                        <li><a href="../localmind/">LocalMind</a></li>
+                        <li><a href="../localwrite/">LocalWrite</a></li>
+                        <li><a href="../localpdf/">LocalPDF</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.community_title">Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/Svetozar-Technologies" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/company/svetozar-technologies/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/orgs/Svetozar-Technologies/discussions" target="_blank" data-i18n="footer.discussions">Discussions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.legal_title">Legal</h4>
+                    <ul>
+                        <li><a href="../privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+                        <li><a href="https://opensource.org/licenses/MIT" target="_blank" data-i18n="footer.license">MIT License</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2025 Svetozar Technologies</p>
+                <p class="footer-tagline" data-i18n="footer.footer_tagline">Building AI that serves humanity, not corporations.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "lang": "ru",
+  "name": "Русский",
+  "nav": { "features": "Функции", "use_cases": "Применение", "download": "Скачать", "github": "GitHub" },
+  "hero": { "badge": "100% Оффлайн ИИ", "title": "ИИ Должен Быть Бесплатным.<br>ИИ Должен Быть Приватным.<br><span class='gradient-text'>ИИ Должен Быть Вашим.</span>", "subtitle": "Мощный редактор кода с ИИ-автодополнением, работающим полностью на вашем устройстве. Без облака. Без подписок. Без сбора данных.", "cta_features": "Изучить функции", "cta_download": "Скачать LocalCode" },
+  "social_proof": { "offline": "Оффлайн ИИ", "free": "Бесплатно навсегда", "llm": "На базе LLM", "opensource": "Открытый код" },
+  "use_cases": { "label": "Применение", "title": "Создано для <span class='gradient-text'>настоящих разработчиков</span>", "subtitle": "От фрилансеров до команд, заботящихся о приватности — ваш код остаётся вашим." },
+  "use_cases_cards": {
+    "indie": { "title": "Независимые разработчики", "problem": "<strong>Проблема:</strong> ИИ-помощники стоят $10-20/мес. и отправляют ваш код в облако.", "solution": "<strong>Решение:</strong> ИИ-автодополнение за $0. Код не покидает вашу машину." },
+    "enterprise": { "title": "Бизнес и консалтинг", "problem": "<strong>Проблема:</strong> Клиентский код нельзя отправлять в сторонние ИИ-сервисы из-за NDA.", "solution": "<strong>Решение:</strong> ИИ работает 100% локально. Автоматическое соответствие NDA." },
+    "students": { "title": "Студенты", "problem": "<strong>Проблема:</strong> Профессиональные IDE и ИИ-инструменты слишком дороги.", "solution": "<strong>Решение:</strong> Полноценная IDE с ИИ, полностью бесплатно." },
+    "security": { "title": "Исследователи безопасности", "problem": "<strong>Проблема:</strong> Код эксплойтов нельзя загружать в облачные ИИ-сервисы.", "solution": "<strong>Решение:</strong> ИИ-помощник, который никогда не связывается с внешним миром." },
+    "remote": { "title": "Удалённые работники", "problem": "<strong>Проблема:</strong> Облачные ИИ-инструменты бесполезны без интернета.", "solution": "<strong>Решение:</strong> Полные возможности ИИ-кодирования оффлайн." },
+    "privacy": { "title": "Защитники приватности", "problem": "<strong>Проблема:</strong> ИИ-сервисы собирают код и данные поведения.", "solution": "<strong>Решение:</strong> Аудит каждой строки. MIT, без телеметрии." }
+  },
+  "product": {
+    "label": "Продукт", "title": "LocalCode:<br><span class='gradient-text'>ИИ-кодирование, которое вас уважает</span>", "subtitle": "Полная среда разработки на Tauri и Monaco Editor, работающая на локальных LLM.",
+    "feature_ai_title": "Локальное ИИ-автодополнение", "feature_ai_desc": "Интеллектуальное автодополнение на локальных LLM. Стриминг, многострочность, контекст 150 строк.",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "Тот же движок, что в VS Code. 50+ языков, IntelliSense, minimap.",
+    "feature_terminal_title": "Встроенный терминал", "feature_terminal_desc": "Полный терминал на xterm.js прямо в редакторе.",
+    "feature_git_title": "Интеграция Git", "feature_git_desc": "Diff, blame, ветки, коммиты, staging в один клик.",
+    "feature_chat_title": "ИИ-чат", "feature_chat_desc": "Общайтесь с ИИ о коде. Локальные модели, OpenAI, Anthropic.",
+    "feature_explorer_title": "Файловый менеджер", "feature_explorer_desc": "Дерево файлов, поиск, шаблоны для 18+ языков, превью.",
+    "languages_heading": "Поддерживаемые языки", "lang_many_more": "+ 50 других"
+  },
+  "comparison": { "label": "Почему LocalCode", "title": "LocalCode vs <span class='gradient-text'>облачные ИИ-редакторы</span>", "subtitle": "Сравнение с VS Code + Copilot, Cursor и другими.", "roi_cloud": "Средний ИИ-инструмент: <strong>$15/мес x 12 = $180/год</strong>", "roi_localcode": "LocalCode: <strong>$0/год</strong>", "roi_savings": "Экономия: <span class='gradient-text'>$180+ ежегодно</span>" },
+  "comparison_table": { "header_feature": "Функция", "header_cloud": "Облачные ИИ", "header_localcode": "LocalCode", "row1_feature": "Месячная стоимость", "row1_cloud": "$10-20/мес", "row1_localcode": "$0 навсегда", "row2_feature": "Годовая стоимость", "row2_cloud": "$120-240/год", "row2_localcode": "$0", "row3_feature": "Приватность", "row3_cloud": "На серверах", "row3_localcode": "100% локально", "row4_feature": "Интернет", "row4_cloud": "Нужен всегда", "row4_localcode": "Оффлайн", "row5_feature": "Лимиты", "row5_cloud": "Ограничены", "row5_localcode": "Безлимит", "row6_feature": "Данные", "row6_cloud": "На серверах", "row6_localcode": "100% ваши", "row7_feature": "Открытый код", "row7_cloud": "Проприетарный", "row7_localcode": "Лицензия MIT" },
+  "how_it_works": { "title": "Просто по замыслу", "subtitle": "Без аккаунтов. Без API-ключей. Скачайте и кодируйте.", "step1_title": "Скачать", "step1_desc": "Один файл, установка за секунды.", "step2_title": "Открыть проект", "step2_desc": "Откройте папку. Автоопределение языков.", "step3_title": "Кодируйте с ИИ", "step3_desc": "Интеллектуальное автодополнение. Встроенный чат. Локальный ИИ." },
+  "testimonials": { "label": "Отзывы", "title": "Доверие <span class='gradient-text'>разработчиков</span>", "t1_text": "\"Перешёл с VS Code + Copilot на LocalCode. Больше не беспокоюсь о клиентском коде на чужих серверах. Экономлю $120/год.\"", "t2_text": "\"Как студент, не мог позволить Copilot. LocalCode даёт ИИ бесплатно. Стал моим ежедневным инструментом.\"", "t3_text": "\"Нам нужен был ИИ-инструмент с локальным хранением кода. LocalCode — идеален для оборонных клиентов.\"" },
+  "faq": { "label": "Вопросы", "title": "Частые <span class='gradient-text'>вопросы</span>" },
+  "faq_items": {
+    "q1": { "question": "Почему это бесплатно?", "answer": "Работает на вашем устройстве. Нулевые затраты на облако. Модели через llama.cpp. MIT лицензия." },
+    "q2": { "question": "Качество vs Copilot?", "answer": "Локальные LLM (CodeLlama, DeepSeek Coder, Qwen). Безлимитное использование." },
+    "q3": { "question": "Работает оффлайн?", "answer": "Да, 100% после загрузки модели. Опционально: OpenAI, Anthropic." },
+    "q4": { "question": "Коммерческое использование?", "answer": "Да. MIT лицензия, без обязательной атрибуции." },
+    "q5": { "question": "Системные требования?", "answer": "<strong>Минимум:</strong> 8ГБ RAM, 5ГБ место, macOS 12+<br><strong>Рекомендуемые:</strong> 16ГБ RAM, Apple Silicon<br><strong>Скоро:</strong> Windows и Linux" },
+    "q6": { "question": "Свои модели?", "answer": "Да. Любые GGUF модели через llama.cpp. Также API OpenAI и Anthropic." }
+  },
+  "download": { "label": "Начать", "title": "Скачать<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Доступно для macOS. Windows и Linux скоро.", "macos": "macOS v0.4.0", "windows": "Windows - Скоро", "linux": "Linux - Скоро" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel и Apple Silicon)", "macos_size": "~15 МБ DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Скоро", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "Скоро", "system_req_heading": "Системные требования", "req_ram_label": "RAM", "req_ram_value": "8 ГБ минимум, 16 ГБ рекомендуемо", "req_storage_label": "Хранилище", "req_storage_value": "5 ГБ свободно (+ размер модели)", "req_gpu_label": "GPU", "req_gpu_value": "Опционально - Apple Silicon или NVIDIA" },
+  "footer": { "tagline": "ИИ бесплатный, приватный и ваш.", "company": "Проект <strong>Svetozar Technologies</strong>", "products_title": "Продукты", "community_title": "Сообщество", "discussions": "Обсуждения", "legal_title": "Правовая информация", "privacy": "Политика конфиденциальности", "license": "Лицензия MIT", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "ИИ, который служит людям, а не корпорациям." }
+}

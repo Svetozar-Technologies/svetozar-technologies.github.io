@@ -1,0 +1,42 @@
+{
+  "lang": "fr",
+  "name": "Français",
+  "nav": { "features": "Fonctionnalités", "use_cases": "Cas d'Usage", "download": "Télécharger", "github": "GitHub" },
+  "hero": { "badge": "IA 100% Hors Ligne", "title": "L'IA Devrait Être Gratuite.<br>L'IA Devrait Être Privée.<br><span class='gradient-text'>L'IA Devrait Être la Vôtre.</span>", "subtitle": "Un éditeur de code puissant avec des complétions IA entièrement sur votre machine. Pas de cloud. Pas d'abonnements. Pas de collecte de données.", "cta_features": "Explorer les Fonctionnalités", "cta_download": "Télécharger LocalCode" },
+  "social_proof": { "offline": "IA Hors Ligne", "free": "Gratuit Pour Toujours", "llm": "Propulsé par LLM", "opensource": "Open Source" },
+  "use_cases": { "label": "Cas d'Usage", "title": "Conçu pour les <span class='gradient-text'>Vrais Développeurs</span>", "subtitle": "Des indépendants aux équipes soucieuses de la confidentialité — votre code reste le vôtre." },
+  "use_cases_cards": {
+    "indie": { "title": "Développeurs Indépendants", "problem": "<strong>Problème :</strong> Les assistants IA coûtent 10-20$/mois et envoient votre code dans le cloud.", "solution": "<strong>Solution :</strong> Complétions IA pour 0$. Votre code ne quitte jamais votre machine." },
+    "enterprise": { "title": "Entreprises et Conseil", "problem": "<strong>Problème :</strong> Le code client ne peut pas être envoyé à des services tiers.", "solution": "<strong>Solution :</strong> IA 100% locale. Conformité automatique avec les NDA." },
+    "students": { "title": "Étudiants", "problem": "<strong>Problème :</strong> Les outils IA sont trop chers pour les étudiants.", "solution": "<strong>Solution :</strong> IDE complet avec IA, entièrement gratuit." },
+    "security": { "title": "Chercheurs en Sécurité", "problem": "<strong>Problème :</strong> Le code sensible ne peut pas être téléchargé vers le cloud.", "solution": "<strong>Solution :</strong> IA qui ne communique jamais avec l'extérieur." },
+    "remote": { "title": "Travailleurs à Distance", "problem": "<strong>Problème :</strong> Les outils IA cloud sont inutiles sans internet.", "solution": "<strong>Solution :</strong> Codage IA complet hors ligne." },
+    "privacy": { "title": "Défenseurs de la Vie Privée", "problem": "<strong>Problème :</strong> Les services IA collectent code et données.", "solution": "<strong>Solution :</strong> Auditez chaque ligne. MIT, open source, pas de télémétrie." }
+  },
+  "product": {
+    "label": "Le Produit", "title": "LocalCode :<br><span class='gradient-text'>Le Codage IA Qui Vous Respecte</span>", "subtitle": "Environnement de développement complet avec Tauri et Monaco Editor, propulsé par des LLMs locaux.",
+    "feature_ai_title": "Complétions IA Locales", "feature_ai_desc": "Complétions intelligentes par LLMs locaux. Streaming, multi-lignes et contexte de 150 lignes.",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "Le même moteur que VS Code. 50+ langages, IntelliSense, minimap.",
+    "feature_terminal_title": "Terminal Intégré", "feature_terminal_desc": "Terminal complet intégré via xterm.js.",
+    "feature_git_title": "Intégration Git", "feature_git_desc": "Diff, blame, branches, commits, staging en un clic.",
+    "feature_chat_title": "Chat IA", "feature_chat_desc": "Discutez avec l'IA. Modèles locaux, OpenAI et Anthropic.",
+    "feature_explorer_title": "Explorateur de Fichiers", "feature_explorer_desc": "Arborescence complète, recherche, modèles, aperçu.",
+    "languages_heading": "Langages Supportés", "lang_many_more": "+ 50 Autres"
+  },
+  "comparison": { "label": "Pourquoi LocalCode", "title": "LocalCode vs <span class='gradient-text'>Éditeurs IA Cloud</span>", "subtitle": "Comparaison avec VS Code + Copilot, Cursor et autres.", "roi_cloud": "Outil IA moyen : <strong>15$/mois x 12 = 180$/an</strong>", "roi_localcode": "LocalCode : <strong>0$/an</strong>", "roi_savings": "Vous économisez : <span class='gradient-text'>180$+ par an</span>" },
+  "comparison_table": { "header_feature": "Fonctionnalité", "header_cloud": "Éditeurs IA Cloud", "header_localcode": "LocalCode", "row1_feature": "Coût Mensuel", "row1_cloud": "10-20$/mois", "row1_localcode": "0$ Pour Toujours", "row2_feature": "Coût Annuel", "row2_cloud": "120-240$/an", "row2_localcode": "0$", "row3_feature": "Confidentialité", "row3_cloud": "Envoyé aux serveurs", "row3_localcode": "100% Local", "row4_feature": "Internet", "row4_cloud": "Oui, toujours", "row4_localcode": "Hors Ligne", "row5_feature": "Limites", "row5_cloud": "Limité", "row5_localcode": "Illimité", "row6_feature": "Données", "row6_cloud": "Sur serveurs", "row6_localcode": "100% vôtre", "row7_feature": "Open Source", "row7_cloud": "Propriétaire", "row7_localcode": "Licence MIT" },
+  "how_it_works": { "title": "Simple par Conception", "subtitle": "Pas de comptes. Pas de clés API. Téléchargez et codez.", "step1_title": "Télécharger", "step1_desc": "Un fichier, installation en secondes.", "step2_title": "Ouvrir un Projet", "step2_desc": "Ouvrez un dossier. Détection automatique.", "step3_title": "Coder avec l'IA", "step3_desc": "Complétions intelligentes. Chat intégré. IA locale." },
+  "testimonials": { "label": "Témoignages", "title": "Approuvé par les <span class='gradient-text'>Développeurs</span>", "t1_text": "\"J'ai quitté VS Code + Copilot pour LocalCode. Plus besoin de m'inquiéter du code client envoyé aux serveurs. J'économise 120$/an.\"", "t2_text": "\"En tant qu'étudiant, je ne pouvais pas me permettre Copilot. LocalCode me donne l'IA gratuitement.\"", "t3_text": "\"Nous avions besoin d'un outil IA gardant le code en local. Parfait pour nos clients défense.\"" },
+  "faq": { "label": "Questions", "title": "Questions <span class='gradient-text'>Fréquentes</span>" },
+  "faq_items": {
+    "q1": { "question": "Comment est-ce gratuit ?", "answer": "Exécution locale, zéro coût cloud. Modèles via llama.cpp. Code MIT open source." },
+    "q2": { "question": "Qualité vs Copilot ?", "answer": "LLMs locaux (CodeLlama, DeepSeek Coder, Qwen). Usage illimité." },
+    "q3": { "question": "Fonctionne hors ligne ?", "answer": "Oui, 100% après téléchargement du modèle. Optionnel : OpenAI, Anthropic." },
+    "q4": { "question": "Usage commercial ?", "answer": "Oui. Licence MIT, aucune attribution requise." },
+    "q5": { "question": "Configuration requise ?", "answer": "<strong>Minimum :</strong> 8GB RAM, 5GB stockage, macOS 12+<br><strong>Recommandé :</strong> 16GB RAM, Apple Silicon<br><strong>Bientôt :</strong> Windows et Linux" },
+    "q6": { "question": "Mes propres modèles ?", "answer": "Oui. Tout modèle GGUF via llama.cpp. Aussi APIs OpenAI et Anthropic." }
+  },
+  "download": { "label": "Commencer", "title": "Télécharger<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible pour macOS. Windows et Linux bientôt.", "macos": "macOS v0.4.0", "windows": "Windows - Bientôt", "linux": "Linux - Bientôt" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel et Apple Silicon)", "macos_size": "~15 Mo DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Bientôt", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "Bientôt", "system_req_heading": "Configuration Requise", "req_ram_label": "RAM", "req_ram_value": "8 Go min, 16 Go recommandé", "req_storage_label": "Stockage", "req_storage_value": "5 Go libres (+ modèle)", "req_gpu_label": "GPU", "req_gpu_value": "Optionnel - Apple Silicon ou NVIDIA" },
+  "footer": { "tagline": "IA gratuite, privée et à vous.", "company": "Un projet <strong>Svetozar Technologies</strong>", "products_title": "Produits", "community_title": "Communauté", "discussions": "Discussions", "legal_title": "Juridique", "privacy": "Politique de Confidentialité", "license": "Licence MIT", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "Construire une IA qui sert l'humanité." }
+}

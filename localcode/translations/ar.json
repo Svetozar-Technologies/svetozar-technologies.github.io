@@ -1,0 +1,43 @@
+{
+  "lang": "ar",
+  "name": "العربية",
+  "rtl": true,
+  "nav": { "features": "الميزات", "use_cases": "حالات الاستخدام", "download": "تحميل", "github": "GitHub" },
+  "hero": { "badge": "ذكاء اصطناعي محلي 100%", "title": "الذكاء الاصطناعي يجب أن يكون مجانياً.<br>يجب أن يكون خاصاً.<br><span class='gradient-text'>يجب أن يكون ملكك.</span>", "subtitle": "محرر كود قوي مع إكمال تلقائي بالذكاء الاصطناعي يعمل بالكامل على جهازك. بدون سحابة. بدون اشتراكات. بدون جمع بيانات.", "cta_features": "استكشاف الميزات", "cta_download": "تحميل LocalCode" },
+  "social_proof": { "offline": "ذكاء اصطناعي محلي", "free": "مجاني للأبد", "llm": "مدعوم بـ LLM", "opensource": "مفتوح المصدر" },
+  "use_cases": { "label": "حالات الاستخدام", "title": "مصمم لـ<span class='gradient-text'>المطورين الحقيقيين</span>", "subtitle": "من المطورين المستقلين إلى الفرق المهتمة بالخصوصية — كودك يبقى ملكك." },
+  "use_cases_cards": {
+    "indie": { "title": "المطورون المستقلون", "problem": "<strong>المشكلة:</strong> مساعدات الكود بالذكاء الاصطناعي تكلف $10-20/شهر وترسل كودك للسحابة.", "solution": "<strong>الحل:</strong> إكمال كود بالذكاء الاصطناعي مجاناً. كودك لا يغادر جهازك أبداً." },
+    "enterprise": { "title": "الشركات والاستشارات", "problem": "<strong>المشكلة:</strong> كود العملاء لا يمكن إرساله لخدمات ذكاء اصطناعي خارجية.", "solution": "<strong>الحل:</strong> ذكاء اصطناعي 100% محلي. توافق تلقائي مع اتفاقيات عدم الإفصاح." },
+    "students": { "title": "الطلاب", "problem": "<strong>المشكلة:</strong> أدوات الذكاء الاصطناعي مكلفة للطلاب.", "solution": "<strong>الحل:</strong> بيئة تطوير كاملة مع ذكاء اصطناعي، مجانية تماماً." },
+    "security": { "title": "باحثو الأمن", "problem": "<strong>المشكلة:</strong> الكود الحساس لا يمكن رفعه لخدمات سحابية.", "solution": "<strong>الحل:</strong> مساعد ذكاء اصطناعي لا يتصل بالإنترنت أبداً." },
+    "remote": { "title": "العمل عن بُعد", "problem": "<strong>المشكلة:</strong> أدوات الذكاء الاصطناعي السحابية لا تعمل بدون إنترنت.", "solution": "<strong>الحل:</strong> إمكانيات كاملة للبرمجة بالذكاء الاصطناعي بدون اتصال." },
+    "privacy": { "title": "المدافعون عن الخصوصية", "problem": "<strong>المشكلة:</strong> خدمات الذكاء الاصطناعي تجمع الكود والبيانات.", "solution": "<strong>الحل:</strong> راجع كل سطر. MIT، مفتوح المصدر، بدون تتبع." }
+  },
+  "product": {
+    "label": "المنتج", "title": "LocalCode:<br><span class='gradient-text'>برمجة بالذكاء الاصطناعي تحترمك</span>", "subtitle": "بيئة تطوير كاملة مبنية على Tauri وMonaco Editor، مدعومة بنماذج LLM محلية.",
+    "feature_ai_title": "إكمال كود محلي بالذكاء الاصطناعي", "feature_ai_desc": "إكمال ذكي بنماذج LLM محلية. بث مباشر، متعدد الأسطر، سياق 150 سطر.",
+    "feature_editor_title": "Monaco Editor", "feature_editor_desc": "نفس محرك VS Code. أكثر من 50 لغة، IntelliSense.",
+    "feature_terminal_title": "طرفية مدمجة", "feature_terminal_desc": "طرفية كاملة عبر xterm.js مدمجة في المحرر.",
+    "feature_git_title": "تكامل Git", "feature_git_desc": "عرض الفروقات، blame، الفروع، الـ commits بنقرة واحدة.",
+    "feature_chat_title": "محادثة ذكاء اصطناعي", "feature_chat_desc": "تحدث مع الذكاء الاصطناعي عن كودك. نماذج محلية، OpenAI، Anthropic.",
+    "feature_explorer_title": "مستكشف الملفات", "feature_explorer_desc": "شجرة ملفات كاملة مع بحث وقوالب ومعاينة.",
+    "languages_heading": "اللغات المدعومة", "lang_many_more": "+ 50 أخرى"
+  },
+  "comparison": { "label": "لماذا LocalCode", "title": "LocalCode مقابل <span class='gradient-text'>محررات الذكاء الاصطناعي السحابية</span>", "subtitle": "مقارنة مع VS Code + Copilot وCursor وغيرها.", "roi_cloud": "أداة ذكاء اصطناعي متوسطة: <strong>$15/شهر × 12 = $180/سنة</strong>", "roi_localcode": "LocalCode: <strong>$0/سنة</strong>", "roi_savings": "توفير: <span class='gradient-text'>$180+ سنوياً</span>" },
+  "comparison_table": { "header_feature": "الميزة", "header_cloud": "محررات سحابية", "header_localcode": "LocalCode", "row1_feature": "التكلفة الشهرية", "row1_cloud": "$10-20/شهر", "row1_localcode": "$0 للأبد", "row2_feature": "التكلفة السنوية", "row2_cloud": "$120-240/سنة", "row2_localcode": "$0", "row3_feature": "الخصوصية", "row3_cloud": "يُرسل للخوادم", "row3_localcode": "100% محلي", "row4_feature": "الإنترنت", "row4_cloud": "مطلوب دائماً", "row4_localcode": "يعمل بدون اتصال", "row5_feature": "الحدود", "row5_cloud": "محدود", "row5_localcode": "غير محدود", "row6_feature": "البيانات", "row6_cloud": "على خوادم", "row6_localcode": "100% ملكك", "row7_feature": "مفتوح المصدر", "row7_cloud": "مغلق", "row7_localcode": "رخصة MIT" },
+  "how_it_works": { "title": "بسيط بالتصميم", "subtitle": "بدون حسابات. بدون مفاتيح API. حمّل وابرمج.", "step1_title": "تحميل", "step1_desc": "ملف واحد، تثبيت في ثوانٍ.", "step2_title": "فتح مشروع", "step2_desc": "افتح أي مجلد. كشف تلقائي للغات.", "step3_title": "برمج مع الذكاء الاصطناعي", "step3_desc": "إكمال ذكي ومحادثة مدمجة. كل شيء محلي." },
+  "testimonials": { "label": "آراء المستخدمين", "title": "موثوق من <span class='gradient-text'>المطورين</span>", "t1_text": "\"انتقلت من VS Code + Copilot إلى LocalCode. لم أعد أقلق بشأن كود العملاء. أوفر $120/سنة.\"", "t2_text": "\"كطالب لم أستطع تحمل Copilot. LocalCode يمنحني ذكاء اصطناعي مجاناً.\"", "t3_text": "\"احتجنا أداة تبقي الكود محلياً. LocalCode مثالي لعملائنا الدفاعيين.\"" },
+  "faq": { "label": "أسئلة", "title": "أسئلة <span class='gradient-text'>شائعة</span>" },
+  "faq_items": {
+    "q1": { "question": "كيف يكون مجانياً؟", "answer": "يعمل على جهازك. بدون تكاليف سحابية. النماذج عبر llama.cpp. رخصة MIT." },
+    "q2": { "question": "الجودة مقارنة بـ Copilot؟", "answer": "نماذج LLM محلية (CodeLlama، DeepSeek Coder، Qwen). استخدام غير محدود." },
+    "q3": { "question": "يعمل بدون إنترنت؟", "answer": "نعم، 100% بعد تحميل النموذج. اختيارياً: OpenAI، Anthropic." },
+    "q4": { "question": "استخدام تجاري؟", "answer": "نعم. رخصة MIT، بدون إسناد مطلوب." },
+    "q5": { "question": "متطلبات النظام؟", "answer": "<strong>الحد الأدنى:</strong> 8GB RAM، 5GB تخزين، macOS 12+<br><strong>الموصى به:</strong> 16GB RAM، Apple Silicon<br><strong>قريباً:</strong> Windows وLinux" },
+    "q6": { "question": "نماذجي الخاصة؟", "answer": "نعم. أي نموذج GGUF عبر llama.cpp. أيضاً APIs لـ OpenAI وAnthropic." }
+  },
+  "download": { "label": "ابدأ", "title": "تحميل<br><span class='gradient-text'>LocalCode</span>", "subtitle": "متاح لـ macOS. Windows وLinux قريباً.", "macos": "macOS v0.4.0", "windows": "Windows - قريباً", "linux": "Linux - قريباً" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel و Apple Silicon)", "macos_size": "~15 ميغابايت DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "قريباً", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": "قريباً", "system_req_heading": "متطلبات النظام", "req_ram_label": "RAM", "req_ram_value": "8 غيغابايت كحد أدنى، 16 غيغابايت موصى به", "req_storage_label": "التخزين", "req_storage_value": "5 غيغابايت حرة (+ حجم النموذج)", "req_gpu_label": "GPU", "req_gpu_value": "اختياري - Apple Silicon أو NVIDIA" },
+  "footer": { "tagline": "ذكاء اصطناعي مجاني وخاص وملكك.", "company": "مشروع <strong>Svetozar Technologies</strong>", "products_title": "المنتجات", "community_title": "المجتمع", "discussions": "النقاشات", "legal_title": "قانوني", "privacy": "سياسة الخصوصية", "license": "رخصة MIT", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "بناء ذكاء اصطناعي يخدم البشرية." }
+}
