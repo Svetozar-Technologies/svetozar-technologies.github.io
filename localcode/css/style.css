@@ -670,6 +670,63 @@ h4 {
     color: var(--color-text-muted);
 }
 
+.cli-install {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.cli-install h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+}
+
+.cli-install > p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.cli-commands {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cli-command {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    min-width: 280px;
+    max-width: 480px;
+    flex: 1;
+}
+
+.cli-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-primary-light);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.cli-command code {
+    display: block;
+    background: var(--color-bg);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    word-break: break-all;
+    user-select: all;
+}
+
 .download-card.disabled {
     opacity: 0.5;
     cursor: not-allowed;

@@ -37,6 +37,10 @@
     "q6": { "question": "自己的模型？", "answer": "可以。通过llama.cpp支持任何GGUF模型。也支持OpenAI和Anthropic API。" }
   },
   "download": { "label": "开始使用", "title": "下载<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS和Linux版已可用。Windows即将推出。", "macos": "macOS v0.4.1", "windows": "Windows - 即将推出", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+（Intel和Apple Silicon）", "macos_size": "约15 MB DMG", "windows_desc": "Windows 10+（64位）", "windows_size": "即将推出", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "system_req_heading": "系统要求", "req_ram_label": "RAM", "req_ram_value": "最低8 GB，推荐16 GB", "req_storage_label": "存储", "req_storage_value": "5 GB空闲（+模型大小）", "req_gpu_label": "GPU", "req_gpu_value": "可选 - Apple Silicon或NVIDIA加速AI推理" },
+  "download_details": { "macos_desc": "macOS 12+（Intel和Apple Silicon）", "macos_size": "约15 MB DMG", "windows_desc": "Windows 10+（64位）", "windows_size": "即将推出", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "CLI \u5b89\u88c5",
+    "cli_subtitle": "\u5b89\u88c5 LocalCode CLI\uff0c\u5728\u7ec8\u7aef\u4e2d\u4f7f\u7528 AI \u7f16\u7a0b\u52a9\u624b\u3002",
+    "cli_homebrew": "Homebrew (macOS/Linux)",
+    "cli_npm": "npm (macOS/Linux)",
+    "system_req_heading": "系统要求", "req_ram_label": "RAM", "req_ram_value": "最低8 GB，推荐16 GB", "req_storage_label": "存储", "req_storage_value": "5 GB空闲（+模型大小）", "req_gpu_label": "GPU", "req_gpu_value": "可选 - Apple Silicon或NVIDIA加速AI推理" },
   "footer": { "tagline": "免费、私密、属于你的AI。", "company": "<strong>Svetozar Technologies</strong> 项目", "products_title": "产品", "community_title": "社区", "discussions": "讨论", "legal_title": "法律", "privacy": "隐私政策", "license": "MIT许可", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "构建服务人类的AI。" }
 }

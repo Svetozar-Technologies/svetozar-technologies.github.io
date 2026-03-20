@@ -57,6 +57,10 @@
     "q6": { "question": "¿Puedo usar mis propios modelos?", "answer": "Sí. Soporta cualquier modelo GGUF via llama.cpp. También APIs de OpenAI y Anthropic." }
   },
   "download": { "label": "Comenzar", "title": "Descargar<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible para macOS y Linux. Windows próximamente.", "macos": "macOS v0.4.1", "windows": "Windows - Próximamente", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel y Apple Silicon)", "macos_size": "~15 MB DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Próximamente", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "system_req_heading": "Requisitos del Sistema", "req_ram_label": "RAM", "req_ram_value": "8 GB mínimo, 16 GB recomendado", "req_storage_label": "Almacenamiento", "req_storage_value": "5 GB libres (+ tamaño del modelo)", "req_gpu_label": "GPU", "req_gpu_value": "Opcional - Apple Silicon o NVIDIA acelera la inferencia" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel y Apple Silicon)", "macos_size": "~15 MB DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Próximamente", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "Instalaci\u00f3n CLI",
+    "cli_subtitle": "Instala el CLI de LocalCode para asistencia de programaci\u00f3n con IA desde la terminal.",
+    "cli_homebrew": "Homebrew (macOS/Linux)",
+    "cli_npm": "npm (macOS/Linux)",
+    "system_req_heading": "Requisitos del Sistema", "req_ram_label": "RAM", "req_ram_value": "8 GB mínimo, 16 GB recomendado", "req_storage_label": "Almacenamiento", "req_storage_value": "5 GB libres (+ tamaño del modelo)", "req_gpu_label": "GPU", "req_gpu_value": "Opcional - Apple Silicon o NVIDIA acelera la inferencia" },
   "footer": { "tagline": "IA gratuita, privada y tuya.", "company": "Un proyecto de <strong>Svetozar Technologies</strong>", "products_title": "Productos", "community_title": "Comunidad", "discussions": "Discusiones", "legal_title": "Legal", "privacy": "Política de Privacidad", "license": "Licencia MIT", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "Construyendo IA que sirve a la humanidad." }
 }

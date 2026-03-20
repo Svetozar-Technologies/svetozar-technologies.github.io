@@ -37,6 +37,10 @@
     "q6": { "question": "自分のモデルを使える？", "answer": "はい。llama.cppで任意のGGUFモデル。OpenAIとAnthropicのAPIも。" }
   },
   "download": { "label": "始める", "title": "ダウンロード<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOSとLinux版利用可能。Windows近日公開。", "macos": "macOS v0.4.1", "windows": "Windows - 近日公開", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+（IntelとApple Silicon）", "macos_size": "約15 MB DMG", "windows_desc": "Windows 10+（64-bit）", "windows_size": "近日公開", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "system_req_heading": "システム要件", "req_ram_label": "RAM", "req_ram_value": "最小8 GB、推奨16 GB", "req_storage_label": "ストレージ", "req_storage_value": "5 GB空き（+モデルサイズ）", "req_gpu_label": "GPU", "req_gpu_value": "オプション - Apple SiliconまたはNVIDIA" },
+  "download_details": { "macos_desc": "macOS 12+（IntelとApple Silicon）", "macos_size": "約15 MB DMG", "windows_desc": "Windows 10+（64-bit）", "windows_size": "近日公開", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "CLI\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb",
+    "cli_subtitle": "\u30bf\u30fc\u30df\u30ca\u30eb\u30d9\u30fc\u30b9\u306eAI\u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u652f\u63f4\u306e\u305f\u3081\u306bLocalCode CLI\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u3002",
+    "cli_homebrew": "Homebrew (macOS/Linux)",
+    "cli_npm": "npm (macOS/Linux)",
+    "system_req_heading": "システム要件", "req_ram_label": "RAM", "req_ram_value": "最小8 GB、推奨16 GB", "req_storage_label": "ストレージ", "req_storage_value": "5 GB空き（+モデルサイズ）", "req_gpu_label": "GPU", "req_gpu_value": "オプション - Apple SiliconまたはNVIDIA" },
   "footer": { "tagline": "無料でプライベートで、あなたのAI。", "company": "<strong>Svetozar Technologies</strong>プロジェクト", "products_title": "製品", "community_title": "コミュニティ", "discussions": "ディスカッション", "legal_title": "法的情報", "privacy": "プライバシーポリシー", "license": "MITライセンス", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "人類のためのAIを構築。" }
 }

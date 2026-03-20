@@ -37,6 +37,10 @@
     "q6": { "question": "Mes propres modèles ?", "answer": "Oui. Tout modèle GGUF via llama.cpp. Aussi APIs OpenAI et Anthropic." }
   },
   "download": { "label": "Commencer", "title": "Télécharger<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible pour macOS et Linux. Windows bientôt.", "macos": "macOS v0.4.1", "windows": "Windows - Bientôt", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel et Apple Silicon)", "macos_size": "~15 Mo DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Bientôt", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "system_req_heading": "Configuration Requise", "req_ram_label": "RAM", "req_ram_value": "8 Go min, 16 Go recommandé", "req_storage_label": "Stockage", "req_storage_value": "5 Go libres (+ modèle)", "req_gpu_label": "GPU", "req_gpu_value": "Optionnel - Apple Silicon ou NVIDIA" },
+  "download_details": { "macos_desc": "macOS 12+ (Intel et Apple Silicon)", "macos_size": "~15 Mo DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Bientôt", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "Installation CLI",
+    "cli_subtitle": "Installez le CLI LocalCode pour l'assistance au codage IA dans le terminal.",
+    "cli_homebrew": "Homebrew (macOS/Linux)",
+    "cli_npm": "npm (macOS/Linux)",
+    "system_req_heading": "Configuration Requise", "req_ram_label": "RAM", "req_ram_value": "8 Go min, 16 Go recommandé", "req_storage_label": "Stockage", "req_storage_value": "5 Go libres (+ modèle)", "req_gpu_label": "GPU", "req_gpu_value": "Optionnel - Apple Silicon ou NVIDIA" },
   "footer": { "tagline": "IA gratuite, privée et à vous.", "company": "Un projet <strong>Svetozar Technologies</strong>", "products_title": "Produits", "community_title": "Communauté", "discussions": "Discussions", "legal_title": "Juridique", "privacy": "Politique de Confidentialité", "license": "Licence MIT", "copyright": "&copy; 2025 Svetozar Technologies", "footer_tagline": "Construire une IA qui sert l'humanité." }
 }
