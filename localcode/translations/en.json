@@ -150,7 +150,7 @@
     },
     "q5": {
       "question": "What are the system requirements?",
-      "answer": "<strong>Minimum:</strong> 8GB RAM, 5GB free storage, macOS 12+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon for faster AI inference<br><strong>Coming Soon:</strong> Windows 10+ and Linux support"
+      "answer": "<strong>Minimum:</strong> 8GB RAM, 5GB free storage, macOS 12+ or Ubuntu 22.04+<br><strong>Recommended:</strong> 16GB RAM, Apple Silicon or NVIDIA GPU for faster AI inference<br><strong>Coming Soon:</strong> Windows 10+ support"
     },
     "q6": {
       "question": "Can I use my own AI models?",
@@ -160,10 +160,10 @@
   "download": {
     "label": "Get Started",
     "title": "Download<br><span class='gradient-text'>LocalCode</span>",
-    "subtitle": "Available now for macOS. Windows and Linux coming soon.",
-    "macos": "macOS v0.4.0",
+    "subtitle": "Available now for macOS and Linux. Windows coming soon.",
+    "macos": "macOS v0.4.1",
     "windows": "Windows - Coming Soon",
-    "linux": "Linux - Coming Soon"
+    "linux": "Linux v0.4.1"
   },
   "download_details": {
     "macos_desc": "macOS 12+ (Intel & Apple Silicon)",
@@ -171,7 +171,7 @@
     "windows_desc": "Windows 10+ (64-bit)",
     "windows_size": "Coming Soon",
     "linux_desc": "Ubuntu 22.04+ / AppImage",
-    "linux_size": "Coming Soon",
+    "linux_size": ".deb & AppImage",
     "system_req_heading": "System Requirements",
     "req_ram_label": "RAM",
     "req_ram_value": "8 GB minimum, 16 GB recommended",
