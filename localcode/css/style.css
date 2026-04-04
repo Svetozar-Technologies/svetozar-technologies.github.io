@@ -613,16 +613,16 @@ h4 {
 }
 
 /* Download Section */
-.download {
+.download-section {
     padding: 120px 0;
     background: var(--color-bg-secondary);
 }
 
-.download-cards {
+.download-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-    max-width: 900px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -727,15 +727,24 @@ h4 {
     user-select: all;
 }
 
-.download-card.disabled {
+.download-card.coming-soon {
     opacity: 0.5;
     cursor: not-allowed;
     pointer-events: none;
 }
 
-.download-card.disabled:hover {
+.download-card.coming-soon:hover {
     transform: none;
     border-color: var(--color-border);
+}
+
+.download-card.os-dimmed {
+    opacity: 0.45;
+}
+
+.download-card.os-highlight {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
 }
 
 .coming-soon-badge {
@@ -1552,6 +1561,10 @@ h4 {
         grid-template-columns: 1fr;
     }
 
+    .download-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .join-actions {
         grid-template-columns: 1fr;
     }
@@ -1580,7 +1593,7 @@ h4 {
     }
 
     .features-grid,
-    .download-cards,
+    .download-grid,
     .stats-grid,
     .community-grid {
         grid-template-columns: 1fr;

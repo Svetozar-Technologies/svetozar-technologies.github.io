@@ -40,6 +40,8 @@
     "feature_chat_desc": "Chatea con IA sobre tu código. Funciona con modelos locales, OpenAI y Anthropic.",
     "feature_explorer_title": "Explorador de Archivos",
     "feature_explorer_desc": "Árbol de archivos con búsqueda, plantillas para 18+ lenguajes, vista previa de imágenes y markdown.",
+    "feature_memory_title": "Memoria Cognitiva",
+    "feature_memory_desc": "Tu IDE recuerda tus proyectos, preferencias y patrones de codificación. Impulsado por Engram — un motor de memoria nativo en Rust con búsqueda vectorial HNSW y recuperación híbrida BM25.",
     "languages_heading": "Lenguajes Soportados",
     "lang_many_more": "+ 50 Más"
   },
@@ -56,8 +58,8 @@
     "q5": { "question": "¿Requisitos del sistema?", "answer": "<strong>Mínimo:</strong> 8GB RAM, 5GB almacenamiento, macOS 12+ o Ubuntu 22.04+<br><strong>Recomendado:</strong> 16GB RAM, Apple Silicon o NVIDIA GPU<br><strong>Próximamente:</strong> Windows" },
     "q6": { "question": "¿Puedo usar mis propios modelos?", "answer": "Sí. Soporta cualquier modelo GGUF via llama.cpp. También APIs de OpenAI y Anthropic." }
   },
-  "download": { "label": "Comenzar", "title": "Descargar<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible para macOS y Linux. Windows próximamente.", "macos": "macOS v0.4.1", "windows": "Windows - Próximamente", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel y Apple Silicon)", "macos_size": "~15 MB DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Próximamente", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "Instalaci\u00f3n CLI",
+  "download": { "label": "Comenzar", "title": "Descargar<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible para macOS y Linux. Windows próximamente.", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - Próximamente", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG ~15 MB", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG ~15 MB", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Próximamente", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": "Paquete .deb", "linux_appimage_desc": "Universal (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "Instalaci\u00f3n CLI",
     "cli_subtitle": "Instala el CLI de LocalCode para asistencia de programaci\u00f3n con IA desde la terminal.",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

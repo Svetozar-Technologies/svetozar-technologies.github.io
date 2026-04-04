@@ -21,6 +21,7 @@
     "feature_git_title": "Интеграция Git", "feature_git_desc": "Diff, blame, ветки, коммиты, staging в один клик.",
     "feature_chat_title": "ИИ-чат", "feature_chat_desc": "Общайтесь с ИИ о коде. Локальные модели, OpenAI, Anthropic.",
     "feature_explorer_title": "Файловый менеджер", "feature_explorer_desc": "Дерево файлов, поиск, шаблоны для 18+ языков, превью.",
+    "feature_memory_title": "Когнитивная память", "feature_memory_desc": "IDE запоминает ваши проекты, настройки и паттерны кодирования. На базе Engram — нативного Rust-движка памяти с HNSW-поиском по векторам и гибридным BM25-извлечением.",
     "languages_heading": "Поддерживаемые языки", "lang_many_more": "+ 50 других"
   },
   "comparison": { "label": "Почему LocalCode", "title": "LocalCode vs <span class='gradient-text'>облачные ИИ-редакторы</span>", "subtitle": "Сравнение с VS Code + Copilot, Cursor и другими.", "roi_cloud": "Средний ИИ-инструмент: <strong>$15/мес x 12 = $180/год</strong>", "roi_localcode": "LocalCode: <strong>$0/год</strong>", "roi_savings": "Экономия: <span class='gradient-text'>$180+ ежегодно</span>" },
@@ -36,8 +37,8 @@
     "q5": { "question": "Системные требования?", "answer": "<strong>Минимум:</strong> 8ГБ RAM, 5ГБ место, macOS 12+ или Ubuntu 22.04+<br><strong>Рекомендуемые:</strong> 16ГБ RAM, Apple Silicon или NVIDIA GPU<br><strong>Скоро:</strong> Windows" },
     "q6": { "question": "Свои модели?", "answer": "Да. Любые GGUF модели через llama.cpp. Также API OpenAI и Anthropic." }
   },
-  "download": { "label": "Начать", "title": "Скачать<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Доступно для macOS и Linux. Windows скоро.", "macos": "macOS v0.4.1", "windows": "Windows - Скоро", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel и Apple Silicon)", "macos_size": "~15 МБ DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Скоро", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 CLI",
+  "download": { "label": "Начать", "title": "Скачать<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Доступно для macOS и Linux. Windows скоро.", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - Скоро", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG ~15 МБ", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG ~15 МБ", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Скоро", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": "Пакет .deb", "linux_appimage_desc": "Универсальный (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 CLI",
     "cli_subtitle": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 LocalCode CLI \u0434\u043b\u044f AI-\u043f\u043e\u043c\u043e\u0449\u0438 \u0432 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u0447\u0435\u0440\u0435\u0437 \u0442\u0435\u0440\u043c\u0438\u043d\u0430\u043b.",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

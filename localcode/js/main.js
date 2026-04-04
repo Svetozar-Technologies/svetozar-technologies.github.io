@@ -106,6 +106,19 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 
+    // OS-based download card highlighting
+    const ua = navigator.userAgent;
+    const macCards = document.querySelectorAll('#download-macos-arm, #download-macos-intel');
+    const linuxCards = document.querySelectorAll('#download-linux-deb, #download-linux-appimage');
+
+    if (ua.includes('Mac')) {
+        macCards.forEach(c => c.classList.add('os-highlight'));
+        linuxCards.forEach(c => c.classList.add('os-dimmed'));
+    } else if (ua.includes('Linux')) {
+        linuxCards.forEach(c => c.classList.add('os-highlight'));
+        macCards.forEach(c => c.classList.add('os-dimmed'));
+    }
+
     // FAQ Accordion
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {

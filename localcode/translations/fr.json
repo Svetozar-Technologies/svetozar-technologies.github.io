@@ -21,6 +21,7 @@
     "feature_git_title": "Intégration Git", "feature_git_desc": "Diff, blame, branches, commits, staging en un clic.",
     "feature_chat_title": "Chat IA", "feature_chat_desc": "Discutez avec l'IA. Modèles locaux, OpenAI et Anthropic.",
     "feature_explorer_title": "Explorateur de Fichiers", "feature_explorer_desc": "Arborescence complète, recherche, modèles, aperçu.",
+    "feature_memory_title": "Mémoire Cognitive", "feature_memory_desc": "Votre IDE mémorise vos projets, préférences et habitudes de codage. Propulsé par Engram — un moteur mémoire natif Rust avec recherche vectorielle HNSW et récupération hybride BM25.",
     "languages_heading": "Langages Supportés", "lang_many_more": "+ 50 Autres"
   },
   "comparison": { "label": "Pourquoi LocalCode", "title": "LocalCode vs <span class='gradient-text'>Éditeurs IA Cloud</span>", "subtitle": "Comparaison avec VS Code + Copilot, Cursor et autres.", "roi_cloud": "Outil IA moyen : <strong>15$/mois x 12 = 180$/an</strong>", "roi_localcode": "LocalCode : <strong>0$/an</strong>", "roi_savings": "Vous économisez : <span class='gradient-text'>180$+ par an</span>" },
@@ -36,8 +37,8 @@
     "q5": { "question": "Configuration requise ?", "answer": "<strong>Minimum :</strong> 8GB RAM, 5GB stockage, macOS 12+ ou Ubuntu 22.04+<br><strong>Recommandé :</strong> 16GB RAM, Apple Silicon ou NVIDIA GPU<br><strong>Bientôt :</strong> Windows" },
     "q6": { "question": "Mes propres modèles ?", "answer": "Oui. Tout modèle GGUF via llama.cpp. Aussi APIs OpenAI et Anthropic." }
   },
-  "download": { "label": "Commencer", "title": "Télécharger<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible pour macOS et Linux. Windows bientôt.", "macos": "macOS v0.4.1", "windows": "Windows - Bientôt", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel et Apple Silicon)", "macos_size": "~15 Mo DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Bientôt", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "Installation CLI",
+  "download": { "label": "Commencer", "title": "Télécharger<br><span class='gradient-text'>LocalCode</span>", "subtitle": "Disponible pour macOS et Linux. Windows bientôt.", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - Bientôt", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG ~15 Mo", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG ~15 Mo", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "Bientôt", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": "Paquet .deb", "linux_appimage_desc": "Universel (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "Installation CLI",
     "cli_subtitle": "Installez le CLI LocalCode pour l'assistance au codage IA dans le terminal.",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

@@ -21,6 +21,7 @@
     "feature_git_title": "Git集成", "feature_git_desc": "差异对比、blame视图、分支管理、提交历史、一键暂存。",
     "feature_chat_title": "AI对话", "feature_chat_desc": "与AI讨论代码。支持本地模型、OpenAI和Anthropic。",
     "feature_explorer_title": "文件浏览器", "feature_explorer_desc": "完整文件树、搜索、18+语言模板、图片和Markdown预览。",
+    "feature_memory_title": "认知记忆", "feature_memory_desc": "IDE记住你的项目、偏好和编码模式。由Engram驱动 — 基于Rust的原生记忆引擎，配备HNSW向量搜索和BM25混合检索。",
     "languages_heading": "支持的语言", "lang_many_more": "+ 50 更多"
   },
   "comparison": { "label": "为什么选LocalCode", "title": "LocalCode vs <span class='gradient-text'>云AI编辑器</span>", "subtitle": "与 VS Code + Copilot、Cursor等AI编辑器的对比。", "roi_cloud": "平均AI编码工具：<strong>$15/月 x 12 = $180/年</strong>", "roi_localcode": "LocalCode：<strong>$0/年</strong>", "roi_savings": "节省：<span class='gradient-text'>每年$180+</span>" },
@@ -36,8 +37,8 @@
     "q5": { "question": "系统要求？", "answer": "<strong>最低：</strong> 8GB RAM、5GB存储、macOS 12+或Ubuntu 22.04+<br><strong>推荐：</strong> 16GB RAM、Apple Silicon或NVIDIA GPU<br><strong>即将：</strong> Windows" },
     "q6": { "question": "自己的模型？", "answer": "可以。通过llama.cpp支持任何GGUF模型。也支持OpenAI和Anthropic API。" }
   },
-  "download": { "label": "开始使用", "title": "下载<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS和Linux版已可用。Windows即将推出。", "macos": "macOS v0.4.1", "windows": "Windows - 即将推出", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+（Intel和Apple Silicon）", "macos_size": "约15 MB DMG", "windows_desc": "Windows 10+（64位）", "windows_size": "即将推出", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "CLI \u5b89\u88c5",
+  "download": { "label": "开始使用", "title": "下载<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS和Linux版已可用。Windows即将推出。", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - 即将推出", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG 约15 MB", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG 约15 MB", "windows_desc": "Windows 10+（64位）", "windows_size": "即将推出", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": ".deb包", "linux_appimage_desc": "通用 (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "CLI \u5b89\u88c5",
     "cli_subtitle": "\u5b89\u88c5 LocalCode CLI\uff0c\u5728\u7ec8\u7aef\u4e2d\u4f7f\u7528 AI \u7f16\u7a0b\u52a9\u624b\u3002",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

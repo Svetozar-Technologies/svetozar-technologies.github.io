@@ -22,6 +22,7 @@
     "feature_git_title": "تكامل Git", "feature_git_desc": "عرض الفروقات، blame، الفروع، الـ commits بنقرة واحدة.",
     "feature_chat_title": "محادثة ذكاء اصطناعي", "feature_chat_desc": "تحدث مع الذكاء الاصطناعي عن كودك. نماذج محلية، OpenAI، Anthropic.",
     "feature_explorer_title": "مستكشف الملفات", "feature_explorer_desc": "شجرة ملفات كاملة مع بحث وقوالب ومعاينة.",
+    "feature_memory_title": "الذاكرة الإدراكية", "feature_memory_desc": "محرر الأكواد يتذكر مشاريعك وتفضيلاتك وأنماط البرمجة. مدعوم بـ Engram — محرك ذاكرة أصلي بلغة Rust مع بحث HNSW المتجهي واسترجاع BM25 الهجين.",
     "languages_heading": "اللغات المدعومة", "lang_many_more": "+ 50 أخرى"
   },
   "comparison": { "label": "لماذا LocalCode", "title": "LocalCode مقابل <span class='gradient-text'>محررات الذكاء الاصطناعي السحابية</span>", "subtitle": "مقارنة مع VS Code + Copilot وCursor وغيرها.", "roi_cloud": "أداة ذكاء اصطناعي متوسطة: <strong>$15/شهر × 12 = $180/سنة</strong>", "roi_localcode": "LocalCode: <strong>$0/سنة</strong>", "roi_savings": "توفير: <span class='gradient-text'>$180+ سنوياً</span>" },
@@ -37,8 +38,8 @@
     "q5": { "question": "متطلبات النظام؟", "answer": "<strong>الحد الأدنى:</strong> 8GB RAM، 5GB تخزين، macOS 12+ أو Ubuntu 22.04+<br><strong>الموصى به:</strong> 16GB RAM، Apple Silicon أو NVIDIA GPU<br><strong>قريباً:</strong> Windows" },
     "q6": { "question": "نماذجي الخاصة؟", "answer": "نعم. أي نموذج GGUF عبر llama.cpp. أيضاً APIs لـ OpenAI وAnthropic." }
   },
-  "download": { "label": "ابدأ", "title": "تحميل<br><span class='gradient-text'>LocalCode</span>", "subtitle": "متاح لـ macOS وLinux. Windows قريباً.", "macos": "macOS v0.4.1", "windows": "Windows - قريباً", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel و Apple Silicon)", "macos_size": "~15 ميغابايت DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "قريباً", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "\u062a\u062b\u0628\u064a\u062a \u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0627\u0645\u0631",
+  "download": { "label": "ابدأ", "title": "تحميل<br><span class='gradient-text'>LocalCode</span>", "subtitle": "متاح لـ macOS وLinux. Windows قريباً.", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - قريباً", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG ~15 ميغابايت", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG ~15 ميغابايت", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "قريباً", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": "حزمة .deb", "linux_appimage_desc": "عام (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "\u062a\u062b\u0628\u064a\u062a \u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0627\u0645\u0631",
     "cli_subtitle": "\u062b\u0628\u0651\u062a LocalCode CLI \u0644\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0641\u064a \u0627\u0644\u0628\u0631\u0645\u062c\u0629 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0639\u0628\u0631 \u0627\u0644\u0637\u0631\u0641\u064a\u0629.",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

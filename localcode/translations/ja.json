@@ -21,6 +21,7 @@
     "feature_git_title": "Git統合", "feature_git_desc": "差分、blame、ブランチ、コミット、ワンクリックステージング。",
     "feature_chat_title": "AIチャット", "feature_chat_desc": "コードについてAIと会話。ローカルモデル、OpenAI、Anthropic。",
     "feature_explorer_title": "ファイルエクスプローラー", "feature_explorer_desc": "完全なファイルツリー、検索、18+言語テンプレート、プレビュー。",
+    "feature_memory_title": "認知メモリ", "feature_memory_desc": "IDEがプロジェクト、設定、コーディングパターンを記憶。Engram搭載 — HNSWベクトル検索とBM25ハイブリッド検索を備えたRustネイティブメモリエンジン。",
     "languages_heading": "対応言語", "lang_many_more": "+ 50以上"
   },
   "comparison": { "label": "なぜLocalCode", "title": "LocalCode vs <span class='gradient-text'>クラウドAIエディタ</span>", "subtitle": "VS Code + Copilot、Cursorなどとの比較。", "roi_cloud": "平均AIツール：<strong>$15/月 x 12 = $180/年</strong>", "roi_localcode": "LocalCode：<strong>$0/年</strong>", "roi_savings": "節約：<span class='gradient-text'>年間$180+</span>" },
@@ -36,8 +37,8 @@
     "q5": { "question": "システム要件？", "answer": "<strong>最小：</strong> 8GB RAM、5GBストレージ、macOS 12+またはUbuntu 22.04+<br><strong>推奨：</strong> 16GB RAM、Apple SiliconまたはNVIDIA GPU<br><strong>近日：</strong> Windows" },
     "q6": { "question": "自分のモデルを使える？", "answer": "はい。llama.cppで任意のGGUFモデル。OpenAIとAnthropicのAPIも。" }
   },
-  "download": { "label": "始める", "title": "ダウンロード<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOSとLinux版利用可能。Windows近日公開。", "macos": "macOS v0.4.1", "windows": "Windows - 近日公開", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+（IntelとApple Silicon）", "macos_size": "約15 MB DMG", "windows_desc": "Windows 10+（64-bit）", "windows_size": "近日公開", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "CLI\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb",
+  "download": { "label": "始める", "title": "ダウンロード<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOSとLinux版利用可能。Windows近日公開。", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - 近日公開", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG 約15 MB", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG 約15 MB", "windows_desc": "Windows 10+（64-bit）", "windows_size": "近日公開", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": ".debパッケージ", "linux_appimage_desc": "ユニバーサル (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "CLI\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb",
     "cli_subtitle": "\u30bf\u30fc\u30df\u30ca\u30eb\u30d9\u30fc\u30b9\u306eAI\u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u652f\u63f4\u306e\u305f\u3081\u306bLocalCode CLI\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u3002",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",

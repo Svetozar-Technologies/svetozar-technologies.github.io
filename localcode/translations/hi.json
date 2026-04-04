@@ -21,6 +21,7 @@
     "feature_git_title": "Git इंटीग्रेशन", "feature_git_desc": "Diff, blame, ब्रांचेज, कमिट्स, वन-क्लिक स्टेजिंग।",
     "feature_chat_title": "AI चैट", "feature_chat_desc": "कोड के बारे में AI से बात करें। लोकल मॉडल, OpenAI, Anthropic।",
     "feature_explorer_title": "फाइल एक्सप्लोरर", "feature_explorer_desc": "फाइल ट्री, सर्च, 18+ भाषाओं के टेम्पलेट, प्रीव्यू।",
+    "feature_memory_title": "कॉग्निटिव मेमोरी", "feature_memory_desc": "आपका IDE प्रोजेक्ट्स, प्रेफरेंसेज और कोडिंग पैटर्न याद रखता है। Engram द्वारा संचालित — HNSW वेक्टर सर्च और BM25 हाइब्रिड रिट्रीवल वाला Rust-नेटिव मेमोरी इंजन।",
     "languages_heading": "समर्थित भाषाएँ", "lang_many_more": "+ 50 और"
   },
   "comparison": { "label": "LocalCode क्यों", "title": "LocalCode vs <span class='gradient-text'>क्लाउड AI एडिटर</span>", "subtitle": "VS Code + Copilot, Cursor और अन्य से तुलना।", "roi_cloud": "औसत AI टूल: <strong>$15/माह x 12 = $180/साल</strong>", "roi_localcode": "LocalCode: <strong>$0/साल</strong>", "roi_savings": "बचत: <span class='gradient-text'>$180+ हर साल</span>" },
@@ -36,8 +37,8 @@
     "q5": { "question": "सिस्टम रिक्वायरमेंट?", "answer": "<strong>न्यूनतम:</strong> 8GB RAM, 5GB स्टोरेज, macOS 12+ या Ubuntu 22.04+<br><strong>अनुशंसित:</strong> 16GB RAM, Apple Silicon या NVIDIA GPU<br><strong>जल्द:</strong> Windows" },
     "q6": { "question": "अपने मॉडल?", "answer": "हाँ। llama.cpp से कोई भी GGUF मॉडल। OpenAI और Anthropic API भी।" }
   },
-  "download": { "label": "शुरू करें", "title": "डाउनलोड करें<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS और Linux पर उपलब्ध। Windows जल्द।", "macos": "macOS v0.4.1", "windows": "Windows - जल्द", "linux": "Linux v0.4.1" },
-  "download_details": { "macos_desc": "macOS 12+ (Intel और Apple Silicon)", "macos_size": "~15 MB DMG", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "जल्द", "linux_desc": "Ubuntu 22.04+ / AppImage", "linux_size": ".deb & AppImage", "cli_heading": "CLI \u0907\u0902\u0938\u094d\u091f\u0949\u0932\u0947\u0936\u0928",
+  "download": { "label": "शुरू करें", "title": "डाउनलोड करें<br><span class='gradient-text'>LocalCode</span>", "subtitle": "macOS और Linux पर उपलब्ध। Windows जल्द।", "macos_arm": "macOS v0.5.0", "macos_intel": "macOS v0.5.0", "windows": "Windows - जल्द", "linux_deb": "Linux v0.5.0", "linux_appimage": "Linux v0.5.0" },
+  "download_details": { "macos_arm_desc": "Apple Silicon (M1/M2/M3/M4)", "macos_arm_size": "DMG ~15 MB", "macos_intel_desc": "Intel (x86_64)", "macos_intel_size": "DMG ~15 MB", "windows_desc": "Windows 10+ (64-bit)", "windows_size": "जल्द", "linux_deb_desc": "Ubuntu/Debian (.deb)", "linux_deb_size": ".deb पैकेज", "linux_appimage_desc": "यूनिवर्सल (AppImage)", "linux_appimage_size": "AppImage", "cli_heading": "CLI \u0907\u0902\u0938\u094d\u091f\u0949\u0932\u0947\u0936\u0928",
     "cli_subtitle": "\u091f\u0930\u094d\u092e\u093f\u0928\u0932-\u0906\u0927\u093e\u0930\u093f\u0924 AI \u0915\u094b\u0921\u093f\u0902\u0917 \u0938\u0939\u093e\u092f\u0924\u093e \u0915\u0947 \u0932\u093f\u090f LocalCode CLI \u0907\u0902\u0938\u094d\u091f\u0949\u0932 \u0915\u0930\u0947\u0902\u0964",
     "cli_homebrew": "Homebrew (macOS/Linux)",
     "cli_npm": "npm (macOS/Linux)",
