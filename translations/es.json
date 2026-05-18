@@ -104,7 +104,6 @@
     "products_title": "Productos",
     "community_title": "Comunidad",
     "legal_title": "Legal",
-    "discussions": "Discusiones",
     "privacy": "Política de privacidad",
     "license": "MIT License",
     "copyright": "&copy; 2025 Svetozar Technologies",
@@ -175,7 +174,6 @@
     "s12_intro": "¿Preguntas sobre nuestras prácticas de privacidad? Contáctanos a través de cualquiera de estos canales:",
     "s12_item1": "<strong>Email:</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
     "s12_item2": "<strong>GitHub:</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>Página de la organización</a>",
-    "s12_item3": "<strong>Discusiones:</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>Foro de la comunidad</a>",
     "promise_title": "Nuestra promesa",
     "promise_text": "<strong>Aplicaciones de escritorio:</strong> Cero recopilación de datos. Todo permanece en tu dispositivo.<br><strong>Sitio web:</strong> Analítica que prioriza la privacidad. Sin cookies. Sin datos personales.<br><strong>Email:</strong> Solo voluntario. Sin spam. Fácil cancelación.<br><strong>Siempre:</strong> Nunca comprometeremos tu privacidad por beneficio económico."
   }

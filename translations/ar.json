@@ -105,7 +105,6 @@
     "products_title": "المنتجات",
     "community_title": "المجتمع",
     "legal_title": "قانوني",
-    "discussions": "النقاشات",
     "privacy": "سياسة الخصوصية",
     "license": "رخصة MIT",
     "copyright": "&copy; 2025 Svetozar Technologies",
@@ -176,7 +175,6 @@
     "s12_intro": "أسئلة حول ممارسات الخصوصية لدينا؟ تواصل معنا عبر أي من هذه القنوات:",
     "s12_item1": "<strong>البريد الإلكتروني:</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
     "s12_item2": "<strong>GitHub:</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>صفحة المنظمة</a>",
-    "s12_item3": "<strong>النقاشات:</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>منتدى المجتمع</a>",
     "promise_title": "وعدنا",
     "promise_text": "<strong>تطبيقات سطح المكتب:</strong> صفر جمع بيانات. كل شيء يبقى على جهازك.<br><strong>الموقع:</strong> تحليلات تضع الخصوصية أولًا. بدون ملفات تعريف ارتباط. بدون بيانات شخصية.<br><strong>البريد الإلكتروني:</strong> اشتراك اختياري فقط. بدون رسائل مزعجة. إلغاء اشتراك سهل.<br><strong>دائمًا:</strong> لن نتنازل أبدًا عن خصوصيتك من أجل الربح."
   }

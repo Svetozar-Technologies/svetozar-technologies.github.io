@@ -104,7 +104,6 @@
     "products_title": "उत्पाद",
     "community_title": "समुदाय",
     "legal_title": "कानूनी",
-    "discussions": "चर्चाएँ",
     "privacy": "गोपनीयता नीति",
     "license": "MIT License",
     "copyright": "&copy; 2025 Svetozar Technologies",
@@ -175,7 +174,6 @@
     "s12_intro": "हमारी गोपनीयता प्रथाओं के बारे में प्रश्न? इनमें से किसी भी माध्यम से संपर्क करें:",
     "s12_item1": "<strong>ईमेल:</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
     "s12_item2": "<strong>GitHub:</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>संगठन पृष्ठ</a>",
-    "s12_item3": "<strong>चर्चाएँ:</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>सामुदायिक मंच</a>",
     "promise_title": "हमारा वादा",
     "promise_text": "<strong>डेस्कटॉप ऐप्स:</strong> शून्य डेटा संग्रहण। सब कुछ आपके डिवाइस पर रहता है।<br><strong>वेबसाइट:</strong> गोपनीयता-प्रथम एनालिटिक्स। कोई कुकीज़ नहीं। कोई व्यक्तिगत डेटा नहीं।<br><strong>ईमेल:</strong> केवल ऑप्ट-इन। कोई स्पैम नहीं। आसान अनसब्सक्राइब।<br><strong>हमेशा:</strong> हम कभी भी लाभ के लिए आपकी गोपनीयता से समझौता नहीं करेंगे।"
   }

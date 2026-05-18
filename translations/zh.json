@@ -104,7 +104,6 @@
     "products_title": "产品",
     "community_title": "社区",
     "legal_title": "法律信息",
-    "discussions": "讨论区",
     "privacy": "隐私政策",
     "license": "MIT 许可证",
     "copyright": "&copy; 2025 Svetozar Technologies",
@@ -175,7 +174,6 @@
     "s12_intro": "对我们的隐私实践有疑问？通过以下任何渠道联系我们：",
     "s12_item1": "<strong>电子邮件：</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
     "s12_item2": "<strong>GitHub：</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>组织页面</a>",
-    "s12_item3": "<strong>讨论区：</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>社区论坛</a>",
     "promise_title": "我们的承诺",
     "promise_text": "<strong>桌面应用：</strong>零数据收集。一切都保留在你的设备上。<br><strong>网站：</strong>隐私优先的分析。无 Cookie。无个人数据。<br><strong>电子邮件：</strong>仅限自愿订阅。无垃圾邮件。轻松退订。<br><strong>始终：</strong>我们绝不会为了利润而牺牲你的隐私。"
   }

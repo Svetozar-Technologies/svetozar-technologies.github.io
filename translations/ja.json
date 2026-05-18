@@ -104,7 +104,6 @@
     "products_title": "製品",
     "community_title": "コミュニティ",
     "legal_title": "法的情報",
-    "discussions": "ディスカッション",
     "privacy": "プライバシーポリシー",
     "license": "MIT License",
     "copyright": "&copy; 2025 Svetozar Technologies",
@@ -175,7 +174,6 @@
     "s12_intro": "プライバシーに関するご質問は、以下のチャンネルからお問い合わせください：",
     "s12_item1": "<strong>メール：</strong> <a href='mailto:kaivalya.pandey@gmail.com'>kaivalya.pandey@gmail.com</a>",
     "s12_item2": "<strong>GitHub：</strong> <a href='https://github.com/Svetozar-Technologies' target='_blank'>組織ページ</a>",
-    "s12_item3": "<strong>ディスカッション：</strong> <a href='https://github.com/orgs/Svetozar-Technologies/discussions' target='_blank'>コミュニティフォーラム</a>",
     "promise_title": "私たちの約束",
     "promise_text": "<strong>デスクトップアプリ：</strong>データ収集ゼロ。すべてがデバイス上に留まります。<br><strong>ウェブサイト：</strong>プライバシー最優先のアナリティクス。Cookie なし。個人データなし。<br><strong>メール：</strong>オプトインのみ。スパムなし。簡単な登録解除。<br><strong>常に：</strong>利益のためにプライバシーを犠牲にすることは決してありません。"
   }
