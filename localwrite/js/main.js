@@ -59,66 +59,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Animate elements on scroll
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
+                const parent = entry.target.parentElement;
+                const siblings = [...parent.children];
+                const index = siblings.indexOf(entry.target);
+                entry.target.style.transitionDelay = `${index * 80}ms`;
                 entry.target.classList.add('animate-in');
                 observer.unobserve(entry.target);
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 
-    // Observe feature cards and download cards for animations
-    document.querySelectorAll('.feature-card, .download-card, .step').forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    document.querySelectorAll('.feature-card, .download-card, .step, .use-case-card, .testimonial-card, .faq-item, .proof-stat').forEach(el => {
+        el.classList.add('animate-target');
         observer.observe(el);
     });
-
-    // Add animation class styles
-    const style = document.createElement('style');
-    style.textContent = `
-        .animate-in {
-            opacity: 1 !important;
-            transform: translateY(0) !important;
-        }
-
-        .nav-links.active {
-            display: flex;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            flex-direction: column;
-            background: rgba(10, 10, 10, 0.98);
-            padding: 24px;
-            gap: 16px;
-            border-bottom: 1px solid var(--color-border);
-        }
-
-        .mobile-menu-btn.active span:nth-child(1) {
-            transform: rotate(45deg) translate(6px, 6px);
-        }
-
-        .mobile-menu-btn.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .mobile-menu-btn.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(6px, -6px);
-        }
-
-        .navbar.scrolled {
-            background: rgba(10, 10, 10, 0.95);
-        }
-    `;
-    document.head.appendChild(style);
 
     // Track download clicks (for analytics)
     document.querySelectorAll('.download-card').forEach(card => {
@@ -354,15 +311,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fetch stars on page load (optional, commented out to avoid rate limiting)
     // fetchGitHubStars();
     
-    // ================================================
-    // Update Animations for New Sections
-    // ================================================
-    
-    // Observe new elements for scroll animations
-    document.querySelectorAll('.use-case-card, .testimonial-card, .faq-item').forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        observer.observe(el);
-    });
+    // Animations already handled by the observer above
 });

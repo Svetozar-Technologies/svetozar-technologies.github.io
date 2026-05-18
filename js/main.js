@@ -16,7 +16,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
 
             // Close mobile menu if open
-            document.querySelector('.mobile-menu')?.classList.remove('active');
+            document.querySelector('.nav-links')?.classList.remove('active');
+            document.querySelector('.mobile-menu-btn')?.classList.remove('active');
         }
     });
 });
@@ -35,63 +36,41 @@ window.addEventListener('scroll', () => {
 
 // Mobile menu toggle
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-const mobileMenu = document.querySelector('.mobile-menu');
+const navLinks = document.querySelector('.nav-links');
 
-if (mobileMenuBtn && mobileMenu) {
+if (mobileMenuBtn && navLinks) {
     mobileMenuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('active');
+        navLinks.classList.toggle('active');
         mobileMenuBtn.classList.toggle('active');
     });
 }
 
-// Scroll animations using Intersection Observer
-const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('animate-in');
-            observer.unobserve(entry.target);
-        }
-    });
-}, observerOptions);
-
-// Observe elements for animation
-document.querySelectorAll('.mission-card, .product-card, .use-case-card, .testimonial-card, .stat-card').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(el);
-});
-
-// Add animate-in class styles
-const style = document.createElement('style');
-style.textContent = `
-    .animate-in {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
-    }
-`;
-document.head.appendChild(style);
-
 // Close mobile menu on link click
-document.querySelectorAll('.mobile-menu a').forEach(link => {
+document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
-        mobileMenu?.classList.remove('active');
+        navLinks?.classList.remove('active');
         mobileMenuBtn?.classList.remove('active');
     });
 });
 
-// Add staggered animation delays to grid items
-document.querySelectorAll('.mission-grid, .products-grid, .use-cases-grid, .testimonials-grid').forEach(grid => {
-    const cards = grid.querySelectorAll('.mission-card, .product-card, .use-case-card, .testimonial-card');
-    cards.forEach((card, index) => {
-        card.style.transitionDelay = `${index * 0.1}s`;
+// Scroll animations using Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const parent = entry.target.parentElement;
+            const siblings = [...parent.children];
+            const index = siblings.indexOf(entry.target);
+            entry.target.style.transitionDelay = `${index * 80}ms`;
+            entry.target.classList.add('animate-in');
+            observer.unobserve(entry.target);
+        }
     });
-});
+}, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 
-console.log('Svetozar Technologies - Private AI for Everyone');
+// Observe all animatable elements
+document.querySelectorAll(
+    '.product-card, .manifesto-block, .commitment, .join-card, .proof-stat'
+).forEach(el => {
+    el.classList.add('animate-target');
+    observer.observe(el);
+});
